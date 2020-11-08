@@ -1,19 +1,165 @@
+header {
+  font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+h2{
+  font-size: 20px;
+}
 
 body {
   font-family: 'Ebrima', sans-serif;
-  background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
+/*   background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1)); */
+  background-color: #2C314E;
   padding: 1em 3em;
+  color: white;
 /*   padding: 1em 8em 2em 8em; */
 
 }
 #dashboard {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr, 1fr;
-  column-gap: 2em;
+  column-gap: 1em;
 }
+.filter-container {
+  position: sticky;
+  margin-block-start: 1em;
+}
+
+#filters {
+  padding: 0px 0px 0px 0px;
+}
+.filter-buttons {
+  width: 40%;
+  max-width: 100px;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgba(256,256,256,0.8);
+  margin: 2px 5px 7px 2px;
+  border: 1px white;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  background-color: rgba(256,256,256,0.1);
+  outline-color: white;
+}
+
+button:hover {
+  background-color: #604e79;
+  color: white;
+}
+
+#dropdown-borough,
+#dropdown-category, #dropdown-type {
+  background-color: rgba(256,256,256,0.1);
+  color: white;
+  padding: 5px;
+  margin: 5px 0px;
+  outline-color: white;
+}
+
+
+
+#data-source {
+  position: fixed;
+  bottom: 10px;
+  font-size: 14px;
+  color: #d1caca;
+}
+
+#summary-title,
+#map-title, #line-title {
+  margin-block-start: 0em;
+  color: white;
+  position: sticky;
+  opacity: 0.90;
+}
+
+
+
+
 
 
 #barchart, #count {
   padding-top: 1em;
 }
+
+
+#dropdown-artist:hover, #dropdown-gender:hover, #sort-color:hover {
+  cursor: pointer;
+}
+
+select {
+  width: 95%;
+  max-width: 315px;
+}
+
+.dropdown,
+.sort-color {
+  width: 90%;
+  padding: 5px 0px 0px 0px;
+}
+
+option {
+  font-size: 15px;
+}
+
+
+
+
+
+.waffle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 28px;
+  height: 28px;
+  border: 0.5px solid #060606;
+}
+
+.block:hover {
+  transform: scale(1.5);
+  box-shadow: 0px 0px 4px grey;
+  border: 0.5px solid white;
+  transition: 0.03s;
+  cursor: pointer;
+}
+
+img {
+  max-width: 95%;
+  border: 2px solid white;
+}
+
+.img {
+  padding: 10px;
+  position: sticky;
+  top: 15px;
+}
+
+.subtitle {
+  width: 80%;
+  max-width: 300px;
+}
+
+.text {
+  color:grey;
+}
+
+rect {
+  fill: rgb(82, 81, 81);
+  padding: 10px;
+  border: 0.5px solid white;
+}
+
+rect:hover {
+  fill: grey;
+}
+
+.label {
+  fill: white;
+  font-size: 12px;
+}
+
