@@ -1,0 +1,187 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #060606;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: #060606;
+    font-weight: 600;
+}
+
+#dashboard {
+    display: grid;
+    grid-template-columns: 1.2fr 3fr 2fr;
+    column-gap: 2em;
+}
+
+.filter-container {
+    position: sticky;
+    top: 160px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-buttons {
+    width: 40%;
+    max-width: 200px;
+    font-family: 'Dosis';
+    font-size: 15px;
+    background-color: #060606;
+    color: white;
+    padding: 5px;
+    margin: 5px 5px 2.5px 0px;
+    border: 1px solid white;
+    outline-color: white;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    font-weight: 600;
+    color: #060606;
+}
+
+#filters {
+    padding: 0px 0px 0px 15px;
+}
+
+#chart {
+    padding: 0px 40px;
+}
+
+
+header {
+    position: sticky;
+    top: 40px;
+}
+
+
+#dropdown-artist,
+#dropdown-gender, #dropdown-country, #dropdown-year {
+    font-family: 'Dosis';
+    background-color: #060606;
+    color: white;
+    padding: 5px;
+    margin: 5px 0px;
+    outline-color: white;
+}
+
+#dropdown-artist:hover, #dropdown-gender:hover, #sort-color:hover {
+    cursor: pointer;
+}
+
+select {
+    width: 95%;
+    max-width: 315px;
+}
+
+.dropdown,
+.sort-color {
+    width: 90%;
+    padding: 5px 0px 0px 0px;
+}
+
+option {
+    font-size: 15px;
+}
+
+#scroll-indicator {
+    position: fixed;
+    bottom: 30px;
+    font-family: 'Dosis';
+    font-size: 20px;
+    color: grey;
+}
+
+#data-source {
+    position: fixed;
+    bottom: 10px;
+    font-family: 'Dosis';
+    font-size: 20px;
+    color: grey;
+}
+
+#chart-title {
+    padding: 15px 45px;
+    color: white;
+    background-color: #060606;
+    position: sticky;
+    top: 0px;
+    border-bottom: 0.5px solid white;
+    opacity: 0.90;
+}
+
+.waffle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 28px;
+    height: 28px;
+    border: 0.5px solid #060606;
+}
+
+.block:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 0px 4px grey;
+    border: 0.5px solid white;
+    transition: 0.03s;
+    cursor: pointer;
+}
+
+img {
+    max-width: 95%;
+    border: 2px solid white;
+}
+
+.img {
+    padding: 10px;
+    position: sticky;
+    top: 15px;
+}
+
+.subtitle {
+    width: 80%;
+    max-width: 300px;
+}
+
+.text {
+    color:grey;
+}
+
+rect {
+    fill: rgb(82, 81, 81);
+    padding: 10px;
+    border: 0.5px solid white;
+}
+
+rect:hover {
+    fill: grey;
+}
+
+.label {
+    fill: white;
+    font-size: 12px;
+}
+
+#summary-title {
+    padding: 25px 0px 0px 10px;
+    margin: 0;
+}
