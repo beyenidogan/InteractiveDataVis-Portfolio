@@ -59,8 +59,6 @@ button:hover {
   outline-color: white;
 }
 
-
-
 #data-source {
   position: fixed;
   bottom: 10px;
@@ -68,7 +66,7 @@ button:hover {
   color: #d1caca;
 }
 
-#summary-title,
+#bar-title,
 #map-title, #line-title {
   margin-block-start: 0em;
   color: white;
@@ -81,14 +79,20 @@ button:hover {
 
 
 
+
+
+
+
+
+
+
+
 #barchart, #count {
   padding-top: 1em;
 }
 
 
-#dropdown-artist:hover, #dropdown-gender:hover, #sort-color:hover {
-  cursor: pointer;
-}
+
 
 select {
   width: 95%;

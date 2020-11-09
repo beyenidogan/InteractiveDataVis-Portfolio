@@ -1,42 +1,48 @@
 // import our components
-import { Table } from "./Table.js";
-import { Barchart } from "./Barchart.js";
-import { Count } from "./Count.js";
+import { Bar } from "./Bar.js";
+import { Map } from "./Map.js";
+import { Line } from "./Line.js";
 
-let table, barchart, count;
+let bar, map, line;
 
 // global state
 let state = {
   data: [],
-  domain: [],
-  selectedState: null,
-  selectedMetric: null,
-};
+  dataSource: "data/Summary_Borough.csv",
+  summaryData: [],
+  filteredData: [],
+  selectedBorough: "All Boroughs",
+  selectedCategory: "All Category",
+  selectedType: "All Permit Types",
+  boroughActive: true,
+  categoryActive: false,
+  typeActive: false,
+}
 
-d3.csv("../data/statePopulations.csv", d3.autoType).then(data => {
+d3.csv("../data/Film_Permits_Pivot.csv", d3.autoType).then(data => {
   console.log("data", data);
   state.data = data;
-  state.domain = [
+/*   state.domain = [
     0, 
     d3.max(data
-      .map(d => [d["Age < 20"], d["Age 20-65"], d["Age 65+"]])
+      .map(d => [d["B_Bronx"], d["B_Brooklyn"], d["B_Manhattan"], d["B_Queens"],d["B_Staten Island"]])
       .flat()
     )]
-    console.log("flat",state.domain)
+    console.log("flat",state.domain) */
   init();
 });
 
 function init() {
-  table = new Table(state, setGlobalState);
-  barchart = new Barchart(state, setGlobalState);
-  count = new Count(state, setGlobalState);
+  bar= new Bar(state, setGlobalState);
+  map = new Map(state, setGlobalState);
+  line = new Line(state, setGlobalState);
   draw();
 }
 
 function draw() {
-  table.draw(state);
-  barchart.draw(state, setGlobalState);
-  count.draw(state, setGlobalState);
+  bar.draw(state,setGlobalState);
+  map.draw(state, setGlobalState);
+  line.draw(state, setGlobalState);
 }
 
 // UTILITY FUNCTION: state updating function that we pass to our components so that they are able to update our global state object
@@ -45,3 +51,4 @@ function setGlobalState(nextState) {
   console.log("new state:", state);
   draw();
 }
+
