@@ -1,7 +1,7 @@
 // import our components
 import { Bar } from "./Bar.js";
-import { Map } from "./Map.js";
-import { Line } from "./Line.js";
+/* import { Map } from "./Map.js";
+import { Line } from "./Line.js"; */
 
 let bar, map, line;
 
@@ -10,6 +10,7 @@ let state = {
   data: [],
   dataSource: "../data/Summary_Borough.csv",
   summaryData: [],
+  summaryDomain: [],
   filteredData: [],
   showby:"Borough",
   selectedBorough: "All Boroughs",
@@ -23,10 +24,10 @@ let state = {
 d3.csv("../data/Film_Permits_Pivot.csv", d3.autoType).then(data => {
   console.log("data", data);
   state.data = data;
-/*   state.domain = [
+/*   state.summaryDomain = [
     0, 
     d3.max(data
-      .map(d => [d["B_Bronx"], d["B_Brooklyn"], d["B_Manhattan"], d["B_Queens"],d["B_Staten Island"]])
+      .map(d => [d[Events])
       .flat()
     )]
     console.log("flat",state.domain) */
@@ -35,8 +36,8 @@ d3.csv("../data/Film_Permits_Pivot.csv", d3.autoType).then(data => {
 
 function init() {
   bar= new Bar(state, setGlobalState);
-  map = new Map(state, setGlobalState);
-  line = new Line(state, setGlobalState);
+/*   map = new Map(state, setGlobalState);
+  line = new Line(state, setGlobalState); */
   draw();
 }
 

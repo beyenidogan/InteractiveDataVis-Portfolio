@@ -121,6 +121,12 @@ class Bar {
                 typeActive: false,
                 dataSource: "data/Summary_Borough.csv",
             })
+            d3.csv(state.dataSource, d3.autoType).then(data => {
+                setGlobalState({
+                    summaryData: data
+                })
+                console.log("updated data1",state.summaryData)
+            })
         })
 
 
@@ -144,6 +150,19 @@ class Bar {
                 typeActive: false,
                 dataSource: "data/Summary_Category.csv",
             })
+            d3.csv(state.dataSource, d3.autoType).then(data => {
+                setGlobalState({
+                    summaryData: data,
+                    summaryDomain : [
+                        0, 
+                        d3.max(data
+                          .map(d => d[Events])
+                          .flat()
+                        )]
+                        
+                })
+                console.log("updated data2",state.summaryData)
+            })
         })
 
         this.changeTypeActive = d3
@@ -166,64 +185,80 @@ class Bar {
                 typeActive: true,
                 dataSource: "data/Summary_Type.csv",
             })
+            d3.csv(state.dataSource, d3.autoType).then(data => {
+                setGlobalState({
+                    summaryData: data
+                })
+                console.log("updated data3",state.summaryData)
+            })
         })
         d3.csv(state.dataSource, d3.autoType).then(data => {
             setGlobalState({
                 summaryData: data
             })
-            console.log("updated data",state.summaryData)
+            console.log("updated data4",state.summaryData)
         })
         
     }
-  
-
+    
     /////////DRAW
 
     draw(state, setGlobalState) {
       console.log("now I am drawing my graph");
         
 
-        this.yScale = d3
+        const yScale = d3
             .scaleBand()
-            .domain(state.summaryData.map(d => d[state.showby]))
+            .domain(state.summaryDomain)
             .range([this.height - this.margins.top, this.margins.bottom]);
-
-        this.xScale = d3
+        
+        const xScale = d3
             .scaleLinear()
             .domain([0, d3.max(state.summaryData, d => +d.Events)])
             .range([this.margins.left, this.width - this.margins.right])  
-
-/*       const yScale = d3
-        .scaleBand()
-        .domain(state.domain)
-        .range([this.height - this.margins.top, this.margins.bottom]);
-  
-      const xScale = d3
-        .scaleBand()
-        .domain(metrics)
-        .range([this.margins.left, this.width - this.margins.right])
-        .paddingInner(0.05); */
-  
-      const bars = this.svg
-        .selectAll("g.bar")
-        .data(state.summaryData)
-        .join(
-          enter =>
-            enter
-              .append("g")
-              .attr("class", "bar")
-              .call(enter => enter.append("rect"))
-              .call(enter => enter.append("text")),
-          update => update,
-          exit => exit.remove()
-        )
- /*        .on("click", d => {
-          setGlobalState({ selectedMetric: d.metric });
-        }) */
-  
+/*             .paddingInner(0.05) */
+        console.log(xScale(690))
 
   
-    }
+        const bars = this.svg
+            .selectAll("g.bar")
+            .data(state.summaryData)
+            .join(
+            enter =>
+                enter
+                .append("g")
+                .attr("class", "bar")
+                .call(enter => enter.append("rect"))
+                .call(enter => enter.append("text")),
+            update => update,
+            exit => exit.remove()
+            )/* .on("click", d => {
+            setGlobalState({ selectedMetric: d.metric });
+            }) */
+    
+        bars
+            .transition()
+            .duration(this.duration)
+            .attr(
+            "transform",
+            d => `translate(${xScale(d.Events)}, ${yScale(d.Borough)})`
+            );
+    
+        bars
+            .select("rect")
+            .transition()
+            .duration(this.duration)
+            .attr("width", d=>xScale(d.Events))
+            .attr("height", this.height - yScale.bandwidth())
+            .style("fill", "white")
+    
+        bars
+            .select("text")
+            .attr("dy", "-.5em")
+            .text(d => `${d.metric}: ${this.format(d.value)}`);
+        }
+  
+    
 }     
 
 export { Bar };
