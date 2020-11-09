@@ -209,9 +209,11 @@ class Bar {
 
         const yScale = d3
             .scaleBand()
-            .domain(state.summaryDomain)
+/*             .domain(d3.range(state.summaryData.length)) */
+            .domain(d3.map(state.data, d => d.Borough))
             .range([this.height - this.margins.top, this.margins.bottom]);
         
+        console.log(d3.range(state.summaryData.length))
         const xScale = d3
             .scaleLinear()
             .domain([0, d3.max(state.summaryData, d => +d.Events)])
