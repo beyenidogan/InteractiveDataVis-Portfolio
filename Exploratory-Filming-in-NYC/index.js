@@ -8,9 +8,10 @@ let bar, map, line;
 // global state
 let state = {
   data: [],
-  dataSource: "data/Summary_Borough.csv",
+  dataSource: "../data/Summary_Borough.csv",
   summaryData: [],
   filteredData: [],
+  showby:"Borough",
   selectedBorough: "All Boroughs",
   selectedCategory: "All Category",
   selectedType: "All Permit Types",
@@ -41,8 +42,8 @@ function init() {
 
 function draw() {
   bar.draw(state,setGlobalState);
-  map.draw(state, setGlobalState);
-  line.draw(state, setGlobalState);
+/*   map.draw(state, setGlobalState);
+  line.draw(state, setGlobalState); */
 }
 
 // UTILITY FUNCTION: state updating function that we pass to our components so that they are able to update our global state object

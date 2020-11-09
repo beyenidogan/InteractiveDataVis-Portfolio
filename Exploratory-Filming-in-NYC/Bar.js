@@ -103,7 +103,8 @@ class Bar {
         this.changeBoroughActive = d3
         .select("#borough-button")
         .on("click", function () {
-            console.log("artist clicked")
+            console.log("borough selected")
+
             d3.select("#borough-container.dropdown")
             .attr("style", "display: visible")
             d3.select("#category-container.dropdown")
@@ -111,6 +112,7 @@ class Bar {
             d3.select("#type-container.dropdown")
             .attr("style", "display: none")
             setGlobalState({
+                showby:"Borough",
                 selectedBorough: "All Boroughs",
                 selectedCategory: "All Category",
                 selectedType: "All Permit Types",
@@ -125,7 +127,7 @@ class Bar {
         this.changeCategoryActive = d3
         .select("#category-button")
         .on("click", function () {
-            console.log("gender clicked")
+            console.log("category selected")
             d3.select("#category-container.dropdown")
             .attr("style", "display: visible")
             d3.select("#borough-container.dropdown")
@@ -133,6 +135,7 @@ class Bar {
             d3.select("#type-container.dropdown")
             .attr("style", "display: none")
             setGlobalState({
+                showby:"Category",
                 selectedBorough: "All Boroughs",
                 selectedCategory: "All Category",
                 selectedType: "All Permit Types",
@@ -146,7 +149,7 @@ class Bar {
         this.changeTypeActive = d3
         .select("#type-button")
         .on("click", function () {
-            console.log("gender clicked")
+            console.log("type selected")
             d3.select("#category-container.dropdown")
             .attr("style", "display: none")
             d3.select("#borough-container.dropdown")
@@ -154,6 +157,7 @@ class Bar {
             d3.select("#type-container.dropdown")
             .attr("style", "display: visible")
             setGlobalState({
+                showby:"Type",
                 selectedBorough: "All Boroughs",
                 selectedCategory: "All Category",
                 selectedType: "All Permit Types",
@@ -163,19 +167,33 @@ class Bar {
                 dataSource: "data/Summary_Type.csv",
             })
         })
-
-
+        d3.csv(state.dataSource, d3.autoType).then(data => {
+            setGlobalState({
+                summaryData: data
+            })
+            console.log("updated data",state.summaryData)
+        })
+        
     }
   
-
-
 
     /////////DRAW
 
     draw(state, setGlobalState) {
       console.log("now I am drawing my graph");
-  
-      const yScale = d3
+        
+
+        this.yScale = d3
+            .scaleBand()
+            .domain(state.summaryData.map(d => d[state.showby]))
+            .range([this.height - this.margins.top, this.margins.bottom]);
+
+        this.xScale = d3
+            .scaleLinear()
+            .domain([0, d3.max(state.summaryData, d => +d.Events)])
+            .range([this.margins.left, this.width - this.margins.right])  
+
+/*       const yScale = d3
         .scaleBand()
         .domain(state.domain)
         .range([this.height - this.margins.top, this.margins.bottom]);
@@ -184,11 +202,11 @@ class Bar {
         .scaleBand()
         .domain(metrics)
         .range([this.margins.left, this.width - this.margins.right])
-        .paddingInner(0.05);
+        .paddingInner(0.05); */
   
       const bars = this.svg
         .selectAll("g.bar")
-        .data(metricData)
+        .data(state.summaryData)
         .join(
           enter =>
             enter
@@ -198,37 +216,15 @@ class Bar {
               .call(enter => enter.append("text")),
           update => update,
           exit => exit.remove()
-        ).on("click", d => {
+        )
+ /*        .on("click", d => {
           setGlobalState({ selectedMetric: d.metric });
-        })
+        }) */
   
-      bars
-        .transition()
-        .duration(this.duration)
-        .attr(
-          "transform",
-          d => `translate(${xScale(d.metric)}, ${yScale(d.value)})`
-        );
+
   
-      bars
-        .select("rect")
-        .transition()
-        .duration(this.duration)
-        .attr("width", xScale.bandwidth())
-        .attr("height", d => this.height - yScale(d.value))
-        .style("fill", d => d.metric === state.selectedMetric ? "purple" : "#ccc")
-  
-      bars
-        .select("text")
-        .attr("dy", "-.5em")
-        .text(d => `${d.metric}: ${this.format(d.value)}`);
     }
-  
-}
-  
-
-   
-
+}     
 
 export { Bar };
   
