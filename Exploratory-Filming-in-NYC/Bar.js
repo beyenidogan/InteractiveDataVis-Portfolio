@@ -153,13 +153,6 @@ class Bar {
             d3.csv(state.dataSource, d3.autoType).then(data => {
                 setGlobalState({
                     summaryData: data,
-                    summaryDomain : [
-                        0, 
-                        d3.max(data
-                          .map(d => d[Events])
-                          .flat()
-                        )]
-                        
                 })
                 console.log("updated data2",state.summaryData)
             })
@@ -210,10 +203,13 @@ class Bar {
         const yScale = d3
             .scaleBand()
 /*             .domain(d3.range(state.summaryData.length)) */
-            .domain(d3.map(state.data, d => d.Borough))
+/*             .domain([0,...Array.from(new Set(state.summaryData, d => d.Borough)]) */
+            .domain(state.summaryData.map(d => d.Borough))
             .range([this.height - this.margins.top, this.margins.bottom]);
-        
-        console.log(d3.range(state.summaryData.length))
+     
+
+        console.log(yScale("Manhattan")) 
+
         const xScale = d3
             .scaleLinear()
             .domain([0, d3.max(state.summaryData, d => +d.Events)])
