@@ -1,21 +1,18 @@
 class Bar {
 
     constructor(state, setGlobalState) {
-      // initialize properties here
-/*       this.width = window.innerWidth * 0.6;
-      this.height = window.innerHeight * 0.6;
-      this.margins = { top: 20, bottom: 20, left: 20, right: 20 }; */
-      this.width = 200;
-      this.height = 150;
-      this.margins = { top: 5, bottom: 5, left: 5, right: 5 };
-      this.duration = 1000;
-      this.format = d3.format(",." + d3.precisionFixed(1) + "f");
-  
-      this.svg = d3
-        .select("#bar-chart")
-        .append("svg")
-        .attr("width", this.width)
-        .attr("height", this.height);
+        // initialize properties here
+        this.width = window.innerWidth * 0.3;
+        this.height = window.innerHeight * 0.5;
+        this.margins = { top: 5, bottom: 5, left: 5, right: 5 };
+        this.duration = 1000;
+        this.format = d3.format(",." + d3.precisionFixed(1) + "f");
+    
+        this.svg = d3
+            .select("#bar-chart")
+            .append("svg")
+            .attr("width", this.width)
+            .attr("height", this.height);
 
 
         // Hide all dropdowns initially
@@ -29,21 +26,11 @@ class Bar {
         .attr("style", "display: none")
 
 
-        // Create dropdown lists
-        this.boroughs = d3.map(state.data, d => d.Borough).keys().sort()
-        this.boroughs.unshift(["All Boroughs"])
-
-        this.categories = d3.map(state.data, d => d.Category).keys().sort()
-        this.categories.unshift(["All Categories"])
-
-        this.types = d3.map(state.data, d => d.EventType).keys().sort()
-        this.types.unshift(["All Permit Types"])
-
         // Add options to dropdowns
         this.selectArtist = d3
         .select("#dropdown-borough")
         .selectAll("option")
-        .data(this.boroughs)
+        .data(state.listBorough)
         .join("option")
         .attr("value", d => d)
         .text(d => d);
@@ -51,7 +38,7 @@ class Bar {
         this.selectGender = d3
         .select("#dropdown-category")
         .selectAll("option")
-        .data(this.categories)
+        .data(state.listCategories)
         .join("option")
         .attr("value", d => d)
         .text(d => d);
@@ -59,7 +46,7 @@ class Bar {
         this.selectGender = d3
         .select("#dropdown-type")
         .selectAll("option")
-        .data(this.types)
+        .data(state.listTypes)
         .join("option")
         .attr("value", d => d)
         .text(d => d);
@@ -119,14 +106,15 @@ class Bar {
                 boroughActive: true,
                 categoryActive: false,
                 typeActive: false,
-                dataSource: "data/Summary_Borough.csv",
+                dataSource: "../data/Summary_Borough.csv",
             })
-            d3.csv(state.dataSource, d3.autoType).then(data => {
+            d3.csv("../data/Summary_Borough.csv", d3.autoType).then(data => {
                 setGlobalState({
                     summaryData: data
                 })
-                console.log("updated data1",state.summaryData)
+            
             })
+            console.log("loaded Borugh summary",state.summaryData)
         })
 
 
@@ -148,14 +136,9 @@ class Bar {
                 boroughActive: false,
                 categoryActive: true,
                 typeActive: false,
-                dataSource: "data/Summary_Category.csv",
+                dataSource: "..data/Summary_Category.csv",
             })
-            d3.csv(state.dataSource, d3.autoType).then(data => {
-                setGlobalState({
-                    summaryData: data,
-                })
-                console.log("updated data2",state.summaryData)
-            })
+
         })
 
         this.changeTypeActive = d3
@@ -176,46 +159,43 @@ class Bar {
                 boroughActive: false,
                 categoryActive: false,
                 typeActive: true,
-                dataSource: "data/Summary_Type.csv",
+                dataSource: "..data/Summary_Type.csv",
             })
-            d3.csv(state.dataSource, d3.autoType).then(data => {
-                setGlobalState({
-                    summaryData: data
-                })
-                console.log("updated data3",state.summaryData)
-            })
+            
         })
-        d3.csv(state.dataSource, d3.autoType).then(data => {
-            setGlobalState({
-                summaryData: data
-            })
-            console.log("updated data4",state.summaryData)
-        })
-        
+
     }
     
+
+    
+
     /////////DRAW
 
     draw(state, setGlobalState) {
-      console.log("now I am drawing my graph");
-        
+        console.log("now I am drawing my graph");
+/*             d3.csv(state.dataSource, d3.autoType).then(data => {
+                setGlobalState({
+                    summaryData: data
+                })
+            console.log("updated data from get data",state.summaryData)
+            })
+        console.log("updated data from get data outside",state.summaryData) */
 
         const yScale = d3
             .scaleBand()
 /*             .domain(d3.range(state.summaryData.length)) */
 /*             .domain([0,...Array.from(new Set(state.summaryData, d => d.Borough)]) */
-            .domain(state.summaryData.map(d => d.Borough))
+            .domain(state.summaryData.length)
             .range([this.height - this.margins.top, this.margins.bottom]);
      
 
-        console.log(yScale("Manhattan")) 
 
         const xScale = d3
             .scaleLinear()
             .domain([0, d3.max(state.summaryData, d => +d.Events)])
             .range([this.margins.left, this.width - this.margins.right])  
 /*             .paddingInner(0.05) */
-        console.log(xScale(690))
+
 
   
         const bars = this.svg
@@ -250,10 +230,10 @@ class Bar {
             .attr("height", this.height - yScale.bandwidth())
             .style("fill", "white")
     
-        bars
+/*         bars
             .select("text")
             .attr("dy", "-.5em")
-            .text(d => `${d.metric}: ${this.format(d.value)}`);
+            .text(d => `${d.metric}: ${this.format(d.value)}`); */
         }
   
     

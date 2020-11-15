@@ -8,7 +8,7 @@ h2{
 body {
   font-family: 'Ebrima', sans-serif;
 /*   background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1)); */
-  background-color: #2C314E;
+  background-color: #2C3343;
   padding: 1em 3em;
   color: white;
 /*   padding: 1em 8em 2em 8em; */
@@ -59,7 +59,7 @@ button:hover {
   outline-color: white;
 }
 
-#data-source {
+#references {
   position: fixed;
   bottom: 10px;
   font-size: 14px;
