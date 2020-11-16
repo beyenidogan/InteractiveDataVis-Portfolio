@@ -1,0 +1,1070 @@
+﻿DataType,Filter,Name,Month,Events
+BarData,Borough,Bronx,,1790
+BarData,Borough,Brooklyn,,14809
+BarData,Borough,Manhattan,,27720
+BarData,Borough,Queens,,8353
+BarData,Borough,Staten Island,,690
+BarData,Category,Commercial,,"3,967"
+BarData,Category,Documentary,,185
+BarData,Category,Film,,"7,231"
+BarData,Category,Music Video,,220
+BarData,Category,Red Carpet/Premiere,,1
+BarData,Category,Still Photography,,"3,304"
+BarData,Category,Student,,211
+BarData,Category,Television,,"31,241"
+BarData,Category,Theater,,"4,949"
+BarData,Category,WEB,,"2,053"
+BarData,Type,DCAS Prep/Shoot/Wrap Permit,,593
+BarData,Type,Rigging Permit,,847
+BarData,Type,Shooting Permit,,"46,987"
+BarData,Type,Theater Load in and Load Outs,,"4,935"
+LineData,Borough,All Boroughs,2016-01,721
+LineData,Borough,All Boroughs,2016-02,764
+LineData,Borough,All Boroughs,2016-03,"1,068"
+LineData,Borough,All Boroughs,2016-04,"1,045"
+LineData,Borough,All Boroughs,2016-05,817
+LineData,Borough,All Boroughs,2016-06,893
+LineData,Borough,All Boroughs,2016-07,"1,074"
+LineData,Borough,All Boroughs,2016-08,"1,156"
+LineData,Borough,All Boroughs,2016-09,"1,163"
+LineData,Borough,All Boroughs,2016-10,"1,321"
+LineData,Borough,All Boroughs,2016-11,"1,195"
+LineData,Borough,All Boroughs,2016-12,785
+LineData,Borough,All Boroughs,2017-01,855
+LineData,Borough,All Boroughs,2017-02,877
+LineData,Borough,All Boroughs,2017-03,"1,022"
+LineData,Borough,All Boroughs,2017-04,908
+LineData,Borough,All Boroughs,2017-05,781
+LineData,Borough,All Boroughs,2017-06,955
+LineData,Borough,All Boroughs,2017-07,"1,196"
+LineData,Borough,All Boroughs,2017-08,"1,337"
+LineData,Borough,All Boroughs,2017-09,997
+LineData,Borough,All Boroughs,2017-10,"1,367"
+LineData,Borough,All Boroughs,2017-11,"1,272"
+LineData,Borough,All Boroughs,2017-12,952
+LineData,Borough,All Boroughs,2018-01,792
+LineData,Borough,All Boroughs,2018-02,935
+LineData,Borough,All Boroughs,2018-03,"1,268"
+LineData,Borough,All Boroughs,2018-04,914
+LineData,Borough,All Boroughs,2018-05,"1,180"
+LineData,Borough,All Boroughs,2018-06,"1,060"
+LineData,Borough,All Boroughs,2018-07,"1,095"
+LineData,Borough,All Boroughs,2018-08,"1,319"
+LineData,Borough,All Boroughs,2018-09,"1,225"
+LineData,Borough,All Boroughs,2018-10,"1,735"
+LineData,Borough,All Boroughs,2018-11,"1,328"
+LineData,Borough,All Boroughs,2018-12,819
+LineData,Borough,All Boroughs,2019-01,736
+LineData,Borough,All Boroughs,2019-02,830
+LineData,Borough,All Boroughs,2019-03,"1,229"
+LineData,Borough,All Boroughs,2019-04,"1,283"
+LineData,Borough,All Boroughs,2019-05,"1,003"
+LineData,Borough,All Boroughs,2019-06,"1,028"
+LineData,Borough,All Boroughs,2019-07,"1,104"
+LineData,Borough,All Boroughs,2019-08,"1,168"
+LineData,Borough,All Boroughs,2019-09,"1,118"
+LineData,Borough,All Boroughs,2019-10,"1,389"
+LineData,Borough,All Boroughs,2019-11,"1,238"
+LineData,Borough,All Boroughs,2019-12,975
+LineData,Borough,All Boroughs,2020-01,844
+LineData,Borough,All Boroughs,2020-02,798
+LineData,Borough,All Boroughs,2020-03,423
+LineData,Borough,All Boroughs,2020-07,1
+LineData,Borough,All Boroughs,2020-08,4
+LineData,Borough,Bronx,2016-01,18
+LineData,Borough,Bronx,2016-02,16
+LineData,Borough,Bronx,2016-03,15
+LineData,Borough,Bronx,2016-04,18
+LineData,Borough,Bronx,2016-05,12
+LineData,Borough,Bronx,2016-06,28
+LineData,Borough,Bronx,2016-07,26
+LineData,Borough,Bronx,2016-08,33
+LineData,Borough,Bronx,2016-09,40
+LineData,Borough,Bronx,2016-10,48
+LineData,Borough,Bronx,2016-11,38
+LineData,Borough,Bronx,2016-12,24
+LineData,Borough,Bronx,2017-01,25
+LineData,Borough,Bronx,2017-02,33
+LineData,Borough,Bronx,2017-03,58
+LineData,Borough,Bronx,2017-04,19
+LineData,Borough,Bronx,2017-05,33
+LineData,Borough,Bronx,2017-06,25
+LineData,Borough,Bronx,2017-07,40
+LineData,Borough,Bronx,2017-08,62
+LineData,Borough,Bronx,2017-09,30
+LineData,Borough,Bronx,2017-10,49
+LineData,Borough,Bronx,2017-11,33
+LineData,Borough,Bronx,2017-12,44
+LineData,Borough,Bronx,2018-01,21
+LineData,Borough,Bronx,2018-02,36
+LineData,Borough,Bronx,2018-03,53
+LineData,Borough,Bronx,2018-04,59
+LineData,Borough,Bronx,2018-05,43
+LineData,Borough,Bronx,2018-06,34
+LineData,Borough,Bronx,2018-07,44
+LineData,Borough,Bronx,2018-08,67
+LineData,Borough,Bronx,2018-09,51
+LineData,Borough,Bronx,2018-10,53
+LineData,Borough,Bronx,2018-11,47
+LineData,Borough,Bronx,2018-12,26
+LineData,Borough,Bronx,2019-01,20
+LineData,Borough,Bronx,2019-02,40
+LineData,Borough,Bronx,2019-03,57
+LineData,Borough,Bronx,2019-04,61
+LineData,Borough,Bronx,2019-05,36
+LineData,Borough,Bronx,2019-06,42
+LineData,Borough,Bronx,2019-07,26
+LineData,Borough,Bronx,2019-08,15
+LineData,Borough,Bronx,2019-09,18
+LineData,Borough,Bronx,2019-10,24
+LineData,Borough,Bronx,2019-11,32
+LineData,Borough,Bronx,2019-12,38
+LineData,Borough,Bronx,2020-01,27
+LineData,Borough,Bronx,2020-02,25
+LineData,Borough,Bronx,2020-03,28
+LineData,Borough,Brooklyn,2016-01,192
+LineData,Borough,Brooklyn,2016-02,225
+LineData,Borough,Brooklyn,2016-03,298
+LineData,Borough,Brooklyn,2016-04,262
+LineData,Borough,Brooklyn,2016-05,216
+LineData,Borough,Brooklyn,2016-06,275
+LineData,Borough,Brooklyn,2016-07,296
+LineData,Borough,Brooklyn,2016-08,356
+LineData,Borough,Brooklyn,2016-09,357
+LineData,Borough,Brooklyn,2016-10,389
+LineData,Borough,Brooklyn,2016-11,329
+LineData,Borough,Brooklyn,2016-12,237
+LineData,Borough,Brooklyn,2017-01,242
+LineData,Borough,Brooklyn,2017-02,258
+LineData,Borough,Brooklyn,2017-03,275
+LineData,Borough,Brooklyn,2017-04,182
+LineData,Borough,Brooklyn,2017-05,220
+LineData,Borough,Brooklyn,2017-06,316
+LineData,Borough,Brooklyn,2017-07,380
+LineData,Borough,Brooklyn,2017-08,395
+LineData,Borough,Brooklyn,2017-09,272
+LineData,Borough,Brooklyn,2017-10,375
+LineData,Borough,Brooklyn,2017-11,364
+LineData,Borough,Brooklyn,2017-12,245
+LineData,Borough,Brooklyn,2018-01,182
+LineData,Borough,Brooklyn,2018-02,250
+LineData,Borough,Brooklyn,2018-03,350
+LineData,Borough,Brooklyn,2018-04,227
+LineData,Borough,Brooklyn,2018-05,323
+LineData,Borough,Brooklyn,2018-06,284
+LineData,Borough,Brooklyn,2018-07,328
+LineData,Borough,Brooklyn,2018-08,423
+LineData,Borough,Brooklyn,2018-09,310
+LineData,Borough,Brooklyn,2018-10,504
+LineData,Borough,Brooklyn,2018-11,434
+LineData,Borough,Brooklyn,2018-12,239
+LineData,Borough,Brooklyn,2019-01,229
+LineData,Borough,Brooklyn,2019-02,241
+LineData,Borough,Brooklyn,2019-03,288
+LineData,Borough,Brooklyn,2019-04,275
+LineData,Borough,Brooklyn,2019-05,217
+LineData,Borough,Brooklyn,2019-06,224
+LineData,Borough,Brooklyn,2019-07,248
+LineData,Borough,Brooklyn,2019-08,346
+LineData,Borough,Brooklyn,2019-09,333
+LineData,Borough,Brooklyn,2019-10,355
+LineData,Borough,Brooklyn,2019-11,380
+LineData,Borough,Brooklyn,2019-12,277
+LineData,Borough,Brooklyn,2020-01,245
+LineData,Borough,Brooklyn,2020-02,229
+LineData,Borough,Brooklyn,2020-03,110
+LineData,Borough,Brooklyn,2020-07,1
+LineData,Borough,Brooklyn,2020-08,1
+LineData,Borough,Manhattan,2016-01,336
+LineData,Borough,Manhattan,2016-02,375
+LineData,Borough,Manhattan,2016-03,559
+LineData,Borough,Manhattan,2016-04,629
+LineData,Borough,Manhattan,2016-05,467
+LineData,Borough,Manhattan,2016-06,501
+LineData,Borough,Manhattan,2016-07,582
+LineData,Borough,Manhattan,2016-08,540
+LineData,Borough,Manhattan,2016-09,526
+LineData,Borough,Manhattan,2016-10,665
+LineData,Borough,Manhattan,2016-11,607
+LineData,Borough,Manhattan,2016-12,396
+LineData,Borough,Manhattan,2017-01,410
+LineData,Borough,Manhattan,2017-02,417
+LineData,Borough,Manhattan,2017-03,535
+LineData,Borough,Manhattan,2017-04,547
+LineData,Borough,Manhattan,2017-05,454
+LineData,Borough,Manhattan,2017-06,512
+LineData,Borough,Manhattan,2017-07,579
+LineData,Borough,Manhattan,2017-08,617
+LineData,Borough,Manhattan,2017-09,525
+LineData,Borough,Manhattan,2017-10,715
+LineData,Borough,Manhattan,2017-11,701
+LineData,Borough,Manhattan,2017-12,483
+LineData,Borough,Manhattan,2018-01,434
+LineData,Borough,Manhattan,2018-02,459
+LineData,Borough,Manhattan,2018-03,648
+LineData,Borough,Manhattan,2018-04,523
+LineData,Borough,Manhattan,2018-05,711
+LineData,Borough,Manhattan,2018-06,613
+LineData,Borough,Manhattan,2018-07,531
+LineData,Borough,Manhattan,2018-08,594
+LineData,Borough,Manhattan,2018-09,615
+LineData,Borough,Manhattan,2018-10,882
+LineData,Borough,Manhattan,2018-11,623
+LineData,Borough,Manhattan,2018-12,421
+LineData,Borough,Manhattan,2019-01,368
+LineData,Borough,Manhattan,2019-02,398
+LineData,Borough,Manhattan,2019-03,688
+LineData,Borough,Manhattan,2019-04,781
+LineData,Borough,Manhattan,2019-05,596
+LineData,Borough,Manhattan,2019-06,616
+LineData,Borough,Manhattan,2019-07,649
+LineData,Borough,Manhattan,2019-08,549
+LineData,Borough,Manhattan,2019-09,540
+LineData,Borough,Manhattan,2019-10,719
+LineData,Borough,Manhattan,2019-11,580
+LineData,Borough,Manhattan,2019-12,470
+LineData,Borough,Manhattan,2020-01,393
+LineData,Borough,Manhattan,2020-02,405
+LineData,Borough,Manhattan,2020-03,233
+LineData,Borough,Manhattan,2020-08,3
+LineData,Borough,Queens,2016-01,173
+LineData,Borough,Queens,2016-02,145
+LineData,Borough,Queens,2016-03,192
+LineData,Borough,Queens,2016-04,131
+LineData,Borough,Queens,2016-05,115
+LineData,Borough,Queens,2016-06,89
+LineData,Borough,Queens,2016-07,153
+LineData,Borough,Queens,2016-08,208
+LineData,Borough,Queens,2016-09,216
+LineData,Borough,Queens,2016-10,196
+LineData,Borough,Queens,2016-11,202
+LineData,Borough,Queens,2016-12,120
+LineData,Borough,Queens,2017-01,164
+LineData,Borough,Queens,2017-02,159
+LineData,Borough,Queens,2017-03,145
+LineData,Borough,Queens,2017-04,155
+LineData,Borough,Queens,2017-05,64
+LineData,Borough,Queens,2017-06,89
+LineData,Borough,Queens,2017-07,172
+LineData,Borough,Queens,2017-08,240
+LineData,Borough,Queens,2017-09,156
+LineData,Borough,Queens,2017-10,218
+LineData,Borough,Queens,2017-11,172
+LineData,Borough,Queens,2017-12,170
+LineData,Borough,Queens,2018-01,153
+LineData,Borough,Queens,2018-02,182
+LineData,Borough,Queens,2018-03,209
+LineData,Borough,Queens,2018-04,89
+LineData,Borough,Queens,2018-05,97
+LineData,Borough,Queens,2018-06,95
+LineData,Borough,Queens,2018-07,181
+LineData,Borough,Queens,2018-08,231
+LineData,Borough,Queens,2018-09,233
+LineData,Borough,Queens,2018-10,273
+LineData,Borough,Queens,2018-11,197
+LineData,Borough,Queens,2018-12,127
+LineData,Borough,Queens,2019-01,117
+LineData,Borough,Queens,2019-02,139
+LineData,Borough,Queens,2019-03,172
+LineData,Borough,Queens,2019-04,141
+LineData,Borough,Queens,2019-05,121
+LineData,Borough,Queens,2019-06,87
+LineData,Borough,Queens,2019-07,137
+LineData,Borough,Queens,2019-08,242
+LineData,Borough,Queens,2019-09,215
+LineData,Borough,Queens,2019-10,283
+LineData,Borough,Queens,2019-11,240
+LineData,Borough,Queens,2019-12,183
+LineData,Borough,Queens,2020-01,179
+LineData,Borough,Queens,2020-02,136
+LineData,Borough,Queens,2020-03,50
+LineData,Borough,Staten Island,2016-01,2
+LineData,Borough,Staten Island,2016-02,3
+LineData,Borough,Staten Island,2016-03,4
+LineData,Borough,Staten Island,2016-04,5
+LineData,Borough,Staten Island,2016-05,7
+LineData,Borough,Staten Island,2016-07,17
+LineData,Borough,Staten Island,2016-08,19
+LineData,Borough,Staten Island,2016-09,24
+LineData,Borough,Staten Island,2016-10,23
+LineData,Borough,Staten Island,2016-11,19
+LineData,Borough,Staten Island,2016-12,8
+LineData,Borough,Staten Island,2017-01,14
+LineData,Borough,Staten Island,2017-02,10
+LineData,Borough,Staten Island,2017-03,9
+LineData,Borough,Staten Island,2017-04,5
+LineData,Borough,Staten Island,2017-05,10
+LineData,Borough,Staten Island,2017-06,13
+LineData,Borough,Staten Island,2017-07,25
+LineData,Borough,Staten Island,2017-08,23
+LineData,Borough,Staten Island,2017-09,14
+LineData,Borough,Staten Island,2017-10,10
+LineData,Borough,Staten Island,2017-11,2
+LineData,Borough,Staten Island,2017-12,10
+LineData,Borough,Staten Island,2018-01,2
+LineData,Borough,Staten Island,2018-02,8
+LineData,Borough,Staten Island,2018-03,8
+LineData,Borough,Staten Island,2018-04,16
+LineData,Borough,Staten Island,2018-05,6
+LineData,Borough,Staten Island,2018-06,34
+LineData,Borough,Staten Island,2018-07,11
+LineData,Borough,Staten Island,2018-08,4
+LineData,Borough,Staten Island,2018-09,16
+LineData,Borough,Staten Island,2018-10,23
+LineData,Borough,Staten Island,2018-11,27
+LineData,Borough,Staten Island,2018-12,6
+LineData,Borough,Staten Island,2019-01,2
+LineData,Borough,Staten Island,2019-02,12
+LineData,Borough,Staten Island,2019-03,24
+LineData,Borough,Staten Island,2019-04,25
+LineData,Borough,Staten Island,2019-05,33
+LineData,Borough,Staten Island,2019-06,59
+LineData,Borough,Staten Island,2019-07,44
+LineData,Borough,Staten Island,2019-08,16
+LineData,Borough,Staten Island,2019-09,12
+LineData,Borough,Staten Island,2019-10,8
+LineData,Borough,Staten Island,2019-11,6
+LineData,Borough,Staten Island,2019-12,7
+LineData,Borough,Staten Island,2020-02,3
+LineData,Borough,Staten Island,2020-03,2
+LineData,Category,All Categories,2016-01,721
+LineData,Category,All Categories,2016-02,764
+LineData,Category,All Categories,2016-03,"1,068"
+LineData,Category,All Categories,2016-04,"1,045"
+LineData,Category,All Categories,2016-05,817
+LineData,Category,All Categories,2016-06,893
+LineData,Category,All Categories,2016-07,"1,074"
+LineData,Category,All Categories,2016-08,"1,156"
+LineData,Category,All Categories,2016-09,"1,163"
+LineData,Category,All Categories,2016-10,"1,321"
+LineData,Category,All Categories,2016-11,"1,195"
+LineData,Category,All Categories,2016-12,785
+LineData,Category,All Categories,2017-01,855
+LineData,Category,All Categories,2017-02,877
+LineData,Category,All Categories,2017-03,"1,022"
+LineData,Category,All Categories,2017-04,908
+LineData,Category,All Categories,2017-05,781
+LineData,Category,All Categories,2017-06,955
+LineData,Category,All Categories,2017-07,"1,196"
+LineData,Category,All Categories,2017-08,"1,337"
+LineData,Category,All Categories,2017-09,997
+LineData,Category,All Categories,2017-10,"1,367"
+LineData,Category,All Categories,2017-11,"1,272"
+LineData,Category,All Categories,2017-12,952
+LineData,Category,All Categories,2018-01,792
+LineData,Category,All Categories,2018-02,935
+LineData,Category,All Categories,2018-03,"1,268"
+LineData,Category,All Categories,2018-04,914
+LineData,Category,All Categories,2018-05,"1,180"
+LineData,Category,All Categories,2018-06,"1,060"
+LineData,Category,All Categories,2018-07,"1,095"
+LineData,Category,All Categories,2018-08,"1,319"
+LineData,Category,All Categories,2018-09,"1,225"
+LineData,Category,All Categories,2018-10,"1,735"
+LineData,Category,All Categories,2018-11,"1,328"
+LineData,Category,All Categories,2018-12,819
+LineData,Category,All Categories,2019-01,736
+LineData,Category,All Categories,2019-02,830
+LineData,Category,All Categories,2019-03,"1,229"
+LineData,Category,All Categories,2019-04,"1,283"
+LineData,Category,All Categories,2019-05,"1,003"
+LineData,Category,All Categories,2019-06,"1,028"
+LineData,Category,All Categories,2019-07,"1,104"
+LineData,Category,All Categories,2019-08,"1,168"
+LineData,Category,All Categories,2019-09,"1,118"
+LineData,Category,All Categories,2019-10,"1,389"
+LineData,Category,All Categories,2019-11,"1,238"
+LineData,Category,All Categories,2019-12,975
+LineData,Category,All Categories,2020-01,844
+LineData,Category,All Categories,2020-02,798
+LineData,Category,All Categories,2020-03,423
+LineData,Category,All Categories,2020-07,1
+LineData,Category,All Categories,2020-08,4
+LineData,Category,Commercial,2016-01,71
+LineData,Category,Commercial,2016-02,33
+LineData,Category,Commercial,2016-03,91
+LineData,Category,Commercial,2016-04,136
+LineData,Category,Commercial,2016-05,62
+LineData,Category,Commercial,2016-06,90
+LineData,Category,Commercial,2016-07,105
+LineData,Category,Commercial,2016-08,98
+LineData,Category,Commercial,2016-09,71
+LineData,Category,Commercial,2016-10,107
+LineData,Category,Commercial,2016-11,87
+LineData,Category,Commercial,2016-12,75
+LineData,Category,Commercial,2017-01,53
+LineData,Category,Commercial,2017-02,62
+LineData,Category,Commercial,2017-03,56
+LineData,Category,Commercial,2017-04,78
+LineData,Category,Commercial,2017-05,57
+LineData,Category,Commercial,2017-06,110
+LineData,Category,Commercial,2017-07,123
+LineData,Category,Commercial,2017-08,112
+LineData,Category,Commercial,2017-09,95
+LineData,Category,Commercial,2017-10,79
+LineData,Category,Commercial,2017-11,75
+LineData,Category,Commercial,2017-12,42
+LineData,Category,Commercial,2018-01,72
+LineData,Category,Commercial,2018-02,48
+LineData,Category,Commercial,2018-03,72
+LineData,Category,Commercial,2018-04,52
+LineData,Category,Commercial,2018-05,86
+LineData,Category,Commercial,2018-06,114
+LineData,Category,Commercial,2018-07,85
+LineData,Category,Commercial,2018-08,127
+LineData,Category,Commercial,2018-09,102
+LineData,Category,Commercial,2018-10,115
+LineData,Category,Commercial,2018-11,60
+LineData,Category,Commercial,2018-12,64
+LineData,Category,Commercial,2019-01,32
+LineData,Category,Commercial,2019-02,55
+LineData,Category,Commercial,2019-03,56
+LineData,Category,Commercial,2019-04,119
+LineData,Category,Commercial,2019-05,92
+LineData,Category,Commercial,2019-06,78
+LineData,Category,Commercial,2019-07,73
+LineData,Category,Commercial,2019-08,81
+LineData,Category,Commercial,2019-09,92
+LineData,Category,Commercial,2019-10,101
+LineData,Category,Commercial,2019-11,64
+LineData,Category,Commercial,2019-12,54
+LineData,Category,Commercial,2020-01,44
+LineData,Category,Commercial,2020-02,30
+LineData,Category,Commercial,2020-03,31
+LineData,Category,Documentary,2016-01,2
+LineData,Category,Documentary,2016-03,1
+LineData,Category,Documentary,2016-04,3
+LineData,Category,Documentary,2016-06,1
+LineData,Category,Documentary,2016-07,1
+LineData,Category,Documentary,2016-08,1
+LineData,Category,Documentary,2016-09,1
+LineData,Category,Documentary,2016-10,1
+LineData,Category,Documentary,2017-01,2
+LineData,Category,Documentary,2017-04,1
+LineData,Category,Documentary,2017-05,14
+LineData,Category,Documentary,2017-06,1
+LineData,Category,Documentary,2017-10,4
+LineData,Category,Documentary,2018-03,8
+LineData,Category,Documentary,2018-04,7
+LineData,Category,Documentary,2018-05,10
+LineData,Category,Documentary,2018-06,5
+LineData,Category,Documentary,2018-07,10
+LineData,Category,Documentary,2018-08,5
+LineData,Category,Documentary,2018-09,6
+LineData,Category,Documentary,2018-10,10
+LineData,Category,Documentary,2018-11,6
+LineData,Category,Documentary,2018-12,3
+LineData,Category,Documentary,2019-01,2
+LineData,Category,Documentary,2019-02,3
+LineData,Category,Documentary,2019-03,8
+LineData,Category,Documentary,2019-05,2
+LineData,Category,Documentary,2019-06,8
+LineData,Category,Documentary,2019-08,8
+LineData,Category,Documentary,2019-09,7
+LineData,Category,Documentary,2019-10,7
+LineData,Category,Documentary,2019-11,4
+LineData,Category,Documentary,2019-12,7
+LineData,Category,Documentary,2020-01,18
+LineData,Category,Documentary,2020-02,8
+LineData,Category,Film,2016-01,94
+LineData,Category,Film,2016-02,78
+LineData,Category,Film,2016-03,132
+LineData,Category,Film,2016-04,138
+LineData,Category,Film,2016-05,151
+LineData,Category,Film,2016-06,145
+LineData,Category,Film,2016-07,151
+LineData,Category,Film,2016-08,125
+LineData,Category,Film,2016-09,169
+LineData,Category,Film,2016-10,184
+LineData,Category,Film,2016-11,109
+LineData,Category,Film,2016-12,39
+LineData,Category,Film,2017-01,93
+LineData,Category,Film,2017-02,118
+LineData,Category,Film,2017-03,141
+LineData,Category,Film,2017-04,114
+LineData,Category,Film,2017-05,82
+LineData,Category,Film,2017-06,184
+LineData,Category,Film,2017-07,371
+LineData,Category,Film,2017-08,297
+LineData,Category,Film,2017-09,135
+LineData,Category,Film,2017-10,255
+LineData,Category,Film,2017-11,179
+LineData,Category,Film,2017-12,106
+LineData,Category,Film,2018-01,56
+LineData,Category,Film,2018-02,144
+LineData,Category,Film,2018-03,112
+LineData,Category,Film,2018-04,94
+LineData,Category,Film,2018-05,264
+LineData,Category,Film,2018-06,225
+LineData,Category,Film,2018-07,183
+LineData,Category,Film,2018-08,153
+LineData,Category,Film,2018-09,164
+LineData,Category,Film,2018-10,215
+LineData,Category,Film,2018-11,149
+LineData,Category,Film,2018-12,58
+LineData,Category,Film,2019-01,60
+LineData,Category,Film,2019-02,57
+LineData,Category,Film,2019-03,136
+LineData,Category,Film,2019-04,193
+LineData,Category,Film,2019-05,113
+LineData,Category,Film,2019-06,266
+LineData,Category,Film,2019-07,245
+LineData,Category,Film,2019-08,115
+LineData,Category,Film,2019-09,77
+LineData,Category,Film,2019-10,178
+LineData,Category,Film,2019-11,175
+LineData,Category,Film,2019-12,96
+LineData,Category,Film,2020-01,30
+LineData,Category,Film,2020-02,45
+LineData,Category,Film,2020-03,38
+LineData,Category,Music Video,2016-02,1
+LineData,Category,Music Video,2016-03,1
+LineData,Category,Music Video,2016-05,10
+LineData,Category,Music Video,2016-06,2
+LineData,Category,Music Video,2016-07,1
+LineData,Category,Music Video,2016-08,2
+LineData,Category,Music Video,2016-09,1
+LineData,Category,Music Video,2016-10,2
+LineData,Category,Music Video,2016-11,12
+LineData,Category,Music Video,2016-12,2
+LineData,Category,Music Video,2017-03,2
+LineData,Category,Music Video,2017-05,3
+LineData,Category,Music Video,2017-06,7
+LineData,Category,Music Video,2017-07,7
+LineData,Category,Music Video,2017-08,4
+LineData,Category,Music Video,2017-09,10
+LineData,Category,Music Video,2017-10,9
+LineData,Category,Music Video,2017-12,5
+LineData,Category,Music Video,2018-01,2
+LineData,Category,Music Video,2018-02,13
+LineData,Category,Music Video,2018-03,1
+LineData,Category,Music Video,2018-04,1
+LineData,Category,Music Video,2018-06,14
+LineData,Category,Music Video,2018-07,22
+LineData,Category,Music Video,2018-08,5
+LineData,Category,Music Video,2018-09,11
+LineData,Category,Music Video,2018-10,4
+LineData,Category,Music Video,2018-11,1
+LineData,Category,Music Video,2018-12,4
+LineData,Category,Music Video,2019-01,1
+LineData,Category,Music Video,2019-03,1
+LineData,Category,Music Video,2019-05,23
+LineData,Category,Music Video,2019-06,2
+LineData,Category,Music Video,2019-07,4
+LineData,Category,Music Video,2019-08,11
+LineData,Category,Music Video,2019-09,1
+LineData,Category,Music Video,2019-10,10
+LineData,Category,Music Video,2019-12,6
+LineData,Category,Music Video,2020-02,2
+LineData,Category,Red Carpet/Premiere,2016-09,1
+LineData,Category,Still Photography,2016-01,17
+LineData,Category,Still Photography,2016-02,35
+LineData,Category,Still Photography,2016-03,55
+LineData,Category,Still Photography,2016-04,128
+LineData,Category,Still Photography,2016-05,106
+LineData,Category,Still Photography,2016-06,132
+LineData,Category,Still Photography,2016-07,88
+LineData,Category,Still Photography,2016-08,61
+LineData,Category,Still Photography,2016-09,48
+LineData,Category,Still Photography,2016-10,78
+LineData,Category,Still Photography,2016-11,66
+LineData,Category,Still Photography,2016-12,28
+LineData,Category,Still Photography,2017-01,27
+LineData,Category,Still Photography,2017-02,17
+LineData,Category,Still Photography,2017-03,62
+LineData,Category,Still Photography,2017-04,105
+LineData,Category,Still Photography,2017-05,97
+LineData,Category,Still Photography,2017-06,78
+LineData,Category,Still Photography,2017-07,81
+LineData,Category,Still Photography,2017-08,40
+LineData,Category,Still Photography,2017-09,51
+LineData,Category,Still Photography,2017-10,67
+LineData,Category,Still Photography,2017-11,102
+LineData,Category,Still Photography,2017-12,37
+LineData,Category,Still Photography,2018-01,19
+LineData,Category,Still Photography,2018-02,32
+LineData,Category,Still Photography,2018-03,69
+LineData,Category,Still Photography,2018-04,82
+LineData,Category,Still Photography,2018-05,148
+LineData,Category,Still Photography,2018-06,80
+LineData,Category,Still Photography,2018-07,67
+LineData,Category,Still Photography,2018-08,43
+LineData,Category,Still Photography,2018-09,87
+LineData,Category,Still Photography,2018-10,190
+LineData,Category,Still Photography,2018-11,67
+LineData,Category,Still Photography,2018-12,30
+LineData,Category,Still Photography,2019-01,17
+LineData,Category,Still Photography,2019-02,30
+LineData,Category,Still Photography,2019-03,27
+LineData,Category,Still Photography,2019-04,131
+LineData,Category,Still Photography,2019-05,93
+LineData,Category,Still Photography,2019-06,117
+LineData,Category,Still Photography,2019-07,79
+LineData,Category,Still Photography,2019-08,69
+LineData,Category,Still Photography,2019-09,66
+LineData,Category,Still Photography,2019-10,78
+LineData,Category,Still Photography,2019-11,24
+LineData,Category,Still Photography,2019-12,21
+LineData,Category,Still Photography,2020-01,14
+LineData,Category,Still Photography,2020-02,11
+LineData,Category,Still Photography,2020-03,7
+LineData,Category,Student,2016-01,1
+LineData,Category,Student,2016-02,7
+LineData,Category,Student,2016-03,1
+LineData,Category,Student,2016-04,8
+LineData,Category,Student,2016-05,2
+LineData,Category,Student,2016-06,8
+LineData,Category,Student,2016-07,2
+LineData,Category,Student,2016-10,7
+LineData,Category,Student,2016-11,5
+LineData,Category,Student,2016-12,6
+LineData,Category,Student,2017-01,8
+LineData,Category,Student,2017-02,4
+LineData,Category,Student,2017-03,4
+LineData,Category,Student,2017-04,6
+LineData,Category,Student,2017-05,3
+LineData,Category,Student,2017-06,1
+LineData,Category,Student,2017-08,1
+LineData,Category,Student,2017-10,4
+LineData,Category,Student,2017-11,10
+LineData,Category,Student,2017-12,5
+LineData,Category,Student,2018-01,3
+LineData,Category,Student,2018-02,4
+LineData,Category,Student,2018-03,9
+LineData,Category,Student,2018-04,4
+LineData,Category,Student,2018-05,4
+LineData,Category,Student,2018-06,3
+LineData,Category,Student,2018-08,2
+LineData,Category,Student,2018-09,2
+LineData,Category,Student,2018-10,7
+LineData,Category,Student,2018-11,5
+LineData,Category,Student,2018-12,8
+LineData,Category,Student,2019-01,2
+LineData,Category,Student,2019-02,1
+LineData,Category,Student,2019-03,7
+LineData,Category,Student,2019-04,8
+LineData,Category,Student,2019-05,3
+LineData,Category,Student,2019-08,3
+LineData,Category,Student,2019-09,3
+LineData,Category,Student,2019-10,7
+LineData,Category,Student,2019-11,6
+LineData,Category,Student,2019-12,5
+LineData,Category,Student,2020-01,13
+LineData,Category,Student,2020-02,6
+LineData,Category,Student,2020-03,3
+LineData,Category,Television,2016-01,455
+LineData,Category,Television,2016-02,506
+LineData,Category,Television,2016-03,682
+LineData,Category,Television,2016-04,478
+LineData,Category,Television,2016-05,366
+LineData,Category,Television,2016-06,413
+LineData,Category,Television,2016-07,632
+LineData,Category,Television,2016-08,759
+LineData,Category,Television,2016-09,753
+LineData,Category,Television,2016-10,785
+LineData,Category,Television,2016-11,779
+LineData,Category,Television,2016-12,544
+LineData,Category,Television,2017-01,597
+LineData,Category,Television,2017-02,592
+LineData,Category,Television,2017-03,627
+LineData,Category,Television,2017-04,478
+LineData,Category,Television,2017-05,387
+LineData,Category,Television,2017-06,474
+LineData,Category,Television,2017-07,541
+LineData,Category,Television,2017-08,796
+LineData,Category,Television,2017-09,568
+LineData,Category,Television,2017-10,723
+LineData,Category,Television,2017-11,713
+LineData,Category,Television,2017-12,627
+LineData,Category,Television,2018-01,557
+LineData,Category,Television,2018-02,576
+LineData,Category,Television,2018-03,868
+LineData,Category,Television,2018-04,506
+LineData,Category,Television,2018-05,512
+LineData,Category,Television,2018-06,435
+LineData,Category,Television,2018-07,622
+LineData,Category,Television,2018-08,844
+LineData,Category,Television,2018-09,718
+LineData,Category,Television,2018-10,946
+LineData,Category,Television,2018-11,845
+LineData,Category,Television,2018-12,515
+LineData,Category,Television,2019-01,523
+LineData,Category,Television,2019-02,555
+LineData,Category,Television,2019-03,841
+LineData,Category,Television,2019-04,636
+LineData,Category,Television,2019-05,455
+LineData,Category,Television,2019-06,407
+LineData,Category,Television,2019-07,555
+LineData,Category,Television,2019-08,746
+LineData,Category,Television,2019-09,671
+LineData,Category,Television,2019-10,788
+LineData,Category,Television,2019-11,776
+LineData,Category,Television,2019-12,599
+LineData,Category,Television,2020-01,614
+LineData,Category,Television,2020-02,566
+LineData,Category,Television,2020-03,289
+LineData,Category,Television,2020-07,1
+LineData,Category,Theater,2016-01,56
+LineData,Category,Theater,2016-02,80
+LineData,Category,Theater,2016-03,85
+LineData,Category,Theater,2016-04,105
+LineData,Category,Theater,2016-05,87
+LineData,Category,Theater,2016-06,62
+LineData,Category,Theater,2016-07,62
+LineData,Category,Theater,2016-08,43
+LineData,Category,Theater,2016-09,84
+LineData,Category,Theater,2016-10,111
+LineData,Category,Theater,2016-11,111
+LineData,Category,Theater,2016-12,65
+LineData,Category,Theater,2017-01,51
+LineData,Category,Theater,2017-02,76
+LineData,Category,Theater,2017-03,107
+LineData,Category,Theater,2017-04,98
+LineData,Category,Theater,2017-05,79
+LineData,Category,Theater,2017-06,63
+LineData,Category,Theater,2017-07,42
+LineData,Category,Theater,2017-08,56
+LineData,Category,Theater,2017-09,100
+LineData,Category,Theater,2017-10,150
+LineData,Category,Theater,2017-11,135
+LineData,Category,Theater,2017-12,103
+LineData,Category,Theater,2018-01,68
+LineData,Category,Theater,2018-02,95
+LineData,Category,Theater,2018-03,93
+LineData,Category,Theater,2018-04,94
+LineData,Category,Theater,2018-05,107
+LineData,Category,Theater,2018-06,101
+LineData,Category,Theater,2018-07,53
+LineData,Category,Theater,2018-08,62
+LineData,Category,Theater,2018-09,95
+LineData,Category,Theater,2018-10,167
+LineData,Category,Theater,2018-11,159
+LineData,Category,Theater,2018-12,105
+LineData,Category,Theater,2019-01,66
+LineData,Category,Theater,2019-02,101
+LineData,Category,Theater,2019-03,114
+LineData,Category,Theater,2019-04,132
+LineData,Category,Theater,2019-05,148
+LineData,Category,Theater,2019-06,113
+LineData,Category,Theater,2019-07,94
+LineData,Category,Theater,2019-08,92
+LineData,Category,Theater,2019-09,152
+LineData,Category,Theater,2019-10,185
+LineData,Category,Theater,2019-11,165
+LineData,Category,Theater,2019-12,135
+LineData,Category,Theater,2020-01,82
+LineData,Category,Theater,2020-02,117
+LineData,Category,Theater,2020-03,40
+LineData,Category,Theater,2020-08,3
+LineData,Category,WEB,2016-01,25
+LineData,Category,WEB,2016-02,24
+LineData,Category,WEB,2016-03,20
+LineData,Category,WEB,2016-04,49
+LineData,Category,WEB,2016-05,33
+LineData,Category,WEB,2016-06,40
+LineData,Category,WEB,2016-07,32
+LineData,Category,WEB,2016-08,67
+LineData,Category,WEB,2016-09,35
+LineData,Category,WEB,2016-10,46
+LineData,Category,WEB,2016-11,26
+LineData,Category,WEB,2016-12,26
+LineData,Category,WEB,2017-01,24
+LineData,Category,WEB,2017-02,8
+LineData,Category,WEB,2017-03,23
+LineData,Category,WEB,2017-04,28
+LineData,Category,WEB,2017-05,59
+LineData,Category,WEB,2017-06,37
+LineData,Category,WEB,2017-07,31
+LineData,Category,WEB,2017-08,31
+LineData,Category,WEB,2017-09,38
+LineData,Category,WEB,2017-10,76
+LineData,Category,WEB,2017-11,58
+LineData,Category,WEB,2017-12,27
+LineData,Category,WEB,2018-01,15
+LineData,Category,WEB,2018-02,23
+LineData,Category,WEB,2018-03,36
+LineData,Category,WEB,2018-04,74
+LineData,Category,WEB,2018-05,49
+LineData,Category,WEB,2018-06,83
+LineData,Category,WEB,2018-07,53
+LineData,Category,WEB,2018-08,78
+LineData,Category,WEB,2018-09,40
+LineData,Category,WEB,2018-10,81
+LineData,Category,WEB,2018-11,36
+LineData,Category,WEB,2018-12,32
+LineData,Category,WEB,2019-01,33
+LineData,Category,WEB,2019-02,28
+LineData,Category,WEB,2019-03,39
+LineData,Category,WEB,2019-04,64
+LineData,Category,WEB,2019-05,74
+LineData,Category,WEB,2019-06,37
+LineData,Category,WEB,2019-07,54
+LineData,Category,WEB,2019-08,43
+LineData,Category,WEB,2019-09,49
+LineData,Category,WEB,2019-10,35
+LineData,Category,WEB,2019-11,24
+LineData,Category,WEB,2019-12,52
+LineData,Category,WEB,2020-01,29
+LineData,Category,WEB,2020-02,13
+LineData,Category,WEB,2020-03,15
+LineData,Category,WEB,2020-08,1
+LineData,Type,All Permit Types,2016-01,721
+LineData,Type,All Permit Types,2016-02,764
+LineData,Type,All Permit Types,2016-03,"1,068"
+LineData,Type,All Permit Types,2016-04,"1,045"
+LineData,Type,All Permit Types,2016-05,817
+LineData,Type,All Permit Types,2016-06,893
+LineData,Type,All Permit Types,2016-07,"1,074"
+LineData,Type,All Permit Types,2016-08,"1,156"
+LineData,Type,All Permit Types,2016-09,"1,163"
+LineData,Type,All Permit Types,2016-10,"1,321"
+LineData,Type,All Permit Types,2016-11,"1,195"
+LineData,Type,All Permit Types,2016-12,785
+LineData,Type,All Permit Types,2017-01,855
+LineData,Type,All Permit Types,2017-02,877
+LineData,Type,All Permit Types,2017-03,"1,022"
+LineData,Type,All Permit Types,2017-04,908
+LineData,Type,All Permit Types,2017-05,781
+LineData,Type,All Permit Types,2017-06,955
+LineData,Type,All Permit Types,2017-07,"1,196"
+LineData,Type,All Permit Types,2017-08,"1,337"
+LineData,Type,All Permit Types,2017-09,997
+LineData,Type,All Permit Types,2017-10,"1,367"
+LineData,Type,All Permit Types,2017-11,"1,272"
+LineData,Type,All Permit Types,2017-12,952
+LineData,Type,All Permit Types,2018-01,792
+LineData,Type,All Permit Types,2018-02,935
+LineData,Type,All Permit Types,2018-03,"1,268"
+LineData,Type,All Permit Types,2018-04,914
+LineData,Type,All Permit Types,2018-05,"1,180"
+LineData,Type,All Permit Types,2018-06,"1,060"
+LineData,Type,All Permit Types,2018-07,"1,095"
+LineData,Type,All Permit Types,2018-08,"1,319"
+LineData,Type,All Permit Types,2018-09,"1,225"
+LineData,Type,All Permit Types,2018-10,"1,735"
+LineData,Type,All Permit Types,2018-11,"1,328"
+LineData,Type,All Permit Types,2018-12,819
+LineData,Type,All Permit Types,2019-01,736
+LineData,Type,All Permit Types,2019-02,830
+LineData,Type,All Permit Types,2019-03,"1,229"
+LineData,Type,All Permit Types,2019-04,"1,283"
+LineData,Type,All Permit Types,2019-05,"1,003"
+LineData,Type,All Permit Types,2019-06,"1,028"
+LineData,Type,All Permit Types,2019-07,"1,104"
+LineData,Type,All Permit Types,2019-08,"1,168"
+LineData,Type,All Permit Types,2019-09,"1,118"
+LineData,Type,All Permit Types,2019-10,"1,389"
+LineData,Type,All Permit Types,2019-11,"1,238"
+LineData,Type,All Permit Types,2019-12,975
+LineData,Type,All Permit Types,2020-01,844
+LineData,Type,All Permit Types,2020-02,798
+LineData,Type,All Permit Types,2020-03,423
+LineData,Type,All Permit Types,2020-07,1
+LineData,Type,All Permit Types,2020-08,4
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-01,9
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-02,9
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-03,9
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-04,8
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-05,2
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-06,3
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-07,21
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-08,14
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-09,14
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-10,17
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-11,27
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-12,5
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-01,17
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-02,16
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-03,18
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-04,10
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-05,2
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-06,1
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-07,8
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-08,19
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-09,9
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-10,14
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-11,16
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-12,12
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-01,14
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-02,12
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-03,12
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-04,8
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-05,7
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-06,6
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-07,8
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-08,15
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-09,12
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-10,22
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-11,13
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-12,10
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-01,11
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-02,2
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-03,11
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-04,21
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-05,3
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-06,9
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-07,15
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-08,6
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-09,15
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-10,13
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-11,13
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-12,12
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-01,16
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-02,20
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-03,7
+LineData,Type,Rigging Permit,2016-01,3
+LineData,Type,Rigging Permit,2016-02,9
+LineData,Type,Rigging Permit,2016-03,17
+LineData,Type,Rigging Permit,2016-04,18
+LineData,Type,Rigging Permit,2016-05,21
+LineData,Type,Rigging Permit,2016-06,12
+LineData,Type,Rigging Permit,2016-07,22
+LineData,Type,Rigging Permit,2016-08,10
+LineData,Type,Rigging Permit,2016-09,24
+LineData,Type,Rigging Permit,2016-10,16
+LineData,Type,Rigging Permit,2016-11,13
+LineData,Type,Rigging Permit,2016-12,14
+LineData,Type,Rigging Permit,2017-01,6
+LineData,Type,Rigging Permit,2017-02,8
+LineData,Type,Rigging Permit,2017-03,13
+LineData,Type,Rigging Permit,2017-04,19
+LineData,Type,Rigging Permit,2017-05,17
+LineData,Type,Rigging Permit,2017-06,25
+LineData,Type,Rigging Permit,2017-07,28
+LineData,Type,Rigging Permit,2017-08,24
+LineData,Type,Rigging Permit,2017-09,7
+LineData,Type,Rigging Permit,2017-10,12
+LineData,Type,Rigging Permit,2017-11,18
+LineData,Type,Rigging Permit,2017-12,12
+LineData,Type,Rigging Permit,2018-01,5
+LineData,Type,Rigging Permit,2018-02,8
+LineData,Type,Rigging Permit,2018-03,9
+LineData,Type,Rigging Permit,2018-04,25
+LineData,Type,Rigging Permit,2018-05,35
+LineData,Type,Rigging Permit,2018-06,27
+LineData,Type,Rigging Permit,2018-07,14
+LineData,Type,Rigging Permit,2018-08,42
+LineData,Type,Rigging Permit,2018-09,21
+LineData,Type,Rigging Permit,2018-10,29
+LineData,Type,Rigging Permit,2018-11,6
+LineData,Type,Rigging Permit,2018-12,12
+LineData,Type,Rigging Permit,2019-01,11
+LineData,Type,Rigging Permit,2019-02,23
+LineData,Type,Rigging Permit,2019-03,21
+LineData,Type,Rigging Permit,2019-04,14
+LineData,Type,Rigging Permit,2019-05,12
+LineData,Type,Rigging Permit,2019-06,33
+LineData,Type,Rigging Permit,2019-07,33
+LineData,Type,Rigging Permit,2019-08,24
+LineData,Type,Rigging Permit,2019-09,21
+LineData,Type,Rigging Permit,2019-10,7
+LineData,Type,Rigging Permit,2019-11,8
+LineData,Type,Rigging Permit,2019-12,7
+LineData,Type,Rigging Permit,2020-01,18
+LineData,Type,Rigging Permit,2020-02,4
+LineData,Type,Rigging Permit,2020-03,10
+LineData,Type,Shooting Permit,2016-01,655
+LineData,Type,Shooting Permit,2016-02,667
+LineData,Type,Shooting Permit,2016-03,955
+LineData,Type,Shooting Permit,2016-04,917
+LineData,Type,Shooting Permit,2016-05,709
+LineData,Type,Shooting Permit,2016-06,811
+LineData,Type,Shooting Permit,2016-07,972
+LineData,Type,Shooting Permit,2016-08,1086
+LineData,Type,Shooting Permit,2016-09,1045
+LineData,Type,Shooting Permit,2016-10,1177
+LineData,Type,Shooting Permit,2016-11,1046
+LineData,Type,Shooting Permit,2016-12,704
+LineData,Type,Shooting Permit,2017-01,781
+LineData,Type,Shooting Permit,2017-02,776
+LineData,Type,Shooting Permit,2017-03,887
+LineData,Type,Shooting Permit,2017-04,789
+LineData,Type,Shooting Permit,2017-05,679
+LineData,Type,Shooting Permit,2017-06,856
+LineData,Type,Shooting Permit,2017-07,1119
+LineData,Type,Shooting Permit,2017-08,1239
+LineData,Type,Shooting Permit,2017-09,882
+LineData,Type,Shooting Permit,2017-10,1190
+LineData,Type,Shooting Permit,2017-11,1100
+LineData,Type,Shooting Permit,2017-12,827
+LineData,Type,Shooting Permit,2018-01,698
+LineData,Type,Shooting Permit,2018-02,823
+LineData,Type,Shooting Permit,2018-03,1154
+LineData,Type,Shooting Permit,2018-04,782
+LineData,Type,Shooting Permit,2018-05,1026
+LineData,Type,Shooting Permit,2018-06,930
+LineData,Type,Shooting Permit,2018-07,1021
+LineData,Type,Shooting Permit,2018-08,1201
+LineData,Type,Shooting Permit,2018-09,1090
+LineData,Type,Shooting Permit,2018-10,1519
+LineData,Type,Shooting Permit,2018-11,1149
+LineData,Type,Shooting Permit,2018-12,689
+LineData,Type,Shooting Permit,2019-01,648
+LineData,Type,Shooting Permit,2019-02,699
+LineData,Type,Shooting Permit,2019-03,1085
+LineData,Type,Shooting Permit,2019-04,1123
+LineData,Type,Shooting Permit,2019-05,837
+LineData,Type,Shooting Permit,2019-06,880
+LineData,Type,Shooting Permit,2019-07,963
+LineData,Type,Shooting Permit,2019-08,1050
+LineData,Type,Shooting Permit,2019-09,931
+LineData,Type,Shooting Permit,2019-10,1185
+LineData,Type,Shooting Permit,2019-11,1055
+LineData,Type,Shooting Permit,2019-12,820
+LineData,Type,Shooting Permit,2020-01,734
+LineData,Type,Shooting Permit,2020-02,657
+LineData,Type,Shooting Permit,2020-03,367
+LineData,Type,Shooting Permit,2020-07,1
+LineData,Type,Shooting Permit,2020-08,1
+LineData,Type,Theater Load in and Load Outs,2016-01,54
+LineData,Type,Theater Load in and Load Outs,2016-02,79
+LineData,Type,Theater Load in and Load Outs,2016-03,87
+LineData,Type,Theater Load in and Load Outs,2016-04,102
+LineData,Type,Theater Load in and Load Outs,2016-05,85
+LineData,Type,Theater Load in and Load Outs,2016-06,67
+LineData,Type,Theater Load in and Load Outs,2016-07,59
+LineData,Type,Theater Load in and Load Outs,2016-08,46
+LineData,Type,Theater Load in and Load Outs,2016-09,80
+LineData,Type,Theater Load in and Load Outs,2016-10,111
+LineData,Type,Theater Load in and Load Outs,2016-11,109
+LineData,Type,Theater Load in and Load Outs,2016-12,62
+LineData,Type,Theater Load in and Load Outs,2017-01,51
+LineData,Type,Theater Load in and Load Outs,2017-02,77
+LineData,Type,Theater Load in and Load Outs,2017-03,104
+LineData,Type,Theater Load in and Load Outs,2017-04,90
+LineData,Type,Theater Load in and Load Outs,2017-05,83
+LineData,Type,Theater Load in and Load Outs,2017-06,73
+LineData,Type,Theater Load in and Load Outs,2017-07,41
+LineData,Type,Theater Load in and Load Outs,2017-08,55
+LineData,Type,Theater Load in and Load Outs,2017-09,99
+LineData,Type,Theater Load in and Load Outs,2017-10,151
+LineData,Type,Theater Load in and Load Outs,2017-11,138
+LineData,Type,Theater Load in and Load Outs,2017-12,101
+LineData,Type,Theater Load in and Load Outs,2018-01,75
+LineData,Type,Theater Load in and Load Outs,2018-02,92
+LineData,Type,Theater Load in and Load Outs,2018-03,93
+LineData,Type,Theater Load in and Load Outs,2018-04,99
+LineData,Type,Theater Load in and Load Outs,2018-05,112
+LineData,Type,Theater Load in and Load Outs,2018-06,97
+LineData,Type,Theater Load in and Load Outs,2018-07,52
+LineData,Type,Theater Load in and Load Outs,2018-08,61
+LineData,Type,Theater Load in and Load Outs,2018-09,102
+LineData,Type,Theater Load in and Load Outs,2018-10,165
+LineData,Type,Theater Load in and Load Outs,2018-11,160
+LineData,Type,Theater Load in and Load Outs,2018-12,108
+LineData,Type,Theater Load in and Load Outs,2019-01,66
+LineData,Type,Theater Load in and Load Outs,2019-02,106
+LineData,Type,Theater Load in and Load Outs,2019-03,112
+LineData,Type,Theater Load in and Load Outs,2019-04,125
+LineData,Type,Theater Load in and Load Outs,2019-05,151
+LineData,Type,Theater Load in and Load Outs,2019-06,106
+LineData,Type,Theater Load in and Load Outs,2019-07,93
+LineData,Type,Theater Load in and Load Outs,2019-08,88
+LineData,Type,Theater Load in and Load Outs,2019-09,151
+LineData,Type,Theater Load in and Load Outs,2019-10,184
+LineData,Type,Theater Load in and Load Outs,2019-11,162
+LineData,Type,Theater Load in and Load Outs,2019-12,136
+LineData,Type,Theater Load in and Load Outs,2020-01,76
+LineData,Type,Theater Load in and Load Outs,2020-02,117
+LineData,Type,Theater Load in and Load Outs,2020-03,39
+LineData,Type,Theater Load in and Load Outs,2020-08,3

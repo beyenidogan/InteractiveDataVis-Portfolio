@@ -1,28 +1,18 @@
 // import our components
 import { Bar } from "./Bar.js";
-/* import { Map } from "./Map.js";*/
 import { Line } from "./Line.js"; 
 
-let bar, map, line;
+let bar, line;
 
 // global state
 let state = {
   lineData: [],
-  filteredLineData: [],
-  mapData:[],
-  filteredMapData: [],
-  dataSource: "../data/Summary_Borough.csv",
-  summaryData: [],
-  summaryDomain: [],
+  barData: [],
   showby:"Borough",
-/*   lineDomainB: [],
-  lineDomainC: [],
-  lineDomainT: [], */
-  selectedBorough: "All Boroughs",
   listBorough:["All Boroughs","Bronx","Brooklyn","Manhattan","Queens","Staten Island"],
   listCategories: ["All Categories","Commercial","Documentary","Film","Music Video","Red Carpet/Premiere","Still Photography","Student","Television","Theater","WEB"],
-  listTypes: ["All Permit Types","DCAS Prep/Shoot/Wrap Permit","DCAS Prep/Shoot/Wrap Permit","Shooting Permit","Theater Load in and Load Outs"],
-
+  listTypes: ["All Permit Types","DCAS Prep/Shoot/Wrap Permit","Rigging Permit","Shooting Permit","Theater Load in and Load Outs"],
+  selectedBorough: "All Boroughs",
   selectedCategory: "All Categories",
   selectedType: "All Permit Types",
   boroughActive: true,
@@ -30,38 +20,25 @@ let state = {
   typeActive: false,
 }
 
-d3.csv("../data/LineData2.csv", d3.autoType).then(data => {
-  console.log("lineData", data);
-  state.lineData = data;
-/*   state.lineDomainB = [
-    0, 
-    d3.max(data["All Boroughs"])
-      .flat()]
-  state.lineDomainC = [
-    0, 
-    d3.max(d["All Categories"])
-      .flat()]
-  state.lineDomainT = [
-    0, 
-    d3.max(d["All Permit Types"])
-        .flat()]  */
-    console.log("flat",state.domain) ,
+d3.csv("../data/Line_Data.csv", d3.autoType).then(data => {
+  console.log("allData", data);
+  state.barData = data.filter(d=>d.DataType==="BarData");
+  console.log("barData",  state.barData);
+  state.lineData=data.filter(d => d.DataType === "LineData");
+  console.log("lineData",  state.lineData);
   init()
 });
 
+
+
 function init() {
   bar= new Bar(state, setGlobalState);
-/*   bar.getData(state,setGlobalState); */
-/*   map = new Map(state, setGlobalState);*/
   line = new Line(state, setGlobalState); 
   draw();
 }
 
-
 function draw() {
-/*   bar.getData(state,setGlobalState); */
   bar.draw(state,setGlobalState);
-/*   map.draw(state, setGlobalState);*/
   line.draw(state, setGlobalState); 
 }
 

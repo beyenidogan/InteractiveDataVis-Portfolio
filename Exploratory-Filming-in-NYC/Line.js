@@ -2,9 +2,9 @@ class Line {
 
     constructor(state, setGlobalState) {
         // initialize properties here
-        this.width = window.innerWidth * 0.3;
-        this.height = window.innerHeight * 0.5;
-        this.margins = { top: 5, bottom: 5, left: 5, right: 5 };
+        this.width = window.innerWidth * 0.45;
+        this.height = window.innerHeight * 0.6;
+        this.margins = { top: 5, bottom: 30, left: 30, right: 5 };
         this.duration = 1000;
     
         this.svg = d3
@@ -17,120 +17,99 @@ class Line {
      draw(state, setGlobalState) {
         console.log("now I am drawing my LINE graph");
         
+        console.log(state.lineData)
 
-        let boroughData=d3.nest()           
-                .key(d=>d.Borough)
-                .key(d => d.Month)   
-                .rollup(leaves=>{
-                    return{
-                        "Events": d3.sum(leaves, function(d) {return(d.Events)})
-                    }
+        let showbyData = state.lineData
+            .filter(d => {
+                if (state.showby=== "Borough") {return d.Filter=== state.showby;} 
+                else if (state.showby=== "Category") {return d.Filter=== state.showby;} 
+                else if (state.showby==="Type") {return d.Filter=== state.showby;}
                 })
-                .entries(state.lineData, d=>{
-                    d.Month=d.Month;
-                    d.Events=d.Events;
-                })
-                
-        console.log(boroughData.Events)
-    
-        let categoryData=d3.nest()
-                .key(d=>d.Category)
-                .key(d => d.Month)
-                .rollup(leaves=>{
-                    return{
-                        "Events":d3.sum(leaves, function(d) {return(d.Events)})
-                    }
-                })
-                .entries(state.lineData)
-        console.log(categoryData)   
+        console.log(showbyData)
         
-        let typeData=d3.nest()
-                .key(d=>d["Event Type"])
-                .key(d => d.Month)
-                .rollup(leaves=>{
-                    return{
-                        "Events":d3.sum(leaves, function(d) {return(d.Events)})
-                    }
-                })
-                .entries(state.lineData)
-        console.log(typeData)         
-        
-        let selectedLineData 
+        let filteredData=showbyData
+        if (state.showby=== "Borough" ){
+            filteredData= showbyData.filter(d => d.Name === state.selectedBorough)
+        }
+        else if (state.showby=== "Category") {
+            filteredData= showbyData.filter(d => d.Name === state.selectedCategory)
+        }
+        else if (state.showby=== "Type") {
+            filteredData= showbyData.filter(d => d.Name === state.selectedType)
+        }
+        console.log(filteredData)
 
-        if (state.boroughActive === true) {
-                
-                selectedLineData =boroughData;
-                console.log("now using borough data for line graph")
-                }
-        else if (state.categoryActive === true) {
-                selectedLineData =categoryData;
-                console.log("now using category data for line graph")
-                }
-        else if (state.typeActive === true) {
-                selectedLineData =typeData;
-                console.log("now using category data for line graph")
-                }
-        
 
         const xScale = d3
             .scaleTime()
-            .domain(d3.extent(state.lineData,d=>d.Month))
+            .domain(d3.extent(filteredData,d=>d.Month))
             .range([this.margins.left, this.width - this.margins.right])
-
+        
         const yScale = d3
             .scaleLinear()
-            .domain([0,d3.max(selectedLineData, d => d.values)])
+            .domain([0,d3.max(filteredData, d => d.Events)])
             .range([this.height - this.margins.top, this.margins.bottom]);
-
-        const colors=d3.scaleOrdinal()
-                .domain([selectedLineData.keys])
-                .range(["#EF5285", "#88F284" , "#5965A3","#EF5285", "#88F284" , "#5965A3","#EF5285", "#88F284" , "#5965A3","#EF5285", "#88F284" , "#5965A3"])
 
         const valueLine = d3.line()
                 .x(function(d) { return x(d.Month); })
                 .y(function(d) { return y(+d.Events); })
 
-
         const xAxis = this.svg.append("g")
-                .attr("transform", "translate(0," + (this.height-4*this.margins.bottom) + ")")
+                .attr("transform", "translate(0," + (this.height-this.margins.bottom) + ")")
                 .attr("class", "x-axis")
                 .call(d3.axisBottom(xScale)
                     .ticks(d3.timeMonth)
                     .tickSize(5,0) 
                     .ticks(5)
-                    .tickFormat(d3.timeFormat("%Y")));
+                    .tickFormat(d3.timeFormat("%Y")))
         let yAxis = this.svg.append("g")
-                    .attr("class", "y-axis")
-                    .call(d3.axisLeft(yScale)
-                       .ticks(5)
-                       .tickSizeInner(0)
-                       .tickPadding(6)
-                       .tickSize(0, 0));
+                .attr("transform", "translate(30," + (-this.margins.bottom) + ")")
+                .attr("class", "y-axis")
+                .transition()
+                .duration(1000)
+                .call(d3.axisLeft(yScale)); 
 
-/*        const line = this.svg
+
+       const line = this.svg
             .selectAll("g.line")
-            .data(metricData)
+            .data(filteredData)
             .join(
                 enter =>
                 enter
                     .append("g")
                     .attr("class", "line")
-                    .call(enter => enter.append("rect"))
-                    .call(enter => enter.append("text")),
+                    .attr("stroke", "white")
+                    .call(enter => enter.append("path")),
                 update => update,
                 exit => exit.remove()
-            ).on("click", d => {
-                setGlobalState({ selectedMetric: d.metric });
-            })
-    
-        line
+            ) 
+        line.select("path")
+            .transition()
+            .duration(this.duration)
+            .attr("d",d=>valueLine(d))
+
+/*         let line = this.svg
+            .selectAll("g.line")
+            .data(filteredData)
+            .append("g")
+            .attr("class", "line")
+            .attr("stroke", d=>d.key)
+        let paths= line.selectAll(".line")
+            .data(function(d){ return d.values})
+            .enter()
+            .append("path")
+            .attr("d",d=>valueLine(d.values))
+            .attr("class", "line") */
+
+
+ /*        line
             .transition()
             .duration(this.duration)
             .attr(
                 "transform",
-                d => `translate(${xScale(d.metric)}, ${yScale(d.value)})`
+                d => `translate(${xScale(d.Month)}, ${yScale(d.Events)})`
             );
-    
+   
         line
             .select("rect")
             .transition()
@@ -142,8 +121,17 @@ class Line {
         line
             .select("text")
             .attr("dy", "-.5em")
-            .text(d => `${d.metric}: ${this.format(d.value)}`);    */
+            .text(d => `${d.metric}: ${this.format(d.value)}`);   */  
+
+
+
+/*         d3.select("g.y-axis")
+            .transition()
+            .duration(1000)
+            .call(yAxis); */
+
       }
+
 
 
 
