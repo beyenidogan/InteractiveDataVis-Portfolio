@@ -3,7 +3,7 @@ class Bar {
     constructor(state, setGlobalState) {
         // initialize properties here
         this.width = window.innerWidth * 0.3;
-        this.height = window.innerHeight * 0.5;
+        this.height = window.innerHeight * 0.4;
         this.margins = { top: 5, bottom: 5, left: 5, right: 5 };
         this.duration = 1000;
         this.format = d3.format(",." + d3.precisionFixed(1) + "f");
@@ -97,6 +97,7 @@ class Bar {
             setGlobalState({
                 showby:"Borough",
             })
+            yScale.domain(showbyBarData.map(d => d.Name))
         })
 
 
@@ -113,6 +114,7 @@ class Bar {
             setGlobalState({
                 showby:"Category",
             })
+            yScale.domain(showbyBarData.map(d => d.Name));
 
         })
 
@@ -129,7 +131,7 @@ class Bar {
             setGlobalState({
                 showby:"Type",
             })
-            
+            yScale.domain(showbyBarData.map(d => d.Name))
         })
 
     }
@@ -153,21 +155,21 @@ class Bar {
         console.log(showbyBarData)
         
         let values
-        if (state.showby=== "Borough"){values=state.listBorough}
-        else if (state.showby=== "Category") {values=state.listCategories}
-        else if (state.showby=== "Type") {values=state.listTypes}
+        if (state.showby=== "Borough"){values=["Staten Island","Bronx","Queens","Brooklyn","Manhattan"]}
+        else if (state.showby=== "Category") {values=["Red Carpet/Premiere","Documentary","Student","Music Video","WEB","Still Photography","Theater","Film","Television"]}
+        else if (state.showby=== "Type") {values=["DCAS Prep/Shoot/Wrap Permit","Rigging Permit","Theater Load in and Load Outs","Shooting Permit"]}
          
         console.log(values)
 
 
-        const yScale = d3
+        let yScale = d3
             .scaleBand()
-            .domain(values)
+            .domain(showbyBarData.map(d => d.Name))
             .range([this.height - this.margins.top, 5*this.margins.bottom])
-            .paddingInner(0.5)
+            .paddingInner(0.6)
 
 
-        const xScale = d3
+        let xScale = d3
             .scaleLinear()
             .domain([0, d3.max(showbyBarData, d => +d.Events)])
             .range([this.margins.left, this.width - this.margins.right])  
@@ -182,49 +184,35 @@ class Bar {
                 .append("g")
                 .attr("class", "bar")
                 .attr("fill-opacity", 0.5)
-                .call(enter => enter.append("rect")
-                    .transition()
-                    .duration(this.duration)
-                    /* .attr("y",(d,i)=>yScale(i)) */
-                    .attr("width", d=>xScale(d.Events))
-                    .attr("height", yScale.bandwidth())
-                    .style("fill", "white"))
+                .attr("y",d=>yScale(d.Name)) 
+                .call(enter => enter.append("rect"))
                 .call(enter => enter.append("text")),
             update => update
+                .call(update=>update
+                    .attr("y",d=>yScale(d.Name))) 
             ,
             exit => exit.remove()
             )
     
-        bars
-            .attr(
-                "transform",
-                d => `translate(0, ${yScale(d.Name)})`
-                );
-    
-        bars
-            .select("rect")
-            .transition()
-            .duration(this.duration)
-            .attr("width", d=>xScale(d.Events))
-            .attr("height", yScale.bandwidth())
-            .style("fill", "white")
-            
-
-        
          bars
             .select("rect")
-            .sort(function(a,b){ d3.ascending(a, b)})
-            .attr("x",function(d,i){return yScale(i)})              
+            .attr("y",d=>yScale(d.Name)) 
+            .transition()
+            .duration(this.duration)
+            .attr("y",d=>yScale(d.Name)) 
+            .attr("width", d=>xScale(d.Events))
+            .attr("height", yScale.bandwidth()*0.8)
+            .style("fill", "white")                            
 
          bars
             .select("text")
-            .attr("dy", "-.5em")
+            .attr("dy", "-0.5em")
+            .attr("y",d=>yScale(d.Name)) 
             .style("fill","white")
-            .style("font-size","14px")
+            .style("font-size","13px")
             .text(d => `${d.Name}: ${this.format(d.Events)}`); 
         }
   
-    
 }     
 
 export { Bar };

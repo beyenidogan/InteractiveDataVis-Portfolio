@@ -19,12 +19,7 @@ class Line {
         
         console.log(state.lineData)
 
-        let showbyData = state.lineData
-            .filter(d => {
-                if (state.showby=== "Borough") {return d.Filter=== state.showby;} 
-                else if (state.showby=== "Category") {return d.Filter=== state.showby;} 
-                else if (state.showby==="Type") {return d.Filter=== state.showby;}
-                })
+        const showbyData = state.lineData.filter(d => d.Filter=== state.showby )
         console.log(showbyData)
         
         let filteredData=showbyData
@@ -39,12 +34,12 @@ class Line {
         }
         console.log(filteredData)
 
-
         let xScale = d3
             .scaleTime()
             .domain(d3.extent(filteredData,d=>d.Month))
             .range([this.margins.left, this.width - this.margins.right])
-        
+        console.log(d3.extent(filteredData,d=>d.Month))
+
         let yScale = d3
             .scaleLinear()
             .domain([0,d3.max(filteredData, d => d.Events)])
@@ -52,8 +47,8 @@ class Line {
 
         const valueLine = d3.line()
                 .x(function(d) { return x(d.Month); })
-                .y(function(d) { return y(+d.Events); })
-
+                .y(function(d) { return y(+d.Events); }) 
+        console.log([0,d3.max(filteredData, d => d.Events)])
         const xAxis = this.svg.append("g")
                 .attr("transform", "translate(0," + (this.height-this.margins.bottom) + ")")
                 .attr("class", "x-axis")
@@ -81,9 +76,11 @@ class Line {
             .join(
                 enter =>
                 enter
+                    .append("path")
                     .attr("class", "trend")
                     .attr("stroke", "white")
-                    .attr("opacity", 1)
+                    .attr("stroke-width",1)
+                    .attr("opacity", 0)
                     .call(enter => enter.append("path")),
                 update => update,
                 exit => exit.remove()
@@ -93,7 +90,9 @@ class Line {
                   .transition() // sets the transition on the 'Enter' + 'Update' selections together.
                   .duration(1000)
                   .attr("opacity", 1)
-                  .attr("d", d => valueLine(d))
+                  .attr("d", d3.line()
+                        .x(function(d) { return x(d.Month); })
+                        .y(function(d) { return y(+d.Events); }))
               );
 
 
@@ -103,20 +102,7 @@ class Line {
             .attr("d",d=>valueLine(d))
 
 
-
-
-
-/*         d3.select("g.y-axis")
-            .transition()
-            .duration(1000)
-            .call(yAxis); */
-
       }
-
-
-
-
-
 
     }
 
