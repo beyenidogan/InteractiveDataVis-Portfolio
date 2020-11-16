@@ -3,7 +3,7 @@ class Bar {
     constructor(state, setGlobalState) {
         // initialize properties here
         this.width = window.innerWidth * 0.3;
-        this.height = window.innerHeight * 0.4;
+        this.height = window.innerHeight * 0.45;
         this.margins = { top: 5, bottom: 5, left: 5, right: 5 };
         this.duration = 1000;
         this.format = d3.format(",." + d3.precisionFixed(1) + "f");
@@ -97,7 +97,7 @@ class Bar {
             setGlobalState({
                 showby:"Borough",
             })
-            yScale.domain(showbyBarData.map(d => d.Name))
+
         })
 
 
@@ -113,10 +113,8 @@ class Bar {
             .attr("style", "display: none")
             setGlobalState({
                 showby:"Category",
+                })
             })
-            yScale.domain(showbyBarData.map(d => d.Name));
-
-        })
 
         this.changeTypeActive = d3
         .select("#type-button")
@@ -130,9 +128,10 @@ class Bar {
             .attr("style", "display: visible")
             setGlobalState({
                 showby:"Type",
+                })
+            
             })
-            yScale.domain(showbyBarData.map(d => d.Name))
-        })
+
 
     }
     
@@ -142,7 +141,13 @@ class Bar {
     draw(state, setGlobalState) {
         console.log("now I am drawing my graph");
 
-    console.log(state.barData)
+    d3.select("#bar-title")
+        .select("#showby")
+        .text(state.showby)
+        .style("fill", "white")
+
+
+        console.log(state.barData)
 
         let showbyBarData = state.barData
             .filter(d => {
@@ -153,7 +158,8 @@ class Bar {
             .sort();
 
         console.log(showbyBarData)
-        
+    
+
         let values
         if (state.showby=== "Borough"){values=["Staten Island","Bronx","Queens","Brooklyn","Manhattan"]}
         else if (state.showby=== "Category") {values=["Red Carpet/Premiere","Documentary","Student","Music Video","WEB","Still Photography","Theater","Film","Television"]}

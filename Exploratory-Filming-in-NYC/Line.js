@@ -2,9 +2,9 @@ class Line {
 
     constructor(state, setGlobalState) {
         // initialize properties here
-        this.width = window.innerWidth * 0.45;
+        this.width = window.innerWidth * 0.5;
         this.height = window.innerHeight * 0.6;
-        this.margins = { top: 5, bottom: 30, left: 30, right: 5 };
+        this.margins = { top: 5, bottom: 30, left: 40, right: 5 };
         this.duration = 1000;
     
         this.svg = d3
@@ -42,13 +42,14 @@ class Line {
 
         let yScale = d3
             .scaleLinear()
-            .domain([0,d3.max(filteredData, d => d.Events)])
+            .domain([0,d3.max(showbyData, d => d.Events)])
             .range([this.height - this.margins.top, this.margins.bottom]);
+        
+        const lineFunc = d3.line()
+                .x(d=>xScale(d.Month))
+                .y(d=>yScale(d.Events)) 
 
-        const valueLine = d3.line()
-                .x(function(d) { return x(d.Month); })
-                .y(function(d) { return y(+d.Events); }) 
-        console.log([0,d3.max(filteredData, d => d.Events)])
+        
         const xAxis = this.svg.append("g")
                 .attr("transform", "translate(0," + (this.height-this.margins.bottom) + ")")
                 .attr("class", "x-axis")
@@ -58,11 +59,13 @@ class Line {
                     .ticks(5)
                     .tickFormat(d3.timeFormat("%Y")))
         let yAxis = this.svg.append("g")
-                .attr("transform", "translate(30," + (-this.margins.bottom) + ")")
+                .attr("transform", "translate(40," + (-this.margins.bottom) + ")")
                 .attr("class", "y-axis")
                 .transition()
                 .duration(1000)
-                .call(d3.axisLeft(yScale)); 
+                .call(d3.axisLeft(yScale))
+ 
+
         console.log(state)
 /*         yScale.domain([0, d3.max(filteredData, d => d.Events)]);
 
@@ -70,7 +73,10 @@ class Line {
         .transition()
         .duration(1000)
         .call(yAxis.scale(yScale)); */
-       const line = this.svg
+       console.log([filteredData])
+       console.log([filteredData.Month])
+       
+        const line = this.svg
             .selectAll("path.trend")
             .data([filteredData])
             .join(
@@ -90,12 +96,10 @@ class Line {
                   .transition() // sets the transition on the 'Enter' + 'Update' selections together.
                   .duration(1000)
                   .attr("opacity", 1)
-                  .attr("d", d3.line()
-                        .x(function(d) { return x(d.Month); })
-                        .y(function(d) { return y(+d.Events); }))
+                  .attr("d", lineFunc())
               );
 
-
+            
         line.select("path")
             .transition()
             .duration(this.duration)

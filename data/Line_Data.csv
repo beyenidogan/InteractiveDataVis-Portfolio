@@ -1,1070 +1,3166 @@
-﻿DataType,Filter,Name,Month,Events
-BarData,Borough,Staten Island,,690
-BarData,Borough,Bronx,,1790
-BarData,Borough,Queens,,8353
-BarData,Borough,Brooklyn,,14809
-BarData,Borough,Manhattan,,27720
-BarData,Category,Red Carpet/Premiere,,1
-BarData,Category,Documentary,,185
-BarData,Category,Student,,211
-BarData,Category,Music Video,,220
-BarData,Category,WEB,,2053
-BarData,Category,Still Photography,,3304
-BarData,Category,Commercial,,3967
-BarData,Category,Theater,,4949
-BarData,Category,Film,,7231
-BarData,Category,Television,,31241
-BarData,Type,DCAS Prep/Shoot/Wrap Permit,,593
-BarData,Type,Rigging Permit,,847
-BarData,Type,Theater Load in and Load Outs,,4935
-BarData,Type,Shooting Permit,,46987
-LineData,Borough,Staten Island,2016-01,2
-LineData,Borough,Bronx,2016-01,18
-LineData,Borough,Queens,2016-01,173
-LineData,Borough,Brooklyn,2016-01,192
-LineData,Borough,Manhattan,2016-01,336
-LineData,Borough,All Boroughs,2016-01,721
-LineData,Borough,Staten Island,2016-02,3
-LineData,Borough,Bronx,2016-02,16
-LineData,Borough,Queens,2016-02,145
-LineData,Borough,Brooklyn,2016-02,225
-LineData,Borough,Manhattan,2016-02,375
-LineData,Borough,All Boroughs,2016-02,764
-LineData,Borough,Staten Island,2016-03,4
-LineData,Borough,Bronx,2016-03,15
-LineData,Borough,Queens,2016-03,192
-LineData,Borough,Brooklyn,2016-03,298
-LineData,Borough,Manhattan,2016-03,559
-LineData,Borough,All Boroughs,2016-03,1068
-LineData,Borough,Staten Island,2016-04,5
-LineData,Borough,Bronx,2016-04,18
-LineData,Borough,Queens,2016-04,131
-LineData,Borough,Brooklyn,2016-04,262
-LineData,Borough,Manhattan,2016-04,629
-LineData,Borough,All Boroughs,2016-04,1045
-LineData,Borough,Staten Island,2016-05,7
-LineData,Borough,Bronx,2016-05,12
-LineData,Borough,Queens,2016-05,115
-LineData,Borough,Brooklyn,2016-05,216
-LineData,Borough,Manhattan,2016-05,467
-LineData,Borough,All Boroughs,2016-05,817
-LineData,Borough,Bronx,2016-06,28
-LineData,Borough,Queens,2016-06,89
-LineData,Borough,Brooklyn,2016-06,275
-LineData,Borough,Manhattan,2016-06,501
-LineData,Borough,All Boroughs,2016-06,893
-LineData,Borough,Staten Island,2016-07,17
-LineData,Borough,Bronx,2016-07,26
-LineData,Borough,Queens,2016-07,153
-LineData,Borough,Brooklyn,2016-07,296
-LineData,Borough,Manhattan,2016-07,582
-LineData,Borough,All Boroughs,2016-07,1074
-LineData,Borough,Staten Island,2016-08,19
-LineData,Borough,Bronx,2016-08,33
-LineData,Borough,Queens,2016-08,208
-LineData,Borough,Brooklyn,2016-08,356
-LineData,Borough,Manhattan,2016-08,540
-LineData,Borough,All Boroughs,2016-08,1156
-LineData,Borough,Staten Island,2016-09,24
-LineData,Borough,Bronx,2016-09,40
-LineData,Borough,Queens,2016-09,216
-LineData,Borough,Brooklyn,2016-09,357
-LineData,Borough,Manhattan,2016-09,526
-LineData,Borough,All Boroughs,2016-09,1163
-LineData,Borough,Staten Island,2016-10,23
-LineData,Borough,Bronx,2016-10,48
-LineData,Borough,Queens,2016-10,196
-LineData,Borough,Brooklyn,2016-10,389
-LineData,Borough,Manhattan,2016-10,665
-LineData,Borough,All Boroughs,2016-10,1321
-LineData,Borough,Staten Island,2016-11,19
-LineData,Borough,Bronx,2016-11,38
-LineData,Borough,Queens,2016-11,202
-LineData,Borough,Brooklyn,2016-11,329
-LineData,Borough,Manhattan,2016-11,607
-LineData,Borough,All Boroughs,2016-11,1195
-LineData,Borough,Staten Island,2016-12,8
-LineData,Borough,Bronx,2016-12,24
-LineData,Borough,Queens,2016-12,120
-LineData,Borough,Brooklyn,2016-12,237
-LineData,Borough,Manhattan,2016-12,396
-LineData,Borough,All Boroughs,2016-12,785
-LineData,Borough,Staten Island,2017-01,14
-LineData,Borough,Bronx,2017-01,25
-LineData,Borough,Queens,2017-01,164
-LineData,Borough,Brooklyn,2017-01,242
-LineData,Borough,Manhattan,2017-01,410
-LineData,Borough,All Boroughs,2017-01,855
-LineData,Borough,Staten Island,2017-02,10
-LineData,Borough,Bronx,2017-02,33
-LineData,Borough,Queens,2017-02,159
-LineData,Borough,Brooklyn,2017-02,258
-LineData,Borough,Manhattan,2017-02,417
-LineData,Borough,All Boroughs,2017-02,877
-LineData,Borough,Staten Island,2017-03,9
-LineData,Borough,Bronx,2017-03,58
-LineData,Borough,Queens,2017-03,145
-LineData,Borough,Brooklyn,2017-03,275
-LineData,Borough,Manhattan,2017-03,535
-LineData,Borough,All Boroughs,2017-03,1022
-LineData,Borough,Staten Island,2017-04,5
-LineData,Borough,Bronx,2017-04,19
-LineData,Borough,Queens,2017-04,155
-LineData,Borough,Brooklyn,2017-04,182
-LineData,Borough,Manhattan,2017-04,547
-LineData,Borough,All Boroughs,2017-04,908
-LineData,Borough,Staten Island,2017-05,10
-LineData,Borough,Bronx,2017-05,33
-LineData,Borough,Queens,2017-05,64
-LineData,Borough,Brooklyn,2017-05,220
-LineData,Borough,Manhattan,2017-05,454
-LineData,Borough,All Boroughs,2017-05,781
-LineData,Borough,Staten Island,2017-06,13
-LineData,Borough,Bronx,2017-06,25
-LineData,Borough,Queens,2017-06,89
-LineData,Borough,Brooklyn,2017-06,316
-LineData,Borough,Manhattan,2017-06,512
-LineData,Borough,All Boroughs,2017-06,955
-LineData,Borough,Staten Island,2017-07,25
-LineData,Borough,Bronx,2017-07,40
-LineData,Borough,Queens,2017-07,172
-LineData,Borough,Brooklyn,2017-07,380
-LineData,Borough,Manhattan,2017-07,579
-LineData,Borough,All Boroughs,2017-07,1196
-LineData,Borough,Staten Island,2017-08,23
-LineData,Borough,Bronx,2017-08,62
-LineData,Borough,Queens,2017-08,240
-LineData,Borough,Brooklyn,2017-08,395
-LineData,Borough,Manhattan,2017-08,617
-LineData,Borough,All Boroughs,2017-08,1337
-LineData,Borough,Staten Island,2017-09,14
-LineData,Borough,Bronx,2017-09,30
-LineData,Borough,Queens,2017-09,156
-LineData,Borough,Brooklyn,2017-09,272
-LineData,Borough,Manhattan,2017-09,525
-LineData,Borough,All Boroughs,2017-09,997
-LineData,Borough,Staten Island,2017-10,10
-LineData,Borough,Bronx,2017-10,49
-LineData,Borough,Queens,2017-10,218
-LineData,Borough,Brooklyn,2017-10,375
-LineData,Borough,Manhattan,2017-10,715
-LineData,Borough,All Boroughs,2017-10,1367
-LineData,Borough,Staten Island,2017-11,2
-LineData,Borough,Bronx,2017-11,33
-LineData,Borough,Queens,2017-11,172
-LineData,Borough,Brooklyn,2017-11,364
-LineData,Borough,Manhattan,2017-11,701
-LineData,Borough,All Boroughs,2017-11,1272
-LineData,Borough,Staten Island,2017-12,10
-LineData,Borough,Bronx,2017-12,44
-LineData,Borough,Queens,2017-12,170
-LineData,Borough,Brooklyn,2017-12,245
-LineData,Borough,Manhattan,2017-12,483
-LineData,Borough,All Boroughs,2017-12,952
-LineData,Borough,Staten Island,2018-01,2
-LineData,Borough,Bronx,2018-01,21
-LineData,Borough,Queens,2018-01,153
-LineData,Borough,Brooklyn,2018-01,182
-LineData,Borough,Manhattan,2018-01,434
-LineData,Borough,All Boroughs,2018-01,792
-LineData,Borough,Staten Island,2018-02,8
-LineData,Borough,Bronx,2018-02,36
-LineData,Borough,Queens,2018-02,182
-LineData,Borough,Brooklyn,2018-02,250
-LineData,Borough,Manhattan,2018-02,459
-LineData,Borough,All Boroughs,2018-02,935
-LineData,Borough,Staten Island,2018-03,8
-LineData,Borough,Bronx,2018-03,53
-LineData,Borough,Queens,2018-03,209
-LineData,Borough,Brooklyn,2018-03,350
-LineData,Borough,Manhattan,2018-03,648
-LineData,Borough,All Boroughs,2018-03,1268
-LineData,Borough,Staten Island,2018-04,16
-LineData,Borough,Bronx,2018-04,59
-LineData,Borough,Queens,2018-04,89
-LineData,Borough,Brooklyn,2018-04,227
-LineData,Borough,Manhattan,2018-04,523
-LineData,Borough,All Boroughs,2018-04,914
-LineData,Borough,Staten Island,2018-05,6
-LineData,Borough,Bronx,2018-05,43
-LineData,Borough,Queens,2018-05,97
-LineData,Borough,Brooklyn,2018-05,323
-LineData,Borough,Manhattan,2018-05,711
-LineData,Borough,All Boroughs,2018-05,1180
-LineData,Borough,Bronx,2018-06,34
-LineData,Borough,Staten Island,2018-06,34
-LineData,Borough,Queens,2018-06,95
-LineData,Borough,Brooklyn,2018-06,284
-LineData,Borough,Manhattan,2018-06,613
-LineData,Borough,All Boroughs,2018-06,1060
-LineData,Borough,Staten Island,2018-07,11
-LineData,Borough,Bronx,2018-07,44
-LineData,Borough,Queens,2018-07,181
-LineData,Borough,Brooklyn,2018-07,328
-LineData,Borough,Manhattan,2018-07,531
-LineData,Borough,All Boroughs,2018-07,1095
-LineData,Borough,Staten Island,2018-08,4
-LineData,Borough,Bronx,2018-08,67
-LineData,Borough,Queens,2018-08,231
-LineData,Borough,Brooklyn,2018-08,423
-LineData,Borough,Manhattan,2018-08,594
-LineData,Borough,All Boroughs,2018-08,1319
-LineData,Borough,Staten Island,2018-09,16
-LineData,Borough,Bronx,2018-09,51
-LineData,Borough,Queens,2018-09,233
-LineData,Borough,Brooklyn,2018-09,310
-LineData,Borough,Manhattan,2018-09,615
-LineData,Borough,All Boroughs,2018-09,1225
-LineData,Borough,Staten Island,2018-10,23
-LineData,Borough,Bronx,2018-10,53
-LineData,Borough,Queens,2018-10,273
-LineData,Borough,Brooklyn,2018-10,504
-LineData,Borough,Manhattan,2018-10,882
-LineData,Borough,All Boroughs,2018-10,1735
-LineData,Borough,Staten Island,2018-11,27
-LineData,Borough,Bronx,2018-11,47
-LineData,Borough,Queens,2018-11,197
-LineData,Borough,Brooklyn,2018-11,434
-LineData,Borough,Manhattan,2018-11,623
-LineData,Borough,All Boroughs,2018-11,1328
-LineData,Borough,Staten Island,2018-12,6
-LineData,Borough,Bronx,2018-12,26
-LineData,Borough,Queens,2018-12,127
-LineData,Borough,Brooklyn,2018-12,239
-LineData,Borough,Manhattan,2018-12,421
-LineData,Borough,All Boroughs,2018-12,819
-LineData,Borough,Staten Island,2019-01,2
-LineData,Borough,Bronx,2019-01,20
-LineData,Borough,Queens,2019-01,117
-LineData,Borough,Brooklyn,2019-01,229
-LineData,Borough,Manhattan,2019-01,368
-LineData,Borough,All Boroughs,2019-01,736
-LineData,Borough,Staten Island,2019-02,12
-LineData,Borough,Bronx,2019-02,40
-LineData,Borough,Queens,2019-02,139
-LineData,Borough,Brooklyn,2019-02,241
-LineData,Borough,Manhattan,2019-02,398
-LineData,Borough,All Boroughs,2019-02,830
-LineData,Borough,Staten Island,2019-03,24
-LineData,Borough,Bronx,2019-03,57
-LineData,Borough,Queens,2019-03,172
-LineData,Borough,Brooklyn,2019-03,288
-LineData,Borough,Manhattan,2019-03,688
-LineData,Borough,All Boroughs,2019-03,1229
-LineData,Borough,Staten Island,2019-04,25
-LineData,Borough,Bronx,2019-04,61
-LineData,Borough,Queens,2019-04,141
-LineData,Borough,Brooklyn,2019-04,275
-LineData,Borough,Manhattan,2019-04,781
-LineData,Borough,All Boroughs,2019-04,1283
-LineData,Borough,Staten Island,2019-05,33
-LineData,Borough,Bronx,2019-05,36
-LineData,Borough,Queens,2019-05,121
-LineData,Borough,Brooklyn,2019-05,217
-LineData,Borough,Manhattan,2019-05,596
-LineData,Borough,All Boroughs,2019-05,1003
-LineData,Borough,Bronx,2019-06,42
-LineData,Borough,Staten Island,2019-06,59
-LineData,Borough,Queens,2019-06,87
-LineData,Borough,Brooklyn,2019-06,224
-LineData,Borough,Manhattan,2019-06,616
-LineData,Borough,All Boroughs,2019-06,1028
-LineData,Borough,Bronx,2019-07,26
-LineData,Borough,Staten Island,2019-07,44
-LineData,Borough,Queens,2019-07,137
-LineData,Borough,Brooklyn,2019-07,248
-LineData,Borough,Manhattan,2019-07,649
-LineData,Borough,All Boroughs,2019-07,1104
-LineData,Borough,Bronx,2019-08,15
-LineData,Borough,Staten Island,2019-08,16
-LineData,Borough,Queens,2019-08,242
-LineData,Borough,Brooklyn,2019-08,346
-LineData,Borough,Manhattan,2019-08,549
-LineData,Borough,All Boroughs,2019-08,1168
-LineData,Borough,Staten Island,2019-09,12
-LineData,Borough,Bronx,2019-09,18
-LineData,Borough,Queens,2019-09,215
-LineData,Borough,Brooklyn,2019-09,333
-LineData,Borough,Manhattan,2019-09,540
-LineData,Borough,All Boroughs,2019-09,1118
-LineData,Borough,Staten Island,2019-10,8
-LineData,Borough,Bronx,2019-10,24
-LineData,Borough,Queens,2019-10,283
-LineData,Borough,Brooklyn,2019-10,355
-LineData,Borough,Manhattan,2019-10,719
-LineData,Borough,All Boroughs,2019-10,1389
-LineData,Borough,Staten Island,2019-11,6
-LineData,Borough,Bronx,2019-11,32
-LineData,Borough,Queens,2019-11,240
-LineData,Borough,Brooklyn,2019-11,380
-LineData,Borough,Manhattan,2019-11,580
-LineData,Borough,All Boroughs,2019-11,1238
-LineData,Borough,Staten Island,2019-12,7
-LineData,Borough,Bronx,2019-12,38
-LineData,Borough,Queens,2019-12,183
-LineData,Borough,Brooklyn,2019-12,277
-LineData,Borough,Manhattan,2019-12,470
-LineData,Borough,All Boroughs,2019-12,975
-LineData,Borough,Bronx,2020-01,27
-LineData,Borough,Queens,2020-01,179
-LineData,Borough,Brooklyn,2020-01,245
-LineData,Borough,Manhattan,2020-01,393
-LineData,Borough,All Boroughs,2020-01,844
-LineData,Borough,Staten Island,2020-02,3
-LineData,Borough,Bronx,2020-02,25
-LineData,Borough,Queens,2020-02,136
-LineData,Borough,Brooklyn,2020-02,229
-LineData,Borough,Manhattan,2020-02,405
-LineData,Borough,All Boroughs,2020-02,798
-LineData,Borough,Staten Island,2020-03,2
-LineData,Borough,Bronx,2020-03,28
-LineData,Borough,Queens,2020-03,50
-LineData,Borough,Brooklyn,2020-03,110
-LineData,Borough,Manhattan,2020-03,233
-LineData,Borough,All Boroughs,2020-03,423
-LineData,Borough,All Boroughs,2020-07,1
-LineData,Borough,Brooklyn,2020-07,1
-LineData,Borough,Brooklyn,2020-08,1
-LineData,Borough,Manhattan,2020-08,3
-LineData,Borough,All Boroughs,2020-08,4
-LineData,Category,Student,2016-01,1
-LineData,Category,Documentary,2016-01,2
-LineData,Category,Still Photography,2016-01,17
-LineData,Category,WEB,2016-01,25
-LineData,Category,Theater,2016-01,56
-LineData,Category,Commercial,2016-01,71
-LineData,Category,Film,2016-01,94
-LineData,Category,Television,2016-01,455
-LineData,Category,All Categories,2016-01,721
-LineData,Category,Music Video,2016-02,1
-LineData,Category,Student,2016-02,7
-LineData,Category,WEB,2016-02,24
-LineData,Category,Commercial,2016-02,33
-LineData,Category,Still Photography,2016-02,35
-LineData,Category,Film,2016-02,78
-LineData,Category,Theater,2016-02,80
-LineData,Category,Television,2016-02,506
-LineData,Category,All Categories,2016-02,764
-LineData,Category,Documentary,2016-03,1
-LineData,Category,Music Video,2016-03,1
-LineData,Category,Student,2016-03,1
-LineData,Category,WEB,2016-03,20
-LineData,Category,Still Photography,2016-03,55
-LineData,Category,Theater,2016-03,85
-LineData,Category,Commercial,2016-03,91
-LineData,Category,Film,2016-03,132
-LineData,Category,Television,2016-03,682
-LineData,Category,All Categories,2016-03,1068
-LineData,Category,Documentary,2016-04,3
-LineData,Category,Student,2016-04,8
-LineData,Category,WEB,2016-04,49
-LineData,Category,Theater,2016-04,105
-LineData,Category,Still Photography,2016-04,128
-LineData,Category,Commercial,2016-04,136
-LineData,Category,Film,2016-04,138
-LineData,Category,Television,2016-04,478
-LineData,Category,All Categories,2016-04,1045
-LineData,Category,Student,2016-05,2
-LineData,Category,Music Video,2016-05,10
-LineData,Category,WEB,2016-05,33
-LineData,Category,Commercial,2016-05,62
-LineData,Category,Theater,2016-05,87
-LineData,Category,Still Photography,2016-05,106
-LineData,Category,Film,2016-05,151
-LineData,Category,Television,2016-05,366
-LineData,Category,All Categories,2016-05,817
-LineData,Category,Documentary,2016-06,1
-LineData,Category,Music Video,2016-06,2
-LineData,Category,Student,2016-06,8
-LineData,Category,WEB,2016-06,40
-LineData,Category,Theater,2016-06,62
-LineData,Category,Commercial,2016-06,90
-LineData,Category,Still Photography,2016-06,132
-LineData,Category,Film,2016-06,145
-LineData,Category,Television,2016-06,413
-LineData,Category,All Categories,2016-06,893
-LineData,Category,Documentary,2016-07,1
-LineData,Category,Music Video,2016-07,1
-LineData,Category,Student,2016-07,2
-LineData,Category,WEB,2016-07,32
-LineData,Category,Theater,2016-07,62
-LineData,Category,Still Photography,2016-07,88
-LineData,Category,Commercial,2016-07,105
-LineData,Category,Film,2016-07,151
-LineData,Category,Television,2016-07,632
-LineData,Category,All Categories,2016-07,1074
-LineData,Category,Documentary,2016-08,1
-LineData,Category,Music Video,2016-08,2
-LineData,Category,Theater,2016-08,43
-LineData,Category,Still Photography,2016-08,61
-LineData,Category,WEB,2016-08,67
-LineData,Category,Commercial,2016-08,98
-LineData,Category,Film,2016-08,125
-LineData,Category,Television,2016-08,759
-LineData,Category,All Categories,2016-08,1156
-LineData,Category,Documentary,2016-09,1
-LineData,Category,Music Video,2016-09,1
-LineData,Category,Red Carpet/Premiere,2016-09,1
-LineData,Category,WEB,2016-09,35
-LineData,Category,Still Photography,2016-09,48
-LineData,Category,Commercial,2016-09,71
-LineData,Category,Theater,2016-09,84
-LineData,Category,Film,2016-09,169
-LineData,Category,Television,2016-09,753
-LineData,Category,All Categories,2016-09,1163
-LineData,Category,Documentary,2016-10,1
-LineData,Category,Music Video,2016-10,2
-LineData,Category,Student,2016-10,7
-LineData,Category,WEB,2016-10,46
-LineData,Category,Still Photography,2016-10,78
-LineData,Category,Commercial,2016-10,107
-LineData,Category,Theater,2016-10,111
-LineData,Category,Film,2016-10,184
-LineData,Category,Television,2016-10,785
-LineData,Category,All Categories,2016-10,1321
-LineData,Category,Student,2016-11,5
-LineData,Category,Music Video,2016-11,12
-LineData,Category,WEB,2016-11,26
-LineData,Category,Still Photography,2016-11,66
-LineData,Category,Commercial,2016-11,87
-LineData,Category,Film,2016-11,109
-LineData,Category,Theater,2016-11,111
-LineData,Category,Television,2016-11,779
-LineData,Category,All Categories,2016-11,1195
-LineData,Category,Music Video,2016-12,2
-LineData,Category,Student,2016-12,6
-LineData,Category,WEB,2016-12,26
-LineData,Category,Still Photography,2016-12,28
-LineData,Category,Film,2016-12,39
-LineData,Category,Theater,2016-12,65
-LineData,Category,Commercial,2016-12,75
-LineData,Category,Television,2016-12,544
-LineData,Category,All Categories,2016-12,785
-LineData,Category,Documentary,2017-01,2
-LineData,Category,Student,2017-01,8
-LineData,Category,WEB,2017-01,24
-LineData,Category,Still Photography,2017-01,27
-LineData,Category,Theater,2017-01,51
-LineData,Category,Commercial,2017-01,53
-LineData,Category,Film,2017-01,93
-LineData,Category,Television,2017-01,597
-LineData,Category,All Categories,2017-01,855
-LineData,Category,Student,2017-02,4
-LineData,Category,WEB,2017-02,8
-LineData,Category,Still Photography,2017-02,17
-LineData,Category,Commercial,2017-02,62
-LineData,Category,Theater,2017-02,76
-LineData,Category,Film,2017-02,118
-LineData,Category,Television,2017-02,592
-LineData,Category,All Categories,2017-02,877
-LineData,Category,Music Video,2017-03,2
-LineData,Category,Student,2017-03,4
-LineData,Category,WEB,2017-03,23
-LineData,Category,Commercial,2017-03,56
-LineData,Category,Still Photography,2017-03,62
-LineData,Category,Theater,2017-03,107
-LineData,Category,Film,2017-03,141
-LineData,Category,Television,2017-03,627
-LineData,Category,All Categories,2017-03,1022
-LineData,Category,Documentary,2017-04,1
-LineData,Category,Student,2017-04,6
-LineData,Category,WEB,2017-04,28
-LineData,Category,Commercial,2017-04,78
-LineData,Category,Theater,2017-04,98
-LineData,Category,Still Photography,2017-04,105
-LineData,Category,Film,2017-04,114
-LineData,Category,Television,2017-04,478
-LineData,Category,All Categories,2017-04,908
-LineData,Category,Music Video,2017-05,3
-LineData,Category,Student,2017-05,3
-LineData,Category,Documentary,2017-05,14
-LineData,Category,Commercial,2017-05,57
-LineData,Category,WEB,2017-05,59
-LineData,Category,Theater,2017-05,79
-LineData,Category,Film,2017-05,82
-LineData,Category,Still Photography,2017-05,97
-LineData,Category,Television,2017-05,387
-LineData,Category,All Categories,2017-05,781
-LineData,Category,Documentary,2017-06,1
-LineData,Category,Student,2017-06,1
-LineData,Category,Music Video,2017-06,7
-LineData,Category,WEB,2017-06,37
-LineData,Category,Theater,2017-06,63
-LineData,Category,Still Photography,2017-06,78
-LineData,Category,Commercial,2017-06,110
-LineData,Category,Film,2017-06,184
-LineData,Category,Television,2017-06,474
-LineData,Category,All Categories,2017-06,955
-LineData,Category,Music Video,2017-07,7
-LineData,Category,WEB,2017-07,31
-LineData,Category,Theater,2017-07,42
-LineData,Category,Still Photography,2017-07,81
-LineData,Category,Commercial,2017-07,123
-LineData,Category,Film,2017-07,371
-LineData,Category,Television,2017-07,541
-LineData,Category,All Categories,2017-07,1196
-LineData,Category,Student,2017-08,1
-LineData,Category,Music Video,2017-08,4
-LineData,Category,WEB,2017-08,31
-LineData,Category,Still Photography,2017-08,40
-LineData,Category,Theater,2017-08,56
-LineData,Category,Commercial,2017-08,112
-LineData,Category,Film,2017-08,297
-LineData,Category,Television,2017-08,796
-LineData,Category,All Categories,2017-08,1337
-LineData,Category,Music Video,2017-09,10
-LineData,Category,WEB,2017-09,38
-LineData,Category,Still Photography,2017-09,51
-LineData,Category,Commercial,2017-09,95
-LineData,Category,Theater,2017-09,100
-LineData,Category,Film,2017-09,135
-LineData,Category,Television,2017-09,568
-LineData,Category,All Categories,2017-09,997
-LineData,Category,Documentary,2017-10,4
-LineData,Category,Student,2017-10,4
-LineData,Category,Music Video,2017-10,9
-LineData,Category,Still Photography,2017-10,67
-LineData,Category,WEB,2017-10,76
-LineData,Category,Commercial,2017-10,79
-LineData,Category,Theater,2017-10,150
-LineData,Category,Film,2017-10,255
-LineData,Category,Television,2017-10,723
-LineData,Category,All Categories,2017-10,1367
-LineData,Category,Student,2017-11,10
-LineData,Category,WEB,2017-11,58
-LineData,Category,Commercial,2017-11,75
-LineData,Category,Still Photography,2017-11,102
-LineData,Category,Theater,2017-11,135
-LineData,Category,Film,2017-11,179
-LineData,Category,Television,2017-11,713
-LineData,Category,All Categories,2017-11,1272
-LineData,Category,Music Video,2017-12,5
-LineData,Category,Student,2017-12,5
-LineData,Category,WEB,2017-12,27
-LineData,Category,Still Photography,2017-12,37
-LineData,Category,Commercial,2017-12,42
-LineData,Category,Theater,2017-12,103
-LineData,Category,Film,2017-12,106
-LineData,Category,Television,2017-12,627
-LineData,Category,All Categories,2017-12,952
-LineData,Category,Music Video,2018-01,2
-LineData,Category,Student,2018-01,3
-LineData,Category,WEB,2018-01,15
-LineData,Category,Still Photography,2018-01,19
-LineData,Category,Film,2018-01,56
-LineData,Category,Theater,2018-01,68
-LineData,Category,Commercial,2018-01,72
-LineData,Category,Television,2018-01,557
-LineData,Category,All Categories,2018-01,792
-LineData,Category,Student,2018-02,4
-LineData,Category,Music Video,2018-02,13
-LineData,Category,WEB,2018-02,23
-LineData,Category,Still Photography,2018-02,32
-LineData,Category,Commercial,2018-02,48
-LineData,Category,Theater,2018-02,95
-LineData,Category,Film,2018-02,144
-LineData,Category,Television,2018-02,576
-LineData,Category,All Categories,2018-02,935
-LineData,Category,Music Video,2018-03,1
-LineData,Category,Documentary,2018-03,8
-LineData,Category,Student,2018-03,9
-LineData,Category,WEB,2018-03,36
-LineData,Category,Still Photography,2018-03,69
-LineData,Category,Commercial,2018-03,72
-LineData,Category,Theater,2018-03,93
-LineData,Category,Film,2018-03,112
-LineData,Category,Television,2018-03,868
-LineData,Category,All Categories,2018-03,1268
-LineData,Category,Music Video,2018-04,1
-LineData,Category,Student,2018-04,4
-LineData,Category,Documentary,2018-04,7
-LineData,Category,Commercial,2018-04,52
-LineData,Category,WEB,2018-04,74
-LineData,Category,Still Photography,2018-04,82
-LineData,Category,Film,2018-04,94
-LineData,Category,Theater,2018-04,94
-LineData,Category,Television,2018-04,506
-LineData,Category,All Categories,2018-04,914
-LineData,Category,Student,2018-05,4
-LineData,Category,Documentary,2018-05,10
-LineData,Category,WEB,2018-05,49
-LineData,Category,Commercial,2018-05,86
-LineData,Category,Theater,2018-05,107
-LineData,Category,Still Photography,2018-05,148
-LineData,Category,Film,2018-05,264
-LineData,Category,Television,2018-05,512
-LineData,Category,All Categories,2018-05,1180
-LineData,Category,Student,2018-06,3
-LineData,Category,Documentary,2018-06,5
-LineData,Category,Music Video,2018-06,14
-LineData,Category,Still Photography,2018-06,80
-LineData,Category,WEB,2018-06,83
-LineData,Category,Theater,2018-06,101
-LineData,Category,Commercial,2018-06,114
-LineData,Category,Film,2018-06,225
-LineData,Category,Television,2018-06,435
-LineData,Category,All Categories,2018-06,1060
-LineData,Category,Documentary,2018-07,10
-LineData,Category,Music Video,2018-07,22
-LineData,Category,Theater,2018-07,53
-LineData,Category,WEB,2018-07,53
-LineData,Category,Still Photography,2018-07,67
-LineData,Category,Commercial,2018-07,85
-LineData,Category,Film,2018-07,183
-LineData,Category,Television,2018-07,622
-LineData,Category,All Categories,2018-07,1095
-LineData,Category,Student,2018-08,2
-LineData,Category,Documentary,2018-08,5
-LineData,Category,Music Video,2018-08,5
-LineData,Category,Still Photography,2018-08,43
-LineData,Category,Theater,2018-08,62
-LineData,Category,WEB,2018-08,78
-LineData,Category,Commercial,2018-08,127
-LineData,Category,Film,2018-08,153
-LineData,Category,Television,2018-08,844
-LineData,Category,All Categories,2018-08,1319
-LineData,Category,Student,2018-09,2
-LineData,Category,Documentary,2018-09,6
-LineData,Category,Music Video,2018-09,11
-LineData,Category,WEB,2018-09,40
-LineData,Category,Still Photography,2018-09,87
-LineData,Category,Theater,2018-09,95
-LineData,Category,Commercial,2018-09,102
-LineData,Category,Film,2018-09,164
-LineData,Category,Television,2018-09,718
-LineData,Category,All Categories,2018-09,1225
-LineData,Category,Music Video,2018-10,4
-LineData,Category,Student,2018-10,7
-LineData,Category,Documentary,2018-10,10
-LineData,Category,WEB,2018-10,81
-LineData,Category,Commercial,2018-10,115
-LineData,Category,Theater,2018-10,167
-LineData,Category,Still Photography,2018-10,190
-LineData,Category,Film,2018-10,215
-LineData,Category,Television,2018-10,946
-LineData,Category,All Categories,2018-10,1735
-LineData,Category,Music Video,2018-11,1
-LineData,Category,Student,2018-11,5
-LineData,Category,Documentary,2018-11,6
-LineData,Category,WEB,2018-11,36
-LineData,Category,Commercial,2018-11,60
-LineData,Category,Still Photography,2018-11,67
-LineData,Category,Film,2018-11,149
-LineData,Category,Theater,2018-11,159
-LineData,Category,Television,2018-11,845
-LineData,Category,All Categories,2018-11,1328
-LineData,Category,Documentary,2018-12,3
-LineData,Category,Music Video,2018-12,4
-LineData,Category,Student,2018-12,8
-LineData,Category,Still Photography,2018-12,30
-LineData,Category,WEB,2018-12,32
-LineData,Category,Film,2018-12,58
-LineData,Category,Commercial,2018-12,64
-LineData,Category,Theater,2018-12,105
-LineData,Category,Television,2018-12,515
-LineData,Category,All Categories,2018-12,819
-LineData,Category,Music Video,2019-01,1
-LineData,Category,Documentary,2019-01,2
-LineData,Category,Student,2019-01,2
-LineData,Category,Still Photography,2019-01,17
-LineData,Category,Commercial,2019-01,32
-LineData,Category,WEB,2019-01,33
-LineData,Category,Film,2019-01,60
-LineData,Category,Theater,2019-01,66
-LineData,Category,Television,2019-01,523
-LineData,Category,All Categories,2019-01,736
-LineData,Category,Student,2019-02,1
-LineData,Category,Documentary,2019-02,3
-LineData,Category,WEB,2019-02,28
-LineData,Category,Still Photography,2019-02,30
-LineData,Category,Commercial,2019-02,55
-LineData,Category,Film,2019-02,57
-LineData,Category,Theater,2019-02,101
-LineData,Category,Television,2019-02,555
-LineData,Category,All Categories,2019-02,830
-LineData,Category,Music Video,2019-03,1
-LineData,Category,Student,2019-03,7
-LineData,Category,Documentary,2019-03,8
-LineData,Category,Still Photography,2019-03,27
-LineData,Category,WEB,2019-03,39
-LineData,Category,Commercial,2019-03,56
-LineData,Category,Theater,2019-03,114
-LineData,Category,Film,2019-03,136
-LineData,Category,Television,2019-03,841
-LineData,Category,All Categories,2019-03,1229
-LineData,Category,Student,2019-04,8
-LineData,Category,WEB,2019-04,64
-LineData,Category,Commercial,2019-04,119
-LineData,Category,Still Photography,2019-04,131
-LineData,Category,Theater,2019-04,132
-LineData,Category,Film,2019-04,193
-LineData,Category,Television,2019-04,636
-LineData,Category,All Categories,2019-04,1283
-LineData,Category,Documentary,2019-05,2
-LineData,Category,Student,2019-05,3
-LineData,Category,Music Video,2019-05,23
-LineData,Category,WEB,2019-05,74
-LineData,Category,Commercial,2019-05,92
-LineData,Category,Still Photography,2019-05,93
-LineData,Category,Film,2019-05,113
-LineData,Category,Theater,2019-05,148
-LineData,Category,Television,2019-05,455
-LineData,Category,All Categories,2019-05,1003
-LineData,Category,Music Video,2019-06,2
-LineData,Category,Documentary,2019-06,8
-LineData,Category,WEB,2019-06,37
-LineData,Category,Commercial,2019-06,78
-LineData,Category,Theater,2019-06,113
-LineData,Category,Still Photography,2019-06,117
-LineData,Category,Film,2019-06,266
-LineData,Category,Television,2019-06,407
-LineData,Category,All Categories,2019-06,1028
-LineData,Category,Music Video,2019-07,4
-LineData,Category,WEB,2019-07,54
-LineData,Category,Commercial,2019-07,73
-LineData,Category,Still Photography,2019-07,79
-LineData,Category,Theater,2019-07,94
-LineData,Category,Film,2019-07,245
-LineData,Category,Television,2019-07,555
-LineData,Category,All Categories,2019-07,1104
-LineData,Category,Student,2019-08,3
-LineData,Category,Documentary,2019-08,8
-LineData,Category,Music Video,2019-08,11
-LineData,Category,WEB,2019-08,43
-LineData,Category,Still Photography,2019-08,69
-LineData,Category,Commercial,2019-08,81
-LineData,Category,Theater,2019-08,92
-LineData,Category,Film,2019-08,115
-LineData,Category,Television,2019-08,746
-LineData,Category,All Categories,2019-08,1168
-LineData,Category,Music Video,2019-09,1
-LineData,Category,Student,2019-09,3
-LineData,Category,Documentary,2019-09,7
-LineData,Category,WEB,2019-09,49
-LineData,Category,Still Photography,2019-09,66
-LineData,Category,Film,2019-09,77
-LineData,Category,Commercial,2019-09,92
-LineData,Category,Theater,2019-09,152
-LineData,Category,Television,2019-09,671
-LineData,Category,All Categories,2019-09,1118
-LineData,Category,Documentary,2019-10,7
-LineData,Category,Student,2019-10,7
-LineData,Category,Music Video,2019-10,10
-LineData,Category,WEB,2019-10,35
-LineData,Category,Still Photography,2019-10,78
-LineData,Category,Commercial,2019-10,101
-LineData,Category,Film,2019-10,178
-LineData,Category,Theater,2019-10,185
-LineData,Category,Television,2019-10,788
-LineData,Category,All Categories,2019-10,1389
-LineData,Category,Documentary,2019-11,4
-LineData,Category,Student,2019-11,6
-LineData,Category,Still Photography,2019-11,24
-LineData,Category,WEB,2019-11,24
-LineData,Category,Commercial,2019-11,64
-LineData,Category,Theater,2019-11,165
-LineData,Category,Film,2019-11,175
-LineData,Category,Television,2019-11,776
-LineData,Category,All Categories,2019-11,1238
-LineData,Category,Student,2019-12,5
-LineData,Category,Music Video,2019-12,6
-LineData,Category,Documentary,2019-12,7
-LineData,Category,Still Photography,2019-12,21
-LineData,Category,WEB,2019-12,52
-LineData,Category,Commercial,2019-12,54
-LineData,Category,Film,2019-12,96
-LineData,Category,Theater,2019-12,135
-LineData,Category,Television,2019-12,599
-LineData,Category,All Categories,2019-12,975
-LineData,Category,Student,2020-01,13
-LineData,Category,Still Photography,2020-01,14
-LineData,Category,Documentary,2020-01,18
-LineData,Category,WEB,2020-01,29
-LineData,Category,Film,2020-01,30
-LineData,Category,Commercial,2020-01,44
-LineData,Category,Theater,2020-01,82
-LineData,Category,Television,2020-01,614
-LineData,Category,All Categories,2020-01,844
-LineData,Category,Music Video,2020-02,2
-LineData,Category,Student,2020-02,6
-LineData,Category,Documentary,2020-02,8
-LineData,Category,Still Photography,2020-02,11
-LineData,Category,WEB,2020-02,13
-LineData,Category,Commercial,2020-02,30
-LineData,Category,Film,2020-02,45
-LineData,Category,Theater,2020-02,117
-LineData,Category,Television,2020-02,566
-LineData,Category,All Categories,2020-02,798
-LineData,Category,Student,2020-03,3
-LineData,Category,Still Photography,2020-03,7
-LineData,Category,WEB,2020-03,15
-LineData,Category,Commercial,2020-03,31
-LineData,Category,Film,2020-03,38
-LineData,Category,Theater,2020-03,40
-LineData,Category,Television,2020-03,289
-LineData,Category,All Categories,2020-03,423
-LineData,Category,All Categories,2020-07,1
-LineData,Category,Television,2020-07,1
-LineData,Category,WEB,2020-08,1
-LineData,Category,Theater,2020-08,3
-LineData,Category,All Categories,2020-08,4
-LineData,Type,Rigging Permit,2016-01,3
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-01,9
-LineData,Type,Theater Load in and Load Outs,2016-01,54
-LineData,Type,Shooting Permit,2016-01,655
-LineData,Type,All Permit Types,2016-01,721
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-02,9
-LineData,Type,Rigging Permit,2016-02,9
-LineData,Type,Theater Load in and Load Outs,2016-02,79
-LineData,Type,Shooting Permit,2016-02,667
-LineData,Type,All Permit Types,2016-02,764
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-03,9
-LineData,Type,Rigging Permit,2016-03,17
-LineData,Type,Theater Load in and Load Outs,2016-03,87
-LineData,Type,Shooting Permit,2016-03,955
-LineData,Type,All Permit Types,2016-03,1068
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-04,8
-LineData,Type,Rigging Permit,2016-04,18
-LineData,Type,Theater Load in and Load Outs,2016-04,102
-LineData,Type,Shooting Permit,2016-04,917
-LineData,Type,All Permit Types,2016-04,1045
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-05,2
-LineData,Type,Rigging Permit,2016-05,21
-LineData,Type,Theater Load in and Load Outs,2016-05,85
-LineData,Type,Shooting Permit,2016-05,709
-LineData,Type,All Permit Types,2016-05,817
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-06,3
-LineData,Type,Rigging Permit,2016-06,12
-LineData,Type,Theater Load in and Load Outs,2016-06,67
-LineData,Type,Shooting Permit,2016-06,811
-LineData,Type,All Permit Types,2016-06,893
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-07,21
-LineData,Type,Rigging Permit,2016-07,22
-LineData,Type,Theater Load in and Load Outs,2016-07,59
-LineData,Type,Shooting Permit,2016-07,972
-LineData,Type,All Permit Types,2016-07,1074
-LineData,Type,Rigging Permit,2016-08,10
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-08,14
-LineData,Type,Theater Load in and Load Outs,2016-08,46
-LineData,Type,Shooting Permit,2016-08,1086
-LineData,Type,All Permit Types,2016-08,1156
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-09,14
-LineData,Type,Rigging Permit,2016-09,24
-LineData,Type,Theater Load in and Load Outs,2016-09,80
-LineData,Type,Shooting Permit,2016-09,1045
-LineData,Type,All Permit Types,2016-09,1163
-LineData,Type,Rigging Permit,2016-10,16
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-10,17
-LineData,Type,Theater Load in and Load Outs,2016-10,111
-LineData,Type,Shooting Permit,2016-10,1177
-LineData,Type,All Permit Types,2016-10,1321
-LineData,Type,Rigging Permit,2016-11,13
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-11,27
-LineData,Type,Theater Load in and Load Outs,2016-11,109
-LineData,Type,Shooting Permit,2016-11,1046
-LineData,Type,All Permit Types,2016-11,1195
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-12,5
-LineData,Type,Rigging Permit,2016-12,14
-LineData,Type,Theater Load in and Load Outs,2016-12,62
-LineData,Type,Shooting Permit,2016-12,704
-LineData,Type,All Permit Types,2016-12,785
-LineData,Type,Rigging Permit,2017-01,6
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-01,17
-LineData,Type,Theater Load in and Load Outs,2017-01,51
-LineData,Type,Shooting Permit,2017-01,781
-LineData,Type,All Permit Types,2017-01,855
-LineData,Type,Rigging Permit,2017-02,8
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-02,16
-LineData,Type,Theater Load in and Load Outs,2017-02,77
-LineData,Type,Shooting Permit,2017-02,776
-LineData,Type,All Permit Types,2017-02,877
-LineData,Type,Rigging Permit,2017-03,13
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-03,18
-LineData,Type,Theater Load in and Load Outs,2017-03,104
-LineData,Type,Shooting Permit,2017-03,887
-LineData,Type,All Permit Types,2017-03,1022
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-04,10
-LineData,Type,Rigging Permit,2017-04,19
-LineData,Type,Theater Load in and Load Outs,2017-04,90
-LineData,Type,Shooting Permit,2017-04,789
-LineData,Type,All Permit Types,2017-04,908
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-05,2
-LineData,Type,Rigging Permit,2017-05,17
-LineData,Type,Theater Load in and Load Outs,2017-05,83
-LineData,Type,Shooting Permit,2017-05,679
-LineData,Type,All Permit Types,2017-05,781
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-06,1
-LineData,Type,Rigging Permit,2017-06,25
-LineData,Type,Theater Load in and Load Outs,2017-06,73
-LineData,Type,Shooting Permit,2017-06,856
-LineData,Type,All Permit Types,2017-06,955
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-07,8
-LineData,Type,Rigging Permit,2017-07,28
-LineData,Type,Theater Load in and Load Outs,2017-07,41
-LineData,Type,Shooting Permit,2017-07,1119
-LineData,Type,All Permit Types,2017-07,1196
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-08,19
-LineData,Type,Rigging Permit,2017-08,24
-LineData,Type,Theater Load in and Load Outs,2017-08,55
-LineData,Type,Shooting Permit,2017-08,1239
-LineData,Type,All Permit Types,2017-08,1337
-LineData,Type,Rigging Permit,2017-09,7
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-09,9
-LineData,Type,Theater Load in and Load Outs,2017-09,99
-LineData,Type,Shooting Permit,2017-09,882
-LineData,Type,All Permit Types,2017-09,997
-LineData,Type,Rigging Permit,2017-10,12
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-10,14
-LineData,Type,Theater Load in and Load Outs,2017-10,151
-LineData,Type,Shooting Permit,2017-10,1190
-LineData,Type,All Permit Types,2017-10,1367
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-11,16
-LineData,Type,Rigging Permit,2017-11,18
-LineData,Type,Theater Load in and Load Outs,2017-11,138
-LineData,Type,Shooting Permit,2017-11,1100
-LineData,Type,All Permit Types,2017-11,1272
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-12,12
-LineData,Type,Rigging Permit,2017-12,12
-LineData,Type,Theater Load in and Load Outs,2017-12,101
-LineData,Type,Shooting Permit,2017-12,827
-LineData,Type,All Permit Types,2017-12,952
-LineData,Type,Rigging Permit,2018-01,5
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-01,14
-LineData,Type,Theater Load in and Load Outs,2018-01,75
-LineData,Type,Shooting Permit,2018-01,698
-LineData,Type,All Permit Types,2018-01,792
-LineData,Type,Rigging Permit,2018-02,8
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-02,12
-LineData,Type,Theater Load in and Load Outs,2018-02,92
-LineData,Type,Shooting Permit,2018-02,823
-LineData,Type,All Permit Types,2018-02,935
-LineData,Type,Rigging Permit,2018-03,9
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-03,12
-LineData,Type,Theater Load in and Load Outs,2018-03,93
-LineData,Type,Shooting Permit,2018-03,1154
-LineData,Type,All Permit Types,2018-03,1268
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-04,8
-LineData,Type,Rigging Permit,2018-04,25
-LineData,Type,Theater Load in and Load Outs,2018-04,99
-LineData,Type,Shooting Permit,2018-04,782
-LineData,Type,All Permit Types,2018-04,914
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-05,7
-LineData,Type,Rigging Permit,2018-05,35
-LineData,Type,Theater Load in and Load Outs,2018-05,112
-LineData,Type,Shooting Permit,2018-05,1026
-LineData,Type,All Permit Types,2018-05,1180
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-06,6
-LineData,Type,Rigging Permit,2018-06,27
-LineData,Type,Theater Load in and Load Outs,2018-06,97
-LineData,Type,Shooting Permit,2018-06,930
-LineData,Type,All Permit Types,2018-06,1060
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-07,8
-LineData,Type,Rigging Permit,2018-07,14
-LineData,Type,Theater Load in and Load Outs,2018-07,52
-LineData,Type,Shooting Permit,2018-07,1021
-LineData,Type,All Permit Types,2018-07,1095
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-08,15
-LineData,Type,Rigging Permit,2018-08,42
-LineData,Type,Theater Load in and Load Outs,2018-08,61
-LineData,Type,Shooting Permit,2018-08,1201
-LineData,Type,All Permit Types,2018-08,1319
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-09,12
-LineData,Type,Rigging Permit,2018-09,21
-LineData,Type,Theater Load in and Load Outs,2018-09,102
-LineData,Type,Shooting Permit,2018-09,1090
-LineData,Type,All Permit Types,2018-09,1225
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-10,22
-LineData,Type,Rigging Permit,2018-10,29
-LineData,Type,Theater Load in and Load Outs,2018-10,165
-LineData,Type,Shooting Permit,2018-10,1519
-LineData,Type,All Permit Types,2018-10,1735
-LineData,Type,Rigging Permit,2018-11,6
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-11,13
-LineData,Type,Theater Load in and Load Outs,2018-11,160
-LineData,Type,Shooting Permit,2018-11,1149
-LineData,Type,All Permit Types,2018-11,1328
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-12,10
-LineData,Type,Rigging Permit,2018-12,12
-LineData,Type,Theater Load in and Load Outs,2018-12,108
-LineData,Type,Shooting Permit,2018-12,689
-LineData,Type,All Permit Types,2018-12,819
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-01,11
-LineData,Type,Rigging Permit,2019-01,11
-LineData,Type,Theater Load in and Load Outs,2019-01,66
-LineData,Type,Shooting Permit,2019-01,648
-LineData,Type,All Permit Types,2019-01,736
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-02,2
-LineData,Type,Rigging Permit,2019-02,23
-LineData,Type,Theater Load in and Load Outs,2019-02,106
-LineData,Type,Shooting Permit,2019-02,699
-LineData,Type,All Permit Types,2019-02,830
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-03,11
-LineData,Type,Rigging Permit,2019-03,21
-LineData,Type,Theater Load in and Load Outs,2019-03,112
-LineData,Type,Shooting Permit,2019-03,1085
-LineData,Type,All Permit Types,2019-03,1229
-LineData,Type,Rigging Permit,2019-04,14
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-04,21
-LineData,Type,Theater Load in and Load Outs,2019-04,125
-LineData,Type,Shooting Permit,2019-04,1123
-LineData,Type,All Permit Types,2019-04,1283
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-05,3
-LineData,Type,Rigging Permit,2019-05,12
-LineData,Type,Theater Load in and Load Outs,2019-05,151
-LineData,Type,Shooting Permit,2019-05,837
-LineData,Type,All Permit Types,2019-05,1003
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-06,9
-LineData,Type,Rigging Permit,2019-06,33
-LineData,Type,Theater Load in and Load Outs,2019-06,106
-LineData,Type,Shooting Permit,2019-06,880
-LineData,Type,All Permit Types,2019-06,1028
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-07,15
-LineData,Type,Rigging Permit,2019-07,33
-LineData,Type,Theater Load in and Load Outs,2019-07,93
-LineData,Type,Shooting Permit,2019-07,963
-LineData,Type,All Permit Types,2019-07,1104
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-08,6
-LineData,Type,Rigging Permit,2019-08,24
-LineData,Type,Theater Load in and Load Outs,2019-08,88
-LineData,Type,Shooting Permit,2019-08,1050
-LineData,Type,All Permit Types,2019-08,1168
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-09,15
-LineData,Type,Rigging Permit,2019-09,21
-LineData,Type,Theater Load in and Load Outs,2019-09,151
-LineData,Type,Shooting Permit,2019-09,931
-LineData,Type,All Permit Types,2019-09,1118
-LineData,Type,Rigging Permit,2019-10,7
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-10,13
-LineData,Type,Theater Load in and Load Outs,2019-10,184
-LineData,Type,Shooting Permit,2019-10,1185
-LineData,Type,All Permit Types,2019-10,1389
-LineData,Type,Rigging Permit,2019-11,8
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-11,13
-LineData,Type,Theater Load in and Load Outs,2019-11,162
-LineData,Type,Shooting Permit,2019-11,1055
-LineData,Type,All Permit Types,2019-11,1238
-LineData,Type,Rigging Permit,2019-12,7
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-12,12
-LineData,Type,Theater Load in and Load Outs,2019-12,136
-LineData,Type,Shooting Permit,2019-12,820
-LineData,Type,All Permit Types,2019-12,975
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-01,16
-LineData,Type,Rigging Permit,2020-01,18
-LineData,Type,Theater Load in and Load Outs,2020-01,76
-LineData,Type,Shooting Permit,2020-01,734
-LineData,Type,All Permit Types,2020-01,844
-LineData,Type,Rigging Permit,2020-02,4
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-02,20
-LineData,Type,Theater Load in and Load Outs,2020-02,117
-LineData,Type,Shooting Permit,2020-02,657
-LineData,Type,All Permit Types,2020-02,798
-LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-03,7
-LineData,Type,Rigging Permit,2020-03,10
-LineData,Type,Theater Load in and Load Outs,2020-03,39
-LineData,Type,Shooting Permit,2020-03,367
-LineData,Type,All Permit Types,2020-03,423
-LineData,Type,All Permit Types,2020-07,1
-LineData,Type,Shooting Permit,2020-07,1
-LineData,Type,Shooting Permit,2020-08,1
-LineData,Type,Theater Load in and Load Outs,2020-08,3
-LineData,Type,All Permit Types,2020-08,4
+﻿DataType,Filter,Name,Month,Zip,Events
+BarData,Borough,Staten Island,,,690
+BarData,Borough,Bronx,,,1790
+BarData,Borough,Queens,,,8353
+BarData,Borough,Brooklyn,,,14809
+BarData,Borough,Manhattan,,,27720
+BarData,Category,Red Carpet/Premiere,,,1
+BarData,Category,Documentary,,,185
+BarData,Category,Student,,,211
+BarData,Category,Music Video,,,220
+BarData,Category,WEB,,,2053
+BarData,Category,Still Photography,,,3304
+BarData,Category,Commercial,,,3967
+BarData,Category,Theater,,,4949
+BarData,Category,Film,,,7231
+BarData,Category,Television,,,31241
+BarData,Type,DCAS Prep/Shoot/Wrap Permit,,,593
+BarData,Type,Rigging Permit,,,847
+BarData,Type,Theater Load in and Load Outs,,,4935
+BarData,Type,Shooting Permit,,,46987
+LineData,Borough,Staten Island,2016-01,,2
+LineData,Borough,Bronx,2016-01,,18
+LineData,Borough,Queens,2016-01,,173
+LineData,Borough,Brooklyn,2016-01,,192
+LineData,Borough,Manhattan,2016-01,,336
+LineData,Borough,All Boroughs,2016-01,,721
+LineData,Borough,Staten Island,2016-02,,3
+LineData,Borough,Bronx,2016-02,,16
+LineData,Borough,Queens,2016-02,,145
+LineData,Borough,Brooklyn,2016-02,,225
+LineData,Borough,Manhattan,2016-02,,375
+LineData,Borough,All Boroughs,2016-02,,764
+LineData,Borough,Staten Island,2016-03,,4
+LineData,Borough,Bronx,2016-03,,15
+LineData,Borough,Queens,2016-03,,192
+LineData,Borough,Brooklyn,2016-03,,298
+LineData,Borough,Manhattan,2016-03,,559
+LineData,Borough,All Boroughs,2016-03,,1068
+LineData,Borough,Staten Island,2016-04,,5
+LineData,Borough,Bronx,2016-04,,18
+LineData,Borough,Queens,2016-04,,131
+LineData,Borough,Brooklyn,2016-04,,262
+LineData,Borough,Manhattan,2016-04,,629
+LineData,Borough,All Boroughs,2016-04,,1045
+LineData,Borough,Staten Island,2016-05,,7
+LineData,Borough,Bronx,2016-05,,12
+LineData,Borough,Queens,2016-05,,115
+LineData,Borough,Brooklyn,2016-05,,216
+LineData,Borough,Manhattan,2016-05,,467
+LineData,Borough,All Boroughs,2016-05,,817
+LineData,Borough,Bronx,2016-06,,28
+LineData,Borough,Queens,2016-06,,89
+LineData,Borough,Brooklyn,2016-06,,275
+LineData,Borough,Manhattan,2016-06,,501
+LineData,Borough,All Boroughs,2016-06,,893
+LineData,Borough,Staten Island,2016-07,,17
+LineData,Borough,Bronx,2016-07,,26
+LineData,Borough,Queens,2016-07,,153
+LineData,Borough,Brooklyn,2016-07,,296
+LineData,Borough,Manhattan,2016-07,,582
+LineData,Borough,All Boroughs,2016-07,,1074
+LineData,Borough,Staten Island,2016-08,,19
+LineData,Borough,Bronx,2016-08,,33
+LineData,Borough,Queens,2016-08,,208
+LineData,Borough,Brooklyn,2016-08,,356
+LineData,Borough,Manhattan,2016-08,,540
+LineData,Borough,All Boroughs,2016-08,,1156
+LineData,Borough,Staten Island,2016-09,,24
+LineData,Borough,Bronx,2016-09,,40
+LineData,Borough,Queens,2016-09,,216
+LineData,Borough,Brooklyn,2016-09,,357
+LineData,Borough,Manhattan,2016-09,,526
+LineData,Borough,All Boroughs,2016-09,,1163
+LineData,Borough,Staten Island,2016-10,,23
+LineData,Borough,Bronx,2016-10,,48
+LineData,Borough,Queens,2016-10,,196
+LineData,Borough,Brooklyn,2016-10,,389
+LineData,Borough,Manhattan,2016-10,,665
+LineData,Borough,All Boroughs,2016-10,,1321
+LineData,Borough,Staten Island,2016-11,,19
+LineData,Borough,Bronx,2016-11,,38
+LineData,Borough,Queens,2016-11,,202
+LineData,Borough,Brooklyn,2016-11,,329
+LineData,Borough,Manhattan,2016-11,,607
+LineData,Borough,All Boroughs,2016-11,,1195
+LineData,Borough,Staten Island,2016-12,,8
+LineData,Borough,Bronx,2016-12,,24
+LineData,Borough,Queens,2016-12,,120
+LineData,Borough,Brooklyn,2016-12,,237
+LineData,Borough,Manhattan,2016-12,,396
+LineData,Borough,All Boroughs,2016-12,,785
+LineData,Borough,Staten Island,2017-01,,14
+LineData,Borough,Bronx,2017-01,,25
+LineData,Borough,Queens,2017-01,,164
+LineData,Borough,Brooklyn,2017-01,,242
+LineData,Borough,Manhattan,2017-01,,410
+LineData,Borough,All Boroughs,2017-01,,855
+LineData,Borough,Staten Island,2017-02,,10
+LineData,Borough,Bronx,2017-02,,33
+LineData,Borough,Queens,2017-02,,159
+LineData,Borough,Brooklyn,2017-02,,258
+LineData,Borough,Manhattan,2017-02,,417
+LineData,Borough,All Boroughs,2017-02,,877
+LineData,Borough,Staten Island,2017-03,,9
+LineData,Borough,Bronx,2017-03,,58
+LineData,Borough,Queens,2017-03,,145
+LineData,Borough,Brooklyn,2017-03,,275
+LineData,Borough,Manhattan,2017-03,,535
+LineData,Borough,All Boroughs,2017-03,,1022
+LineData,Borough,Staten Island,2017-04,,5
+LineData,Borough,Bronx,2017-04,,19
+LineData,Borough,Queens,2017-04,,155
+LineData,Borough,Brooklyn,2017-04,,182
+LineData,Borough,Manhattan,2017-04,,547
+LineData,Borough,All Boroughs,2017-04,,908
+LineData,Borough,Staten Island,2017-05,,10
+LineData,Borough,Bronx,2017-05,,33
+LineData,Borough,Queens,2017-05,,64
+LineData,Borough,Brooklyn,2017-05,,220
+LineData,Borough,Manhattan,2017-05,,454
+LineData,Borough,All Boroughs,2017-05,,781
+LineData,Borough,Staten Island,2017-06,,13
+LineData,Borough,Bronx,2017-06,,25
+LineData,Borough,Queens,2017-06,,89
+LineData,Borough,Brooklyn,2017-06,,316
+LineData,Borough,Manhattan,2017-06,,512
+LineData,Borough,All Boroughs,2017-06,,955
+LineData,Borough,Staten Island,2017-07,,25
+LineData,Borough,Bronx,2017-07,,40
+LineData,Borough,Queens,2017-07,,172
+LineData,Borough,Brooklyn,2017-07,,380
+LineData,Borough,Manhattan,2017-07,,579
+LineData,Borough,All Boroughs,2017-07,,1196
+LineData,Borough,Staten Island,2017-08,,23
+LineData,Borough,Bronx,2017-08,,62
+LineData,Borough,Queens,2017-08,,240
+LineData,Borough,Brooklyn,2017-08,,395
+LineData,Borough,Manhattan,2017-08,,617
+LineData,Borough,All Boroughs,2017-08,,1337
+LineData,Borough,Staten Island,2017-09,,14
+LineData,Borough,Bronx,2017-09,,30
+LineData,Borough,Queens,2017-09,,156
+LineData,Borough,Brooklyn,2017-09,,272
+LineData,Borough,Manhattan,2017-09,,525
+LineData,Borough,All Boroughs,2017-09,,997
+LineData,Borough,Staten Island,2017-10,,10
+LineData,Borough,Bronx,2017-10,,49
+LineData,Borough,Queens,2017-10,,218
+LineData,Borough,Brooklyn,2017-10,,375
+LineData,Borough,Manhattan,2017-10,,715
+LineData,Borough,All Boroughs,2017-10,,1367
+LineData,Borough,Staten Island,2017-11,,2
+LineData,Borough,Bronx,2017-11,,33
+LineData,Borough,Queens,2017-11,,172
+LineData,Borough,Brooklyn,2017-11,,364
+LineData,Borough,Manhattan,2017-11,,701
+LineData,Borough,All Boroughs,2017-11,,1272
+LineData,Borough,Staten Island,2017-12,,10
+LineData,Borough,Bronx,2017-12,,44
+LineData,Borough,Queens,2017-12,,170
+LineData,Borough,Brooklyn,2017-12,,245
+LineData,Borough,Manhattan,2017-12,,483
+LineData,Borough,All Boroughs,2017-12,,952
+LineData,Borough,Staten Island,2018-01,,2
+LineData,Borough,Bronx,2018-01,,21
+LineData,Borough,Queens,2018-01,,153
+LineData,Borough,Brooklyn,2018-01,,182
+LineData,Borough,Manhattan,2018-01,,434
+LineData,Borough,All Boroughs,2018-01,,792
+LineData,Borough,Staten Island,2018-02,,8
+LineData,Borough,Bronx,2018-02,,36
+LineData,Borough,Queens,2018-02,,182
+LineData,Borough,Brooklyn,2018-02,,250
+LineData,Borough,Manhattan,2018-02,,459
+LineData,Borough,All Boroughs,2018-02,,935
+LineData,Borough,Staten Island,2018-03,,8
+LineData,Borough,Bronx,2018-03,,53
+LineData,Borough,Queens,2018-03,,209
+LineData,Borough,Brooklyn,2018-03,,350
+LineData,Borough,Manhattan,2018-03,,648
+LineData,Borough,All Boroughs,2018-03,,1268
+LineData,Borough,Staten Island,2018-04,,16
+LineData,Borough,Bronx,2018-04,,59
+LineData,Borough,Queens,2018-04,,89
+LineData,Borough,Brooklyn,2018-04,,227
+LineData,Borough,Manhattan,2018-04,,523
+LineData,Borough,All Boroughs,2018-04,,914
+LineData,Borough,Staten Island,2018-05,,6
+LineData,Borough,Bronx,2018-05,,43
+LineData,Borough,Queens,2018-05,,97
+LineData,Borough,Brooklyn,2018-05,,323
+LineData,Borough,Manhattan,2018-05,,711
+LineData,Borough,All Boroughs,2018-05,,1180
+LineData,Borough,Bronx,2018-06,,34
+LineData,Borough,Staten Island,2018-06,,34
+LineData,Borough,Queens,2018-06,,95
+LineData,Borough,Brooklyn,2018-06,,284
+LineData,Borough,Manhattan,2018-06,,613
+LineData,Borough,All Boroughs,2018-06,,1060
+LineData,Borough,Staten Island,2018-07,,11
+LineData,Borough,Bronx,2018-07,,44
+LineData,Borough,Queens,2018-07,,181
+LineData,Borough,Brooklyn,2018-07,,328
+LineData,Borough,Manhattan,2018-07,,531
+LineData,Borough,All Boroughs,2018-07,,1095
+LineData,Borough,Staten Island,2018-08,,4
+LineData,Borough,Bronx,2018-08,,67
+LineData,Borough,Queens,2018-08,,231
+LineData,Borough,Brooklyn,2018-08,,423
+LineData,Borough,Manhattan,2018-08,,594
+LineData,Borough,All Boroughs,2018-08,,1319
+LineData,Borough,Staten Island,2018-09,,16
+LineData,Borough,Bronx,2018-09,,51
+LineData,Borough,Queens,2018-09,,233
+LineData,Borough,Brooklyn,2018-09,,310
+LineData,Borough,Manhattan,2018-09,,615
+LineData,Borough,All Boroughs,2018-09,,1225
+LineData,Borough,Staten Island,2018-10,,23
+LineData,Borough,Bronx,2018-10,,53
+LineData,Borough,Queens,2018-10,,273
+LineData,Borough,Brooklyn,2018-10,,504
+LineData,Borough,Manhattan,2018-10,,882
+LineData,Borough,All Boroughs,2018-10,,1735
+LineData,Borough,Staten Island,2018-11,,27
+LineData,Borough,Bronx,2018-11,,47
+LineData,Borough,Queens,2018-11,,197
+LineData,Borough,Brooklyn,2018-11,,434
+LineData,Borough,Manhattan,2018-11,,623
+LineData,Borough,All Boroughs,2018-11,,1328
+LineData,Borough,Staten Island,2018-12,,6
+LineData,Borough,Bronx,2018-12,,26
+LineData,Borough,Queens,2018-12,,127
+LineData,Borough,Brooklyn,2018-12,,239
+LineData,Borough,Manhattan,2018-12,,421
+LineData,Borough,All Boroughs,2018-12,,819
+LineData,Borough,Staten Island,2019-01,,2
+LineData,Borough,Bronx,2019-01,,20
+LineData,Borough,Queens,2019-01,,117
+LineData,Borough,Brooklyn,2019-01,,229
+LineData,Borough,Manhattan,2019-01,,368
+LineData,Borough,All Boroughs,2019-01,,736
+LineData,Borough,Staten Island,2019-02,,12
+LineData,Borough,Bronx,2019-02,,40
+LineData,Borough,Queens,2019-02,,139
+LineData,Borough,Brooklyn,2019-02,,241
+LineData,Borough,Manhattan,2019-02,,398
+LineData,Borough,All Boroughs,2019-02,,830
+LineData,Borough,Staten Island,2019-03,,24
+LineData,Borough,Bronx,2019-03,,57
+LineData,Borough,Queens,2019-03,,172
+LineData,Borough,Brooklyn,2019-03,,288
+LineData,Borough,Manhattan,2019-03,,688
+LineData,Borough,All Boroughs,2019-03,,1229
+LineData,Borough,Staten Island,2019-04,,25
+LineData,Borough,Bronx,2019-04,,61
+LineData,Borough,Queens,2019-04,,141
+LineData,Borough,Brooklyn,2019-04,,275
+LineData,Borough,Manhattan,2019-04,,781
+LineData,Borough,All Boroughs,2019-04,,1283
+LineData,Borough,Staten Island,2019-05,,33
+LineData,Borough,Bronx,2019-05,,36
+LineData,Borough,Queens,2019-05,,121
+LineData,Borough,Brooklyn,2019-05,,217
+LineData,Borough,Manhattan,2019-05,,596
+LineData,Borough,All Boroughs,2019-05,,1003
+LineData,Borough,Bronx,2019-06,,42
+LineData,Borough,Staten Island,2019-06,,59
+LineData,Borough,Queens,2019-06,,87
+LineData,Borough,Brooklyn,2019-06,,224
+LineData,Borough,Manhattan,2019-06,,616
+LineData,Borough,All Boroughs,2019-06,,1028
+LineData,Borough,Bronx,2019-07,,26
+LineData,Borough,Staten Island,2019-07,,44
+LineData,Borough,Queens,2019-07,,137
+LineData,Borough,Brooklyn,2019-07,,248
+LineData,Borough,Manhattan,2019-07,,649
+LineData,Borough,All Boroughs,2019-07,,1104
+LineData,Borough,Bronx,2019-08,,15
+LineData,Borough,Staten Island,2019-08,,16
+LineData,Borough,Queens,2019-08,,242
+LineData,Borough,Brooklyn,2019-08,,346
+LineData,Borough,Manhattan,2019-08,,549
+LineData,Borough,All Boroughs,2019-08,,1168
+LineData,Borough,Staten Island,2019-09,,12
+LineData,Borough,Bronx,2019-09,,18
+LineData,Borough,Queens,2019-09,,215
+LineData,Borough,Brooklyn,2019-09,,333
+LineData,Borough,Manhattan,2019-09,,540
+LineData,Borough,All Boroughs,2019-09,,1118
+LineData,Borough,Staten Island,2019-10,,8
+LineData,Borough,Bronx,2019-10,,24
+LineData,Borough,Queens,2019-10,,283
+LineData,Borough,Brooklyn,2019-10,,355
+LineData,Borough,Manhattan,2019-10,,719
+LineData,Borough,All Boroughs,2019-10,,1389
+LineData,Borough,Staten Island,2019-11,,6
+LineData,Borough,Bronx,2019-11,,32
+LineData,Borough,Queens,2019-11,,240
+LineData,Borough,Brooklyn,2019-11,,380
+LineData,Borough,Manhattan,2019-11,,580
+LineData,Borough,All Boroughs,2019-11,,1238
+LineData,Borough,Staten Island,2019-12,,7
+LineData,Borough,Bronx,2019-12,,38
+LineData,Borough,Queens,2019-12,,183
+LineData,Borough,Brooklyn,2019-12,,277
+LineData,Borough,Manhattan,2019-12,,470
+LineData,Borough,All Boroughs,2019-12,,975
+LineData,Borough,Bronx,2020-01,,27
+LineData,Borough,Queens,2020-01,,179
+LineData,Borough,Brooklyn,2020-01,,245
+LineData,Borough,Manhattan,2020-01,,393
+LineData,Borough,All Boroughs,2020-01,,844
+LineData,Borough,Staten Island,2020-02,,3
+LineData,Borough,Bronx,2020-02,,25
+LineData,Borough,Queens,2020-02,,136
+LineData,Borough,Brooklyn,2020-02,,229
+LineData,Borough,Manhattan,2020-02,,405
+LineData,Borough,All Boroughs,2020-02,,798
+LineData,Borough,Staten Island,2020-03,,2
+LineData,Borough,Bronx,2020-03,,28
+LineData,Borough,Queens,2020-03,,50
+LineData,Borough,Brooklyn,2020-03,,110
+LineData,Borough,Manhattan,2020-03,,233
+LineData,Borough,All Boroughs,2020-03,,423
+LineData,Borough,All Boroughs,2020-07,,1
+LineData,Borough,Brooklyn,2020-07,,1
+LineData,Borough,Brooklyn,2020-08,,1
+LineData,Borough,Manhattan,2020-08,,3
+LineData,Borough,All Boroughs,2020-08,,4
+LineData,Category,Student,2016-01,,1
+LineData,Category,Documentary,2016-01,,2
+LineData,Category,Still Photography,2016-01,,17
+LineData,Category,WEB,2016-01,,25
+LineData,Category,Theater,2016-01,,56
+LineData,Category,Commercial,2016-01,,71
+LineData,Category,Film,2016-01,,94
+LineData,Category,Television,2016-01,,455
+LineData,Category,All Categories,2016-01,,721
+LineData,Category,Music Video,2016-02,,1
+LineData,Category,Student,2016-02,,7
+LineData,Category,WEB,2016-02,,24
+LineData,Category,Commercial,2016-02,,33
+LineData,Category,Still Photography,2016-02,,35
+LineData,Category,Film,2016-02,,78
+LineData,Category,Theater,2016-02,,80
+LineData,Category,Television,2016-02,,506
+LineData,Category,All Categories,2016-02,,764
+LineData,Category,Documentary,2016-03,,1
+LineData,Category,Music Video,2016-03,,1
+LineData,Category,Student,2016-03,,1
+LineData,Category,WEB,2016-03,,20
+LineData,Category,Still Photography,2016-03,,55
+LineData,Category,Theater,2016-03,,85
+LineData,Category,Commercial,2016-03,,91
+LineData,Category,Film,2016-03,,132
+LineData,Category,Television,2016-03,,682
+LineData,Category,All Categories,2016-03,,1068
+LineData,Category,Documentary,2016-04,,3
+LineData,Category,Student,2016-04,,8
+LineData,Category,WEB,2016-04,,49
+LineData,Category,Theater,2016-04,,105
+LineData,Category,Still Photography,2016-04,,128
+LineData,Category,Commercial,2016-04,,136
+LineData,Category,Film,2016-04,,138
+LineData,Category,Television,2016-04,,478
+LineData,Category,All Categories,2016-04,,1045
+LineData,Category,Student,2016-05,,2
+LineData,Category,Music Video,2016-05,,10
+LineData,Category,WEB,2016-05,,33
+LineData,Category,Commercial,2016-05,,62
+LineData,Category,Theater,2016-05,,87
+LineData,Category,Still Photography,2016-05,,106
+LineData,Category,Film,2016-05,,151
+LineData,Category,Television,2016-05,,366
+LineData,Category,All Categories,2016-05,,817
+LineData,Category,Documentary,2016-06,,1
+LineData,Category,Music Video,2016-06,,2
+LineData,Category,Student,2016-06,,8
+LineData,Category,WEB,2016-06,,40
+LineData,Category,Theater,2016-06,,62
+LineData,Category,Commercial,2016-06,,90
+LineData,Category,Still Photography,2016-06,,132
+LineData,Category,Film,2016-06,,145
+LineData,Category,Television,2016-06,,413
+LineData,Category,All Categories,2016-06,,893
+LineData,Category,Documentary,2016-07,,1
+LineData,Category,Music Video,2016-07,,1
+LineData,Category,Student,2016-07,,2
+LineData,Category,WEB,2016-07,,32
+LineData,Category,Theater,2016-07,,62
+LineData,Category,Still Photography,2016-07,,88
+LineData,Category,Commercial,2016-07,,105
+LineData,Category,Film,2016-07,,151
+LineData,Category,Television,2016-07,,632
+LineData,Category,All Categories,2016-07,,1074
+LineData,Category,Documentary,2016-08,,1
+LineData,Category,Music Video,2016-08,,2
+LineData,Category,Theater,2016-08,,43
+LineData,Category,Still Photography,2016-08,,61
+LineData,Category,WEB,2016-08,,67
+LineData,Category,Commercial,2016-08,,98
+LineData,Category,Film,2016-08,,125
+LineData,Category,Television,2016-08,,759
+LineData,Category,All Categories,2016-08,,1156
+LineData,Category,Documentary,2016-09,,1
+LineData,Category,Music Video,2016-09,,1
+LineData,Category,Red Carpet/Premiere,2016-09,,1
+LineData,Category,WEB,2016-09,,35
+LineData,Category,Still Photography,2016-09,,48
+LineData,Category,Commercial,2016-09,,71
+LineData,Category,Theater,2016-09,,84
+LineData,Category,Film,2016-09,,169
+LineData,Category,Television,2016-09,,753
+LineData,Category,All Categories,2016-09,,1163
+LineData,Category,Documentary,2016-10,,1
+LineData,Category,Music Video,2016-10,,2
+LineData,Category,Student,2016-10,,7
+LineData,Category,WEB,2016-10,,46
+LineData,Category,Still Photography,2016-10,,78
+LineData,Category,Commercial,2016-10,,107
+LineData,Category,Theater,2016-10,,111
+LineData,Category,Film,2016-10,,184
+LineData,Category,Television,2016-10,,785
+LineData,Category,All Categories,2016-10,,1321
+LineData,Category,Student,2016-11,,5
+LineData,Category,Music Video,2016-11,,12
+LineData,Category,WEB,2016-11,,26
+LineData,Category,Still Photography,2016-11,,66
+LineData,Category,Commercial,2016-11,,87
+LineData,Category,Film,2016-11,,109
+LineData,Category,Theater,2016-11,,111
+LineData,Category,Television,2016-11,,779
+LineData,Category,All Categories,2016-11,,1195
+LineData,Category,Music Video,2016-12,,2
+LineData,Category,Student,2016-12,,6
+LineData,Category,WEB,2016-12,,26
+LineData,Category,Still Photography,2016-12,,28
+LineData,Category,Film,2016-12,,39
+LineData,Category,Theater,2016-12,,65
+LineData,Category,Commercial,2016-12,,75
+LineData,Category,Television,2016-12,,544
+LineData,Category,All Categories,2016-12,,785
+LineData,Category,Documentary,2017-01,,2
+LineData,Category,Student,2017-01,,8
+LineData,Category,WEB,2017-01,,24
+LineData,Category,Still Photography,2017-01,,27
+LineData,Category,Theater,2017-01,,51
+LineData,Category,Commercial,2017-01,,53
+LineData,Category,Film,2017-01,,93
+LineData,Category,Television,2017-01,,597
+LineData,Category,All Categories,2017-01,,855
+LineData,Category,Student,2017-02,,4
+LineData,Category,WEB,2017-02,,8
+LineData,Category,Still Photography,2017-02,,17
+LineData,Category,Commercial,2017-02,,62
+LineData,Category,Theater,2017-02,,76
+LineData,Category,Film,2017-02,,118
+LineData,Category,Television,2017-02,,592
+LineData,Category,All Categories,2017-02,,877
+LineData,Category,Music Video,2017-03,,2
+LineData,Category,Student,2017-03,,4
+LineData,Category,WEB,2017-03,,23
+LineData,Category,Commercial,2017-03,,56
+LineData,Category,Still Photography,2017-03,,62
+LineData,Category,Theater,2017-03,,107
+LineData,Category,Film,2017-03,,141
+LineData,Category,Television,2017-03,,627
+LineData,Category,All Categories,2017-03,,1022
+LineData,Category,Documentary,2017-04,,1
+LineData,Category,Student,2017-04,,6
+LineData,Category,WEB,2017-04,,28
+LineData,Category,Commercial,2017-04,,78
+LineData,Category,Theater,2017-04,,98
+LineData,Category,Still Photography,2017-04,,105
+LineData,Category,Film,2017-04,,114
+LineData,Category,Television,2017-04,,478
+LineData,Category,All Categories,2017-04,,908
+LineData,Category,Music Video,2017-05,,3
+LineData,Category,Student,2017-05,,3
+LineData,Category,Documentary,2017-05,,14
+LineData,Category,Commercial,2017-05,,57
+LineData,Category,WEB,2017-05,,59
+LineData,Category,Theater,2017-05,,79
+LineData,Category,Film,2017-05,,82
+LineData,Category,Still Photography,2017-05,,97
+LineData,Category,Television,2017-05,,387
+LineData,Category,All Categories,2017-05,,781
+LineData,Category,Documentary,2017-06,,1
+LineData,Category,Student,2017-06,,1
+LineData,Category,Music Video,2017-06,,7
+LineData,Category,WEB,2017-06,,37
+LineData,Category,Theater,2017-06,,63
+LineData,Category,Still Photography,2017-06,,78
+LineData,Category,Commercial,2017-06,,110
+LineData,Category,Film,2017-06,,184
+LineData,Category,Television,2017-06,,474
+LineData,Category,All Categories,2017-06,,955
+LineData,Category,Music Video,2017-07,,7
+LineData,Category,WEB,2017-07,,31
+LineData,Category,Theater,2017-07,,42
+LineData,Category,Still Photography,2017-07,,81
+LineData,Category,Commercial,2017-07,,123
+LineData,Category,Film,2017-07,,371
+LineData,Category,Television,2017-07,,541
+LineData,Category,All Categories,2017-07,,1196
+LineData,Category,Student,2017-08,,1
+LineData,Category,Music Video,2017-08,,4
+LineData,Category,WEB,2017-08,,31
+LineData,Category,Still Photography,2017-08,,40
+LineData,Category,Theater,2017-08,,56
+LineData,Category,Commercial,2017-08,,112
+LineData,Category,Film,2017-08,,297
+LineData,Category,Television,2017-08,,796
+LineData,Category,All Categories,2017-08,,1337
+LineData,Category,Music Video,2017-09,,10
+LineData,Category,WEB,2017-09,,38
+LineData,Category,Still Photography,2017-09,,51
+LineData,Category,Commercial,2017-09,,95
+LineData,Category,Theater,2017-09,,100
+LineData,Category,Film,2017-09,,135
+LineData,Category,Television,2017-09,,568
+LineData,Category,All Categories,2017-09,,997
+LineData,Category,Documentary,2017-10,,4
+LineData,Category,Student,2017-10,,4
+LineData,Category,Music Video,2017-10,,9
+LineData,Category,Still Photography,2017-10,,67
+LineData,Category,WEB,2017-10,,76
+LineData,Category,Commercial,2017-10,,79
+LineData,Category,Theater,2017-10,,150
+LineData,Category,Film,2017-10,,255
+LineData,Category,Television,2017-10,,723
+LineData,Category,All Categories,2017-10,,1367
+LineData,Category,Student,2017-11,,10
+LineData,Category,WEB,2017-11,,58
+LineData,Category,Commercial,2017-11,,75
+LineData,Category,Still Photography,2017-11,,102
+LineData,Category,Theater,2017-11,,135
+LineData,Category,Film,2017-11,,179
+LineData,Category,Television,2017-11,,713
+LineData,Category,All Categories,2017-11,,1272
+LineData,Category,Music Video,2017-12,,5
+LineData,Category,Student,2017-12,,5
+LineData,Category,WEB,2017-12,,27
+LineData,Category,Still Photography,2017-12,,37
+LineData,Category,Commercial,2017-12,,42
+LineData,Category,Theater,2017-12,,103
+LineData,Category,Film,2017-12,,106
+LineData,Category,Television,2017-12,,627
+LineData,Category,All Categories,2017-12,,952
+LineData,Category,Music Video,2018-01,,2
+LineData,Category,Student,2018-01,,3
+LineData,Category,WEB,2018-01,,15
+LineData,Category,Still Photography,2018-01,,19
+LineData,Category,Film,2018-01,,56
+LineData,Category,Theater,2018-01,,68
+LineData,Category,Commercial,2018-01,,72
+LineData,Category,Television,2018-01,,557
+LineData,Category,All Categories,2018-01,,792
+LineData,Category,Student,2018-02,,4
+LineData,Category,Music Video,2018-02,,13
+LineData,Category,WEB,2018-02,,23
+LineData,Category,Still Photography,2018-02,,32
+LineData,Category,Commercial,2018-02,,48
+LineData,Category,Theater,2018-02,,95
+LineData,Category,Film,2018-02,,144
+LineData,Category,Television,2018-02,,576
+LineData,Category,All Categories,2018-02,,935
+LineData,Category,Music Video,2018-03,,1
+LineData,Category,Documentary,2018-03,,8
+LineData,Category,Student,2018-03,,9
+LineData,Category,WEB,2018-03,,36
+LineData,Category,Still Photography,2018-03,,69
+LineData,Category,Commercial,2018-03,,72
+LineData,Category,Theater,2018-03,,93
+LineData,Category,Film,2018-03,,112
+LineData,Category,Television,2018-03,,868
+LineData,Category,All Categories,2018-03,,1268
+LineData,Category,Music Video,2018-04,,1
+LineData,Category,Student,2018-04,,4
+LineData,Category,Documentary,2018-04,,7
+LineData,Category,Commercial,2018-04,,52
+LineData,Category,WEB,2018-04,,74
+LineData,Category,Still Photography,2018-04,,82
+LineData,Category,Film,2018-04,,94
+LineData,Category,Theater,2018-04,,94
+LineData,Category,Television,2018-04,,506
+LineData,Category,All Categories,2018-04,,914
+LineData,Category,Student,2018-05,,4
+LineData,Category,Documentary,2018-05,,10
+LineData,Category,WEB,2018-05,,49
+LineData,Category,Commercial,2018-05,,86
+LineData,Category,Theater,2018-05,,107
+LineData,Category,Still Photography,2018-05,,148
+LineData,Category,Film,2018-05,,264
+LineData,Category,Television,2018-05,,512
+LineData,Category,All Categories,2018-05,,1180
+LineData,Category,Student,2018-06,,3
+LineData,Category,Documentary,2018-06,,5
+LineData,Category,Music Video,2018-06,,14
+LineData,Category,Still Photography,2018-06,,80
+LineData,Category,WEB,2018-06,,83
+LineData,Category,Theater,2018-06,,101
+LineData,Category,Commercial,2018-06,,114
+LineData,Category,Film,2018-06,,225
+LineData,Category,Television,2018-06,,435
+LineData,Category,All Categories,2018-06,,1060
+LineData,Category,Documentary,2018-07,,10
+LineData,Category,Music Video,2018-07,,22
+LineData,Category,Theater,2018-07,,53
+LineData,Category,WEB,2018-07,,53
+LineData,Category,Still Photography,2018-07,,67
+LineData,Category,Commercial,2018-07,,85
+LineData,Category,Film,2018-07,,183
+LineData,Category,Television,2018-07,,622
+LineData,Category,All Categories,2018-07,,1095
+LineData,Category,Student,2018-08,,2
+LineData,Category,Documentary,2018-08,,5
+LineData,Category,Music Video,2018-08,,5
+LineData,Category,Still Photography,2018-08,,43
+LineData,Category,Theater,2018-08,,62
+LineData,Category,WEB,2018-08,,78
+LineData,Category,Commercial,2018-08,,127
+LineData,Category,Film,2018-08,,153
+LineData,Category,Television,2018-08,,844
+LineData,Category,All Categories,2018-08,,1319
+LineData,Category,Student,2018-09,,2
+LineData,Category,Documentary,2018-09,,6
+LineData,Category,Music Video,2018-09,,11
+LineData,Category,WEB,2018-09,,40
+LineData,Category,Still Photography,2018-09,,87
+LineData,Category,Theater,2018-09,,95
+LineData,Category,Commercial,2018-09,,102
+LineData,Category,Film,2018-09,,164
+LineData,Category,Television,2018-09,,718
+LineData,Category,All Categories,2018-09,,1225
+LineData,Category,Music Video,2018-10,,4
+LineData,Category,Student,2018-10,,7
+LineData,Category,Documentary,2018-10,,10
+LineData,Category,WEB,2018-10,,81
+LineData,Category,Commercial,2018-10,,115
+LineData,Category,Theater,2018-10,,167
+LineData,Category,Still Photography,2018-10,,190
+LineData,Category,Film,2018-10,,215
+LineData,Category,Television,2018-10,,946
+LineData,Category,All Categories,2018-10,,1735
+LineData,Category,Music Video,2018-11,,1
+LineData,Category,Student,2018-11,,5
+LineData,Category,Documentary,2018-11,,6
+LineData,Category,WEB,2018-11,,36
+LineData,Category,Commercial,2018-11,,60
+LineData,Category,Still Photography,2018-11,,67
+LineData,Category,Film,2018-11,,149
+LineData,Category,Theater,2018-11,,159
+LineData,Category,Television,2018-11,,845
+LineData,Category,All Categories,2018-11,,1328
+LineData,Category,Documentary,2018-12,,3
+LineData,Category,Music Video,2018-12,,4
+LineData,Category,Student,2018-12,,8
+LineData,Category,Still Photography,2018-12,,30
+LineData,Category,WEB,2018-12,,32
+LineData,Category,Film,2018-12,,58
+LineData,Category,Commercial,2018-12,,64
+LineData,Category,Theater,2018-12,,105
+LineData,Category,Television,2018-12,,515
+LineData,Category,All Categories,2018-12,,819
+LineData,Category,Music Video,2019-01,,1
+LineData,Category,Documentary,2019-01,,2
+LineData,Category,Student,2019-01,,2
+LineData,Category,Still Photography,2019-01,,17
+LineData,Category,Commercial,2019-01,,32
+LineData,Category,WEB,2019-01,,33
+LineData,Category,Film,2019-01,,60
+LineData,Category,Theater,2019-01,,66
+LineData,Category,Television,2019-01,,523
+LineData,Category,All Categories,2019-01,,736
+LineData,Category,Student,2019-02,,1
+LineData,Category,Documentary,2019-02,,3
+LineData,Category,WEB,2019-02,,28
+LineData,Category,Still Photography,2019-02,,30
+LineData,Category,Commercial,2019-02,,55
+LineData,Category,Film,2019-02,,57
+LineData,Category,Theater,2019-02,,101
+LineData,Category,Television,2019-02,,555
+LineData,Category,All Categories,2019-02,,830
+LineData,Category,Music Video,2019-03,,1
+LineData,Category,Student,2019-03,,7
+LineData,Category,Documentary,2019-03,,8
+LineData,Category,Still Photography,2019-03,,27
+LineData,Category,WEB,2019-03,,39
+LineData,Category,Commercial,2019-03,,56
+LineData,Category,Theater,2019-03,,114
+LineData,Category,Film,2019-03,,136
+LineData,Category,Television,2019-03,,841
+LineData,Category,All Categories,2019-03,,1229
+LineData,Category,Student,2019-04,,8
+LineData,Category,WEB,2019-04,,64
+LineData,Category,Commercial,2019-04,,119
+LineData,Category,Still Photography,2019-04,,131
+LineData,Category,Theater,2019-04,,132
+LineData,Category,Film,2019-04,,193
+LineData,Category,Television,2019-04,,636
+LineData,Category,All Categories,2019-04,,1283
+LineData,Category,Documentary,2019-05,,2
+LineData,Category,Student,2019-05,,3
+LineData,Category,Music Video,2019-05,,23
+LineData,Category,WEB,2019-05,,74
+LineData,Category,Commercial,2019-05,,92
+LineData,Category,Still Photography,2019-05,,93
+LineData,Category,Film,2019-05,,113
+LineData,Category,Theater,2019-05,,148
+LineData,Category,Television,2019-05,,455
+LineData,Category,All Categories,2019-05,,1003
+LineData,Category,Music Video,2019-06,,2
+LineData,Category,Documentary,2019-06,,8
+LineData,Category,WEB,2019-06,,37
+LineData,Category,Commercial,2019-06,,78
+LineData,Category,Theater,2019-06,,113
+LineData,Category,Still Photography,2019-06,,117
+LineData,Category,Film,2019-06,,266
+LineData,Category,Television,2019-06,,407
+LineData,Category,All Categories,2019-06,,1028
+LineData,Category,Music Video,2019-07,,4
+LineData,Category,WEB,2019-07,,54
+LineData,Category,Commercial,2019-07,,73
+LineData,Category,Still Photography,2019-07,,79
+LineData,Category,Theater,2019-07,,94
+LineData,Category,Film,2019-07,,245
+LineData,Category,Television,2019-07,,555
+LineData,Category,All Categories,2019-07,,1104
+LineData,Category,Student,2019-08,,3
+LineData,Category,Documentary,2019-08,,8
+LineData,Category,Music Video,2019-08,,11
+LineData,Category,WEB,2019-08,,43
+LineData,Category,Still Photography,2019-08,,69
+LineData,Category,Commercial,2019-08,,81
+LineData,Category,Theater,2019-08,,92
+LineData,Category,Film,2019-08,,115
+LineData,Category,Television,2019-08,,746
+LineData,Category,All Categories,2019-08,,1168
+LineData,Category,Music Video,2019-09,,1
+LineData,Category,Student,2019-09,,3
+LineData,Category,Documentary,2019-09,,7
+LineData,Category,WEB,2019-09,,49
+LineData,Category,Still Photography,2019-09,,66
+LineData,Category,Film,2019-09,,77
+LineData,Category,Commercial,2019-09,,92
+LineData,Category,Theater,2019-09,,152
+LineData,Category,Television,2019-09,,671
+LineData,Category,All Categories,2019-09,,1118
+LineData,Category,Documentary,2019-10,,7
+LineData,Category,Student,2019-10,,7
+LineData,Category,Music Video,2019-10,,10
+LineData,Category,WEB,2019-10,,35
+LineData,Category,Still Photography,2019-10,,78
+LineData,Category,Commercial,2019-10,,101
+LineData,Category,Film,2019-10,,178
+LineData,Category,Theater,2019-10,,185
+LineData,Category,Television,2019-10,,788
+LineData,Category,All Categories,2019-10,,1389
+LineData,Category,Documentary,2019-11,,4
+LineData,Category,Student,2019-11,,6
+LineData,Category,Still Photography,2019-11,,24
+LineData,Category,WEB,2019-11,,24
+LineData,Category,Commercial,2019-11,,64
+LineData,Category,Theater,2019-11,,165
+LineData,Category,Film,2019-11,,175
+LineData,Category,Television,2019-11,,776
+LineData,Category,All Categories,2019-11,,1238
+LineData,Category,Student,2019-12,,5
+LineData,Category,Music Video,2019-12,,6
+LineData,Category,Documentary,2019-12,,7
+LineData,Category,Still Photography,2019-12,,21
+LineData,Category,WEB,2019-12,,52
+LineData,Category,Commercial,2019-12,,54
+LineData,Category,Film,2019-12,,96
+LineData,Category,Theater,2019-12,,135
+LineData,Category,Television,2019-12,,599
+LineData,Category,All Categories,2019-12,,975
+LineData,Category,Student,2020-01,,13
+LineData,Category,Still Photography,2020-01,,14
+LineData,Category,Documentary,2020-01,,18
+LineData,Category,WEB,2020-01,,29
+LineData,Category,Film,2020-01,,30
+LineData,Category,Commercial,2020-01,,44
+LineData,Category,Theater,2020-01,,82
+LineData,Category,Television,2020-01,,614
+LineData,Category,All Categories,2020-01,,844
+LineData,Category,Music Video,2020-02,,2
+LineData,Category,Student,2020-02,,6
+LineData,Category,Documentary,2020-02,,8
+LineData,Category,Still Photography,2020-02,,11
+LineData,Category,WEB,2020-02,,13
+LineData,Category,Commercial,2020-02,,30
+LineData,Category,Film,2020-02,,45
+LineData,Category,Theater,2020-02,,117
+LineData,Category,Television,2020-02,,566
+LineData,Category,All Categories,2020-02,,798
+LineData,Category,Student,2020-03,,3
+LineData,Category,Still Photography,2020-03,,7
+LineData,Category,WEB,2020-03,,15
+LineData,Category,Commercial,2020-03,,31
+LineData,Category,Film,2020-03,,38
+LineData,Category,Theater,2020-03,,40
+LineData,Category,Television,2020-03,,289
+LineData,Category,All Categories,2020-03,,423
+LineData,Category,All Categories,2020-07,,1
+LineData,Category,Television,2020-07,,1
+LineData,Category,WEB,2020-08,,1
+LineData,Category,Theater,2020-08,,3
+LineData,Category,All Categories,2020-08,,4
+LineData,Type,Rigging Permit,2016-01,,3
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-01,,9
+LineData,Type,Theater Load in and Load Outs,2016-01,,54
+LineData,Type,Shooting Permit,2016-01,,655
+LineData,Type,All Permit Types,2016-01,,721
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-02,,9
+LineData,Type,Rigging Permit,2016-02,,9
+LineData,Type,Theater Load in and Load Outs,2016-02,,79
+LineData,Type,Shooting Permit,2016-02,,667
+LineData,Type,All Permit Types,2016-02,,764
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-03,,9
+LineData,Type,Rigging Permit,2016-03,,17
+LineData,Type,Theater Load in and Load Outs,2016-03,,87
+LineData,Type,Shooting Permit,2016-03,,955
+LineData,Type,All Permit Types,2016-03,,1068
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-04,,8
+LineData,Type,Rigging Permit,2016-04,,18
+LineData,Type,Theater Load in and Load Outs,2016-04,,102
+LineData,Type,Shooting Permit,2016-04,,917
+LineData,Type,All Permit Types,2016-04,,1045
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-05,,2
+LineData,Type,Rigging Permit,2016-05,,21
+LineData,Type,Theater Load in and Load Outs,2016-05,,85
+LineData,Type,Shooting Permit,2016-05,,709
+LineData,Type,All Permit Types,2016-05,,817
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-06,,3
+LineData,Type,Rigging Permit,2016-06,,12
+LineData,Type,Theater Load in and Load Outs,2016-06,,67
+LineData,Type,Shooting Permit,2016-06,,811
+LineData,Type,All Permit Types,2016-06,,893
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-07,,21
+LineData,Type,Rigging Permit,2016-07,,22
+LineData,Type,Theater Load in and Load Outs,2016-07,,59
+LineData,Type,Shooting Permit,2016-07,,972
+LineData,Type,All Permit Types,2016-07,,1074
+LineData,Type,Rigging Permit,2016-08,,10
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-08,,14
+LineData,Type,Theater Load in and Load Outs,2016-08,,46
+LineData,Type,Shooting Permit,2016-08,,1086
+LineData,Type,All Permit Types,2016-08,,1156
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-09,,14
+LineData,Type,Rigging Permit,2016-09,,24
+LineData,Type,Theater Load in and Load Outs,2016-09,,80
+LineData,Type,Shooting Permit,2016-09,,1045
+LineData,Type,All Permit Types,2016-09,,1163
+LineData,Type,Rigging Permit,2016-10,,16
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-10,,17
+LineData,Type,Theater Load in and Load Outs,2016-10,,111
+LineData,Type,Shooting Permit,2016-10,,1177
+LineData,Type,All Permit Types,2016-10,,1321
+LineData,Type,Rigging Permit,2016-11,,13
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-11,,27
+LineData,Type,Theater Load in and Load Outs,2016-11,,109
+LineData,Type,Shooting Permit,2016-11,,1046
+LineData,Type,All Permit Types,2016-11,,1195
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2016-12,,5
+LineData,Type,Rigging Permit,2016-12,,14
+LineData,Type,Theater Load in and Load Outs,2016-12,,62
+LineData,Type,Shooting Permit,2016-12,,704
+LineData,Type,All Permit Types,2016-12,,785
+LineData,Type,Rigging Permit,2017-01,,6
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-01,,17
+LineData,Type,Theater Load in and Load Outs,2017-01,,51
+LineData,Type,Shooting Permit,2017-01,,781
+LineData,Type,All Permit Types,2017-01,,855
+LineData,Type,Rigging Permit,2017-02,,8
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-02,,16
+LineData,Type,Theater Load in and Load Outs,2017-02,,77
+LineData,Type,Shooting Permit,2017-02,,776
+LineData,Type,All Permit Types,2017-02,,877
+LineData,Type,Rigging Permit,2017-03,,13
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-03,,18
+LineData,Type,Theater Load in and Load Outs,2017-03,,104
+LineData,Type,Shooting Permit,2017-03,,887
+LineData,Type,All Permit Types,2017-03,,1022
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-04,,10
+LineData,Type,Rigging Permit,2017-04,,19
+LineData,Type,Theater Load in and Load Outs,2017-04,,90
+LineData,Type,Shooting Permit,2017-04,,789
+LineData,Type,All Permit Types,2017-04,,908
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-05,,2
+LineData,Type,Rigging Permit,2017-05,,17
+LineData,Type,Theater Load in and Load Outs,2017-05,,83
+LineData,Type,Shooting Permit,2017-05,,679
+LineData,Type,All Permit Types,2017-05,,781
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-06,,1
+LineData,Type,Rigging Permit,2017-06,,25
+LineData,Type,Theater Load in and Load Outs,2017-06,,73
+LineData,Type,Shooting Permit,2017-06,,856
+LineData,Type,All Permit Types,2017-06,,955
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-07,,8
+LineData,Type,Rigging Permit,2017-07,,28
+LineData,Type,Theater Load in and Load Outs,2017-07,,41
+LineData,Type,Shooting Permit,2017-07,,1119
+LineData,Type,All Permit Types,2017-07,,1196
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-08,,19
+LineData,Type,Rigging Permit,2017-08,,24
+LineData,Type,Theater Load in and Load Outs,2017-08,,55
+LineData,Type,Shooting Permit,2017-08,,1239
+LineData,Type,All Permit Types,2017-08,,1337
+LineData,Type,Rigging Permit,2017-09,,7
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-09,,9
+LineData,Type,Theater Load in and Load Outs,2017-09,,99
+LineData,Type,Shooting Permit,2017-09,,882
+LineData,Type,All Permit Types,2017-09,,997
+LineData,Type,Rigging Permit,2017-10,,12
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-10,,14
+LineData,Type,Theater Load in and Load Outs,2017-10,,151
+LineData,Type,Shooting Permit,2017-10,,1190
+LineData,Type,All Permit Types,2017-10,,1367
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-11,,16
+LineData,Type,Rigging Permit,2017-11,,18
+LineData,Type,Theater Load in and Load Outs,2017-11,,138
+LineData,Type,Shooting Permit,2017-11,,1100
+LineData,Type,All Permit Types,2017-11,,1272
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2017-12,,12
+LineData,Type,Rigging Permit,2017-12,,12
+LineData,Type,Theater Load in and Load Outs,2017-12,,101
+LineData,Type,Shooting Permit,2017-12,,827
+LineData,Type,All Permit Types,2017-12,,952
+LineData,Type,Rigging Permit,2018-01,,5
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-01,,14
+LineData,Type,Theater Load in and Load Outs,2018-01,,75
+LineData,Type,Shooting Permit,2018-01,,698
+LineData,Type,All Permit Types,2018-01,,792
+LineData,Type,Rigging Permit,2018-02,,8
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-02,,12
+LineData,Type,Theater Load in and Load Outs,2018-02,,92
+LineData,Type,Shooting Permit,2018-02,,823
+LineData,Type,All Permit Types,2018-02,,935
+LineData,Type,Rigging Permit,2018-03,,9
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-03,,12
+LineData,Type,Theater Load in and Load Outs,2018-03,,93
+LineData,Type,Shooting Permit,2018-03,,1154
+LineData,Type,All Permit Types,2018-03,,1268
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-04,,8
+LineData,Type,Rigging Permit,2018-04,,25
+LineData,Type,Theater Load in and Load Outs,2018-04,,99
+LineData,Type,Shooting Permit,2018-04,,782
+LineData,Type,All Permit Types,2018-04,,914
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-05,,7
+LineData,Type,Rigging Permit,2018-05,,35
+LineData,Type,Theater Load in and Load Outs,2018-05,,112
+LineData,Type,Shooting Permit,2018-05,,1026
+LineData,Type,All Permit Types,2018-05,,1180
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-06,,6
+LineData,Type,Rigging Permit,2018-06,,27
+LineData,Type,Theater Load in and Load Outs,2018-06,,97
+LineData,Type,Shooting Permit,2018-06,,930
+LineData,Type,All Permit Types,2018-06,,1060
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-07,,8
+LineData,Type,Rigging Permit,2018-07,,14
+LineData,Type,Theater Load in and Load Outs,2018-07,,52
+LineData,Type,Shooting Permit,2018-07,,1021
+LineData,Type,All Permit Types,2018-07,,1095
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-08,,15
+LineData,Type,Rigging Permit,2018-08,,42
+LineData,Type,Theater Load in and Load Outs,2018-08,,61
+LineData,Type,Shooting Permit,2018-08,,1201
+LineData,Type,All Permit Types,2018-08,,1319
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-09,,12
+LineData,Type,Rigging Permit,2018-09,,21
+LineData,Type,Theater Load in and Load Outs,2018-09,,102
+LineData,Type,Shooting Permit,2018-09,,1090
+LineData,Type,All Permit Types,2018-09,,1225
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-10,,22
+LineData,Type,Rigging Permit,2018-10,,29
+LineData,Type,Theater Load in and Load Outs,2018-10,,165
+LineData,Type,Shooting Permit,2018-10,,1519
+LineData,Type,All Permit Types,2018-10,,1735
+LineData,Type,Rigging Permit,2018-11,,6
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-11,,13
+LineData,Type,Theater Load in and Load Outs,2018-11,,160
+LineData,Type,Shooting Permit,2018-11,,1149
+LineData,Type,All Permit Types,2018-11,,1328
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2018-12,,10
+LineData,Type,Rigging Permit,2018-12,,12
+LineData,Type,Theater Load in and Load Outs,2018-12,,108
+LineData,Type,Shooting Permit,2018-12,,689
+LineData,Type,All Permit Types,2018-12,,819
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-01,,11
+LineData,Type,Rigging Permit,2019-01,,11
+LineData,Type,Theater Load in and Load Outs,2019-01,,66
+LineData,Type,Shooting Permit,2019-01,,648
+LineData,Type,All Permit Types,2019-01,,736
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-02,,2
+LineData,Type,Rigging Permit,2019-02,,23
+LineData,Type,Theater Load in and Load Outs,2019-02,,106
+LineData,Type,Shooting Permit,2019-02,,699
+LineData,Type,All Permit Types,2019-02,,830
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-03,,11
+LineData,Type,Rigging Permit,2019-03,,21
+LineData,Type,Theater Load in and Load Outs,2019-03,,112
+LineData,Type,Shooting Permit,2019-03,,1085
+LineData,Type,All Permit Types,2019-03,,1229
+LineData,Type,Rigging Permit,2019-04,,14
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-04,,21
+LineData,Type,Theater Load in and Load Outs,2019-04,,125
+LineData,Type,Shooting Permit,2019-04,,1123
+LineData,Type,All Permit Types,2019-04,,1283
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-05,,3
+LineData,Type,Rigging Permit,2019-05,,12
+LineData,Type,Theater Load in and Load Outs,2019-05,,151
+LineData,Type,Shooting Permit,2019-05,,837
+LineData,Type,All Permit Types,2019-05,,1003
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-06,,9
+LineData,Type,Rigging Permit,2019-06,,33
+LineData,Type,Theater Load in and Load Outs,2019-06,,106
+LineData,Type,Shooting Permit,2019-06,,880
+LineData,Type,All Permit Types,2019-06,,1028
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-07,,15
+LineData,Type,Rigging Permit,2019-07,,33
+LineData,Type,Theater Load in and Load Outs,2019-07,,93
+LineData,Type,Shooting Permit,2019-07,,963
+LineData,Type,All Permit Types,2019-07,,1104
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-08,,6
+LineData,Type,Rigging Permit,2019-08,,24
+LineData,Type,Theater Load in and Load Outs,2019-08,,88
+LineData,Type,Shooting Permit,2019-08,,1050
+LineData,Type,All Permit Types,2019-08,,1168
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-09,,15
+LineData,Type,Rigging Permit,2019-09,,21
+LineData,Type,Theater Load in and Load Outs,2019-09,,151
+LineData,Type,Shooting Permit,2019-09,,931
+LineData,Type,All Permit Types,2019-09,,1118
+LineData,Type,Rigging Permit,2019-10,,7
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-10,,13
+LineData,Type,Theater Load in and Load Outs,2019-10,,184
+LineData,Type,Shooting Permit,2019-10,,1185
+LineData,Type,All Permit Types,2019-10,,1389
+LineData,Type,Rigging Permit,2019-11,,8
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-11,,13
+LineData,Type,Theater Load in and Load Outs,2019-11,,162
+LineData,Type,Shooting Permit,2019-11,,1055
+LineData,Type,All Permit Types,2019-11,,1238
+LineData,Type,Rigging Permit,2019-12,,7
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2019-12,,12
+LineData,Type,Theater Load in and Load Outs,2019-12,,136
+LineData,Type,Shooting Permit,2019-12,,820
+LineData,Type,All Permit Types,2019-12,,975
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-01,,16
+LineData,Type,Rigging Permit,2020-01,,18
+LineData,Type,Theater Load in and Load Outs,2020-01,,76
+LineData,Type,Shooting Permit,2020-01,,734
+LineData,Type,All Permit Types,2020-01,,844
+LineData,Type,Rigging Permit,2020-02,,4
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-02,,20
+LineData,Type,Theater Load in and Load Outs,2020-02,,117
+LineData,Type,Shooting Permit,2020-02,,657
+LineData,Type,All Permit Types,2020-02,,798
+LineData,Type,DCAS Prep/Shoot/Wrap Permit,2020-03,,7
+LineData,Type,Rigging Permit,2020-03,,10
+LineData,Type,Theater Load in and Load Outs,2020-03,,39
+LineData,Type,Shooting Permit,2020-03,,367
+LineData,Type,All Permit Types,2020-03,,423
+LineData,Type,All Permit Types,2020-07,,1
+LineData,Type,Shooting Permit,2020-07,,1
+LineData,Type,Shooting Permit,2020-08,,1
+LineData,Type,Theater Load in and Load Outs,2020-08,,3
+LineData,Type,All Permit Types,2020-08,,4
+MapData,Borough,Manhattan,,,10
+MapData,Borough,Queens,,,8
+MapData,Borough,Manhattan,,0,1
+MapData,Borough,Manhattan,,83,34
+MapData,Borough,Manhattan,,10000,4
+MapData,Borough,Bronx,,10001,1
+MapData,Borough,Brooklyn,,10001,15
+MapData,Borough,Manhattan,,10001,1778
+MapData,Borough,Queens,,10001,5
+MapData,Borough,Staten Island,,10001,1
+MapData,Borough,Bronx,,10002,5
+MapData,Borough,Brooklyn,,10002,58
+MapData,Borough,Manhattan,,10002,900
+MapData,Borough,Queens,,10002,9
+MapData,Borough,Bronx,,10003,4
+MapData,Borough,Brooklyn,,10003,21
+MapData,Borough,Manhattan,,10003,1437
+MapData,Borough,Queens,,10003,7
+MapData,Borough,Bronx,,10004,1
+MapData,Borough,Brooklyn,,10004,12
+MapData,Borough,Manhattan,,10004,283
+MapData,Borough,Queens,,10004,2
+MapData,Borough,Brooklyn,,10005,6
+MapData,Borough,Manhattan,,10005,310
+MapData,Borough,Queens,,10005,1
+MapData,Borough,Manhattan,,10006,90
+MapData,Borough,Bronx,,10007,1
+MapData,Borough,Brooklyn,,10007,9
+MapData,Borough,Manhattan,,10007,538
+MapData,Borough,Queens,,10007,2
+MapData,Borough,Brooklyn,,10009,5
+MapData,Borough,Manhattan,,10009,277
+MapData,Borough,Queens,,10009,3
+MapData,Borough,Bronx,,10010,2
+MapData,Borough,Brooklyn,,10010,8
+MapData,Borough,Manhattan,,10010,613
+MapData,Borough,Queens,,10010,5
+MapData,Borough,Staten Island,,10010,1
+MapData,Borough,Bronx,,10011,4
+MapData,Borough,Brooklyn,,10011,19
+MapData,Borough,Manhattan,,10011,1467
+MapData,Borough,Queens,,10011,4
+MapData,Borough,Staten Island,,10011,1
+MapData,Borough,Bronx,,10012,2
+MapData,Borough,Brooklyn,,10012,25
+MapData,Borough,Manhattan,,10012,1058
+MapData,Borough,Queens,,10012,5
+MapData,Borough,Staten Island,,10012,1
+MapData,Borough,Bronx,,10013,6
+MapData,Borough,Brooklyn,,10013,43
+MapData,Borough,Manhattan,,10013,1508
+MapData,Borough,Queens,,10013,10
+MapData,Borough,Staten Island,,10013,1
+MapData,Borough,Bronx,,10014,1
+MapData,Borough,Brooklyn,,10014,17
+MapData,Borough,Manhattan,,10014,925
+MapData,Borough,Queens,,10014,7
+MapData,Borough,Brooklyn,,10016,11
+MapData,Borough,Manhattan,,10016,491
+MapData,Borough,Queens,,10016,8
+MapData,Borough,Staten Island,,10016,1
+MapData,Borough,Brooklyn,,10017,14
+MapData,Borough,Manhattan,,10017,553
+MapData,Borough,Queens,,10017,13
+MapData,Borough,Bronx,,10018,2
+MapData,Borough,Brooklyn,,10018,9
+MapData,Borough,Manhattan,,10018,615
+MapData,Borough,Queens,,10018,4
+MapData,Borough,Bronx,,10019,5
+MapData,Borough,Brooklyn,,10019,15
+MapData,Borough,Manhattan,,10019,1915
+MapData,Borough,Queens,,10019,5
+MapData,Borough,Staten Island,,10019,1
+MapData,Borough,Bronx,,10020,2
+MapData,Borough,Brooklyn,,10020,4
+MapData,Borough,Manhattan,,10020,362
+MapData,Borough,Queens,,10020,1
+MapData,Borough,Brooklyn,,10021,1
+MapData,Borough,Manhattan,,10021,390
+MapData,Borough,Queens,,10021,2
+MapData,Borough,Bronx,,10022,4
+MapData,Borough,Brooklyn,,10022,13
+MapData,Borough,Manhattan,,10022,653
+MapData,Borough,Queens,,10022,22
+MapData,Borough,Bronx,,10023,1
+MapData,Borough,Brooklyn,,10023,11
+MapData,Borough,Manhattan,,10023,1267
+MapData,Borough,Queens,,10023,5
+MapData,Borough,Bronx,,10024,2
+MapData,Borough,Brooklyn,,10024,3
+MapData,Borough,Manhattan,,10024,348
+MapData,Borough,Queens,,10024,1
+MapData,Borough,Staten Island,,10024,1
+MapData,Borough,Bronx,,10025,2
+MapData,Borough,Brooklyn,,10025,2
+MapData,Borough,Manhattan,,10025,292
+MapData,Borough,Queens,,10025,2
+MapData,Borough,Bronx,,10026,2
+MapData,Borough,Brooklyn,,10026,2
+MapData,Borough,Manhattan,,10026,218
+MapData,Borough,Bronx,,10027,3
+MapData,Borough,Brooklyn,,10027,2
+MapData,Borough,Manhattan,,10027,577
+MapData,Borough,Queens,,10027,3
+MapData,Borough,Bronx,,10028,4
+MapData,Borough,Brooklyn,,10028,1
+MapData,Borough,Manhattan,,10028,208
+MapData,Borough,Queens,,10028,4
+MapData,Borough,Bronx,,10029,2
+MapData,Borough,Brooklyn,,10029,3
+MapData,Borough,Manhattan,,10029,457
+MapData,Borough,Queens,,10029,3
+MapData,Borough,Manhattan,,10030,109
+MapData,Borough,Brooklyn,,10031,3
+MapData,Borough,Manhattan,,10031,364
+MapData,Borough,Bronx,,10032,8
+MapData,Borough,Brooklyn,,10032,2
+MapData,Borough,Manhattan,,10032,289
+MapData,Borough,Queens,,10032,2
+MapData,Borough,Bronx,,10033,2
+MapData,Borough,Manhattan,,10033,261
+MapData,Borough,Queens,,10033,2
+MapData,Borough,Brooklyn,,10034,1
+MapData,Borough,Manhattan,,10034,57
+MapData,Borough,Bronx,,10035,6
+MapData,Borough,Brooklyn,,10035,1
+MapData,Borough,Manhattan,,10035,114
+MapData,Borough,Queens,,10035,4
+MapData,Borough,Bronx,,10036,3
+MapData,Borough,Brooklyn,,10036,20
+MapData,Borough,Manhattan,,10036,2212
+MapData,Borough,Queens,,10036,6
+MapData,Borough,Staten Island,,10036,1
+MapData,Borough,Bronx,,10037,1
+MapData,Borough,Manhattan,,10037,37
+MapData,Borough,Bronx,,10038,1
+MapData,Borough,Brooklyn,,10038,14
+MapData,Borough,Manhattan,,10038,470
+MapData,Borough,Bronx,,10039,2
+MapData,Borough,Brooklyn,,10039,1
+MapData,Borough,Manhattan,,10039,42
+MapData,Borough,Queens,,10039,2
+MapData,Borough,Bronx,,10040,1
+MapData,Borough,Manhattan,,10040,70
+MapData,Borough,Queens,,10040,1
+MapData,Borough,Manhattan,,10041,29
+MapData,Borough,Queens,,10041,1
+MapData,Borough,Bronx,,10044,1
+MapData,Borough,Brooklyn,,10044,4
+MapData,Borough,Manhattan,,10044,49
+MapData,Borough,Queens,,10044,24
+MapData,Borough,Manhattan,,10045,57
+MapData,Borough,Manhattan,,10048,16
+MapData,Borough,Bronx,,10065,2
+MapData,Borough,Brooklyn,,10065,8
+MapData,Borough,Manhattan,,10065,444
+MapData,Borough,Queens,,10065,18
+MapData,Borough,Manhattan,,10069,14
+MapData,Borough,Brooklyn,,10075,1
+MapData,Borough,Manhattan,,10075,216
+MapData,Borough,Queens,,10075,2
+MapData,Borough,Manhattan,,10080,1
+MapData,Borough,Manhattan,,10097,3
+MapData,Borough,Brooklyn,,10103,2
+MapData,Borough,Manhattan,,10103,70
+MapData,Borough,Brooklyn,,10105,1
+MapData,Borough,Manhattan,,10105,726
+MapData,Borough,Bronx,,10106,2
+MapData,Borough,Brooklyn,,10106,1
+MapData,Borough,Manhattan,,10106,152
+MapData,Borough,Brooklyn,,10110,1
+MapData,Borough,Manhattan,,10110,15
+MapData,Borough,Manhattan,,10111,21
+MapData,Borough,Brooklyn,,10112,1
+MapData,Borough,Manhattan,,10112,81
+MapData,Borough,Manhattan,,10115,22
+MapData,Borough,Brooklyn,,10118,1
+MapData,Borough,Manhattan,,10118,18
+MapData,Borough,Bronx,,10119,2
+MapData,Borough,Brooklyn,,10119,1
+MapData,Borough,Manhattan,,10119,39
+MapData,Borough,Manhattan,,10120,5
+MapData,Borough,Manhattan,,10121,562
+MapData,Borough,Queens,,10121,1
+MapData,Borough,Manhattan,,10123,1
+MapData,Borough,Bronx,,10128,4
+MapData,Borough,Brooklyn,,10128,5
+MapData,Borough,Manhattan,,10128,234
+MapData,Borough,Queens,,10128,6
+MapData,Borough,Manhattan,,10151,2
+MapData,Borough,Manhattan,,10152,79
+MapData,Borough,Queens,,10152,1
+MapData,Borough,Manhattan,,10154,20
+MapData,Borough,Manhattan,,10155,10
+MapData,Borough,Manhattan,,10158,4
+MapData,Borough,Manhattan,,10165,29
+MapData,Borough,Manhattan,,10167,37
+MapData,Borough,Queens,,10167,2
+MapData,Borough,Manhattan,,10170,13
+MapData,Borough,Queens,,10170,1
+MapData,Borough,Manhattan,,10171,71
+MapData,Borough,Queens,,10171,2
+MapData,Borough,Manhattan,,10172,52
+MapData,Borough,Queens,,10172,2
+MapData,Borough,Manhattan,,10173,35
+MapData,Borough,Manhattan,,10174,8
+MapData,Borough,Brooklyn,,10175,1
+MapData,Borough,Manhattan,,10175,10
+MapData,Borough,Brooklyn,,10176,1
+MapData,Borough,Manhattan,,10176,7
+MapData,Borough,Manhattan,,10177,38
+MapData,Borough,Queens,,10177,2
+MapData,Borough,Manhattan,,10178,7
+MapData,Borough,Manhattan,,10271,9
+MapData,Borough,Brooklyn,,10278,1
+MapData,Borough,Manhattan,,10278,17
+MapData,Borough,Brooklyn,,10279,1
+MapData,Borough,Manhattan,,10279,9
+MapData,Borough,Brooklyn,,10280,1
+MapData,Borough,Manhattan,,10280,46
+MapData,Borough,Queens,,10280,1
+MapData,Borough,Manhattan,,10281,20
+MapData,Borough,Brooklyn,,10282,3
+MapData,Borough,Manhattan,,10282,77
+MapData,Borough,Staten Island,,10301,123
+MapData,Borough,Staten Island,,10302,46
+MapData,Borough,Staten Island,,10303,33
+MapData,Borough,Brooklyn,,10304,1
+MapData,Borough,Manhattan,,10304,1
+MapData,Borough,Staten Island,,10304,131
+MapData,Borough,Brooklyn,,10305,1
+MapData,Borough,Staten Island,,10305,47
+MapData,Borough,Brooklyn,,10306,1
+MapData,Borough,Staten Island,,10306,34
+MapData,Borough,Staten Island,,10307,24
+MapData,Borough,Staten Island,,10308,5
+MapData,Borough,Brooklyn,,10309,1
+MapData,Borough,Manhattan,,10309,1
+MapData,Borough,Staten Island,,10309,80
+MapData,Borough,Manhattan,,10310,1
+MapData,Borough,Staten Island,,10310,87
+MapData,Borough,Manhattan,,10312,1
+MapData,Borough,Staten Island,,10312,13
+MapData,Borough,Brooklyn,,10314,1
+MapData,Borough,Staten Island,,10314,48
+MapData,Borough,Bronx,,10451,243
+MapData,Borough,Manhattan,,10451,9
+MapData,Borough,Queens,,10451,1
+MapData,Borough,Bronx,,10452,92
+MapData,Borough,Brooklyn,,10452,2
+MapData,Borough,Manhattan,,10452,8
+MapData,Borough,Bronx,,10453,66
+MapData,Borough,Manhattan,,10453,2
+MapData,Borough,Queens,,10453,1
+MapData,Borough,Bronx,,10454,499
+MapData,Borough,Brooklyn,,10454,1
+MapData,Borough,Manhattan,,10454,23
+MapData,Borough,Queens,,10454,6
+MapData,Borough,Bronx,,10455,35
+MapData,Borough,Brooklyn,,10455,1
+MapData,Borough,Manhattan,,10455,3
+MapData,Borough,Bronx,,10456,53
+MapData,Borough,Brooklyn,,10456,1
+MapData,Borough,Manhattan,,10456,2
+MapData,Borough,Bronx,,10457,58
+MapData,Borough,Brooklyn,,10457,1
+MapData,Borough,Manhattan,,10457,5
+MapData,Borough,Queens,,10457,1
+MapData,Borough,Bronx,,10458,75
+MapData,Borough,Manhattan,,10458,6
+MapData,Borough,Queens,,10458,3
+MapData,Borough,Bronx,,10459,27
+MapData,Borough,Manhattan,,10459,1
+MapData,Borough,Bronx,,10460,7
+MapData,Borough,Manhattan,,10460,1
+MapData,Borough,Bronx,,10461,17
+MapData,Borough,Manhattan,,10461,1
+MapData,Borough,Bronx,,10462,12
+MapData,Borough,Manhattan,,10462,2
+MapData,Borough,Bronx,,10463,39
+MapData,Borough,Manhattan,,10463,2
+MapData,Borough,Bronx,,10464,21
+MapData,Borough,Bronx,,10465,21
+MapData,Borough,Manhattan,,10465,1
+MapData,Borough,Queens,,10465,1
+MapData,Borough,Bronx,,10466,33
+MapData,Borough,Manhattan,,10466,1
+MapData,Borough,Bronx,,10467,20
+MapData,Borough,Manhattan,,10467,1
+MapData,Borough,Bronx,,10468,74
+MapData,Borough,Manhattan,,10468,3
+MapData,Borough,Queens,,10468,1
+MapData,Borough,Bronx,,10469,16
+MapData,Borough,Manhattan,,10469,1
+MapData,Borough,Bronx,,10470,24
+MapData,Borough,Manhattan,,10470,1
+MapData,Borough,Bronx,,10471,81
+MapData,Borough,Bronx,,10472,17
+MapData,Borough,Brooklyn,,10472,1
+MapData,Borough,Manhattan,,10472,1
+MapData,Borough,Bronx,,10473,21
+MapData,Borough,Manhattan,,10473,2
+MapData,Borough,Bronx,,10474,114
+MapData,Borough,Brooklyn,,10474,2
+MapData,Borough,Manhattan,,10474,4
+MapData,Borough,Queens,,10474,2
+MapData,Borough,Bronx,,10475,7
+MapData,Borough,Brooklyn,,10475,1
+MapData,Borough,Queens,,11001,3
+MapData,Borough,Queens,,11004,30
+MapData,Borough,Brooklyn,,11038,1
+MapData,Borough,Manhattan,,11038,1
+MapData,Borough,Queens,,11040,18
+MapData,Borough,Bronx,,11101,9
+MapData,Borough,Brooklyn,,11101,235
+MapData,Borough,Manhattan,,11101,123
+MapData,Borough,Queens,,11101,2669
+MapData,Borough,Staten Island,,11101,1
+MapData,Borough,Bronx,,11102,1
+MapData,Borough,Brooklyn,,11102,6
+MapData,Borough,Manhattan,,11102,3
+MapData,Borough,Queens,,11102,146
+MapData,Borough,Brooklyn,,11103,2
+MapData,Borough,Manhattan,,11103,1
+MapData,Borough,Queens,,11103,91
+MapData,Borough,Brooklyn,,11104,7
+MapData,Borough,Manhattan,,11104,1
+MapData,Borough,Queens,,11104,108
+MapData,Borough,Bronx,,11105,1
+MapData,Borough,Brooklyn,,11105,11
+MapData,Borough,Manhattan,,11105,3
+MapData,Borough,Queens,,11105,263
+MapData,Borough,Bronx,,11106,1
+MapData,Borough,Brooklyn,,11106,16
+MapData,Borough,Manhattan,,11106,35
+MapData,Borough,Queens,,11106,877
+MapData,Borough,Staten Island,,11106,1
+MapData,Borough,Brooklyn,,11109,5
+MapData,Borough,Manhattan,,11109,7
+MapData,Borough,Queens,,11109,46
+MapData,Borough,Brooklyn,,11201,1171
+MapData,Borough,Manhattan,,11201,139
+MapData,Borough,Queens,,11201,14
+MapData,Borough,Brooklyn,,11203,155
+MapData,Borough,Brooklyn,,11204,15
+MapData,Borough,Manhattan,,11204,2
+MapData,Borough,Brooklyn,,11205,429
+MapData,Borough,Manhattan,,11205,9
+MapData,Borough,Queens,,11205,9
+MapData,Borough,Brooklyn,,11206,456
+MapData,Borough,Manhattan,,11206,9
+MapData,Borough,Queens,,11206,9
+MapData,Borough,Bronx,,11207,1
+MapData,Borough,Brooklyn,,11207,210
+MapData,Borough,Manhattan,,11207,2
+MapData,Borough,Queens,,11207,6
+MapData,Borough,Brooklyn,,11208,37
+MapData,Borough,Manhattan,,11208,2
+MapData,Borough,Queens,,11208,20
+MapData,Borough,Brooklyn,,11209,101
+MapData,Borough,Manhattan,,11209,1
+MapData,Borough,Staten Island,,11209,3
+MapData,Borough,Brooklyn,,11210,79
+MapData,Borough,Manhattan,,11210,3
+MapData,Borough,Queens,,11210,1
+MapData,Borough,Bronx,,11211,1
+MapData,Borough,Brooklyn,,11211,802
+MapData,Borough,Manhattan,,11211,47
+MapData,Borough,Queens,,11211,30
+MapData,Borough,Brooklyn,,11212,27
+MapData,Borough,Brooklyn,,11213,85
+MapData,Borough,Manhattan,,11213,1
+MapData,Borough,Brooklyn,,11214,31
+MapData,Borough,Brooklyn,,11215,453
+MapData,Borough,Manhattan,,11215,9
+MapData,Borough,Queens,,11215,6
+MapData,Borough,Bronx,,11216,1
+MapData,Borough,Brooklyn,,11216,270
+MapData,Borough,Manhattan,,11216,4
+MapData,Borough,Queens,,11216,2
+MapData,Borough,Bronx,,11217,2
+MapData,Borough,Brooklyn,,11217,1130
+MapData,Borough,Manhattan,,11217,22
+MapData,Borough,Queens,,11217,8
+MapData,Borough,Brooklyn,,11218,262
+MapData,Borough,Manhattan,,11218,5
+MapData,Borough,Queens,,11218,4
+MapData,Borough,Brooklyn,,11219,10
+MapData,Borough,Manhattan,,11219,2
+MapData,Borough,Bronx,,11220,1
+MapData,Borough,Brooklyn,,11220,195
+MapData,Borough,Manhattan,,11220,7
+MapData,Borough,Queens,,11220,2
+MapData,Borough,Staten Island,,11220,1
+MapData,Borough,Brooklyn,,11221,173
+MapData,Borough,Manhattan,,11221,2
+MapData,Borough,Queens,,11221,3
+MapData,Borough,Brooklyn,,11222,4264
+MapData,Borough,Manhattan,,11222,77
+MapData,Borough,Queens,,11222,218
+MapData,Borough,Brooklyn,,11223,40
+MapData,Borough,Manhattan,,11223,1
+MapData,Borough,Queens,,11223,1
+MapData,Borough,Brooklyn,,11224,131
+MapData,Borough,Manhattan,,11224,4
+MapData,Borough,Queens,,11224,1
+MapData,Borough,Bronx,,11225,1
+MapData,Borough,Brooklyn,,11225,197
+MapData,Borough,Manhattan,,11225,3
+MapData,Borough,Brooklyn,,11226,382
+MapData,Borough,Manhattan,,11226,7
+MapData,Borough,Queens,,11226,4
+MapData,Borough,Staten Island,,11226,1
+MapData,Borough,Brooklyn,,11228,53
+MapData,Borough,Staten Island,,11228,3
+MapData,Borough,Brooklyn,,11229,18
+MapData,Borough,Queens,,11229,1
+MapData,Borough,Brooklyn,,11230,160
+MapData,Borough,Manhattan,,11230,3
+MapData,Borough,Brooklyn,,11231,555
+MapData,Borough,Manhattan,,11231,19
+MapData,Borough,Queens,,11231,4
+MapData,Borough,Brooklyn,,11232,349
+MapData,Borough,Manhattan,,11232,7
+MapData,Borough,Queens,,11232,1
+MapData,Borough,Brooklyn,,11233,101
+MapData,Borough,Queens,,11233,2
+MapData,Borough,Brooklyn,,11234,27
+MapData,Borough,Manhattan,,11234,1
+MapData,Borough,Queens,,11234,2
+MapData,Borough,Bronx,,11235,1
+MapData,Borough,Brooklyn,,11235,66
+MapData,Borough,Manhattan,,11235,1
+MapData,Borough,Brooklyn,,11236,10
+MapData,Borough,Bronx,,11237,1
+MapData,Borough,Brooklyn,,11237,456
+MapData,Borough,Manhattan,,11237,15
+MapData,Borough,Queens,,11237,504
+MapData,Borough,Brooklyn,,11238,301
+MapData,Borough,Manhattan,,11238,7
+MapData,Borough,Queens,,11238,6
+MapData,Borough,Brooklyn,,11239,3
+MapData,Borough,Brooklyn,,11241,6
+MapData,Borough,Brooklyn,,11249,659
+MapData,Borough,Manhattan,,11249,20
+MapData,Borough,Queens,,11249,24
+MapData,Borough,Brooklyn,,11251,43
+MapData,Borough,Manhattan,,11251,4
+MapData,Borough,Queens,,11251,4
+MapData,Borough,Brooklyn,,11354,6
+MapData,Borough,Queens,,11354,47
+MapData,Borough,Brooklyn,,11355,4
+MapData,Borough,Manhattan,,11355,2
+MapData,Borough,Queens,,11355,24
+MapData,Borough,Queens,,11356,33
+MapData,Borough,Brooklyn,,11357,1
+MapData,Borough,Manhattan,,11357,4
+MapData,Borough,Queens,,11357,109
+MapData,Borough,Brooklyn,,11358,1
+MapData,Borough,Queens,,11358,24
+MapData,Borough,Brooklyn,,11359,1
+MapData,Borough,Manhattan,,11359,1
+MapData,Borough,Queens,,11359,20
+MapData,Borough,Queens,,11360,23
+MapData,Borough,Brooklyn,,11361,1
+MapData,Borough,Manhattan,,11361,1
+MapData,Borough,Queens,,11361,55
+MapData,Borough,Queens,,11362,25
+MapData,Borough,Brooklyn,,11363,1
+MapData,Borough,Queens,,11363,65
+MapData,Borough,Bronx,,11364,1
+MapData,Borough,Queens,,11364,24
+MapData,Borough,Queens,,11365,14
+MapData,Borough,Manhattan,,11366,1
+MapData,Borough,Queens,,11366,6
+MapData,Borough,Brooklyn,,11367,2
+MapData,Borough,Manhattan,,11367,1
+MapData,Borough,Queens,,11367,81
+MapData,Borough,Brooklyn,,11368,4
+MapData,Borough,Manhattan,,11368,3
+MapData,Borough,Queens,,11368,39
+MapData,Borough,Manhattan,,11369,1
+MapData,Borough,Queens,,11369,24
+MapData,Borough,Brooklyn,,11370,1
+MapData,Borough,Queens,,11370,29
+MapData,Borough,Brooklyn,,11372,1
+MapData,Borough,Queens,,11372,40
+MapData,Borough,Brooklyn,,11373,1
+MapData,Borough,Manhattan,,11373,1
+MapData,Borough,Queens,,11373,74
+MapData,Borough,Brooklyn,,11374,3
+MapData,Borough,Queens,,11374,81
+MapData,Borough,Brooklyn,,11375,6
+MapData,Borough,Manhattan,,11375,4
+MapData,Borough,Queens,,11375,120
+MapData,Borough,Brooklyn,,11377,8
+MapData,Borough,Manhattan,,11377,3
+MapData,Borough,Queens,,11377,101
+MapData,Borough,Bronx,,11378,3
+MapData,Borough,Brooklyn,,11378,15
+MapData,Borough,Manhattan,,11378,7
+MapData,Borough,Queens,,11378,169
+MapData,Borough,Bronx,,11379,1
+MapData,Borough,Brooklyn,,11379,4
+MapData,Borough,Queens,,11379,67
+MapData,Borough,Brooklyn,,11385,99
+MapData,Borough,Manhattan,,11385,12
+MapData,Borough,Queens,,11385,932
+MapData,Borough,Queens,,11411,1
+MapData,Borough,Queens,,11412,2
+MapData,Borough,Queens,,11413,7
+MapData,Borough,Brooklyn,,11414,4
+MapData,Borough,Manhattan,,11414,1
+MapData,Borough,Queens,,11414,11
+MapData,Borough,Brooklyn,,11415,5
+MapData,Borough,Manhattan,,11415,1
+MapData,Borough,Queens,,11415,200
+MapData,Borough,Brooklyn,,11416,1
+MapData,Borough,Queens,,11416,18
+MapData,Borough,Brooklyn,,11417,1
+MapData,Borough,Queens,,11417,11
+MapData,Borough,Brooklyn,,11418,2
+MapData,Borough,Queens,,11418,68
+MapData,Borough,Queens,,11419,8
+MapData,Borough,Manhattan,,11420,1
+MapData,Borough,Queens,,11420,5
+MapData,Borough,Brooklyn,,11421,8
+MapData,Borough,Queens,,11421,56
+MapData,Borough,Queens,,11422,3
+MapData,Borough,Queens,,11423,4
+MapData,Borough,Queens,,11426,5
+MapData,Borough,Queens,,11427,17
+MapData,Borough,Queens,,11428,1
+MapData,Borough,Queens,,11429,4
+MapData,Borough,Queens,,11430,14
+MapData,Borough,Brooklyn,,11432,2
+MapData,Borough,Manhattan,,11432,1
+MapData,Borough,Queens,,11432,40
+MapData,Borough,Brooklyn,,11433,1
+MapData,Borough,Queens,,11433,17
+MapData,Borough,Bronx,,11434,1
+MapData,Borough,Queens,,11434,14
+MapData,Borough,Brooklyn,,11435,2
+MapData,Borough,Manhattan,,11435,3
+MapData,Borough,Queens,,11435,104
+MapData,Borough,Queens,,11436,4
+MapData,Borough,Brooklyn,,11691,1
+MapData,Borough,Queens,,11691,25
+MapData,Borough,Brooklyn,,11692,3
+MapData,Borough,Queens,,11692,23
+MapData,Borough,Brooklyn,,11693,1
+MapData,Borough,Queens,,11693,27
+MapData,Borough,Brooklyn,,11694,3
+MapData,Borough,Queens,,11694,59
+MapData,Borough,Brooklyn,,11695,1
+MapData,Borough,Queens,,11695,4
+MapData,Borough,Queens,,11697,1
+MapData,Category,Commercial,,,6
+MapData,Category,Commercial,,83,2
+MapData,Category,Commercial,,10000,1
+MapData,Category,Commercial,,10001,140
+MapData,Category,Commercial,,10002,148
+MapData,Category,Commercial,,10003,146
+MapData,Category,Commercial,,10004,31
+MapData,Category,Commercial,,10005,32
+MapData,Category,Commercial,,10006,8
+MapData,Category,Commercial,,10007,31
+MapData,Category,Commercial,,10009,20
+MapData,Category,Commercial,,10010,92
+MapData,Category,Commercial,,10011,152
+MapData,Category,Commercial,,10012,151
+MapData,Category,Commercial,,10013,185
+MapData,Category,Commercial,,10014,162
+MapData,Category,Commercial,,10016,55
+MapData,Category,Commercial,,10017,70
+MapData,Category,Commercial,,10018,108
+MapData,Category,Commercial,,10019,133
+MapData,Category,Commercial,,10020,32
+MapData,Category,Commercial,,10021,25
+MapData,Category,Commercial,,10022,69
+MapData,Category,Commercial,,10023,60
+MapData,Category,Commercial,,10024,30
+MapData,Category,Commercial,,10025,14
+MapData,Category,Commercial,,10026,13
+MapData,Category,Commercial,,10027,39
+MapData,Category,Commercial,,10028,21
+MapData,Category,Commercial,,10029,13
+MapData,Category,Commercial,,10030,3
+MapData,Category,Commercial,,10031,15
+MapData,Category,Commercial,,10032,11
+MapData,Category,Commercial,,10033,12
+MapData,Category,Commercial,,10034,4
+MapData,Category,Commercial,,10035,17
+MapData,Category,Commercial,,10036,145
+MapData,Category,Commercial,,10037,2
+MapData,Category,Commercial,,10038,65
+MapData,Category,Commercial,,10039,3
+MapData,Category,Commercial,,10041,5
+MapData,Category,Commercial,,10044,17
+MapData,Category,Commercial,,10045,1
+MapData,Category,Commercial,,10048,8
+MapData,Category,Commercial,,10065,49
+MapData,Category,Commercial,,10075,8
+MapData,Category,Commercial,,10103,8
+MapData,Category,Commercial,,10105,10
+MapData,Category,Commercial,,10106,2
+MapData,Category,Commercial,,10110,3
+MapData,Category,Commercial,,10111,5
+MapData,Category,Commercial,,10112,10
+MapData,Category,Commercial,,10115,8
+MapData,Category,Commercial,,10118,4
+MapData,Category,Commercial,,10119,5
+MapData,Category,Commercial,,10120,1
+MapData,Category,Commercial,,10121,6
+MapData,Category,Commercial,,10128,26
+MapData,Category,Commercial,,10152,5
+MapData,Category,Commercial,,10154,1
+MapData,Category,Commercial,,10165,3
+MapData,Category,Commercial,,10167,6
+MapData,Category,Commercial,,10170,1
+MapData,Category,Commercial,,10171,6
+MapData,Category,Commercial,,10172,7
+MapData,Category,Commercial,,10174,2
+MapData,Category,Commercial,,10175,1
+MapData,Category,Commercial,,10176,1
+MapData,Category,Commercial,,10177,6
+MapData,Category,Commercial,,10178,1
+MapData,Category,Commercial,,10271,1
+MapData,Category,Commercial,,10280,5
+MapData,Category,Commercial,,10281,2
+MapData,Category,Commercial,,10282,5
+MapData,Category,Commercial,,10301,10
+MapData,Category,Commercial,,10304,2
+MapData,Category,Commercial,,10305,1
+MapData,Category,Commercial,,10306,1
+MapData,Category,Commercial,,10310,4
+MapData,Category,Commercial,,10314,1
+MapData,Category,Commercial,,10451,12
+MapData,Category,Commercial,,10452,12
+MapData,Category,Commercial,,10453,3
+MapData,Category,Commercial,,10454,9
+MapData,Category,Commercial,,10455,2
+MapData,Category,Commercial,,10456,3
+MapData,Category,Commercial,,10457,2
+MapData,Category,Commercial,,10458,5
+MapData,Category,Commercial,,10459,1
+MapData,Category,Commercial,,10461,1
+MapData,Category,Commercial,,10462,2
+MapData,Category,Commercial,,10463,3
+MapData,Category,Commercial,,10467,1
+MapData,Category,Commercial,,10468,5
+MapData,Category,Commercial,,10470,2
+MapData,Category,Commercial,,10471,4
+MapData,Category,Commercial,,10472,1
+MapData,Category,Commercial,,10473,2
+MapData,Category,Commercial,,10474,25
+MapData,Category,Commercial,,11004,4
+MapData,Category,Commercial,,11038,1
+MapData,Category,Commercial,,11040,4
+MapData,Category,Commercial,,11101,113
+MapData,Category,Commercial,,11102,4
+MapData,Category,Commercial,,11103,2
+MapData,Category,Commercial,,11104,1
+MapData,Category,Commercial,,11105,29
+MapData,Category,Commercial,,11106,9
+MapData,Category,Commercial,,11109,5
+MapData,Category,Commercial,,11201,167
+MapData,Category,Commercial,,11203,2
+MapData,Category,Commercial,,11204,2
+MapData,Category,Commercial,,11205,66
+MapData,Category,Commercial,,11206,37
+MapData,Category,Commercial,,11207,9
+MapData,Category,Commercial,,11208,1
+MapData,Category,Commercial,,11209,9
+MapData,Category,Commercial,,11210,10
+MapData,Category,Commercial,,11211,63
+MapData,Category,Commercial,,11212,1
+MapData,Category,Commercial,,11213,5
+MapData,Category,Commercial,,11214,1
+MapData,Category,Commercial,,11215,36
+MapData,Category,Commercial,,11216,21
+MapData,Category,Commercial,,11217,58
+MapData,Category,Commercial,,11218,41
+MapData,Category,Commercial,,11219,2
+MapData,Category,Commercial,,11220,24
+MapData,Category,Commercial,,11221,21
+MapData,Category,Commercial,,11222,103
+MapData,Category,Commercial,,11223,1
+MapData,Category,Commercial,,11224,10
+MapData,Category,Commercial,,11225,6
+MapData,Category,Commercial,,11226,85
+MapData,Category,Commercial,,11228,3
+MapData,Category,Commercial,,11230,33
+MapData,Category,Commercial,,11231,55
+MapData,Category,Commercial,,11232,59
+MapData,Category,Commercial,,11233,9
+MapData,Category,Commercial,,11234,3
+MapData,Category,Commercial,,11235,4
+MapData,Category,Commercial,,11237,47
+MapData,Category,Commercial,,11238,17
+MapData,Category,Commercial,,11239,1
+MapData,Category,Commercial,,11249,84
+MapData,Category,Commercial,,11354,2
+MapData,Category,Commercial,,11355,1
+MapData,Category,Commercial,,11357,7
+MapData,Category,Commercial,,11358,2
+MapData,Category,Commercial,,11359,1
+MapData,Category,Commercial,,11363,3
+MapData,Category,Commercial,,11365,1
+MapData,Category,Commercial,,11366,1
+MapData,Category,Commercial,,11367,3
+MapData,Category,Commercial,,11368,2
+MapData,Category,Commercial,,11369,1
+MapData,Category,Commercial,,11370,1
+MapData,Category,Commercial,,11372,7
+MapData,Category,Commercial,,11373,2
+MapData,Category,Commercial,,11374,1
+MapData,Category,Commercial,,11375,5
+MapData,Category,Commercial,,11377,6
+MapData,Category,Commercial,,11378,6
+MapData,Category,Commercial,,11379,1
+MapData,Category,Commercial,,11385,10
+MapData,Category,Commercial,,11415,3
+MapData,Category,Commercial,,11421,1
+MapData,Category,Commercial,,11432,2
+MapData,Category,Commercial,,11435,1
+MapData,Category,Commercial,,11691,3
+MapData,Category,Commercial,,11692,6
+MapData,Category,Commercial,,11693,4
+MapData,Category,Commercial,,11694,7
+MapData,Category,Documentary,,10001,3
+MapData,Category,Documentary,,10002,10
+MapData,Category,Documentary,,10003,9
+MapData,Category,Documentary,,10004,1
+MapData,Category,Documentary,,10006,1
+MapData,Category,Documentary,,10010,1
+MapData,Category,Documentary,,10011,6
+MapData,Category,Documentary,,10012,7
+MapData,Category,Documentary,,10013,9
+MapData,Category,Documentary,,10014,6
+MapData,Category,Documentary,,10016,5
+MapData,Category,Documentary,,10017,4
+MapData,Category,Documentary,,10018,3
+MapData,Category,Documentary,,10019,3
+MapData,Category,Documentary,,10021,6
+MapData,Category,Documentary,,10022,3
+MapData,Category,Documentary,,10023,2
+MapData,Category,Documentary,,10024,3
+MapData,Category,Documentary,,10025,2
+MapData,Category,Documentary,,10026,1
+MapData,Category,Documentary,,10027,4
+MapData,Category,Documentary,,10028,2
+MapData,Category,Documentary,,10031,1
+MapData,Category,Documentary,,10033,3
+MapData,Category,Documentary,,10035,1
+MapData,Category,Documentary,,10036,4
+MapData,Category,Documentary,,10038,3
+MapData,Category,Documentary,,10065,3
+MapData,Category,Documentary,,10075,5
+MapData,Category,Documentary,,10128,2
+MapData,Category,Documentary,,10165,1
+MapData,Category,Documentary,,10301,1
+MapData,Category,Documentary,,10306,1
+MapData,Category,Documentary,,10454,1
+MapData,Category,Documentary,,10455,1
+MapData,Category,Documentary,,10457,1
+MapData,Category,Documentary,,10458,1
+MapData,Category,Documentary,,10467,1
+MapData,Category,Documentary,,10469,1
+MapData,Category,Documentary,,10470,1
+MapData,Category,Documentary,,11201,7
+MapData,Category,Documentary,,11203,2
+MapData,Category,Documentary,,11205,1
+MapData,Category,Documentary,,11206,4
+MapData,Category,Documentary,,11208,1
+MapData,Category,Documentary,,11209,1
+MapData,Category,Documentary,,11210,2
+MapData,Category,Documentary,,11211,7
+MapData,Category,Documentary,,11214,1
+MapData,Category,Documentary,,11215,1
+MapData,Category,Documentary,,11216,3
+MapData,Category,Documentary,,11217,2
+MapData,Category,Documentary,,11222,5
+MapData,Category,Documentary,,11224,1
+MapData,Category,Documentary,,11231,3
+MapData,Category,Documentary,,11232,1
+MapData,Category,Documentary,,11235,1
+MapData,Category,Documentary,,11237,4
+MapData,Category,Documentary,,11249,3
+MapData,Category,Documentary,,11354,1
+MapData,Category,Documentary,,11355,1
+MapData,Category,Documentary,,11367,1
+MapData,Category,Documentary,,11368,1
+MapData,Category,Documentary,,11372,1
+MapData,Category,Documentary,,11385,2
+MapData,Category,Documentary,,11412,2
+MapData,Category,Documentary,,11415,1
+MapData,Category,Documentary,,11421,1
+MapData,Category,Documentary,,11432,1
+MapData,Category,Film,,83,10
+MapData,Category,Film,,10000,1
+MapData,Category,Film,,10001,130
+MapData,Category,Film,,10002,191
+MapData,Category,Film,,10003,202
+MapData,Category,Film,,10004,50
+MapData,Category,Film,,10005,62
+MapData,Category,Film,,10006,27
+MapData,Category,Film,,10007,55
+MapData,Category,Film,,10009,64
+MapData,Category,Film,,10010,83
+MapData,Category,Film,,10011,175
+MapData,Category,Film,,10012,192
+MapData,Category,Film,,10013,223
+MapData,Category,Film,,10014,123
+MapData,Category,Film,,10016,100
+MapData,Category,Film,,10017,82
+MapData,Category,Film,,10018,89
+MapData,Category,Film,,10019,169
+MapData,Category,Film,,10020,30
+MapData,Category,Film,,10021,59
+MapData,Category,Film,,10022,126
+MapData,Category,Film,,10023,112
+MapData,Category,Film,,10024,82
+MapData,Category,Film,,10025,44
+MapData,Category,Film,,10026,36
+MapData,Category,Film,,10027,98
+MapData,Category,Film,,10028,59
+MapData,Category,Film,,10029,44
+MapData,Category,Film,,10030,27
+MapData,Category,Film,,10031,106
+MapData,Category,Film,,10032,106
+MapData,Category,Film,,10033,100
+MapData,Category,Film,,10034,9
+MapData,Category,Film,,10035,16
+MapData,Category,Film,,10036,162
+MapData,Category,Film,,10037,9
+MapData,Category,Film,,10038,76
+MapData,Category,Film,,10039,13
+MapData,Category,Film,,10040,19
+MapData,Category,Film,,10041,3
+MapData,Category,Film,,10044,15
+MapData,Category,Film,,10045,7
+MapData,Category,Film,,10048,3
+MapData,Category,Film,,10065,61
+MapData,Category,Film,,10069,4
+MapData,Category,Film,,10075,40
+MapData,Category,Film,,10103,18
+MapData,Category,Film,,10105,10
+MapData,Category,Film,,10106,6
+MapData,Category,Film,,10110,3
+MapData,Category,Film,,10111,5
+MapData,Category,Film,,10112,7
+MapData,Category,Film,,10115,1
+MapData,Category,Film,,10118,3
+MapData,Category,Film,,10119,9
+MapData,Category,Film,,10120,1
+MapData,Category,Film,,10121,8
+MapData,Category,Film,,10128,47
+MapData,Category,Film,,10152,6
+MapData,Category,Film,,10154,5
+MapData,Category,Film,,10158,1
+MapData,Category,Film,,10165,9
+MapData,Category,Film,,10167,6
+MapData,Category,Film,,10170,1
+MapData,Category,Film,,10171,9
+MapData,Category,Film,,10172,10
+MapData,Category,Film,,10173,6
+MapData,Category,Film,,10174,1
+MapData,Category,Film,,10175,2
+MapData,Category,Film,,10176,2
+MapData,Category,Film,,10177,6
+MapData,Category,Film,,10178,2
+MapData,Category,Film,,10271,4
+MapData,Category,Film,,10278,6
+MapData,Category,Film,,10279,2
+MapData,Category,Film,,10280,8
+MapData,Category,Film,,10281,3
+MapData,Category,Film,,10282,5
+MapData,Category,Film,,10301,41
+MapData,Category,Film,,10302,9
+MapData,Category,Film,,10303,13
+MapData,Category,Film,,10304,27
+MapData,Category,Film,,10305,30
+MapData,Category,Film,,10306,15
+MapData,Category,Film,,10307,10
+MapData,Category,Film,,10309,19
+MapData,Category,Film,,10310,14
+MapData,Category,Film,,10312,2
+MapData,Category,Film,,10314,28
+MapData,Category,Film,,10451,44
+MapData,Category,Film,,10452,19
+MapData,Category,Film,,10453,27
+MapData,Category,Film,,10454,24
+MapData,Category,Film,,10455,16
+MapData,Category,Film,,10456,15
+MapData,Category,Film,,10457,22
+MapData,Category,Film,,10458,32
+MapData,Category,Film,,10459,5
+MapData,Category,Film,,10460,1
+MapData,Category,Film,,10461,6
+MapData,Category,Film,,10462,2
+MapData,Category,Film,,10463,7
+MapData,Category,Film,,10465,4
+MapData,Category,Film,,10466,10
+MapData,Category,Film,,10467,6
+MapData,Category,Film,,10468,21
+MapData,Category,Film,,10469,12
+MapData,Category,Film,,10470,7
+MapData,Category,Film,,10471,15
+MapData,Category,Film,,10472,3
+MapData,Category,Film,,10473,1
+MapData,Category,Film,,10474,20
+MapData,Category,Film,,10475,7
+MapData,Category,Film,,11001,1
+MapData,Category,Film,,11004,6
+MapData,Category,Film,,11038,1
+MapData,Category,Film,,11040,4
+MapData,Category,Film,,11101,148
+MapData,Category,Film,,11102,13
+MapData,Category,Film,,11103,14
+MapData,Category,Film,,11104,15
+MapData,Category,Film,,11105,24
+MapData,Category,Film,,11106,41
+MapData,Category,Film,,11109,6
+MapData,Category,Film,,11201,226
+MapData,Category,Film,,11203,12
+MapData,Category,Film,,11204,6
+MapData,Category,Film,,11205,60
+MapData,Category,Film,,11206,184
+MapData,Category,Film,,11207,57
+MapData,Category,Film,,11208,17
+MapData,Category,Film,,11209,32
+MapData,Category,Film,,11210,37
+MapData,Category,Film,,11211,121
+MapData,Category,Film,,11212,10
+MapData,Category,Film,,11213,26
+MapData,Category,Film,,11214,8
+MapData,Category,Film,,11215,130
+MapData,Category,Film,,11216,78
+MapData,Category,Film,,11217,84
+MapData,Category,Film,,11218,76
+MapData,Category,Film,,11219,7
+MapData,Category,Film,,11220,65
+MapData,Category,Film,,11221,61
+MapData,Category,Film,,11222,151
+MapData,Category,Film,,11223,19
+MapData,Category,Film,,11224,43
+MapData,Category,Film,,11225,63
+MapData,Category,Film,,11226,83
+MapData,Category,Film,,11228,38
+MapData,Category,Film,,11229,5
+MapData,Category,Film,,11230,44
+MapData,Category,Film,,11231,110
+MapData,Category,Film,,11232,84
+MapData,Category,Film,,11233,36
+MapData,Category,Film,,11234,11
+MapData,Category,Film,,11235,29
+MapData,Category,Film,,11236,3
+MapData,Category,Film,,11237,120
+MapData,Category,Film,,11238,71
+MapData,Category,Film,,11239,1
+MapData,Category,Film,,11249,64
+MapData,Category,Film,,11251,6
+MapData,Category,Film,,11354,15
+MapData,Category,Film,,11355,9
+MapData,Category,Film,,11356,2
+MapData,Category,Film,,11357,22
+MapData,Category,Film,,11358,8
+MapData,Category,Film,,11359,4
+MapData,Category,Film,,11360,1
+MapData,Category,Film,,11361,14
+MapData,Category,Film,,11362,5
+MapData,Category,Film,,11363,13
+MapData,Category,Film,,11364,3
+MapData,Category,Film,,11366,3
+MapData,Category,Film,,11367,5
+MapData,Category,Film,,11368,15
+MapData,Category,Film,,11369,4
+MapData,Category,Film,,11370,7
+MapData,Category,Film,,11372,14
+MapData,Category,Film,,11373,16
+MapData,Category,Film,,11374,10
+MapData,Category,Film,,11375,18
+MapData,Category,Film,,11377,27
+MapData,Category,Film,,11378,9
+MapData,Category,Film,,11379,8
+MapData,Category,Film,,11385,65
+MapData,Category,Film,,11411,1
+MapData,Category,Film,,11413,3
+MapData,Category,Film,,11414,1
+MapData,Category,Film,,11415,20
+MapData,Category,Film,,11416,2
+MapData,Category,Film,,11417,3
+MapData,Category,Film,,11418,19
+MapData,Category,Film,,11420,2
+MapData,Category,Film,,11421,15
+MapData,Category,Film,,11422,1
+MapData,Category,Film,,11429,4
+MapData,Category,Film,,11430,3
+MapData,Category,Film,,11432,6
+MapData,Category,Film,,11433,5
+MapData,Category,Film,,11434,5
+MapData,Category,Film,,11435,11
+MapData,Category,Film,,11691,2
+MapData,Category,Film,,11692,5
+MapData,Category,Film,,11693,5
+MapData,Category,Film,,11694,27
+MapData,Category,Film,,11695,2
+MapData,Category,Film,,11697,1
+MapData,Category,Music Video,,83,1
+MapData,Category,Music Video,,10001,5
+MapData,Category,Music Video,,10002,7
+MapData,Category,Music Video,,10003,6
+MapData,Category,Music Video,,10004,2
+MapData,Category,Music Video,,10005,1
+MapData,Category,Music Video,,10007,1
+MapData,Category,Music Video,,10009,2
+MapData,Category,Music Video,,10010,1
+MapData,Category,Music Video,,10011,3
+MapData,Category,Music Video,,10012,5
+MapData,Category,Music Video,,10013,8
+MapData,Category,Music Video,,10014,2
+MapData,Category,Music Video,,10016,3
+MapData,Category,Music Video,,10017,3
+MapData,Category,Music Video,,10018,8
+MapData,Category,Music Video,,10019,3
+MapData,Category,Music Video,,10020,1
+MapData,Category,Music Video,,10021,1
+MapData,Category,Music Video,,10022,3
+MapData,Category,Music Video,,10023,3
+MapData,Category,Music Video,,10024,1
+MapData,Category,Music Video,,10027,7
+MapData,Category,Music Video,,10028,1
+MapData,Category,Music Video,,10030,2
+MapData,Category,Music Video,,10031,4
+MapData,Category,Music Video,,10032,1
+MapData,Category,Music Video,,10034,1
+MapData,Category,Music Video,,10035,4
+MapData,Category,Music Video,,10036,10
+MapData,Category,Music Video,,10037,1
+MapData,Category,Music Video,,10038,2
+MapData,Category,Music Video,,10040,2
+MapData,Category,Music Video,,10044,1
+MapData,Category,Music Video,,10065,2
+MapData,Category,Music Video,,10075,1
+MapData,Category,Music Video,,10105,1
+MapData,Category,Music Video,,10106,3
+MapData,Category,Music Video,,10112,1
+MapData,Category,Music Video,,10119,1
+MapData,Category,Music Video,,10121,2
+MapData,Category,Music Video,,10128,1
+MapData,Category,Music Video,,10152,2
+MapData,Category,Music Video,,10167,1
+MapData,Category,Music Video,,10171,2
+MapData,Category,Music Video,,10172,1
+MapData,Category,Music Video,,10173,1
+MapData,Category,Music Video,,10177,1
+MapData,Category,Music Video,,10301,1
+MapData,Category,Music Video,,10304,1
+MapData,Category,Music Video,,10312,1
+MapData,Category,Music Video,,10454,1
+MapData,Category,Music Video,,10460,1
+MapData,Category,Music Video,,10474,2
+MapData,Category,Music Video,,11101,2
+MapData,Category,Music Video,,11104,1
+MapData,Category,Music Video,,11105,2
+MapData,Category,Music Video,,11106,2
+MapData,Category,Music Video,,11201,11
+MapData,Category,Music Video,,11205,3
+MapData,Category,Music Video,,11206,2
+MapData,Category,Music Video,,11208,1
+MapData,Category,Music Video,,11210,2
+MapData,Category,Music Video,,11211,10
+MapData,Category,Music Video,,11214,1
+MapData,Category,Music Video,,11215,2
+MapData,Category,Music Video,,11216,2
+MapData,Category,Music Video,,11217,1
+MapData,Category,Music Video,,11220,3
+MapData,Category,Music Video,,11221,1
+MapData,Category,Music Video,,11222,7
+MapData,Category,Music Video,,11225,2
+MapData,Category,Music Video,,11226,1
+MapData,Category,Music Video,,11231,2
+MapData,Category,Music Video,,11232,5
+MapData,Category,Music Video,,11234,1
+MapData,Category,Music Video,,11237,9
+MapData,Category,Music Video,,11238,1
+MapData,Category,Music Video,,11249,6
+MapData,Category,Music Video,,11361,2
+MapData,Category,Music Video,,11365,1
+MapData,Category,Music Video,,11373,1
+MapData,Category,Music Video,,11377,1
+MapData,Category,Music Video,,11385,1
+MapData,Category,Music Video,,11415,1
+MapData,Category,Red Carpet/Premiere,,10001,1
+MapData,Category,Still Photography,,,4
+MapData,Category,Still Photography,,83,6
+MapData,Category,Still Photography,,10000,1
+MapData,Category,Still Photography,,10001,107
+MapData,Category,Still Photography,,10002,141
+MapData,Category,Still Photography,,10003,96
+MapData,Category,Still Photography,,10004,35
+MapData,Category,Still Photography,,10005,22
+MapData,Category,Still Photography,,10006,4
+MapData,Category,Still Photography,,10007,29
+MapData,Category,Still Photography,,10009,19
+MapData,Category,Still Photography,,10010,42
+MapData,Category,Still Photography,,10011,169
+MapData,Category,Still Photography,,10012,174
+MapData,Category,Still Photography,,10013,225
+MapData,Category,Still Photography,,10014,155
+MapData,Category,Still Photography,,10016,33
+MapData,Category,Still Photography,,10017,42
+MapData,Category,Still Photography,,10018,56
+MapData,Category,Still Photography,,10019,72
+MapData,Category,Still Photography,,10020,13
+MapData,Category,Still Photography,,10021,64
+MapData,Category,Still Photography,,10022,65
+MapData,Category,Still Photography,,10023,63
+MapData,Category,Still Photography,,10024,21
+MapData,Category,Still Photography,,10025,23
+MapData,Category,Still Photography,,10026,10
+MapData,Category,Still Photography,,10027,49
+MapData,Category,Still Photography,,10028,22
+MapData,Category,Still Photography,,10029,15
+MapData,Category,Still Photography,,10030,7
+MapData,Category,Still Photography,,10031,23
+MapData,Category,Still Photography,,10032,7
+MapData,Category,Still Photography,,10033,2
+MapData,Category,Still Photography,,10034,4
+MapData,Category,Still Photography,,10035,11
+MapData,Category,Still Photography,,10036,55
+MapData,Category,Still Photography,,10037,2
+MapData,Category,Still Photography,,10038,49
+MapData,Category,Still Photography,,10039,5
+MapData,Category,Still Photography,,10040,1
+MapData,Category,Still Photography,,10041,8
+MapData,Category,Still Photography,,10044,3
+MapData,Category,Still Photography,,10045,2
+MapData,Category,Still Photography,,10065,75
+MapData,Category,Still Photography,,10069,4
+MapData,Category,Still Photography,,10075,41
+MapData,Category,Still Photography,,10103,10
+MapData,Category,Still Photography,,10105,10
+MapData,Category,Still Photography,,10106,6
+MapData,Category,Still Photography,,10110,8
+MapData,Category,Still Photography,,10111,1
+MapData,Category,Still Photography,,10112,5
+MapData,Category,Still Photography,,10115,1
+MapData,Category,Still Photography,,10118,5
+MapData,Category,Still Photography,,10119,7
+MapData,Category,Still Photography,,10120,3
+MapData,Category,Still Photography,,10121,5
+MapData,Category,Still Photography,,10128,28
+MapData,Category,Still Photography,,10152,12
+MapData,Category,Still Photography,,10154,4
+MapData,Category,Still Photography,,10155,2
+MapData,Category,Still Photography,,10158,1
+MapData,Category,Still Photography,,10165,3
+MapData,Category,Still Photography,,10167,1
+MapData,Category,Still Photography,,10170,3
+MapData,Category,Still Photography,,10171,8
+MapData,Category,Still Photography,,10172,2
+MapData,Category,Still Photography,,10173,5
+MapData,Category,Still Photography,,10174,4
+MapData,Category,Still Photography,,10175,8
+MapData,Category,Still Photography,,10176,5
+MapData,Category,Still Photography,,10177,1
+MapData,Category,Still Photography,,10271,1
+MapData,Category,Still Photography,,10278,1
+MapData,Category,Still Photography,,10279,1
+MapData,Category,Still Photography,,10280,4
+MapData,Category,Still Photography,,10281,2
+MapData,Category,Still Photography,,10282,3
+MapData,Category,Still Photography,,10301,1
+MapData,Category,Still Photography,,10307,1
+MapData,Category,Still Photography,,10451,11
+MapData,Category,Still Photography,,10452,6
+MapData,Category,Still Photography,,10453,2
+MapData,Category,Still Photography,,10454,3
+MapData,Category,Still Photography,,10456,3
+MapData,Category,Still Photography,,10457,1
+MapData,Category,Still Photography,,10458,1
+MapData,Category,Still Photography,,10463,2
+MapData,Category,Still Photography,,10464,1
+MapData,Category,Still Photography,,10468,7
+MapData,Category,Still Photography,,10471,1
+MapData,Category,Still Photography,,10474,16
+MapData,Category,Still Photography,,11101,44
+MapData,Category,Still Photography,,11102,1
+MapData,Category,Still Photography,,11103,1
+MapData,Category,Still Photography,,11104,1
+MapData,Category,Still Photography,,11105,1
+MapData,Category,Still Photography,,11106,5
+MapData,Category,Still Photography,,11109,6
+MapData,Category,Still Photography,,11201,232
+MapData,Category,Still Photography,,11204,2
+MapData,Category,Still Photography,,11205,27
+MapData,Category,Still Photography,,11206,19
+MapData,Category,Still Photography,,11207,2
+MapData,Category,Still Photography,,11208,3
+MapData,Category,Still Photography,,11209,2
+MapData,Category,Still Photography,,11210,4
+MapData,Category,Still Photography,,11211,73
+MapData,Category,Still Photography,,11212,2
+MapData,Category,Still Photography,,11213,4
+MapData,Category,Still Photography,,11214,1
+MapData,Category,Still Photography,,11215,32
+MapData,Category,Still Photography,,11216,23
+MapData,Category,Still Photography,,11217,46
+MapData,Category,Still Photography,,11218,9
+MapData,Category,Still Photography,,11219,1
+MapData,Category,Still Photography,,11220,5
+MapData,Category,Still Photography,,11221,12
+MapData,Category,Still Photography,,11222,56
+MapData,Category,Still Photography,,11223,1
+MapData,Category,Still Photography,,11224,18
+MapData,Category,Still Photography,,11225,7
+MapData,Category,Still Photography,,11226,12
+MapData,Category,Still Photography,,11229,1
+MapData,Category,Still Photography,,11230,12
+MapData,Category,Still Photography,,11231,81
+MapData,Category,Still Photography,,11232,19
+MapData,Category,Still Photography,,11233,4
+MapData,Category,Still Photography,,11235,10
+MapData,Category,Still Photography,,11237,48
+MapData,Category,Still Photography,,11238,19
+MapData,Category,Still Photography,,11249,93
+MapData,Category,Still Photography,,11354,5
+MapData,Category,Still Photography,,11355,5
+MapData,Category,Still Photography,,11357,1
+MapData,Category,Still Photography,,11359,1
+MapData,Category,Still Photography,,11361,1
+MapData,Category,Still Photography,,11364,1
+MapData,Category,Still Photography,,11367,4
+MapData,Category,Still Photography,,11368,6
+MapData,Category,Still Photography,,11369,1
+MapData,Category,Still Photography,,11372,3
+MapData,Category,Still Photography,,11377,3
+MapData,Category,Still Photography,,11385,5
+MapData,Category,Still Photography,,11414,3
+MapData,Category,Still Photography,,11416,1
+MapData,Category,Still Photography,,11417,2
+MapData,Category,Still Photography,,11421,1
+MapData,Category,Still Photography,,11691,11
+MapData,Category,Still Photography,,11692,5
+MapData,Category,Still Photography,,11693,5
+MapData,Category,Still Photography,,11694,9
+MapData,Category,Student,,10001,1
+MapData,Category,Student,,10002,3
+MapData,Category,Student,,10003,111
+MapData,Category,Student,,10004,1
+MapData,Category,Student,,10009,1
+MapData,Category,Student,,10010,3
+MapData,Category,Student,,10011,1
+MapData,Category,Student,,10012,2
+MapData,Category,Student,,10013,4
+MapData,Category,Student,,10014,2
+MapData,Category,Student,,10018,1
+MapData,Category,Student,,10021,1
+MapData,Category,Student,,10027,4
+MapData,Category,Student,,10028,1
+MapData,Category,Student,,10029,1
+MapData,Category,Student,,10036,1
+MapData,Category,Student,,10075,1
+MapData,Category,Student,,10128,2
+MapData,Category,Student,,10301,2
+MapData,Category,Student,,10304,2
+MapData,Category,Student,,10306,2
+MapData,Category,Student,,10307,1
+MapData,Category,Student,,10312,1
+MapData,Category,Student,,10452,4
+MapData,Category,Student,,10459,1
+MapData,Category,Student,,11105,1
+MapData,Category,Student,,11106,1
+MapData,Category,Student,,11201,4
+MapData,Category,Student,,11205,1
+MapData,Category,Student,,11206,2
+MapData,Category,Student,,11207,1
+MapData,Category,Student,,11209,2
+MapData,Category,Student,,11210,1
+MapData,Category,Student,,11211,2
+MapData,Category,Student,,11215,1
+MapData,Category,Student,,11216,1
+MapData,Category,Student,,11217,1
+MapData,Category,Student,,11218,2
+MapData,Category,Student,,11221,4
+MapData,Category,Student,,11222,4
+MapData,Category,Student,,11224,4
+MapData,Category,Student,,11225,2
+MapData,Category,Student,,11228,1
+MapData,Category,Student,,11230,1
+MapData,Category,Student,,11231,2
+MapData,Category,Student,,11232,3
+MapData,Category,Student,,11233,2
+MapData,Category,Student,,11236,1
+MapData,Category,Student,,11237,1
+MapData,Category,Student,,11238,1
+MapData,Category,Student,,11249,2
+MapData,Category,Student,,11358,3
+MapData,Category,Student,,11361,1
+MapData,Category,Student,,11385,2
+MapData,Category,Student,,11419,1
+MapData,Category,Student,,11435,2
+MapData,Category,Television,,,8
+MapData,Category,Television,,0,1
+MapData,Category,Television,,83,15
+MapData,Category,Television,,10000,1
+MapData,Category,Television,,10001,497
+MapData,Category,Television,,10002,393
+MapData,Category,Television,,10003,601
+MapData,Category,Television,,10004,143
+MapData,Category,Television,,10005,190
+MapData,Category,Television,,10006,46
+MapData,Category,Television,,10007,415
+MapData,Category,Television,,10009,168
+MapData,Category,Television,,10010,327
+MapData,Category,Television,,10011,856
+MapData,Category,Television,,10012,455
+MapData,Category,Television,,10013,762
+MapData,Category,Television,,10014,366
+MapData,Category,Television,,10016,292
+MapData,Category,Television,,10017,349
+MapData,Category,Television,,10018,275
+MapData,Category,Television,,10019,675
+MapData,Category,Television,,10020,191
+MapData,Category,Television,,10021,217
+MapData,Category,Television,,10022,379
+MapData,Category,Television,,10023,397
+MapData,Category,Television,,10024,206
+MapData,Category,Television,,10025,204
+MapData,Category,Television,,10026,152
+MapData,Category,Television,,10027,326
+MapData,Category,Television,,10028,102
+MapData,Category,Television,,10029,195
+MapData,Category,Television,,10030,60
+MapData,Category,Television,,10031,204
+MapData,Category,Television,,10032,152
+MapData,Category,Television,,10033,104
+MapData,Category,Television,,10034,38
+MapData,Category,Television,,10035,70
+MapData,Category,Television,,10036,1542
+MapData,Category,Television,,10037,21
+MapData,Category,Television,,10038,266
+MapData,Category,Television,,10039,22
+MapData,Category,Television,,10040,46
+MapData,Category,Television,,10041,12
+MapData,Category,Television,,10044,40
+MapData,Category,Television,,10045,46
+MapData,Category,Television,,10048,5
+MapData,Category,Television,,10065,252
+MapData,Category,Television,,10069,6
+MapData,Category,Television,,10075,121
+MapData,Category,Television,,10080,1
+MapData,Category,Television,,10103,34
+MapData,Category,Television,,10105,684
+MapData,Category,Television,,10106,7
+MapData,Category,Television,,10110,2
+MapData,Category,Television,,10111,7
+MapData,Category,Television,,10112,55
+MapData,Category,Television,,10115,12
+MapData,Category,Television,,10118,7
+MapData,Category,Television,,10119,16
+MapData,Category,Television,,10121,19
+MapData,Category,Television,,10123,1
+MapData,Category,Television,,10128,139
+MapData,Category,Television,,10151,2
+MapData,Category,Television,,10152,50
+MapData,Category,Television,,10154,10
+MapData,Category,Television,,10155,8
+MapData,Category,Television,,10158,2
+MapData,Category,Television,,10165,12
+MapData,Category,Television,,10167,24
+MapData,Category,Television,,10170,9
+MapData,Category,Television,,10171,47
+MapData,Category,Television,,10172,33
+MapData,Category,Television,,10173,20
+MapData,Category,Television,,10174,1
+MapData,Category,Television,,10177,25
+MapData,Category,Television,,10178,4
+MapData,Category,Television,,10271,2
+MapData,Category,Television,,10278,11
+MapData,Category,Television,,10279,5
+MapData,Category,Television,,10280,28
+MapData,Category,Television,,10281,13
+MapData,Category,Television,,10282,59
+MapData,Category,Television,,10301,67
+MapData,Category,Television,,10302,37
+MapData,Category,Television,,10303,20
+MapData,Category,Television,,10304,100
+MapData,Category,Television,,10305,17
+MapData,Category,Television,,10306,15
+MapData,Category,Television,,10307,12
+MapData,Category,Television,,10308,5
+MapData,Category,Television,,10309,63
+MapData,Category,Television,,10310,70
+MapData,Category,Television,,10312,10
+MapData,Category,Television,,10314,20
+MapData,Category,Television,,10451,183
+MapData,Category,Television,,10452,59
+MapData,Category,Television,,10453,35
+MapData,Category,Television,,10454,489
+MapData,Category,Television,,10455,19
+MapData,Category,Television,,10456,34
+MapData,Category,Television,,10457,34
+MapData,Category,Television,,10458,42
+MapData,Category,Television,,10459,18
+MapData,Category,Television,,10460,6
+MapData,Category,Television,,10461,10
+MapData,Category,Television,,10462,9
+MapData,Category,Television,,10463,28
+MapData,Category,Television,,10464,20
+MapData,Category,Television,,10465,19
+MapData,Category,Television,,10466,24
+MapData,Category,Television,,10467,13
+MapData,Category,Television,,10468,43
+MapData,Category,Television,,10469,4
+MapData,Category,Television,,10470,14
+MapData,Category,Television,,10471,59
+MapData,Category,Television,,10472,13
+MapData,Category,Television,,10473,19
+MapData,Category,Television,,10474,55
+MapData,Category,Television,,10475,1
+MapData,Category,Television,,11001,2
+MapData,Category,Television,,11004,20
+MapData,Category,Television,,11040,10
+MapData,Category,Television,,11101,2651
+MapData,Category,Television,,11102,133
+MapData,Category,Television,,11103,74
+MapData,Category,Television,,11104,97
+MapData,Category,Television,,11105,216
+MapData,Category,Television,,11106,865
+MapData,Category,Television,,11109,39
+MapData,Category,Television,,11201,570
+MapData,Category,Television,,11203,139
+MapData,Category,Television,,11204,7
+MapData,Category,Television,,11205,260
+MapData,Category,Television,,11206,214
+MapData,Category,Television,,11207,146
+MapData,Category,Television,,11208,36
+MapData,Category,Television,,11209,53
+MapData,Category,Television,,11210,22
+MapData,Category,Television,,11211,550
+MapData,Category,Television,,11212,13
+MapData,Category,Television,,11213,45
+MapData,Category,Television,,11214,15
+MapData,Category,Television,,11215,248
+MapData,Category,Television,,11216,134
+MapData,Category,Television,,11217,459
+MapData,Category,Television,,11218,135
+MapData,Category,Television,,11219,2
+MapData,Category,Television,,11220,102
+MapData,Category,Television,,11221,65
+MapData,Category,Television,,11222,3792
+MapData,Category,Television,,11223,21
+MapData,Category,Television,,11224,49
+MapData,Category,Television,,11225,115
+MapData,Category,Television,,11226,175
+MapData,Category,Television,,11228,12
+MapData,Category,Television,,11229,11
+MapData,Category,Television,,11230,64
+MapData,Category,Television,,11231,305
+MapData,Category,Television,,11232,168
+MapData,Category,Television,,11233,45
+MapData,Category,Television,,11234,15
+MapData,Category,Television,,11235,22
+MapData,Category,Television,,11236,6
+MapData,Category,Television,,11237,710
+MapData,Category,Television,,11238,182
+MapData,Category,Television,,11239,1
+MapData,Category,Television,,11241,6
+MapData,Category,Television,,11249,389
+MapData,Category,Television,,11251,45
+MapData,Category,Television,,11354,27
+MapData,Category,Television,,11355,13
+MapData,Category,Television,,11356,31
+MapData,Category,Television,,11357,78
+MapData,Category,Television,,11358,9
+MapData,Category,Television,,11359,16
+MapData,Category,Television,,11360,22
+MapData,Category,Television,,11361,38
+MapData,Category,Television,,11362,20
+MapData,Category,Television,,11363,47
+MapData,Category,Television,,11364,21
+MapData,Category,Television,,11365,12
+MapData,Category,Television,,11366,3
+MapData,Category,Television,,11367,71
+MapData,Category,Television,,11368,21
+MapData,Category,Television,,11369,18
+MapData,Category,Television,,11370,22
+MapData,Category,Television,,11372,15
+MapData,Category,Television,,11373,57
+MapData,Category,Television,,11374,73
+MapData,Category,Television,,11375,105
+MapData,Category,Television,,11377,74
+MapData,Category,Television,,11378,178
+MapData,Category,Television,,11379,63
+MapData,Category,Television,,11385,941
+MapData,Category,Television,,11413,3
+MapData,Category,Television,,11414,12
+MapData,Category,Television,,11415,177
+MapData,Category,Television,,11416,15
+MapData,Category,Television,,11417,7
+MapData,Category,Television,,11418,50
+MapData,Category,Television,,11419,7
+MapData,Category,Television,,11420,4
+MapData,Category,Television,,11421,44
+MapData,Category,Television,,11422,2
+MapData,Category,Television,,11423,4
+MapData,Category,Television,,11426,5
+MapData,Category,Television,,11427,17
+MapData,Category,Television,,11428,1
+MapData,Category,Television,,11430,10
+MapData,Category,Television,,11432,32
+MapData,Category,Television,,11433,13
+MapData,Category,Television,,11434,10
+MapData,Category,Television,,11435,95
+MapData,Category,Television,,11436,4
+MapData,Category,Television,,11691,10
+MapData,Category,Television,,11692,10
+MapData,Category,Television,,11693,12
+MapData,Category,Television,,11694,18
+MapData,Category,Television,,11695,3
+MapData,Category,Theater,,10001,817
+MapData,Category,Theater,,10002,9
+MapData,Category,Theater,,10003,236
+MapData,Category,Theater,,10004,1
+MapData,Category,Theater,,10006,1
+MapData,Category,Theater,,10007,2
+MapData,Category,Theater,,10009,1
+MapData,Category,Theater,,10010,19
+MapData,Category,Theater,,10011,56
+MapData,Category,Theater,,10012,2
+MapData,Category,Theater,,10013,73
+MapData,Category,Theater,,10014,4
+MapData,Category,Theater,,10016,3
+MapData,Category,Theater,,10017,6
+MapData,Category,Theater,,10018,28
+MapData,Category,Theater,,10019,828
+MapData,Category,Theater,,10020,97
+MapData,Category,Theater,,10021,1
+MapData,Category,Theater,,10022,12
+MapData,Category,Theater,,10023,617
+MapData,Category,Theater,,10024,5
+MapData,Category,Theater,,10027,27
+MapData,Category,Theater,,10029,187
+MapData,Category,Theater,,10030,2
+MapData,Category,Theater,,10033,38
+MapData,Category,Theater,,10036,277
+MapData,Category,Theater,,10038,8
+MapData,Category,Theater,,10065,6
+MapData,Category,Theater,,10097,3
+MapData,Category,Theater,,10103,1
+MapData,Category,Theater,,10105,5
+MapData,Category,Theater,,10106,129
+MapData,Category,Theater,,10111,3
+MapData,Category,Theater,,10112,4
+MapData,Category,Theater,,10121,521
+MapData,Category,Theater,,10128,1
+MapData,Category,Theater,,10165,1
+MapData,Category,Theater,,10173,1
+MapData,Category,Theater,,10282,3
+MapData,Category,Theater,,10451,1
+MapData,Category,Theater,,10452,1
+MapData,Category,Theater,,10473,1
+MapData,Category,Theater,,11201,18
+MapData,Category,Theater,,11211,3
+MapData,Category,Theater,,11214,4
+MapData,Category,Theater,,11215,1
+MapData,Category,Theater,,11216,1
+MapData,Category,Theater,,11217,476
+MapData,Category,Theater,,11222,375
+MapData,Category,Theater,,11224,4
+MapData,Category,Theater,,11226,8
+MapData,Category,Theater,,11231,1
+MapData,Category,Theater,,11237,6
+MapData,Category,Theater,,11238,6
+MapData,Category,Theater,,11249,8
+MapData,Category,WEB,,10001,99
+MapData,Category,WEB,,10002,70
+MapData,Category,WEB,,10003,62
+MapData,Category,WEB,,10004,34
+MapData,Category,WEB,,10005,10
+MapData,Category,WEB,,10006,3
+MapData,Category,WEB,,10007,17
+MapData,Category,WEB,,10009,10
+MapData,Category,WEB,,10010,61
+MapData,Category,WEB,,10011,77
+MapData,Category,WEB,,10012,103
+MapData,Category,WEB,,10013,79
+MapData,Category,WEB,,10014,130
+MapData,Category,WEB,,10016,20
+MapData,Category,WEB,,10017,24
+MapData,Category,WEB,,10018,62
+MapData,Category,WEB,,10019,58
+MapData,Category,WEB,,10020,5
+MapData,Category,WEB,,10021,19
+MapData,Category,WEB,,10022,35
+MapData,Category,WEB,,10023,30
+MapData,Category,WEB,,10024,7
+MapData,Category,WEB,,10025,11
+MapData,Category,WEB,,10026,10
+MapData,Category,WEB,,10027,31
+MapData,Category,WEB,,10028,9
+MapData,Category,WEB,,10029,10
+MapData,Category,WEB,,10030,8
+MapData,Category,WEB,,10031,14
+MapData,Category,WEB,,10032,24
+MapData,Category,WEB,,10033,6
+MapData,Category,WEB,,10034,2
+MapData,Category,WEB,,10035,6
+MapData,Category,WEB,,10036,46
+MapData,Category,WEB,,10037,3
+MapData,Category,WEB,,10038,16
+MapData,Category,WEB,,10039,4
+MapData,Category,WEB,,10040,4
+MapData,Category,WEB,,10041,2
+MapData,Category,WEB,,10044,2
+MapData,Category,WEB,,10045,1
+MapData,Category,WEB,,10065,24
+MapData,Category,WEB,,10075,2
+MapData,Category,WEB,,10103,1
+MapData,Category,WEB,,10105,7
+MapData,Category,WEB,,10106,2
+MapData,Category,WEB,,10119,4
+MapData,Category,WEB,,10121,2
+MapData,Category,WEB,,10128,3
+MapData,Category,WEB,,10152,5
+MapData,Category,WEB,,10167,1
+MapData,Category,WEB,,10171,1
+MapData,Category,WEB,,10172,1
+MapData,Category,WEB,,10173,2
+MapData,Category,WEB,,10177,1
+MapData,Category,WEB,,10271,1
+MapData,Category,WEB,,10279,2
+MapData,Category,WEB,,10280,3
+MapData,Category,WEB,,10282,5
+MapData,Category,WEB,,10304,1
+MapData,Category,WEB,,10306,1
+MapData,Category,WEB,,10451,2
+MapData,Category,WEB,,10452,1
+MapData,Category,WEB,,10453,2
+MapData,Category,WEB,,10454,2
+MapData,Category,WEB,,10455,1
+MapData,Category,WEB,,10456,1
+MapData,Category,WEB,,10457,5
+MapData,Category,WEB,,10458,3
+MapData,Category,WEB,,10459,3
+MapData,Category,WEB,,10461,1
+MapData,Category,WEB,,10462,1
+MapData,Category,WEB,,10463,1
+MapData,Category,WEB,,10468,2
+MapData,Category,WEB,,10470,1
+MapData,Category,WEB,,10471,2
+MapData,Category,WEB,,10472,2
+MapData,Category,WEB,,10474,4
+MapData,Category,WEB,,11101,79
+MapData,Category,WEB,,11102,5
+MapData,Category,WEB,,11103,3
+MapData,Category,WEB,,11104,1
+MapData,Category,WEB,,11105,5
+MapData,Category,WEB,,11106,7
+MapData,Category,WEB,,11109,2
+MapData,Category,WEB,,11201,89
+MapData,Category,WEB,,11205,29
+MapData,Category,WEB,,11206,12
+MapData,Category,WEB,,11207,4
+MapData,Category,WEB,,11209,6
+MapData,Category,WEB,,11210,5
+MapData,Category,WEB,,11211,51
+MapData,Category,WEB,,11212,1
+MapData,Category,WEB,,11213,6
+MapData,Category,WEB,,11215,17
+MapData,Category,WEB,,11216,14
+MapData,Category,WEB,,11217,35
+MapData,Category,WEB,,11218,8
+MapData,Category,WEB,,11220,7
+MapData,Category,WEB,,11221,14
+MapData,Category,WEB,,11222,66
+MapData,Category,WEB,,11224,7
+MapData,Category,WEB,,11225,6
+MapData,Category,WEB,,11226,30
+MapData,Category,WEB,,11228,2
+MapData,Category,WEB,,11229,2
+MapData,Category,WEB,,11230,9
+MapData,Category,WEB,,11231,19
+MapData,Category,WEB,,11232,18
+MapData,Category,WEB,,11233,7
+MapData,Category,WEB,,11235,2
+MapData,Category,WEB,,11237,31
+MapData,Category,WEB,,11238,17
+MapData,Category,WEB,,11249,54
+MapData,Category,WEB,,11354,3
+MapData,Category,WEB,,11355,1
+MapData,Category,WEB,,11357,6
+MapData,Category,WEB,,11358,3
+MapData,Category,WEB,,11361,1
+MapData,Category,WEB,,11363,3
+MapData,Category,WEB,,11368,1
+MapData,Category,WEB,,11369,1
+MapData,Category,WEB,,11372,1
+MapData,Category,WEB,,11375,2
+MapData,Category,WEB,,11377,1
+MapData,Category,WEB,,11378,1
+MapData,Category,WEB,,11385,17
+MapData,Category,WEB,,11413,1
+MapData,Category,WEB,,11415,4
+MapData,Category,WEB,,11416,1
+MapData,Category,WEB,,11418,1
+MapData,Category,WEB,,11421,2
+MapData,Category,WEB,,11430,1
+MapData,Category,WEB,,11432,2
+MapData,Category,WEB,,11693,2
+MapData,Category,WEB,,11694,1
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10002,5
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10007,193
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10013,162
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10038,21
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10278,2
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10301,5
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10304,5
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10451,109
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10452,6
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,10456,1
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11101,11
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11201,38
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11211,3
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11213,1
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11216,1
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11241,3
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11249,3
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11375,2
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11415,7
+MapData,Type,DCAS Prep/Shoot/Wrap Permit,,11435,15
+MapData,Type,Rigging Permit,,10001,2
+MapData,Type,Rigging Permit,,10002,5
+MapData,Type,Rigging Permit,,10003,116
+MapData,Type,Rigging Permit,,10004,10
+MapData,Type,Rigging Permit,,10005,14
+MapData,Type,Rigging Permit,,10006,1
+MapData,Type,Rigging Permit,,10007,1
+MapData,Type,Rigging Permit,,10009,3
+MapData,Type,Rigging Permit,,10010,5
+MapData,Type,Rigging Permit,,10011,9
+MapData,Type,Rigging Permit,,10012,11
+MapData,Type,Rigging Permit,,10013,22
+MapData,Type,Rigging Permit,,10014,12
+MapData,Type,Rigging Permit,,10016,3
+MapData,Type,Rigging Permit,,10018,5
+MapData,Type,Rigging Permit,,10019,14
+MapData,Type,Rigging Permit,,10020,3
+MapData,Type,Rigging Permit,,10021,4
+MapData,Type,Rigging Permit,,10022,6
+MapData,Type,Rigging Permit,,10023,4
+MapData,Type,Rigging Permit,,10025,4
+MapData,Type,Rigging Permit,,10026,2
+MapData,Type,Rigging Permit,,10027,12
+MapData,Type,Rigging Permit,,10029,7
+MapData,Type,Rigging Permit,,10031,5
+MapData,Type,Rigging Permit,,10032,33
+MapData,Type,Rigging Permit,,10033,30
+MapData,Type,Rigging Permit,,10034,1
+MapData,Type,Rigging Permit,,10035,4
+MapData,Type,Rigging Permit,,10036,139
+MapData,Type,Rigging Permit,,10038,5
+MapData,Type,Rigging Permit,,10039,2
+MapData,Type,Rigging Permit,,10045,1
+MapData,Type,Rigging Permit,,10065,2
+MapData,Type,Rigging Permit,,10075,2
+MapData,Type,Rigging Permit,,10105,114
+MapData,Type,Rigging Permit,,10112,1
+MapData,Type,Rigging Permit,,10282,1
+MapData,Type,Rigging Permit,,10301,1
+MapData,Type,Rigging Permit,,10302,1
+MapData,Type,Rigging Permit,,10310,1
+MapData,Type,Rigging Permit,,10314,1
+MapData,Type,Rigging Permit,,10451,3
+MapData,Type,Rigging Permit,,10454,6
+MapData,Type,Rigging Permit,,10456,3
+MapData,Type,Rigging Permit,,10457,2
+MapData,Type,Rigging Permit,,10458,1
+MapData,Type,Rigging Permit,,10461,1
+MapData,Type,Rigging Permit,,10462,1
+MapData,Type,Rigging Permit,,11004,1
+MapData,Type,Rigging Permit,,11101,35
+MapData,Type,Rigging Permit,,11104,6
+MapData,Type,Rigging Permit,,11105,2
+MapData,Type,Rigging Permit,,11106,46
+MapData,Type,Rigging Permit,,11201,6
+MapData,Type,Rigging Permit,,11205,1
+MapData,Type,Rigging Permit,,11206,4
+MapData,Type,Rigging Permit,,11209,2
+MapData,Type,Rigging Permit,,11211,16
+MapData,Type,Rigging Permit,,11213,2
+MapData,Type,Rigging Permit,,11215,1
+MapData,Type,Rigging Permit,,11216,9
+MapData,Type,Rigging Permit,,11217,4
+MapData,Type,Rigging Permit,,11218,1
+MapData,Type,Rigging Permit,,11220,4
+MapData,Type,Rigging Permit,,11222,28
+MapData,Type,Rigging Permit,,11225,1
+MapData,Type,Rigging Permit,,11226,16
+MapData,Type,Rigging Permit,,11231,1
+MapData,Type,Rigging Permit,,11232,7
+MapData,Type,Rigging Permit,,11237,3
+MapData,Type,Rigging Permit,,11249,4
+MapData,Type,Rigging Permit,,11361,1
+MapData,Type,Rigging Permit,,11368,2
+MapData,Type,Rigging Permit,,11373,2
+MapData,Type,Rigging Permit,,11375,2
+MapData,Type,Rigging Permit,,11418,2
+MapData,Type,Rigging Permit,,11421,2
+MapData,Type,Shooting Permit,,,18
+MapData,Type,Shooting Permit,,0,1
+MapData,Type,Shooting Permit,,83,34
+MapData,Type,Shooting Permit,,10000,4
+MapData,Type,Shooting Permit,,10001,980
+MapData,Type,Shooting Permit,,10002,954
+MapData,Type,Shooting Permit,,10003,1121
+MapData,Type,Shooting Permit,,10004,287
+MapData,Type,Shooting Permit,,10005,303
+MapData,Type,Shooting Permit,,10006,88
+MapData,Type,Shooting Permit,,10007,354
+MapData,Type,Shooting Permit,,10009,281
+MapData,Type,Shooting Permit,,10010,605
+MapData,Type,Shooting Permit,,10011,1432
+MapData,Type,Shooting Permit,,10012,1078
+MapData,Type,Shooting Permit,,10013,1312
+MapData,Type,Shooting Permit,,10014,931
+MapData,Type,Shooting Permit,,10016,501
+MapData,Type,Shooting Permit,,10017,570
+MapData,Type,Shooting Permit,,10018,605
+MapData,Type,Shooting Permit,,10019,1116
+MapData,Type,Shooting Permit,,10020,263
+MapData,Type,Shooting Permit,,10021,388
+MapData,Type,Shooting Permit,,10022,673
+MapData,Type,Shooting Permit,,10023,655
+MapData,Type,Shooting Permit,,10024,349
+MapData,Type,Shooting Permit,,10025,294
+MapData,Type,Shooting Permit,,10026,220
+MapData,Type,Shooting Permit,,10027,546
+MapData,Type,Shooting Permit,,10028,217
+MapData,Type,Shooting Permit,,10029,271
+MapData,Type,Shooting Permit,,10030,107
+MapData,Type,Shooting Permit,,10031,362
+MapData,Type,Shooting Permit,,10032,268
+MapData,Type,Shooting Permit,,10033,196
+MapData,Type,Shooting Permit,,10034,57
+MapData,Type,Shooting Permit,,10035,121
+MapData,Type,Shooting Permit,,10036,1871
+MapData,Type,Shooting Permit,,10037,38
+MapData,Type,Shooting Permit,,10038,452
+MapData,Type,Shooting Permit,,10039,45
+MapData,Type,Shooting Permit,,10040,72
+MapData,Type,Shooting Permit,,10041,30
+MapData,Type,Shooting Permit,,10044,78
+MapData,Type,Shooting Permit,,10045,56
+MapData,Type,Shooting Permit,,10048,16
+MapData,Type,Shooting Permit,,10065,463
+MapData,Type,Shooting Permit,,10069,14
+MapData,Type,Shooting Permit,,10075,217
+MapData,Type,Shooting Permit,,10080,1
+MapData,Type,Shooting Permit,,10097,2
+MapData,Type,Shooting Permit,,10103,71
+MapData,Type,Shooting Permit,,10105,612
+MapData,Type,Shooting Permit,,10106,26
+MapData,Type,Shooting Permit,,10110,16
+MapData,Type,Shooting Permit,,10111,18
+MapData,Type,Shooting Permit,,10112,71
+MapData,Type,Shooting Permit,,10115,22
+MapData,Type,Shooting Permit,,10118,19
+MapData,Type,Shooting Permit,,10119,42
+MapData,Type,Shooting Permit,,10120,5
+MapData,Type,Shooting Permit,,10121,41
+MapData,Type,Shooting Permit,,10123,1
+MapData,Type,Shooting Permit,,10128,248
+MapData,Type,Shooting Permit,,10151,2
+MapData,Type,Shooting Permit,,10152,80
+MapData,Type,Shooting Permit,,10154,20
+MapData,Type,Shooting Permit,,10155,10
+MapData,Type,Shooting Permit,,10158,4
+MapData,Type,Shooting Permit,,10165,28
+MapData,Type,Shooting Permit,,10167,39
+MapData,Type,Shooting Permit,,10170,14
+MapData,Type,Shooting Permit,,10171,73
+MapData,Type,Shooting Permit,,10172,54
+MapData,Type,Shooting Permit,,10173,34
+MapData,Type,Shooting Permit,,10174,8
+MapData,Type,Shooting Permit,,10175,11
+MapData,Type,Shooting Permit,,10176,8
+MapData,Type,Shooting Permit,,10177,40
+MapData,Type,Shooting Permit,,10178,7
+MapData,Type,Shooting Permit,,10271,9
+MapData,Type,Shooting Permit,,10278,16
+MapData,Type,Shooting Permit,,10279,10
+MapData,Type,Shooting Permit,,10280,48
+MapData,Type,Shooting Permit,,10281,20
+MapData,Type,Shooting Permit,,10282,76
+MapData,Type,Shooting Permit,,10301,117
+MapData,Type,Shooting Permit,,10302,45
+MapData,Type,Shooting Permit,,10303,33
+MapData,Type,Shooting Permit,,10304,128
+MapData,Type,Shooting Permit,,10305,48
+MapData,Type,Shooting Permit,,10306,35
+MapData,Type,Shooting Permit,,10307,24
+MapData,Type,Shooting Permit,,10308,5
+MapData,Type,Shooting Permit,,10309,82
+MapData,Type,Shooting Permit,,10310,87
+MapData,Type,Shooting Permit,,10312,14
+MapData,Type,Shooting Permit,,10314,48
+MapData,Type,Shooting Permit,,10451,138
+MapData,Type,Shooting Permit,,10452,93
+MapData,Type,Shooting Permit,,10453,69
+MapData,Type,Shooting Permit,,10454,523
+MapData,Type,Shooting Permit,,10455,39
+MapData,Type,Shooting Permit,,10456,52
+MapData,Type,Shooting Permit,,10457,63
+MapData,Type,Shooting Permit,,10458,83
+MapData,Type,Shooting Permit,,10459,28
+MapData,Type,Shooting Permit,,10460,8
+MapData,Type,Shooting Permit,,10461,17
+MapData,Type,Shooting Permit,,10462,13
+MapData,Type,Shooting Permit,,10463,41
+MapData,Type,Shooting Permit,,10464,21
+MapData,Type,Shooting Permit,,10465,23
+MapData,Type,Shooting Permit,,10466,34
+MapData,Type,Shooting Permit,,10467,21
+MapData,Type,Shooting Permit,,10468,78
+MapData,Type,Shooting Permit,,10469,17
+MapData,Type,Shooting Permit,,10470,25
+MapData,Type,Shooting Permit,,10471,81
+MapData,Type,Shooting Permit,,10472,19
+MapData,Type,Shooting Permit,,10473,22
+MapData,Type,Shooting Permit,,10474,122
+MapData,Type,Shooting Permit,,10475,8
+MapData,Type,Shooting Permit,,11001,3
+MapData,Type,Shooting Permit,,11004,29
+MapData,Type,Shooting Permit,,11038,2
+MapData,Type,Shooting Permit,,11040,18
+MapData,Type,Shooting Permit,,11101,2980
+MapData,Type,Shooting Permit,,11102,156
+MapData,Type,Shooting Permit,,11103,94
+MapData,Type,Shooting Permit,,11104,110
+MapData,Type,Shooting Permit,,11105,275
+MapData,Type,Shooting Permit,,11106,884
+MapData,Type,Shooting Permit,,11109,58
+MapData,Type,Shooting Permit,,11201,1261
+MapData,Type,Shooting Permit,,11203,155
+MapData,Type,Shooting Permit,,11204,17
+MapData,Type,Shooting Permit,,11205,446
+MapData,Type,Shooting Permit,,11206,470
+MapData,Type,Shooting Permit,,11207,219
+MapData,Type,Shooting Permit,,11208,59
+MapData,Type,Shooting Permit,,11209,103
+MapData,Type,Shooting Permit,,11210,83
+MapData,Type,Shooting Permit,,11211,859
+MapData,Type,Shooting Permit,,11212,27
+MapData,Type,Shooting Permit,,11213,83
+MapData,Type,Shooting Permit,,11214,27
+MapData,Type,Shooting Permit,,11215,466
+MapData,Type,Shooting Permit,,11216,267
+MapData,Type,Shooting Permit,,11217,674
+MapData,Type,Shooting Permit,,11218,270
+MapData,Type,Shooting Permit,,11219,12
+MapData,Type,Shooting Permit,,11220,202
+MapData,Type,Shooting Permit,,11221,178
+MapData,Type,Shooting Permit,,11222,4143
+MapData,Type,Shooting Permit,,11223,42
+MapData,Type,Shooting Permit,,11224,132
+MapData,Type,Shooting Permit,,11225,200
+MapData,Type,Shooting Permit,,11226,374
+MapData,Type,Shooting Permit,,11228,56
+MapData,Type,Shooting Permit,,11229,19
+MapData,Type,Shooting Permit,,11230,163
+MapData,Type,Shooting Permit,,11231,576
+MapData,Type,Shooting Permit,,11232,350
+MapData,Type,Shooting Permit,,11233,103
+MapData,Type,Shooting Permit,,11234,30
+MapData,Type,Shooting Permit,,11235,68
+MapData,Type,Shooting Permit,,11236,10
+MapData,Type,Shooting Permit,,11237,966
+MapData,Type,Shooting Permit,,11238,307
+MapData,Type,Shooting Permit,,11239,3
+MapData,Type,Shooting Permit,,11241,3
+MapData,Type,Shooting Permit,,11249,688
+MapData,Type,Shooting Permit,,11251,51
+MapData,Type,Shooting Permit,,11354,53
+MapData,Type,Shooting Permit,,11355,30
+MapData,Type,Shooting Permit,,11356,33
+MapData,Type,Shooting Permit,,11357,114
+MapData,Type,Shooting Permit,,11358,25
+MapData,Type,Shooting Permit,,11359,22
+MapData,Type,Shooting Permit,,11360,23
+MapData,Type,Shooting Permit,,11361,56
+MapData,Type,Shooting Permit,,11362,25
+MapData,Type,Shooting Permit,,11363,66
+MapData,Type,Shooting Permit,,11364,25
+MapData,Type,Shooting Permit,,11365,14
+MapData,Type,Shooting Permit,,11366,7
+MapData,Type,Shooting Permit,,11367,84
+MapData,Type,Shooting Permit,,11368,44
+MapData,Type,Shooting Permit,,11369,25
+MapData,Type,Shooting Permit,,11370,30
+MapData,Type,Shooting Permit,,11372,41
+MapData,Type,Shooting Permit,,11373,74
+MapData,Type,Shooting Permit,,11374,84
+MapData,Type,Shooting Permit,,11375,126
+MapData,Type,Shooting Permit,,11377,112
+MapData,Type,Shooting Permit,,11378,194
+MapData,Type,Shooting Permit,,11379,72
+MapData,Type,Shooting Permit,,11385,1043
+MapData,Type,Shooting Permit,,11411,1
+MapData,Type,Shooting Permit,,11412,2
+MapData,Type,Shooting Permit,,11413,7
+MapData,Type,Shooting Permit,,11414,16
+MapData,Type,Shooting Permit,,11415,199
+MapData,Type,Shooting Permit,,11416,19
+MapData,Type,Shooting Permit,,11417,12
+MapData,Type,Shooting Permit,,11418,68
+MapData,Type,Shooting Permit,,11419,8
+MapData,Type,Shooting Permit,,11420,6
+MapData,Type,Shooting Permit,,11421,62
+MapData,Type,Shooting Permit,,11422,3
+MapData,Type,Shooting Permit,,11423,4
+MapData,Type,Shooting Permit,,11426,5
+MapData,Type,Shooting Permit,,11427,17
+MapData,Type,Shooting Permit,,11428,1
+MapData,Type,Shooting Permit,,11429,4
+MapData,Type,Shooting Permit,,11430,14
+MapData,Type,Shooting Permit,,11432,43
+MapData,Type,Shooting Permit,,11433,18
+MapData,Type,Shooting Permit,,11434,15
+MapData,Type,Shooting Permit,,11435,94
+MapData,Type,Shooting Permit,,11436,4
+MapData,Type,Shooting Permit,,11691,26
+MapData,Type,Shooting Permit,,11692,26
+MapData,Type,Shooting Permit,,11693,28
+MapData,Type,Shooting Permit,,11694,62
+MapData,Type,Shooting Permit,,11695,5
+MapData,Type,Shooting Permit,,11697,1
+MapData,Type,Theater Load in and Load Outs,,10001,818
+MapData,Type,Theater Load in and Load Outs,,10002,8
+MapData,Type,Theater Load in and Load Outs,,10003,232
+MapData,Type,Theater Load in and Load Outs,,10004,1
+MapData,Type,Theater Load in and Load Outs,,10006,1
+MapData,Type,Theater Load in and Load Outs,,10007,2
+MapData,Type,Theater Load in and Load Outs,,10009,1
+MapData,Type,Theater Load in and Load Outs,,10010,19
+MapData,Type,Theater Load in and Load Outs,,10011,54
+MapData,Type,Theater Load in and Load Outs,,10012,2
+MapData,Type,Theater Load in and Load Outs,,10013,72
+MapData,Type,Theater Load in and Load Outs,,10014,7
+MapData,Type,Theater Load in and Load Outs,,10016,7
+MapData,Type,Theater Load in and Load Outs,,10017,10
+MapData,Type,Theater Load in and Load Outs,,10018,20
+MapData,Type,Theater Load in and Load Outs,,10019,811
+MapData,Type,Theater Load in and Load Outs,,10020,103
+MapData,Type,Theater Load in and Load Outs,,10021,1
+MapData,Type,Theater Load in and Load Outs,,10022,13
+MapData,Type,Theater Load in and Load Outs,,10023,625
+MapData,Type,Theater Load in and Load Outs,,10024,6
+MapData,Type,Theater Load in and Load Outs,,10027,27
+MapData,Type,Theater Load in and Load Outs,,10029,187
+MapData,Type,Theater Load in and Load Outs,,10030,2
+MapData,Type,Theater Load in and Load Outs,,10033,39
+MapData,Type,Theater Load in and Load Outs,,10036,232
+MapData,Type,Theater Load in and Load Outs,,10038,7
+MapData,Type,Theater Load in and Load Outs,,10065,7
+MapData,Type,Theater Load in and Load Outs,,10097,1
+MapData,Type,Theater Load in and Load Outs,,10103,1
+MapData,Type,Theater Load in and Load Outs,,10105,1
+MapData,Type,Theater Load in and Load Outs,,10106,129
+MapData,Type,Theater Load in and Load Outs,,10111,3
+MapData,Type,Theater Load in and Load Outs,,10112,10
+MapData,Type,Theater Load in and Load Outs,,10121,522
+MapData,Type,Theater Load in and Load Outs,,10128,1
+MapData,Type,Theater Load in and Load Outs,,10165,1
+MapData,Type,Theater Load in and Load Outs,,10173,1
+MapData,Type,Theater Load in and Load Outs,,10282,3
+MapData,Type,Theater Load in and Load Outs,,10451,3
+MapData,Type,Theater Load in and Load Outs,,10452,3
+MapData,Type,Theater Load in and Load Outs,,10473,1
+MapData,Type,Theater Load in and Load Outs,,11101,11
+MapData,Type,Theater Load in and Load Outs,,11105,1
+MapData,Type,Theater Load in and Load Outs,,11201,19
+MapData,Type,Theater Load in and Load Outs,,11211,2
+MapData,Type,Theater Load in and Load Outs,,11214,4
+MapData,Type,Theater Load in and Load Outs,,11215,1
+MapData,Type,Theater Load in and Load Outs,,11217,484
+MapData,Type,Theater Load in and Load Outs,,11222,388
+MapData,Type,Theater Load in and Load Outs,,11224,4
+MapData,Type,Theater Load in and Load Outs,,11226,4
+MapData,Type,Theater Load in and Load Outs,,11231,1
+MapData,Type,Theater Load in and Load Outs,,11237,7
+MapData,Type,Theater Load in and Load Outs,,11238,7
+MapData,Type,Theater Load in and Load Outs,,11249,8
