@@ -190,12 +190,10 @@ class Bar {
                 .append("g")
                 .attr("class", "bar")
                 .attr("fill-opacity", 0.5)
-                .attr("y",d=>yScale(d.Name)) 
                 .call(enter => enter.append("rect"))
                 .call(enter => enter.append("text")),
             update => update
-                .call(update=>update
-                    .attr("y",d=>yScale(d.Name))) 
+                .call(update=>update) 
             ,
             exit => exit.remove()
             )
