@@ -175,7 +175,7 @@ class Bar {
   
         const bars = this.svg
             .selectAll("g.bar")
-            .data(showbyBarData)
+            .data(showbyBarData, d=>d.Name)
             .join(
             enter =>
                 enter
@@ -189,14 +189,11 @@ class Bar {
                     .attr("width", d=>xScale(d.Events))
                     .attr("height", yScale.bandwidth())
                     .style("fill", "white"))
-
                 .call(enter => enter.append("text")),
             update => update
             ,
             exit => exit.remove()
-            )/* .on("click", d => {
-            setGlobalState({ selectedMetric: d.metric });
-            }) */
+            )
     
         bars
             .attr(
@@ -211,7 +208,14 @@ class Bar {
             .attr("width", d=>xScale(d.Events))
             .attr("height", yScale.bandwidth())
             .style("fill", "white")
-    
+            
+
+        
+         bars
+            .select("rect")
+            .sort(function(a,b){ d3.ascending(a, b)})
+            .attr("x",function(d,i){return yScale(i)})              
+
          bars
             .select("text")
             .attr("dy", "-.5em")

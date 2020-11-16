@@ -40,12 +40,12 @@ class Line {
         console.log(filteredData)
 
 
-        const xScale = d3
+        let xScale = d3
             .scaleTime()
             .domain(d3.extent(filteredData,d=>d.Month))
             .range([this.margins.left, this.width - this.margins.right])
         
-        const yScale = d3
+        let yScale = d3
             .scaleLinear()
             .domain([0,d3.max(filteredData, d => d.Events)])
             .range([this.height - this.margins.top, this.margins.bottom]);
@@ -68,60 +68,41 @@ class Line {
                 .transition()
                 .duration(1000)
                 .call(d3.axisLeft(yScale)); 
+        console.log(state)
+/*         yScale.domain([0, d3.max(filteredData, d => d.Events)]);
 
-
+        d3.select("g.y-axis")
+        .transition()
+        .duration(1000)
+        .call(yAxis.scale(yScale)); */
        const line = this.svg
-            .selectAll("g.line")
-            .data(filteredData)
+            .selectAll("path.trend")
+            .data([filteredData])
             .join(
                 enter =>
                 enter
-                    .append("g")
-                    .attr("class", "line")
+                    .attr("class", "trend")
                     .attr("stroke", "white")
+                    .attr("opacity", 1)
                     .call(enter => enter.append("path")),
                 update => update,
                 exit => exit.remove()
             ) 
+            .call(selection =>
+                selection
+                  .transition() // sets the transition on the 'Enter' + 'Update' selections together.
+                  .duration(1000)
+                  .attr("opacity", 1)
+                  .attr("d", d => valueLine(d))
+              );
+
+
         line.select("path")
             .transition()
             .duration(this.duration)
             .attr("d",d=>valueLine(d))
 
-/*         let line = this.svg
-            .selectAll("g.line")
-            .data(filteredData)
-            .append("g")
-            .attr("class", "line")
-            .attr("stroke", d=>d.key)
-        let paths= line.selectAll(".line")
-            .data(function(d){ return d.values})
-            .enter()
-            .append("path")
-            .attr("d",d=>valueLine(d.values))
-            .attr("class", "line") */
 
-
- /*        line
-            .transition()
-            .duration(this.duration)
-            .attr(
-                "transform",
-                d => `translate(${xScale(d.Month)}, ${yScale(d.Events)})`
-            );
-   
-        line
-            .select("rect")
-            .transition()
-            .duration(this.duration)
-            .attr("width", xScale.bandwidth())
-            .attr("height", d => this.height - yScale(d.value))
-            .style("fill", d => d.metric === state.selectedMetric ? "purple" : "#ccc")
-    
-        line
-            .select("text")
-            .attr("dy", "-.5em")
-            .text(d => `${d.metric}: ${this.format(d.value)}`);   */  
 
 
 
