@@ -73,11 +73,11 @@ class Line {
         .transition()
         .duration(1000)
         .call(yAxis.scale(yScale)); */
-        console.log([filteredData])
+        console.log("filtered" ,filteredData)
 
         const dot = this.svg
-            .selectAll("dot")
-            .data(filteredData)
+            .selectAll(".dot")
+            .data(filteredData, d=>`${d.Month}_${d.Name}`)
             .join(
                 enter =>
                 enter
@@ -151,8 +151,10 @@ class Line {
                     .attr("class", "trend")
                     .attr("stroke", "white")
                     .attr("stroke-width",1)
+                    .attr("transform", "translate(0," + (-this.margins.bottom) + ")")
                     .attr("opacity", 0)
-                    .call(enter => enter.append("path")),
+     //               .call(enter => enter.append("path"))
+     ,
                 update => update,
                 exit => exit.remove()
             ) 
@@ -161,14 +163,15 @@ class Line {
                   .transition() // sets the transition on the 'Enter' + 'Update' selections together.
                   .duration(1000)
                   .attr("opacity", 1)
-                  .attr("d", lineFunc())
+                  .attr("fill","none")
+                  .attr("d", lineFunc)
               );
 
             
-        line.select("path")
+/*         line.select("path")
             .transition()
             .duration(this.duration)
-            .attr("d",d=>valueLine(d))
+            .attr("d",d=>lineFunc(d)) */
 
       }
 
