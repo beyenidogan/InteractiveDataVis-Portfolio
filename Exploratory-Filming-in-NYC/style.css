@@ -164,20 +164,17 @@ div.tooltip{
 } 
 #tooltip p1 {
   font-size: 13px;
+  color: #ccc;
 }
 #month,
 #year, #events {
   font-size: 14px;
+  color: #fff;
 }
-#annotation{
-  margin: 0;
-  font-size: 13px;
-  font-style: oblique;
-  color:  #f57d51;
-}
+
 .tick {
   font-size: 12px;
-
+  color: #ccc;
   font-family: 'Ebrima', sans-serif;
 
 }

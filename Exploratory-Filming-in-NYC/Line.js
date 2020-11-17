@@ -73,9 +73,74 @@ class Line {
         .transition()
         .duration(1000)
         .call(yAxis.scale(yScale)); */
-       console.log([filteredData])
+        console.log([filteredData])
 
-/*        
+        const dot = this.svg
+            .selectAll("dot")
+            .data(filteredData)
+            .join(
+                enter =>
+                enter
+                    .append("g")
+                    .attr("class", "dot")
+                    .call(enter => enter.append("circle")),
+                update => update,
+                exit =>
+                    exit.call(exit =>
+                    // exit selections -- all the `.dot` element that no longer match to HTML elements
+                    exit
+                        .transition()
+                        .duration(500)
+                        .remove()
+                    )
+                ) 
+
+
+        dot.select("circle")
+        .transition()
+        .duration(this.duration)
+        .attr("transform", "translate(0," + (-this.margins.bottom) + ")")
+        .attr("r", 6)
+        .attr("cx", d => xScale(d.Month))
+        .attr("cy", d => yScale(d.Events)) // initial value - to be transitioned
+        .attr("fill", "#DDDDDD")
+        .attr("fill-opacity", 0.5)
+
+        dot.select("circle")
+        .on("mouseover", function(d) {                                                            
+            //Get this bar's x/y values, then augment for the tooltip
+
+/*                    console.log(d3.event.pageX, d3.event.pageY)
+            xPosition = d3.event.pageX -100;
+            yPosition = d3.event.pageY - 20; */
+            //Update the tooltip position and value
+            console.log(d3.event.pageX)
+            d3.select("#tooltip")
+                    .style("left", (d3.event.pageX-100)  + "px")
+                    .style("top", d3.event.pageY + "px")						
+                    .select("#events")
+                    .text(d.Events)
+                    .style("fill", "white")
+            d3.select("#tooltip")       
+                    .select("#month")
+                    .text(d3.timeFormat("%B")(d.Month))
+                    .style("fill", "white")
+            d3.select("#tooltip")       
+                    .select("#year")
+                    .text(d3.timeFormat("%Y")(d.Month))
+                    .style("fill", "white")
+            d3.select("#tooltip")       
+                    .select("#tooltipheader")
+                    .text(d.Name)
+                    .style("fill", "white")
+            //Show the tooltip
+            d3.select("#tooltip").classed("hidden", false);
+            })  
+        .on("mouseleave", function(d) {
+              d3.select("#tooltip").classed("hidden", true);
+            })  
+
+                   
         const line = this.svg
             .selectAll("path.trend")
             .data([filteredData])
@@ -103,71 +168,7 @@ class Line {
         line.select("path")
             .transition()
             .duration(this.duration)
-            .attr("d",d=>valueLine(d)) */
-
-
-        const dot = this.svg
-            .selectAll("dot")
-            .data(filteredData)
-            .join(
-                enter =>
-                enter
-                    .append("g")
-                    .attr("class", "dot")
-                    .call(enter => enter.append("circle")),
-                update => update,
-                exit =>
-                    exit.call(exit =>
-                    // exit selections -- all the `.dot` element that no longer match to HTML elements
-                    exit
-                        .transition()
-                        .duration(500)
-                        .remove()
-                    )
-                ) 
-                .on("mouseover", function(d) {                                                            
-                    //Get this bar's x/y values, then augment for the tooltip
-
- /*                    console.log(d3.event.pageX, d3.event.pageY)
-                    xPosition = d3.event.pageX -100;
-                    yPosition = d3.event.pageY - 20; */
-                    //Update the tooltip position and value
-                    d3.select("#tooltip")
-                            .style("left", d3.event.pageX  + "px")
-                            .style("top", d3.event.pageY + "px")						
-                            .select("#events")
-                            .text(d.Events)
-                            .style("fill", "white")
-                    d3.select("#tooltip")       
-                            .select("#month")
-                            .text(d3.timeFormat("%B")(d.Month))
-                            .style("fill", "white")
-                    d3.select("#tooltip")       
-                            .select("#year")
-                            .text(d3.timeFormat("%Y")(d.Month))
-                            .style("fill", "white")
-                    d3.select("#tooltip")       
-                            .select("#tooltipheader")
-                            .text(d.Name)
-                            .style("fill", "white")
-                    //Show the tooltip
-                    d3.select("#tooltip").classed("hidden", false);
-                    })  
-                .on("mouseleave", function(d) {
-                      d3.select("#tooltip").classed("hidden", true);
-                    })  
-
-        dot.select("circle")
-        .transition()
-        .duration(this.duration)
-        .attr("transform", "translate(0," + (-this.margins.bottom) + ")")
-        .attr("r", 6)
-        .attr("cx", d => xScale(d.Month))
-        .attr("cy", d => yScale(d.Events)) // initial value - to be transitioned
-        .attr("fill", "#DDDDDD")
-        .attr("fill-opacity", 0.5)
-        
-
+            .attr("d",d=>valueLine(d))
 
       }
 

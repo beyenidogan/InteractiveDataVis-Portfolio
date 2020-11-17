@@ -63,13 +63,12 @@ class Map {
                 .transition()
                 .duration(1000)
                 .call(d3.axisLeft(yScale)); 
-        console.log(state)
-/*         yScale.domain([0, d3.max(filteredData, d => d.Events)]);
+
 
         d3.select("g.y-axis")
         .transition()
         .duration(1000)
-        .call(yAxis.scale(yScale)); */
+        .call(yAxis.scale(yScale));
        const line = this.svg
             .selectAll("path.trend")
             .data([filteredData])
@@ -83,7 +82,10 @@ class Map {
                     .attr("opacity", 0)
                     .call(enter => enter.append("path")),
                 update => update,
-                exit => exit.remove()
+                exit => exit.call(exit=>
+                    exit
+                .remove()
+                )
             ) 
             .call(selection =>
                 selection
