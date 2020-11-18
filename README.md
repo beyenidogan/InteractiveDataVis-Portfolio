@@ -9,6 +9,7 @@ This is my portfolio of projects for Interactive Data Visualization (DATA 73200)
 ### [Project 1 - Exploratory: Filming in NYC](https://beyenidogan.github.io/Viz-Portfolio/Exploratory-Filming-in-NYC/)
 
 <br />
+
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_thumbnail.png)
 
 It is required to have an official permit from the municipality that gives permission for filmmaking while balancing the needs of the community in the neighborhood. NYC is one of the most popular filming locations in the country, but as with everything else there has been a sharp decline in filming related activities due to COVID-19 in 2020. 
@@ -23,7 +24,7 @@ Source:
 https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
 
 
-##Sketches
+## Sketches
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
 
 <br />
