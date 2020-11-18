@@ -157,7 +157,7 @@ class Line {
                     .append("path")
                     .attr("class", "trend")
                     .attr("stroke", "white")
-                    .attr("stroke-width",1)
+                    .attr("stroke-width",1.2)
                     .attr("transform", "translate(0," + (-this.margins.bottom) + ")")
                     .attr("opacity", 0)
      //               .call(enter => enter.append("path"))
