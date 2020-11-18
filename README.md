@@ -11,6 +11,18 @@ Source:
 https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
 
 
+br />
 
-# Sketches
+-----------
 
+<br />
+
+### [Project 1: Exploratory](https:)
+
+![](https://project-01-thumbnail.png)
+
+How does the dominant color of an artist’s works change over time?
+
+[Project Plan](tfolio/tree/master/Project1)
+
+<br />
