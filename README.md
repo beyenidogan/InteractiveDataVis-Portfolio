@@ -2,6 +2,7 @@
 This is my portfolio of projects for Interactive Data Visualization (DATA 73200) course taken at the CUNY Graduate Center in Fall 2020.
 
 <br />
+
 -----------
 <br />
 
