@@ -21,7 +21,7 @@ This project aims to explore both the history of trends of permits over <strong>
 Source:
 https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
 
-
-[Sketches](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
+[Sketches]
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
 
 <br />
