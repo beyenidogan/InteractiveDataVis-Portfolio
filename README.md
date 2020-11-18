@@ -24,7 +24,7 @@ Source:
 https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
 
 
-## Sketches
+### Sketches
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
 
 <br />
