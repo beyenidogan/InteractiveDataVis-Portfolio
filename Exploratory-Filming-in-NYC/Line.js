@@ -107,7 +107,7 @@ class Line {
         .transition()
         .duration(this.duration/10) 
         .attr("transform", "translate(0," + (-this.margins.bottom) + ")")
-        .attr("r", 2)
+        .attr("r", 4)
         .attr("cx", d => xScale(d.Month))
         .attr("cy", d => yScale(d.Events)) // initial value - to be transitioned
         .attr("fill", "#DDDDDD")
