@@ -82,7 +82,7 @@ button:hover {
 }
 
 
-select {
+.select {
   width: 95%;
   max-width: 315px;
 }
