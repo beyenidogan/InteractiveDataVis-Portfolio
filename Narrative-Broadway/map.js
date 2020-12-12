@@ -25,10 +25,11 @@ export function Map() {
    * Using a Promise.all([]), we can load more than one dataset at a time
    * */
   Promise.all([
-    d3.json("./data/manhattan.geojson"),
+    d3.json("./data/manhattan3.geojson"),
     d3.csv("./data/Theaters.csv", d3.autoType), 
   ]).then(([geojson, theaters]) => {
     state.geojson= geojson;
+//    filter;
     state.theaters=theaters;
     console.log("state: ", state);
     init();
@@ -58,7 +59,7 @@ export function Map() {
       .attr("d", path)
       .attr("class", "regions")
       .attr("stroke","rgba(256,256,256,0.9)")
-      .attr("fill", "rgba(256,256,256,0.7)") 
+      .attr("fill", d => d.properties.name==="Central Park"?"rgba(256,256,256,0.5)":"rgba(256,256,256,0.7)")
 
       
       draw()
@@ -83,18 +84,27 @@ export function Map() {
       const [x, y] = projection([d.Longitude, d.Latitude]);
       return `translate(${x}, ${y})`;
     })
-    .attr ("r", d => 5^((d.Capacity)/1000))
+    .attr ("r", d => d.Capacity/200)
     .on("click", d => {
       d3.select(".dot")
         .attr("r", 3)
       d3.select(".img").remove()
       d3.select("#part1-tooltip")
           .append("div")
+          .attr("class", "title")
+          .html('<i><b><p style="font-size: 25px; line-height: 26px;">' 
+                + d.Name + '</i></b> &nbsp(' + d.Capacity + ') ' + '</p>') 
           .attr('class', 'img')
           .html('<img src="' + d.ImageLink+ '">')
           .append("div")
           .attr('class', 'subtitle')
-          .html('<i><b><p style="font-size: 25px; line-height: 26px;">' + d.Name + '</i></b> &nbsp(' + d.Capacity + ') ' + '</p>' + '<p style="font-size: 25px; line-height: 26px;">' + d.Address + '</p> <p style="color:grey; font-size: 15px; line-height: 16px;">' + d.Year + ', &nbsp' + d.NotableShows + '</p>' + '<p>' + d.OlderNames + ' has ' + d.Type + ' painting(s) in the collection.</p>')
+          .html('<i><b><p style="font-size: 25px; line-height: 26px;">' 
+                + d.Name + '</i></b> &nbsp(' + d.Capacity + ') ' + '</p>' 
+                + '<p style="font-size: 25px; line-height: 26px;">' 
+                + d.Address + '</p> <p style="color:grey; font-size: 15px; line-height: 16px;">' 
+                + d.Year + ', &nbsp' + d.NotableShows 
+                + '</p>' + '<p>' + d.OlderNames + ' has ' 
+                + d.Type + ' painting(s) in the collection.</p>')
           .append("div")
           .attr('class', 'button-container')
           .html('<button id="learn-more-button" class="filter-buttons"><a style="text-decoration: none;" href=' + d.URL + 'target="_new">About the Work</a></button>')
