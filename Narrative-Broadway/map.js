@@ -56,8 +56,6 @@ export function Map() {
       .attr("stroke","rgba(256,256,256,0.7)")
       .attr("fill", d => d.properties.name==="Central Park"?"rgba(256,256,256,0.3)":"rgba(256,256,256,0.5)")
 
-
-
       draw()
   }
 
@@ -73,6 +71,7 @@ export function Map() {
     .domain(d3.extent(state.theaters, d => d.Capacity))
     .range([5,20])
 
+    let formatNumber = d3.format(",")
 
     svg
     .selectAll(".circle")
@@ -88,7 +87,7 @@ export function Map() {
       return `translate(${x}, ${y})`;
     })
     .attr ("r", d => rScale(d.Capacity))
-    .on("click", d => {
+/*     .on("click", d => {
       d3.select(".dot")
       d3.select(".img").remove()
       d3.select(".title").remove()
@@ -112,16 +111,40 @@ export function Map() {
           .append("div")
           .attr('class', 'button-container')
           .html('<button id="learn-more-button" class="filter-buttons"><a style="text-decoration: none;" href=' + d.URL + 'target="_new">About the Work</a></button>')
+    }) */
+    .on("click", d => {
+    d3.select("#part1-tooltip")					
+      .select("#tooltipheader")
+      .text(d.Name)  
+    d3.select("#type")
+ //     .append(".text")
+      .text(d.Type)  
+   //   .style("fill", d => d.Type==="Broadway"?"#f53670":"blue")  
+    d3.select("#image")
+      .html('<img src="' + d.ImageLink+ '" style="max-height:300px; max-width:300px width:auto">') 
+    d3.select("#address")
+      .text(d.Address)
+    d3.select("#olderNames")
+      .text("Previous Names:  "+ d.OlderNames) 
+     // .text(d=>d.OlderNames == null ? "": "Previous Names: "+d.OlderNames)
+    /*   .text(`${
+        function(d){
+        if(d.OlderNames ===! null){
+          return "Previous Names: "+d.OlderNames}
+        } }`  ) */
+    // .style("visibility",d=>d.OlderNames === null ? "hidden": "visible")
+     //.text(d=>d.OlderNames === null ? "": "Previous Names: "+`${d.OlderNames}`)
+    d3.select("#year")
+      .text("Active since:  "+d.Year)
+    d3.select("#capacity")       
+      .text("Capacity: "+formatNumber(d.Capacity))
+    d3.select("#shows")       
+      .text("Notable Shows: "+d.NotableShows)
+    d3.select("#theaterDetailsButton") 
+          .html('<button class="filter-buttons"><a style="text-decoration: none;target="_new"; href=' + d.WebLink + '>Learn More</a></button>')
+    //Show the tooltip
+    d3.select("#part1-tooltip").classed("hidden", false);
     })
-    
-
-    /* svg.selectAll('text')
-      .data([state.theaters])
-      .join('text')
-      .attr('dx', '50%')
-      .attr('dy', '50%')
-      .style('text-anchor', 'middle')
-      .text(d => `${d.data}`) */
 
   }
 }
