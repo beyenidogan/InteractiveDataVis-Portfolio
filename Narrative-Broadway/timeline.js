@@ -12,6 +12,7 @@ export function Timeline() {
    * */
   let state = {
     shows: null,
+    orderby: "Longest Running"
   };
 
   /**
@@ -33,7 +34,39 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
    * */
   function init() {
 
+  /* let sorter=if (state.orderby=== "Borough") {return d.Filter=== state.showby;} 
+      else if (state.orderby=== "Category") {return d.Filter=== state.showby;} 
+      else if (state.showby==="Type") {return d.Filter=== state.showby;} */
+       
+  const selectBorough = d3.select("#sort-dropdown").on("change", function() {
+      console.log("new selected entity is", state.orderby);
+      // `this` === the selectElement
+      // this.value holds the dropdown value a user just selected
+      state.orderby = this.value;
+
+      draw(); // re-draw the graph based on this new selection
+    });
+
+  selectBorough
+      .selectAll("option")
+      .data(["Most Recent","Longest Running","Most Number of Performances"])
+      .join("option")
+      .attr("value", d => d)
+      .text(d => d);
+
+ //   showsdata=state.shows.sort((a, b) => d3.ascending(a.ClosingDate, b.ClosingDate))
+
     showsdata=state.shows
+      .sort((a, b) => {
+        if (state.orderby === "Most Recent") {
+            return d3.descending(a.ClosingDate, b.ClosingDate)
+        } else if (state.orderby === "Longest Running") {
+        return d3.ascending(+a.Years, +b.Years)
+        } else if (state.orderby === "Most Number of Performances")
+        return d3.ascending(+a.NumberofPerformances, +b.NumberofPerformances)
+     });
+
+
     xScale = d3
     .scaleTime()
     .domain([d3.min(showsdata, d => d.OpeningDate),d3.max(showsdata, d => d.ClosingDate)])
@@ -113,16 +146,8 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
 
 
   // append text
-  const text = svg
-    .selectAll("text")
-    .data(showsdata)
-    .join("text")
-    .attr("class", "label")
-    // this allows us to position the text in the center of the bar
-    .attr("x", d => xScale(d.activity) + (xScale.bandwidth() / 2))
-    .attr("y", d => yScale(d.count))
-    .text(d => d.count)
-    .attr("dy", "1.25em");
+
+    
 
   }
 }

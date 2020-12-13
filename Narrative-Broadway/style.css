@@ -102,7 +102,7 @@ background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
     position: sticky;
     top: 0%;
 /*     background-color: #050607; */
-    background: linear-gradient(to bottom,#050607 0%,#050607  70% ,rgba(54, 54, 54, 0.1) 100%); 
+    background: linear-gradient(to bottom,#050607 0%,#050607  50% ,rgba(5, 6, 7, 0.1) 100%); 
  /*    border-bottom: 2px solid lightgrey; */
     font-family: 'Ebrima', sans-serif;
     font-size: 30px;
@@ -160,7 +160,7 @@ background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
 */
 
 .spaced-text{
-    margin-bottom: 1em;  
+    margin-bottom: 0.5em;  
 }
 #image {
     padding: 12px 0px;
@@ -181,14 +181,14 @@ background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
     font-size: 13px;
     font-weight: bold;
     color: rgba(256,256,256,0.9);
-    margin: 2px 5px 7px 2px; 
+    margin: 10px 5px 7px 0px;  
     border: 1px white;
     cursor: pointer;
     display: inline-block;
     height: 2.5em;
-    line-height: 2.5em;
+    line-height: 2em;
     text-align: center;
-    background-color: rgba(256,256,256,0.2);
+    background-color: rgba(256,256,256,0.1);
     outline-color: white;
   }
 

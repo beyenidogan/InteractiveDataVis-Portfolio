@@ -25,7 +25,7 @@ class Bar {
         .attr("style", "display: none")
 
         // Add options to dropdowns
-        this.selectArtist = d3
+         this.selectBorough = d3
         .select("#dropdown-borough")
         .selectAll("option")
         .data(state.listBorough)
@@ -33,7 +33,7 @@ class Bar {
         .attr("value", d => d)
         .text(d => d);
 
-        this.selectGender = d3
+        this.selectCategory = d3
         .select("#dropdown-category")
         .selectAll("option")
         .data(state.listCategories)
@@ -41,13 +41,13 @@ class Bar {
         .attr("value", d => d)
         .text(d => d);
 
-        this.selectGender = d3
+        this.selectType = d3
         .select("#dropdown-type")
         .selectAll("option")
         .data(state.listTypes)
         .join("option")
         .attr("value", d => d)
-        .text(d => d);
+        .text(d => d); 
 
         // Set dropdown click event
         this.selectBorough = d3

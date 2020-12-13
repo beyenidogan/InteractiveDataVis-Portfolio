@@ -81,7 +81,7 @@ class Line {
         console.log("filtered" ,filteredData)
 
         const dot = this.svg
-            .selectAll("dot")
+            .selectAll(".dot")
             .data(filteredData, d=>`${d.Month}_${d.Name}`)
             .join(
                 enter =>

@@ -78,7 +78,7 @@ export function Map() {
     .data(state.theaters,d=>`${d.No}_${d.Name}`)
     .join("circle")
     .attr("class","dot")
-    .attr("r", 1)
+    .attr("r", 4)
     .attr("fill", d => d.Type==="Broadway"?"#f53670":"blue")
     .attr("fill-opacity",0.3)
     .attr("stroke",d => d.Type==="Broadway"?"#f53670":"blue")
