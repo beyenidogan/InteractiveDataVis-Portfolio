@@ -37,6 +37,7 @@ export function Map() {
   function init() {
 
 //ppp
+///ssss
   const projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson);
   const path = d3.geoPath().projection(projection);
   
@@ -112,6 +113,7 @@ export function Map() {
           
     })  
     .on("click", d => {
+      console.log(d)
     d3.select("#part1-tooltip")					
       .select("#tooltipheader")
       .text(d.Name)  
@@ -124,8 +126,8 @@ export function Map() {
     d3.select("#address")
       .text(d.Address)
     d3.select("#olderNames")
-      .text("Previous Names:  "+ d.OlderNames) 
-     // .text(d=>d.OlderNames == null ? "": "Previous Names: "+d.OlderNames)
+      //.text("Previous Names:  "+ d.OlderNames) 
+     .text(d.OlderNames === null ? "": "Previous Names: "+d.OlderNames)
     /*   .text(`${
         function(d){
         if(d.OlderNames ===! null){
@@ -138,7 +140,8 @@ export function Map() {
     d3.select("#capacity")       
       .text("Capacity: "+formatNumber(d.Capacity))
     d3.select("#shows")       
-      .text("Notable Shows: "+d.NotableShows)
+  //.text("Notable Shows: "+d.NotableShows)
+      .text(d.NotableShows === null ? "": "Previous Names: "+d.NotableShows)
     d3.select("#theaterDetailsButton") 
           .html('<button class="filter-buttons"><a style="text-decoration: none;target="_new"; href=' + d.WebLink + '>Learn More</a></button>')
     //Show the tooltip
