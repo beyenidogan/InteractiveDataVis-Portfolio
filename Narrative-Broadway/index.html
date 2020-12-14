@@ -1,60 +1,53 @@
 <!DOCTYPE html>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Broadway Theaters</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="utf-8">
+        <title>Broadway Theaters</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
 
-</head>
+    </head>
 
-<body>
-    <section id="title-wrapper">
-        <div id="intro-image">
-            <img src="assets/Cover.png">
-            <div id="intro-image-credit">
-                Photo by <a href="https://www.pexels.com/photo/new-york-times-square-1118341/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_new">Owen Barker</a>, from Pexels
-            </div>
-            <div id="intro-title">
-                Broadway Theater
-            </div>
-            <div id="intro-content" class="content">Broadway Theater has a significant contribution to <a href="https://www.labor.ny.gov/stats/PDFs/Broadway-Theaters-An-Economic-Engine-for-New-York.pdf" target="_new">New York City's economy</a> had one of its best years
-                in 2019 with $1.83 billion in ticket sales and 14.8 million in total attendance. 
+    <body>
+        <section id="title-wrapper">
+            <div id="intro-image">
+                <img src="assets/Cover.png">
+                <div id="intro-image-credit">
+                    Photo by <a href="https://www.pexels.com/photo/new-york-times-square-1118341/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_new">Owen Barker</a>, from Pexels
+                </div>
+                <div id="intro-title">
+                    Broadway Theater
+                </div>
+                <div id="intro-content" class="content">Broadway Theater has a significant contribution to <a href="https://www.labor.ny.gov/stats/PDFs/Broadway-Theaters-An-Economic-Engine-for-New-York.pdf" target="_new">New York City's economy</a> had one of its best years
+                    in 2019 with $1.83 billion in ticket sales and 14.8 million in total attendance. 
+                </div>
+            </div>       
+        </section>
 
-
-                <br>
-                <br>
-                <br>
-            </div>
-        </div>       
-    </section>
-
-    <section id="content-wrapper">
+        <section id="content-wrapper">
 
             <div>
                 <section id="part1" class="section">
                     <div id="part1-title" class="section-title">
-                        Where exactly is Broadway?
+                            Where exactly is Broadway?
                     </div>
                     <div id="part1-content" class="content">
                         <div id="part1-text">
-                        The first theaters in New York city was opened in 1750 on Nassau Street with capacity of 280 for performance os Shakespearian plays and operatic theater. 
-                        Later, beginning around 1850 the heart of theater moved from downtown gradually to midtown Manhattan due less expensive real estate at the time. 
-                        <br>
-                        <br>
-                        Today Broadway Theater refers to a collection of 41 venues with a seating capacity of at least 500 people, 40 of which sits on Broadway between West 40th and West 53rd Streets.
-                        If the facility hosts concerts and dance shows more often than it does plays or musicals, it isn't considered a Broadway theater, regardless of the seating situation. 
-                        <br>
-                        <br>
-                        Those with 100 to 499 seats are regarded as "Off-Broadway" venues regardless of the location. 
-                        <br>
-                        <br>
-                        Meanwhile, establishments with 99 seats or fewer are deemed "Off-Off-Broadway." which are more widely dispersed throughout New York City.
-                        <br>
-                        <br>
-                        <i style="color:rgb(99, 97, 97)">Click to explore the theaters.</i>
+                            The first theaters in New York city was opened in 1750 on Nassau Street with capacity of 280 for performance os Shakespearian plays and operatic theater. 
+                            Later, beginning around 1850 the heart of theater moved from downtown gradually to midtown Manhattan due less expensive real estate at the time. 
+                            <br>
+                            <br>
+                            Today Broadway Theater refers to a collection of 41 venues with a seating capacity of at least 500 people, 40 of which sits on Broadway between West 40th and West 53rd Streets.
+                            If the facility hosts concerts and dance shows more often than it does plays or musicals, it isn't considered a Broadway theater, regardless of the seating situation. 
+                            <br>
+                            <br>
+                            Those with 100 to 499 seats are regarded as "Off-Broadway" venues regardless of the location. 
+                            <br>
+                            <br>
+                            Meanwhile, establishments with 99 seats or fewer are deemed "Off-Off-Broadway." which are more widely dispersed throughout New York City.
+                            <br>
+                            <br>
+                            <i style="color:rgb(99, 97, 97)">Click to explore the theaters.</i>
                         </div>   
                         <div id="part1-map" ></div>
                         <div id="part1-tooltip">
@@ -63,7 +56,7 @@
                                 <div id="image"></div>
                                 <p id="address" class="spaced-text"></p>
                                 <p id="olderNames" class="spaced-text"></p>                             
-                                <p span id="year"class="spaced-text"></p>
+                                <p id="year"class="spaced-text"></p>
                                 <p id="capacity"class="spaced-text"></p>
                                 <p id="shows"class="spaced-text"></p>
                                 <div id="theaterDetailsButton"></div>
@@ -74,55 +67,65 @@
 
                 <section id="part2" class="section">
                     <div id="part2-title" class="section-title">
-                        Broadway Shows?
+                            Broadway Shows?
                     </div>
                     <div id="part2-content" class="content">
-                        <div id="part2-timeline" ></div>
+                        <div id="part2-timeline" >
+                            <div id="tooltip" class="hidden">
+                                <h2><strong></strong><span id="tooltipheader2"></strong></h2>
+                                    <div id="poster"></div>
+                                    <p id="opening"class="spaced-text"></p>
+                                    <p id="closing" class="spaced-text"></p>
+                                    <p id="numberperformances" class="spaced-text"></p>                             
+                                    <p id="years"class="spaced-text"></p>
+                                    <p id="showtype"class="spaced-text"></p>
+                                    <p id="synopsis"class="spaced-text"></p>
+                            </div> 
+                        </div>
+                        
                         <div id="part2-description" >
-
                             <div>
-                                    <label for="sort-dropdown">Sort Shows by</label> 
+                                <label for="sort-dropdown">Sort Shows by</label> 
                                     <br>
-                                    <select id="sort-dropdown" name="sort-dropdown"></select>
+                                <select id="sort-dropdown" name="sort-dropdown"></select>
                             </div>
-                            
+                                
                             <div id="part2-text">
-                            Quis hendrerit dolor magna eget. Etiam dignissim diam quis enim lobortis scelerisque. 
-                            Adipiscing diam donec adipiscing tristique. Gravida quis blandit turpis cursus in hac habitasse platea. Diam in arcu cursus euismod. 
-                            Dolor magna eget est lorem. Eleifend mi in nulla posuere sollicitudin aliquam. 
-                            Quis hendrerit dolor magna eget. Etiam dignissim diam quis enim lobortis scelerisque. 
-                            Habitant morbi tristique senectus et netus et malesuada fames ac. Pulvinar neque laoreet suspendisse interdum consectetur. 
+                                Quis hendrerit dolor magna eget. Etiam dignissim diam quis enim lobortis scelerisque. 
+                                Adipiscing diam donec adipiscing tristique. Gravida quis blandit turpis cursus in hac habitasse platea. Diam in arcu cursus euismod. 
+                                Dolor magna eget est lorem. Eleifend mi in nulla posuere sollicitudin aliquam. 
+                                Quis hendrerit dolor magna eget. Etiam dignissim diam quis enim lobortis scelerisque. 
+                                Habitant morbi tristique senectus et netus et malesuada fames ac. Pulvinar neque laoreet suspendisse interdum consectetur. 
                             </div>
-
+                        </div>
                     </div>
                 </section>
+                    
                 <section id="part3" class="section">
                     <div id="part3-title" class="section-title">
-                        Details?
+                            Details?
                     </div>
                     <div id="part3-content" class="content">
-                        
-                        <div id="part3-text">
-                            Quis hendrerit dolor magna eget. Etiam dignissim diam quis enim lobortis scelerisque. 
-                            Adipiscing diam donec adipiscing tristique. 
-                            Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. 
-                            Senectus et netus et malesuada fames. Odio pellentesque diam volutpat commodo sed. 
-                            Eros donec ac odio tempor orci. Pellentesque habitant morbi tristique senectus. 
-                            Gravida quis blandit turpis cursus in hac habitasse platea. Diam in arcu cursus euismod. 
-                            Dolor magna eget est lorem. Eleifend mi in nulla posuere sollicitudin aliquam. 
-                        </div>
-                        <div id="part3-details" ></div>
+                            
+                            <div id="part3-text">
+                                Quis hendrerit dolor magna eget. Etiam dignissim diam quis enim lobortis scelerisque. 
+                                Adipiscing diam donec adipiscing tristique. 
+                                Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. 
+                                Senectus et netus et malesuada fames. Odio pellentesque diam volutpat commodo sed. 
+                                Eros donec ac odio tempor orci. Pellentesque habitant morbi tristique senectus. 
+                                Gravida quis blandit turpis cursus in hac habitasse platea. Diam in arcu cursus euismod. 
+                                Dolor magna eget est lorem. Eleifend mi in nulla posuere sollicitudin aliquam. 
+                            </div>
+                            <div id="part3-details" ></div>
                     </div>
                 </section>
+            </div>
 
+        </section>
 
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script type="module" src="./main.js"></script>
 
-
-    </div>
-
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script type="module" src="./main.js"></script>
-
-</body>
+    </body>
 
 </html>

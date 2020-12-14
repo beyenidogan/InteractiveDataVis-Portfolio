@@ -87,31 +87,6 @@ export function Map() {
       return `translate(${x}, ${y})`;
     })
     .attr ("r", d => rScale(d.Capacity))
-/*     .on("click", d => {
-      d3.select(".dot")
-      d3.select(".img").remove()
-      d3.select(".title").remove()
-      d3.select("#part1-tooltip")
-          .append("div")
-          .attr("class", "title")
-          .html('<b><p style="font-size: 20px; line-height: 26px;">' 
-                + d.Name + '</b> ' + '</p> &nbsp') 
-           .attr('class', 'img')
-           .append("div")
-          .html('<img src="' + d.ImageLink+ '" style="max-height:300px; max-width:300px width:auto">') 
-          .append("div")
-          .attr('class', 'subtitle')
-          .html('<p style="font-size: 14px; color:#5F5F5f; line-height: 50px;"> ' 
-                 + d.Address + '</p>' +' &nbsp'
-                + '<p style="font-size: 25px; line-height: 26px;">' 
-                + d.Capacity + '</p> <p style="color:grey; font-size: 15px; line-height: 16px;">' 
-                + d.Year + ', &nbsp' + d.NotableShows 
-                + '</p>' + '<p>' + d.OlderNames + ' has ' 
-                + d.Type + ' painting(s) in the collection.</p>')
-          .append("div")
-          .attr('class', 'button-container')
-          .html('<button id="learn-more-button" class="filter-buttons"><a style="text-decoration: none;" href=' + d.URL + 'target="_new">About the Work</a></button>')
-    }) */
     .on("click", d => {
     d3.select("#part1-tooltip")					
       .select("#tooltipheader")
