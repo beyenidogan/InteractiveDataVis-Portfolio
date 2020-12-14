@@ -36,7 +36,7 @@ export function Map() {
    * */
   function init() {
 
-
+//ppp
   const projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson);
   const path = d3.geoPath().projection(projection);
   
