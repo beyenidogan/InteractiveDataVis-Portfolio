@@ -5,7 +5,7 @@ export function Timeline() {
   const margin = { top: 20, bottom: 50, left: 180, right: 40 };
   let svg,xScale,yScale,xAxis,yAxis,showsdata;
   const width = window.innerWidth * 0.7,
-  height = window.innerHeight * 0.8,
+  height = window.innerHeight * 0.9,
   paddingInner = 0.2,duration = 1000
   /**
    * APPLICATION STATE
@@ -91,6 +91,7 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
    * we call this everytime there is an update to the data/state
    * */
   function draw() {
+  let formatNumber = d3.format(",")
 
   state.shows
     .sort((a, b) => {
@@ -136,7 +137,7 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
     .duration(duration)
     .attr("width", d => xScale(d.ClosingDate)-xScale(d.OpeningDate))
     .attr("height", yScale.bandwidth())
-    .style("fill", "steelblue")
+    .style("fill", "#DC756D")
     //.style("fill", d => d.metric === state.selectedMetric ? "purple" : "#ccc")
 
   bars
@@ -146,7 +147,7 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
 
   bars
      .on("mouseover", function(d) {                                                            
-      console.log(d3.event.pageX)
+      //console.log(d3.event.pageX)
 /*       d3.select("#tooltip")
               .style("left", (d3.event.pageX-100)  + "px")
               .style("top", d3.event.pageY + "px")						
@@ -155,30 +156,37 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
               .style("fill", "white") */
      // bars.style("fill", "white")
       d3.select(this).transition()
-        .duration('100')
+        .duration('50')
         .attr('opacity', '.4')
-      d3.select("#tooltip")     
-              .style("left", (d3.event.pageX)  + "px")
-              .style("top", d3.event.pageY + "px")	  
-              .select("#tooltipheader2")
-              .text(d.ShowName)
-              .style("fill", "white")
-      d3.select("#tooltip")       
-              .select("#poster")
-              .html('<img src="' + d.ImageLink+ '" style="max-height:300px; max-width:300px width:auto">') 
-      d3.select("#tooltip")       
-              .select("#year")
-              .text(d3.timeFormat("%Y")(d.Month))
-              .style("fill", "white")
-
-      d3.select("#tooltip").classed("hidden", false);
+      d3.select("#tooltip2")     
+        .style("left", (d3.event.pageX)  + "px")
+        .style("top", d3.event.pageY + "px")	  
+        .select("#tooltipheader2")
+        .text(d.ShowName)
+      d3.select("#poster")
+        .html('<img src="' + d.ImageLink+ '" style="max-height:200px; width:auto">') 
+      d3.select("#showtype")
+        .text(d.ShowType)
+      d3.select("#opening")
+        .text(d3.timeFormat("%B %d, %Y")(d.OpeningDate))
+      d3.select("#closing")
+        .text(d3.timeFormat("%B %d, %Y")(d.ClosingDate))      
+      //  .text(d3.timeFormat("%B %d, %Y")(d.ClosingDateOriginal))
+      d3.select("#performances")
+        .text(formatNumber(d.NumberofPerformances))
+       // .text(d.NumberofPerformances)
+      d3.select("#years")
+        .text(d.Years)
+      d3.select("#synopsis")
+        .text(d.Synopsis)
+      d3.select("#tooltip2").classed("hidden", false);
       })  
     .on("mouseleave", function(d) {
         d3.select(this).transition()
           .duration('50')
           .attr('opacity', '1')
           .style("fill", "steelblue")
-        d3.select("#tooltip").classed("hidden", true);
+        d3.select("#tooltip2").classed("hidden", true);
       })  
   
   const lines = svg
@@ -209,7 +217,7 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
     .duration(duration)
     .attr("width", d => xScale(d.OpeningDate)-margin.left)
     .attr("height", 0.3)
-    .style("fill", "steelblue")
+    .style("fill", "#974e49")
     .style("fill-opacity", 1)
 
 

@@ -158,8 +158,8 @@ background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
 .spaced-text{
     margin-bottom: 0.5em;  
 }
-#image {
-    padding: 12px 0px;
+.image {
+    padding: 12px 2px;
     }
 
 
@@ -193,9 +193,6 @@ background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
 
 
 
-/*   berna */
-
-
 #part2-content{  
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -208,31 +205,16 @@ background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
     font-size:16px;
 }
 
-
-
-div.tooltip{
-    position      : absolute;
-    text-align    : center;
-    max-width     : 70px;
-    max-height    : 30px;
-    padding       : 8px;
-    border        : none;
-    border-radius : 8px;
-    margin-top    : -30px;
-    font          : 10px sans-serif;
-    background    : black;
-    color         : whitesmoke;
-    pointer-events: none;
-  }
-  #tooltip {
+  #tooltip2 {
     position: absolute;
-    width: auto;
-    height: auto;
-    padding: 10px;
+    z-index:20000;
+/*     width: auto; */
+/*     height: auto; */
+    padding: 18px 18px ;
     color:white;
-    max-width     : 280px;
+    width: 500px; 
    /*  background-color: rgba(256, 256, 256 ,0.1); */
-    background-color:rgba(67,72,86,0.9);
+    background-color:rgba(18,19,20, 1);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -242,95 +224,65 @@ div.tooltip{
     pointer-events: none;
   }
   
-  #tooltip.hidden {
+  #tooltip2.hidden {
     display: none;
   }
   
-  #tooltip h1 {
+  #tooltip2 h1 {
   
     font-size: 13px;
     line-height: 40px;
   }
-  #tooltip h2 {
+  #tooltip2 h2 {
     margin: 0;
-    color: #977dba;
-    font-size: 16px;
+    color: #DC756D;
+    font-size: 18px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0));
+    border-radius: 5px;
+    padding: 7px 10px 
   } 
-  #tooltip p1 {
+  #tooltip p {
     font-size: 13px;
     color: #ccc;
   }
 
-
-
-
-
-
-
-
-
-
-
-.part2 {
-    background-color: #2E86AB;
-    color: white;
-    margin: 5% 10%;
+#poster {
+    width:50px;
 }
-
-.part3 {
-    background-color: #EDAE49;
-    color: white;
-}
-
-.visual-title {
-    text-align: center;
-    font-size: 18px;
-    margin: 0px;
-    font-family: 'Ebrima', sans-serif;
-    font-weight: 900;
-    color: rgb(136, 134, 134);
-}
-
-.tooltip {
-    text-align: center;
-    font-family: 'Ebrima', sans-serif;;
-    font-weight: 900;
-}
-
-
-
-
-/* CHART 2 */
-
-
-#chart2-wrapper{
-    position: sticky;
-    top: 15%;
-    width: 100%;
-    z-index: 1000;
-}
-
-#chart2-chart {
+#show-info{  
     display: grid;
-    grid-template-columns: 2fr 4fr 4fr;
-    column-gap: 6%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    column-gap: 0em;  
 }
 
-.part2-point {
-    margin: 5% 0% 5% 0%;
-    font-size: 12px;
-}
+#show-attributes {
+    padding: 12px 20px;
+/*     min-width:80px; */
+    }
+#synopsis {
+        font-size: 13px;
+        color: rgb(153, 153, 153);
+      }
+#part3-text{
+        padding:3%;
+        font-size:16px;
+    }
+    
+#part3-content{  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr, 1fr;
+        column-gap: 0em;  
+    }
+#part3-text-column{
+        position: sticky;
+        margin-block-start: 1em;
+        font-size:16px;
+    }
+    
 
-#chart2 {
-    margin: 0% 10%;
-}
 
-#chart2-filter, #chart3-filter {
-    color: #212121;
-    font-family: 'Ebrima', sans-serif;;
-    font-weight: 900;
-    font-size: 12px;
-    padding: 0;
-    background-color: white;
-}
+
+
 

@@ -79,14 +79,38 @@ export function Map() {
     .join("circle")
     .attr("class","dot")
     .attr("r", 4)
-    .attr("fill", d => d.Type==="Broadway"?"#f53670":"blue")
-    .attr("fill-opacity",0.3)
-    .attr("stroke",d => d.Type==="Broadway"?"#f53670":"blue")
+    .attr("fill", d => d.Type==="Broadway"?"#DC756D":"#017a96")
+    .attr("fill-opacity",0.5)
+    .attr("stroke-width","1")
+    .attr("stroke",d => d.Type==="Broadway"?"#974e49":"#026075")
     .attr("transform", d => {
       const [x, y] = projection([d.Longitude, d.Latitude]);
       return `translate(${x}, ${y})`;
     })
     .attr ("r", d => rScale(d.Capacity))
+    .on("mouseover", function(d) {                                                            
+      console.log(d3.event.pageX)
+/*       d3.select("#tooltip")
+              .style("left", (d3.event.pageX-100)  + "px")
+              .style("top", d3.event.pageY + "px")						
+              .select("#events")
+              .text(d.Events)
+              .style("fill", "white") */
+     // bars.style("fill", "white")
+      d3.select(this).transition()
+        .duration('50')
+        .attr('fill-opacity', '1')
+        .attr("stroke-width","1.5")
+        .attr ("r", d => rScale(d.Capacity)*1.3)
+    })
+    .on("mouseleave", function(d) {
+      d3.select(this).transition()
+          .duration('50')
+          .attr('fill-opacity', '0.5')
+          .attr("stroke-width","1")
+          .attr ("r", d => rScale(d.Capacity))
+          
+    })  
     .on("click", d => {
     d3.select("#part1-tooltip")					
       .select("#tooltipheader")
@@ -95,7 +119,7 @@ export function Map() {
  //     .append(".text")
       .text(d.Type)  
    //   .style("fill", d => d.Type==="Broadway"?"#f53670":"blue")  
-    d3.select("#image")
+    d3.select("#image-theater")
       .html('<img src="' + d.ImageLink+ '" style="max-height:300px; max-width:300px width:auto">') 
     d3.select("#address")
       .text(d.Address)
