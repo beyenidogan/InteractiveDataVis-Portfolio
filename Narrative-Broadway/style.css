@@ -220,7 +220,7 @@ button {
 /*     height: auto; */
     padding: 18px 18px ;
     color:white;
-    width: 500px; 
+    width: 430px; 
    /*  background-color: rgba(256, 256, 256 ,0.1); */
     background-color:rgba(18,19,20, 1);
     -webkit-border-radius: 5px;
@@ -254,8 +254,9 @@ button {
     color: #ccc;
   }
 
-#poster {
+#poster image{
     width:50px;
+    background-color:rgba(18,19,20, 1);
 }
 #show-info{  
     display: grid;
