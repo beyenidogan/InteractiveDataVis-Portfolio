@@ -28,3 +28,25 @@ https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
 
 <br />
+
+<br />
+
+-----------
+<br />
+
+### [Project 2 - Narrative: Broadway in NYC](https://beyenidogan.github.io/Viz-Portfolio/Narrative-Broadway/)
+
+<br />
+
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_thumbnail.png)
+
+Description
+
+Sources:
+https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
+
+
+### Sketches
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
+
+<br />
