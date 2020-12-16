@@ -276,6 +276,23 @@ button {
         font-size: 13px;
         color: rgb(168, 168, 168);
       }
+
+#sort-dropdown {
+        background-color: rgba(256,256,256,0.1);
+        color: white;
+        padding: 5px;
+        margin: 5px 0px;
+        max-width: 475px;
+        outline-color: white;
+      }
+
+
+  /* Section 3 Styles */
+
+
+
+
+
 #part3-text{
         padding:3%;
         font-size:16px;
@@ -287,6 +304,17 @@ button {
         grid-template-rows: 1fr, 1fr;
         column-gap: 0em;  
     }
+#part3-details {
+    position:relative;
+
+}
+
+.svg2 {
+    position:absolute;
+    z-index:10000;
+
+}
+
 #part3-text-column{
         position: sticky;
         margin-block-start: 1em;

@@ -3,7 +3,7 @@ export function Timeline() {
   * CONSTANTS AND GLOBALS
   * */
   const margin = { top: 20, bottom: 50, left: 180, right: 40 };
-  let svg,xScale,yScale,xAxis,yAxis,showsdata;
+  let svg,xScale,yScale,xAxis,yAxis,colorScale,showsdata;
   const width = window.innerWidth * 0.7,
   height = window.innerHeight * 0.9,
   paddingInner = 0.2,duration = 1000
@@ -66,6 +66,9 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
     xAxis = d3.axisBottom(xScale);
     yAxis = d3.axisLeft(yScale);
 
+    colorScale=d3.scaleLinear()
+      .domain(d3.extent(showsdata, d => d.NumberofPerformances))
+      .range(["#8596B7","#DC756D"])
   //Create svg and axes
     svg = d3
       .select("#part2-timeline")
@@ -143,8 +146,9 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
       .duration(duration)
       .attr("width", d => xScale(d.ClosingDate)-xScale(d.OpeningDate))
       .attr("height", yScale.bandwidth())
-      .style("fill", "#DC756D")
-      //.style("fill", d => d.metric === state.selectedMetric ? "purple" : "#ccc")
+      .attr("fill", d => colorScale(d.NumberofPerformances))
+    //  .style("fill", "#DC756D")
+     // .style("fill", d => d.metric === state.selectedMetric ? "purple" : "#ccc")
 
     bars
       .on("mouseover", function(d) {                                                            
@@ -210,7 +214,6 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
         d3.select("#tooltip2")     
           .style("left", (d3.event.pageX) + "px")
           //.style("top", y + "px")    //Removed to make this not dynamic, which is at least not going down
-        
          
         d3.select("#tooltipheader2")
           .text(d.ShowName)
@@ -235,7 +238,6 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
           d3.select(this).transition()
             .duration('50')
             .attr('opacity', '1')
-            .style("fill", "steelblue")
           d3.select("#tooltip2").classed("hidden", true);
         })  
     
@@ -267,11 +269,9 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
       .duration(duration)
       .attr("width", d => xScale(d.OpeningDate)-margin.left)
       .attr("height", 0.3)
-      .style("fill", "#974e49")
+      .attr("fill", d => colorScale(d.NumberofPerformances))
       .style("fill-opacity", 1)
 
-
-      
 
   }
 }
