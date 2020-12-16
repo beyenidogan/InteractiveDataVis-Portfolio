@@ -3,7 +3,7 @@ export function Map() {
   * CONSTANTS AND GLOBALS
   * */
   const margin = { top: 0, bottom: 20, left: 0, right: 0 };
-  let svg,projection,maparea,path;
+  let svg,projection,maparea,path,theatersdata,filteredData;
   const width = window.innerWidth * 0.4,
   height = window.innerHeight * 0.9,duration = 1000
 
@@ -14,6 +14,8 @@ export function Map() {
     geojson: null,
     theaters: null,
     radiuschecker:true,
+    showtheaters:"All",
+    selectedtheater:"All"
   };
 
   /**
@@ -38,6 +40,27 @@ export function Map() {
     projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson);
     path = d3.geoPath().projection(projection);
     
+
+ //Dropdown interaction defined
+  const selectSorter = d3.select("#theaterdropdown")
+    .on("change", function() {
+      state.showtheaters=this.value
+      console.log("new selected entity is", state.showtheaters);
+      draw(); 
+    });
+  
+    state.selectedtheater= if (state.showtheaters=="Only Broadway") {return state.selectedtheater="Broadway";}
+      else if (this.value="Only Off-Broadway") {return state.selectedtheater==="Off-Broadway";}
+      else {return state.showtheaters="All";}
+
+//Populate dropdown options
+  selectSorter
+      .selectAll("option")
+      .data(["All","Only Broadway","Only Off-Broadway"])
+      .join("option")
+      .attr("value", d => d)
+      .text(d => d);
+
 
   //Create svg
     svg = d3
@@ -99,11 +122,15 @@ export function Map() {
    * */
   function draw() {
     
-    console.log(state.theaters)
-
+    filteredData = theatersdata    
+    console.log("state.selectedshow",state.showtheaters)
+    if (state.showtheaters !== "All") {
+      filteredData = theatersdata.filter(d => d.Show === state.showtheaters);
+    }
+    console.log("filtereddata",filteredData)
     let rScale=d3.scaleSqrt()
       .domain(d3.extent(state.theaters, d => d.Capacity))
-      .range([5,20])
+      .range([8,20])
 
     let formatNumber = d3.format(",")
 

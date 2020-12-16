@@ -33,7 +33,8 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
    * */
   function init() {
 
-    const selectBorough = d3.select("#sort-dropdown")
+  //Dropdown interaction defined
+    const selectSorter = d3.select("#sort-dropdown")
       .on("change", function() {
         state.orderby = this.value;
         console.log("new selected entity is", state.orderby);
@@ -41,7 +42,7 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
       });
 
  //Populate dropdown options
-    selectBorough
+    selectSorter
         .selectAll("option")
         .data(["Longest Running","Most Recent","Most Number of Performances"])
         .join("option")

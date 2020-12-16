@@ -3,7 +3,7 @@ export function Details() {
   * CONSTANTS AND GLOBALS
   * */
   const margin = { top: 20, bottom: 50, left: 180, right: 40 };
-  let svg,xScale,yScale,xAxis,yAxis,yScaleGross, yScaleAtt,showsdata,filteredData;
+  let svg,nest,xScale,yScale,xAxis,yAxis,yScaleGross, yScaleAtt,showsdata,filteredData;
   const width = window.innerWidth * 0.6,
   height = window.innerHeight * 0.9,
   paddingInner = 0.1,duration = 1000
@@ -12,7 +12,7 @@ export function Details() {
    * */
   let state = {
     showstats: null,
-    selectedshow: null
+    selectedshow: "All Shows"
   };
 
   /**
@@ -25,7 +25,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
     state.showstats=raw_data;
     console.log("state: ", state);
 
-    
+
     init();
   });
 
@@ -51,32 +51,39 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
         .join("option")
         .attr("value", d => d)
         .text(d => d);
-
+        
+  filteredData = state.showstats    
+  console.log("state.selectedshow",state.selectedshow)
   if (state.selectedshow !== "All Shows") {
     filteredData = state.showstats.filter(d => d.Show === state.selectedshow);
   }
+  console.log("filtereddata",filteredData)
 
+  nest=d3.nest()
+    .key(d=>d.Show)
+    .entries(filteredData)
 
-  filteredData.forEach(function(d) {
-      d.Month = parseMonth(d.Month);
-      d.Sales = +d.Sales;
-      d.Fruit = d.Fruit;
-  });
+  console.log("nest",nest)
   
     svg = d3
       .select("#part3-details1")
       .append("svg")
-      .attr("class","svg1")
+      .attr("class","svg")
       .attr("width", width)
       .attr("height", height);
     
     
-    xScale = d3
+  xScale = d3
       .scaleTime()
       .domain(d3.extent(state.showstats,d=>d.WeekEnd))
       .range([margin.left, width - margin.right])
     
-    yScaleGross = d3
+
+ /*      .data(d => Object.values(d))
+      .join("td")
+ */
+
+  yScaleGross = d3
       .scaleLinear()
       //.domain(showsdata.map(d => d.Grosses))
       .domain(d3.extent(state.showstats,d=>d.Grosses))
