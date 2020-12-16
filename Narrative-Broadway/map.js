@@ -2,10 +2,10 @@ export function Map() {
   /**
   * CONSTANTS AND GLOBALS
   * */
-  const margin = { top: 20, bottom: 50, left: 60, right: 40 };
+  const margin = { top: 0, bottom: 20, left: 0, right: 0 };
   let svg,projection,maparea,path;
   const width = window.innerWidth * 0.4,
-  height = window.innerHeight * 0.9;
+  height = window.innerHeight * 0.9,duration = 1000
 
   /**
    * APPLICATION STATE
@@ -13,6 +13,7 @@ export function Map() {
   let state = {
     geojson: null,
     theaters: null,
+    radiuschecker:true,
   };
 
   /**
@@ -58,8 +59,8 @@ export function Map() {
       .append("svg:clipPath")
       .attr("id", "clip")
       .append("svg:rect")
-      .attr("width", width )
-      .attr("height", height )
+      .attr("width", width)
+      .attr("height", height *0.8)
       .attr("x", 0)
       .attr("y", 140);
 
@@ -78,6 +79,17 @@ export function Map() {
       .attr("stroke","rgba(256,256,256,0.7)")
       .attr("fill", d => d.properties.name==="Central Park"?"rgba(256,256,256,0.3)":"rgba(256,256,256,0.5)")
   
+      
+    d3.select("#radius-checker")
+      .on("change", function (d) {
+          console.log("radius checker updated")
+          state.radiuschecker=this.checked;
+          console.log("this value",this.value)
+          console.log("state.radiuschecker",state.radiuschecker)
+          draw()
+          }
+        )
+    
     draw()
   }
 
@@ -98,11 +110,19 @@ export function Map() {
     // Drawing the circles
     
     let dots=maparea
-      .selectAll(".circle")
+      .selectAll(".dot")
       .data(state.theaters,d=>`${d.No}_${d.Name}`)
-      .join("circle")
-      .attr("class","dot")
-      .attr("r", 4)
+      .join(
+        enter =>
+          enter
+            .append("circle")
+            .attr("class", "dot")
+            .call(enter => enter.append("circle")),
+          update => update,
+          exit => exit.remove()
+        )
+      
+    dots 
       .attr("fill", d => d.Type==="Broadway"?"#DC756D":"#017a96")
       .attr("fill-opacity",0.5)
       .attr("stroke-width","1")
@@ -111,7 +131,10 @@ export function Map() {
         const [x, y] = projection([d.Longitude, d.Latitude]);
         return `translate(${x}, ${y})`;
       })
-      .attr ("r", d => rScale(d.Capacity))
+      .transition()
+      .duration(duration)
+      .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity):4)
+      
     
     //Populate details for static tooltip - it works both with mouseover and click, in order to keep it
     dots.on("mouseover click", function(d) {                                                            
@@ -151,14 +174,14 @@ export function Map() {
             .duration('50')
             .attr('fill-opacity', '1')
             .attr("stroke-width","1.5")
-            .attr ("r", d => rScale(d.Capacity)*1.3)
+            .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity)*1.3:4*1.3)
       })
       .on("mouseleave", function(d) {
         d3.select(this).transition()
             .duration('50')
             .attr('fill-opacity', '0.5')
             .attr("stroke-width","1")
-            .attr ("r", d => rScale(d.Capacity))          
+            .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity):4)      
       })  
   
   }

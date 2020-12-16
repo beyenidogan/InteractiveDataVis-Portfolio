@@ -48,9 +48,15 @@
                             <br>
                             <br>
                             <br>
-                            <i style="color:rgb(99, 97, 97)">Click to explore the theaters.</i>
                         </div>   
-                        <div id="part1-map" ></div>
+                        <div id="part1-map" >
+                            <div id="change-radius">
+                                <input checked type="checkbox" id="radius-checker" name="radius-checker">
+                                <label for="radius-checker" style="font-size: 16px;" >By relative capacity</label>
+                                <br>
+                                <p style="color:#fff ;line-height:2em"><i >Click to explore the theaters.</i></p>
+                            </div>
+                        </div>
                         <div id="part1-tooltip">
                             <h2><strong></strong><span id="tooltipheader"></strong></h2>
                                 <p id="olderNames" class="spaced-text"><span id="previous"></span><span id="oldernamesvalue" style="font-style:italic"></span></p> 
@@ -91,10 +97,11 @@
                         
                         <div id="part2-description" >
                             <div>
-                                <label for="sort-dropdown">SORT SHOWS BY</label> 
+                                <label for="sort-dropdown" style="font-size: 16px;">SORT SHOWS BY</label> 
                                     <br>
                                 <select id="sort-dropdown" name="sort-dropdown"></select>
                             </div>
+                            <p class="spaced-text"><span id="legend">Most number of performances to relatively less</span></p> 
                                 
                             <div id="part2-text">
                                 Quis hendrerit dolor magna eget. Etiam dignissim diam quis enim lobortis scelerisque. 
@@ -102,6 +109,8 @@
                                 Dolor magna eget est lorem. Eleifend mi in nulla posuere sollicitudin aliquam. 
                                 Quis hendrerit dolor magna eget. Etiam dignissim diam quis enim lobortis scelerisque. 
                                 Habitant morbi tristique senectus et netus et malesuada fames ac. Pulvinar neque laoreet suspendisse interdum consectetur. 
+
+                                
                             </div>
                         </div>
                     </div>

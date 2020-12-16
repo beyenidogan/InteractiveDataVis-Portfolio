@@ -4,7 +4,7 @@ export function Timeline() {
   * */
   const margin = { top: 20, bottom: 50, left: 180, right: 40 };
   let svg,xScale,yScale,xAxis,yAxis,colorScale,showsdata;
-  const width = window.innerWidth * 0.7,
+  const width = window.innerWidth * 0.6,
   height = window.innerHeight * 0.9,
   paddingInner = 0.2,duration = 1000
   /**
@@ -125,8 +125,7 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
           enter
             .append("g")
             .attr("class", "bar")
-            .call(enter => enter.append("rect"))
-            .call(enter => enter.append("text")),
+            .call(enter => enter.append("rect")),
           update => update,
           exit => exit.remove()
         )
@@ -228,6 +227,7 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
           .classed("emphasizedtext",d.ClosingDateOriginal==="Present"? true : false)
         d3.select("#performances")
           .text(formatNumber(d.NumberofPerformances))
+          .style("color", colorScale(d.NumberofPerformances))
         d3.select("#years")
           .text(d.Years)
         d3.select("#synopsis")

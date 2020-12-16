@@ -80,7 +80,7 @@ a:hover {
 .content{
     text-align: left;
     font-size: 20px;
-    padding: 5%;
+    padding: 3% 5%;
 
 }
 #content-wrapper {
@@ -129,7 +129,9 @@ background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
     opacity: 1;
     color: white;
 }
-
+#part1-map{
+    padding:0px 50px;
+}
 #part1-content{  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -139,6 +141,7 @@ background-image: linear-gradient(to top, #1E3542,rgba(0,0,0,1));
 #part1-text{
     position: sticky;
     margin-block-start: 1em;
+    min-width: 200px;
     font-size:16px;
 }
 /* .imageB{
@@ -204,7 +207,7 @@ button {
 #part2-content{  
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-rows: 1fr;
     column-gap: 0em;  
 }
 #part2-text{
@@ -212,7 +215,35 @@ button {
     margin-block-start: 1em;
     font-size:16px;
 }
+#part2-description{
+    padding: 0px 10px;
+}
 
+
+#change-radius {
+    clear:both;
+    float:right;
+    width:200px;
+    position:absolute;
+    right:35%;
+    z-index:7;
+    width:200px;
+    padding: 25px 10px;
+    background: linear-gradient(to right,rgba(5, 6, 7, 0) 0%,rgba(5, 6, 7, 0) 30% ,rgba(5, 6, 7, 0.8) 100%); 
+    text-align: right;
+
+}
+#radius-checker{
+    font-size:15px;
+
+    
+}
+
+
+
+label {
+    font-size: 10px;
+}
   #tooltip2 {
     position: absolute;
     z-index:20000;
@@ -285,7 +316,16 @@ button {
         max-width: 475px;
         outline-color: white;
       }
+#legend{
 
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #DC756D),color-stop(1,#8596B7));
+    background-image: gradient( linear, left top, right top, color-stop(0, #DC756D), color-stop(1, #8596B7) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 15px;
+    font-style:italic;
+}
 
   /* Section 3 Styles */
 
@@ -308,6 +348,8 @@ button {
     position:relative;
 
 }
+
+
 
 .svg2 {
     position:absolute;
