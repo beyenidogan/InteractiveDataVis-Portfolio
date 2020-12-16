@@ -355,29 +355,33 @@ label {
     
 #part3-content{  
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         column-gap: 2em;  
     }
 #part3-details {
     position:relative;
 
-}
 
-#showsdropdown {
+}
+.filter-container {
+    position: sticky;
+    margin-block-start: 1em;
+    display: inline-block;
+    margin-left:60px;
+  }
+#showsdropdown,#showsdropdown2 {
     background-color: rgba(256,256,256,0.1);
     color: white;
     padding: 5px;
-    margin: 5px 0px;
-    width: 100%;
+    margin: 0px 0px 5px 10px;
+    width: 45%;
     outline-color: white;
+    vertical-align:middle;
+
   }
 
-.svg2 {
-    position:absolute;
-    z-index:10000;
 
-}
 
 #part3-text-column{
         position: sticky;
