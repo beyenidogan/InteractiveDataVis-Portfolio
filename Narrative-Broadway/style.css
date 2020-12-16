@@ -216,7 +216,7 @@ button {
     font-size:16px;
 }
 #part2-description{
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 
@@ -313,11 +313,10 @@ label {
         color: white;
         padding: 5px;
         margin: 5px 0px;
-        max-width: 475px;
+        width: 100%;
         outline-color: white;
       }
 #legend{
-
     background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #DC756D),color-stop(1,#8596B7));
     background-image: gradient( linear, left top, right top, color-stop(0, #DC756D), color-stop(1, #8596B7) );
     color:transparent;
@@ -325,9 +324,14 @@ label {
     background-clip: text;
     font-size: 15px;
     font-style:italic;
+    line-height:2em;
 }
 
-  /* Section 3 Styles */
+ 
+
+
+
+/* Section 3 Styles */
 
 
 
