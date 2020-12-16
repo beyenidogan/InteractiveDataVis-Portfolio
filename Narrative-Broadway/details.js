@@ -3,10 +3,10 @@ export function Details() {
   * CONSTANTS AND GLOBALS
   * */
   const margin = { top: 20, bottom: 50, left: 180, right: 40 };
-  let svg,svg1,svg2,xScale,yScaleBand,yScaleGross,yScaleAtt,xAxis,yAxis,showsdata;
+  let svg,xScale,yScale,xAxis,yAxis,yScaleGross, yScaleAtt,showsdata,filteredData;
   const width = window.innerWidth * 0.6,
-  height = window.innerHeight * 0.6,
-  paddingInner = 0.2,duration = 1000
+  height = window.innerHeight * 0.9,
+  paddingInner = 0.1,duration = 1000
   /**
    * APPLICATION STATE
    * */
@@ -24,6 +24,8 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
 //    filter;
     state.showstats=raw_data;
     console.log("state: ", state);
+
+    
     init();
   });
 
@@ -32,48 +34,64 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
    * */
   function init() {
 
-    svg1 = d3
+  state.showstats
+    .sort((a, b) => (d3.ascending(a.Show, b.Show)))
+
+  const selectShow = d3.select("#showsdropdown")
+    .on("change", function() {
+      state.selectedshow = this.value;
+      console.log("new selected show is", state.selectedshow);
+      draw(); 
+    });
+  selectShow 
+        .selectAll("option")
+        .data(["All Shows",
+          ...Array.from(new Set(state.showstats.map(d => d.Show))), 
+        ])
+        .join("option")
+        .attr("value", d => d)
+        .text(d => d);
+
+  if (state.selectedshow !== "All Shows") {
+    filteredData = state.showstats.filter(d => d.Show === state.selectedshow);
+  }
+
+
+  filteredData.forEach(function(d) {
+      d.Month = parseMonth(d.Month);
+      d.Sales = +d.Sales;
+      d.Fruit = d.Fruit;
+  });
+  
+    svg = d3
       .select("#part3-details1")
       .append("svg")
       .attr("class","svg1")
       .attr("width", width)
       .attr("height", height);
     
-    svg2 = d3
-      .select("#part3-details1")
-      .append("svg")
-      .attr("class","svg2")
-      .attr("width", width)
-      .attr("height", height)
-      .attr("transform", `translate(${-width}, 0)`)
-  
+    
     xScale = d3
       .scaleTime()
-      .domain(d3.extent(showstats,d=>d.WeekEnd))
+      .domain(d3.extent(state.showstats,d=>d.WeekEnd))
       .range([margin.left, width - margin.right])
-
-    yScaleBand = d3
-      .scaleBand()
-      .domain(showsdata.map(d => d.Show))
-      .range([height - margin.bottom, margin.top])
-      .paddingInner(paddingInner);
     
     yScaleGross = d3
       .scaleLinear()
       //.domain(showsdata.map(d => d.Grosses))
-      .domain(d3.extent(showstats,d=>d.Grosses))
-      .range([height - margin.bottom, margin.top])
+      .domain(d3.extent(state.showstats,d=>d.Grosses))
+      .range([0,50])
 
     yScaleAtt = d3
       .scaleLinear()
       //.domain(showsdata.map(d => d.Grosses))
-      .domain(d3.extent(showstats,d=>d.Attend))
-      .range([height - margin.bottom, margin.top])
+      .domain(d3.extent(state.showstats,d=>d.Attend))
+      .range([0,50])
 
 
     xAxis = d3.axisBottom(xScale);
 
-    yAxis = d3.axisLeft(yScale);
+    yAxis = d3.axisLeft(yScaleGross);
 
 
 
@@ -100,7 +118,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
   let formatNumber = d3.format(",")
 
 
-  yScale.domain(showsdata.map(d => d.ShowName))
+  yScaleGross.domain(showsdata.map(d => d.ShowName))
   d3.select("g.y-axis")
     .transition()
     .duration(1000)
