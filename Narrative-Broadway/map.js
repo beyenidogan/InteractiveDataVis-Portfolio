@@ -40,7 +40,7 @@ export function Map() {
     projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson);
     path = d3.geoPath().projection(projection);
     
-
+/* 
  //Dropdown interaction defined
   const selectSorter = d3.select("#theaterdropdown")
     .on("change", function() {
@@ -48,18 +48,15 @@ export function Map() {
       console.log("new selected entity is", state.showtheaters);
       draw(); 
     });
-  
-    state.selectedtheater= if (state.showtheaters=="Only Broadway") {return state.selectedtheater="Broadway";}
-      else if (this.value="Only Off-Broadway") {return state.selectedtheater==="Off-Broadway";}
-      else {return state.showtheaters="All";}
+
 
 //Populate dropdown options
   selectSorter
       .selectAll("option")
-      .data(["All","Only Broadway","Only Off-Broadway"])
+      .data(["All","Broadway","Off-Broadway"])
       .join("option")
       .attr("value", d => d)
-      .text(d => d);
+      .text(d => d); */
 
 
   //Create svg
@@ -109,6 +106,7 @@ export function Map() {
           state.radiuschecker=this.checked;
           console.log("this value",this.value)
           console.log("state.radiuschecker",state.radiuschecker)
+          
           draw()
           }
         )
@@ -122,12 +120,19 @@ export function Map() {
    * */
   function draw() {
     
-    filteredData = theatersdata    
+/*     theatersdata=state.theaters
+
     console.log("state.selectedshow",state.showtheaters)
-    if (state.showtheaters !== "All") {
-      filteredData = theatersdata.filter(d => d.Show === state.showtheaters);
+
+    if (state.showtheaters === "Broadway") {
+      filteredData = theatersdata.filter(d => d.Show === "Broadway")
     }
-    console.log("filtereddata",filteredData)
+    else if (state.showtheaters === "Off-Broadway"){
+      filteredData = theatersdata.filter(d => d.Show === "Off-Broadway")
+    } else filteredData = theatersdata ;
+
+    console.log("filtereddata",filteredData) */
+
     let rScale=d3.scaleSqrt()
       .domain(d3.extent(state.theaters, d => d.Capacity))
       .range([8,20])

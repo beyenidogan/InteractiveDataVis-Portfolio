@@ -126,7 +126,8 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
           enter
             .append("g")
             .attr("class", "bar")
-            .call(enter => enter.append("rect")),
+            .call(enter => enter.append("rect"))
+            ,
           update => update,
           exit => exit.remove()
         )
@@ -250,7 +251,8 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
             enter
               .append("g")
               .attr("class", "thinbar")
-              .call(enter => enter.append("rect")),
+              .call(enter => enter.append("rect"))
+              .call(enter => enter.append("text")),
           update => update,
           exit => exit.remove()
         )

@@ -349,22 +349,29 @@ label {
 
 
 #part3-text{
-        padding:3%;
+        padding:5%;
         font-size:16px;
     }
     
 #part3-content{  
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr, 1fr;
-        column-gap: 0em;  
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        column-gap: 2em;  
     }
 #part3-details {
     position:relative;
 
 }
 
-
+#showsdropdown {
+    background-color: rgba(256,256,256,0.1);
+    color: white;
+    padding: 5px;
+    margin: 5px 0px;
+    width: 100%;
+    outline-color: white;
+  }
 
 .svg2 {
     position:absolute;
