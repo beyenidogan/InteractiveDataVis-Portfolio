@@ -133,7 +133,7 @@ export function Map() {
       })
       .transition()
       .duration(duration)
-      .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity):4)
+      .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity):5)
       
     
     //Populate details for static tooltip - it works both with mouseover and click, in order to keep it
@@ -174,14 +174,14 @@ export function Map() {
             .duration('50')
             .attr('fill-opacity', '1')
             .attr("stroke-width","1.5")
-            .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity)*1.3:4*1.3)
+            .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity)*1.3:5*1.3)
       })
       .on("mouseleave", function(d) {
         d3.select(this).transition()
             .duration('50')
             .attr('fill-opacity', '0.5')
             .attr("stroke-width","1")
-            .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity):4)      
+            .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity):5)      
       })  
   
   }
