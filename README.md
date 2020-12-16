@@ -40,6 +40,7 @@ https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
 
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_thumbnail.png)
 
+
 Description
 
 Sources:
@@ -47,6 +48,8 @@ https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
 
 
 ### Sketches
-![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/assets/Narrative_sketch1.png)
 
 <br />
+
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/assets/Narrative_sketch2.png)
