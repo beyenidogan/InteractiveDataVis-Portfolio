@@ -12,7 +12,7 @@ This is my portfolio of projects for Interactive Data Visualization (DATA 73200)
 
 <br />
 
-![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_thumbnail.png)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Exploratory_Image.png)
 
 
 -----------
