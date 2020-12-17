@@ -6,7 +6,7 @@ This is my portfolio of projects for Interactive Data Visualization (DATA 73200)
 -----------
 <br />
 
-### [Project 1 - Exploratory: Filming in NYC](https://beyenidogan.github.io/Viz-Portfolio/Exploratory-Filming-in-NYC/)
+## [Project 1 - Exploratory: Filming in NYC](https://beyenidogan.github.io/Viz-Portfolio/Exploratory-Filming-in-NYC/)
 
 ### [Project Details](https://github.com/beyenidogan/Viz-Portfolio/tree/main/Exploratory-Filming-in-NYC)
 
