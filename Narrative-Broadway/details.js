@@ -46,8 +46,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
       
     selectShow 
       .selectAll("option")
-      .data(["All Shows",
-        ...Array.from(new Set(state.showstats.map(d => d.Show))), 
+      .data([...Array.from(new Set(state.showstats.map(d => d.Show))), 
         ])
       .join("option")
       .attr("value", d => d)
