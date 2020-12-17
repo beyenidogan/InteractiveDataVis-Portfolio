@@ -13,7 +13,28 @@ This project aims to explore both the history of trends of permits over <strong>
 * What are the seasonal trends (summer, Christmas)?
 * What is the impact of COVID (early and late-COVID) and will it improve…?
 
+
+
+## **B. SKETCHES & MOCKUPS & ARCHITECTURE**
+
+I started the data exploration and design process using Tableau. This helped me to come up with a range of design features I could potentially implement.
+Each visual correspond to one js file being imported to main js. Thus the design itself informs the file structure.
+
 <br />
+
+The current version of the dashboard is MVP1 with the aim to expand to the other features later.
+
+### Sketches
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Exploratory_Sketch1.png)
+
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Exploratory_Sketch2.png)
+
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Exploratory_Sketch3.png)
+
+<br />
+
+
+## **C. DATA**
 
 ### Data Source
 I downloaded the "Film Permits"  dataset from the [NYC Open Data](https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p) in a CSV format.
@@ -28,26 +49,7 @@ I downloaded the "Film Permits"  dataset from the [NYC Open Data](https://data.c
 <br />
 
 
-## **B. SKETCHES & MOCKUPS**
-
-
-
-[Mockups (in Google Slides)](https://docs.google.com/presentation/d/1ABtSauyAgViPgbfPnGgv_Xmc_xSX06YHy-kV1rszV1Q/edit?usp=sharing)
-
-<br />
-
-
-### Sketches
-![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
-
-
-## **C. ARCHITECTURAL SCHEMA**
-My sketches had a comprehensive list of features I could potentially implement with 3 levels of prioritization. 
-
-<br />
-
-
-## **E. SOURCES**
+## **D. SOURCES**
 [NYC Open Data](https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p)
 
 <br />
