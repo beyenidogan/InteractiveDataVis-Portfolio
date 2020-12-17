@@ -35,7 +35,5 @@ This is my portfolio of projects for Interactive Data Visualization (DATA 73200)
 -----------
 <br />
 
-### [Final Reflection](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Final_Reflection.pdf)
+### [Final Reflection](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Final_Reflection.pdf)
 
-
-![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Final_Reflection.pdf)
