@@ -42,7 +42,7 @@ The sources to all the records are included as WebLinks in the dataset.
 ### Data Processing
 1. I used Excel to collect and clean data to make it code-readable.
 
-
+<br />
 ### Sketches
 
 I designed different components with prioritized and optional list of features with the goal to add the other features later.
