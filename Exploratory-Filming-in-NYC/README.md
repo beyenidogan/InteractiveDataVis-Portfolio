@@ -30,10 +30,15 @@ I downloaded the "Film Permits"  dataset from the [NYC Open Data](https://data.c
 
 ## **B. SKETCHES & MOCKUPS**
 
+
+
 [Mockups (in Google Slides)](https://docs.google.com/presentation/d/1ABtSauyAgViPgbfPnGgv_Xmc_xSX06YHy-kV1rszV1Q/edit?usp=sharing)
 
 <br />
 
+
+### Sketches
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
 
 
 ## **C. ARCHITECTURAL SCHEMA**
