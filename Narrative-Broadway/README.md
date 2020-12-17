@@ -1,7 +1,7 @@
-# **Project 1: Exploratory Visualization**
-*When, where and what of Broadway Theater?*
+# **Project 2: Narrative Visualization**
 
-<br />
+[Broadway Theater](https://beyenidogan.github.io/Viz-Portfolio/Narrative-Broadway/)
+
 
 ## **PROSPECTUS**
 
