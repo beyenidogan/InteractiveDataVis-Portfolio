@@ -80,6 +80,7 @@ d3.csv("./data/Longest_Running_Shows_v2020-06-02.csv", d3.autoType)
     svg
       .append("g")
       .attr("class", "x-axis")
+      .style("font-size","12px")
       .attr("transform", `translate(0, ${height - margin.bottom})`)
       .call(xAxis);
         
