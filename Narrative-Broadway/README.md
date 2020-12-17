@@ -1,6 +1,6 @@
 # **Project 2: Narrative Visualization**
 
-[Broadway Theater](https://beyenidogan.github.io/Viz-Portfolio/Narrative-Broadway/)
+[Link to Project: Broadway Theater](https://beyenidogan.github.io/Viz-Portfolio/Narrative-Broadway/)
 
 
 ## **PROSPECTUS**
@@ -42,6 +42,7 @@ The sources to all the records are included as WebLinks in the dataset.
 ### Data Processing
 1. I used Excel to collect and clean data to make it code-readable.
 
+<br />
 
 ### Sketches
 
@@ -49,8 +50,8 @@ I designed different components with prioritized and optional list of features w
 
 <br />
 
-[](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch1.png)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch1.png)
 
-[](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch2.png)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch2.png)
 
-[](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch3.png)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch3.png)
