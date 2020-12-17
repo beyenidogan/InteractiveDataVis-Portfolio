@@ -1,6 +1,6 @@
 # **Project 1: Exploratory Visualization**
 
-[Link to Project: Broadway Theater](https://beyenidogan.github.io/Viz-Portfolio/Exploratory-Filming-in-NYC/)
+[Link to Project: Filming in NYC](https://beyenidogan.github.io/Viz-Portfolio/Exploratory-Filming-in-NYC/)
 
 ## **PROSPECTUS**
 
