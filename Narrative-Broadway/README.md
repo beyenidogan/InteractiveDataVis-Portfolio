@@ -25,9 +25,14 @@ Manually collected data from [Internet Broadway Database -Broadway Theaters](htt
 
 Manually collected data from [New York Theater Guide - Off-Broadway Theaters](https://www.newyorktheatreguide.com/theatres/off-broadway) 
 
+The sources to all the records are included as WebLinks in the dataset.
+
 **Part 2**
 Generated csv from [Broadway League - Longest Running Shows](https://www.broadwayleague.com/static/user/admin/media/longest_running_shows_v2020-06-02.pdf)
+
 Manually collected data from [PlayBill Images](https://www.playbill.com/)
+
+The sources to all the records are included as WebLinks in the dataset.
 
 **Part 3**
 [Broadway League - Weekly Grosses by Show](https://www.broadwayleague.com/research/grosses-broadway-nyc/#weekly_grosses)
