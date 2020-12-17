@@ -1,7 +1,6 @@
 # **Project 1: Exploratory Visualization**
-*When, where and what are being filmed in NYC?*
 
-<br />
+[Link to Project: Broadway Theater](https://beyenidogan.github.io/Viz-Portfolio/Exploratory-Filming-in-NYC/)
 
 ## **PROSPECTUS**
 
