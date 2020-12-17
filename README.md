@@ -53,3 +53,14 @@ https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p
 <br />
 
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Narrative_sketch2.png)
+
+
+
+
+-----------
+<br />
+
+### [Final Reflection](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Final_Reflection.pdf)
+
+
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Final_Reflection.pdf)
