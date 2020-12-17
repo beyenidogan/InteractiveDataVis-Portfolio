@@ -1,6 +1,6 @@
 # **Project 2: Narrative Visualization**
 
-[Broadway Theater](https://beyenidogan.github.io/Viz-Portfolio/Narrative-Broadway/)
+[Link to Project: Broadway Theater](https://beyenidogan.github.io/Viz-Portfolio/Narrative-Broadway/)
 
 
 ## **PROSPECTUS**
