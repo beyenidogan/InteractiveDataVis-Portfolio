@@ -16,8 +16,6 @@ This is my portfolio of projects for Interactive Data Visualization (DATA 73200)
 ### [Project Details](https://github.com/beyenidogan/Viz-Portfolio/tree/main/Exploratory-Filming-in-NYC)
 
 
-### Sketches
-![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Exploratory_sketch.png)
 
 <br />
 
