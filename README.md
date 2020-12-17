@@ -23,15 +23,10 @@ This is my portfolio of projects for Interactive Data Visualization (DATA 73200)
 ### [Project 2 - Narrative: Broadway in NYC](https://beyenidogan.github.io/Viz-Portfolio/Narrative-Broadway/)
 
 <br />
-
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image1.jpeg)
-
 <br />
-
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image2.jpeg)
-
 <br />
-
 ![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image3.jpeg)
 
 
