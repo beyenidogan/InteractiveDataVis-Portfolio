@@ -207,21 +207,22 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
        
       d3.select("#tooltipheader3")
           .text(d.Show)
-      
+      d3.select("#weekendattr")
+          .text("WeekEnding")
       d3.select("#weekending")
           .text(d3.timeFormat("%B %d, %Y")(d.WeekEnd))
       d3.select("#selectedMetric")
           .text(state.selectedMetric+" :")
       d3.select("#MetricValue")
-          .text(d[state.selectedMetric])
-      d3.select("#Rerun")
+          .text(formatNumber(d[state.selectedMetric]))
+ /*      d3.select("#Rerun")
           .text(d.Run==="Rerun"? "Rerun :"+d.RerunYear :"Original")
-      
+       */
           
       d3.select("#tooltip3").classed("hidden", false);
       })  
     .on("mouseleave", function(d) {
-        d3.select("#tooltip3").classed("hidden", true);
+      d3.select("#tooltip3").classed("hidden", true);
       })  
 
   }

@@ -81,6 +81,7 @@ a:hover {
     text-align: left;
     font-size: 20px;
     padding: 3% 5%;
+    color:#bbb;
 
 }
 #content-wrapper {
@@ -379,7 +380,7 @@ label {
 #tooltip3 {
     position: absolute;
     width: 200px;
-    height: 100px;
+    height: 70px;
     padding: 10px;
     color:white;
     z-index:20000;
