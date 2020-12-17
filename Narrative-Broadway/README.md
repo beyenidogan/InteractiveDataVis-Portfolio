@@ -49,8 +49,8 @@ I designed different components with prioritized and optional list of features w
 
 <br />
 
-[](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch1.png)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch1.png)
 
-[](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch2.png)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch2.png)
 
-[](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch3.png)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Sketch3.png)
