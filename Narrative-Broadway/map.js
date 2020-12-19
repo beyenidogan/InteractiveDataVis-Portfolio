@@ -13,6 +13,7 @@ export function Map() {
   let state = {
     geojson: null,
     theaters: null,
+    broadwaystreet:null,
     radiuschecker:true,
     showtheaters:"All"
   };
@@ -22,8 +23,8 @@ export function Map() {
    * */
   Promise.all([
     d3.json("./data/manhattan3.geojson"),
-    d3.csv("./data/Theaters.csv", d3.autoType), 
-  ]).then(([geojson, theaters]) => {
+    d3.csv("./data/Theaters.csv", d3.autoType),
+  ]).then(([geojson, theaters,street]) => {
     state.geojson= geojson;
     state.theaters=theaters;
     console.log("state: ", state);
@@ -208,12 +209,15 @@ export function Map() {
             .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity)*1.3:5*1.3)
       })
       .on("mouseleave", function(d) {
-        d3.select(this).transition()
+        d3.select(this)
+            .transition()
             .duration('50')
             .attr('fill-opacity', '0.5')
             .attr("stroke-width","1")
             .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity):5)      
       })  
   
+
+
   }
 }

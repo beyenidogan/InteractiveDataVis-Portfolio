@@ -4,8 +4,8 @@ export function Details() {
   * */
   const margin = { top: 20, bottom: 50, left: 70, right: 40 };
   let svg,nest,xScale2,yScale2,xAxis2,xAxis3,yAxis2,filteredData,formatNumber;
-  const width = window.innerWidth * 0.68,
-  height = window.innerHeight * 0.5,
+  const width = window.innerWidth * 0.9,
+  height = window.innerHeight * 0.55,
   paddingInner = 0.1,duration = 1000
   /**
    * APPLICATION STATE
@@ -80,8 +80,9 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
     
     yScale2 = d3
       .scaleLinear()
-      .domain(d3.extent(state.showstats, d => d["state.selectedMetric"]))
+      .domain([0,d3.max(state.showstats, d => d[state.selectedMetric])])
       .range([height - margin.bottom, margin.top])
+   //  .range([this.height - this.margins.top, this.margins.bottom]);
     
     xAxis2 = d3.axisBottom(xScale2).tickFormat(d3.timeFormat("%b")).ticks(20)
     xAxis3 = d3.axisBottom(xScale2).tickFormat(d3.timeFormat("%y")).ticks(4)
@@ -135,7 +136,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
  
     //if (values = valuesByKey.get(keyValue = key(value = array[i]) + ""))
     
-    yScale2.domain(d3.extent(filteredData, d => d[state.selectedMetric]))
+    yScale2.domain([0,d3.max(filteredData, d => d[state.selectedMetric])])
     
     yAxis2
     .tickFormat(formatNumber);
@@ -195,36 +196,53 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
             .attr("opacity", 0)
             .attr("r",3)
       
-    d3.select("#tooltip3").remove()
-          
 
     hiddendots
     .on("mouseover", function(d) {                                                            
-      
       console.log(d3.event.pageX)
       d3.select("#tooltip3")     
-          .style("left", (d3.event.pageX-600) + "px")
-         // .style("top", (d3.event.pageY) + "px")    
-       
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY) + "px")        
       d3.select("#tooltipheader3")
           .text(d.Show)
       d3.select("#weekendattr")
-          .text("WeekEnding: ")
+          .text("Week Ending: ")
       d3.select("#weekending")
           .text(d3.timeFormat("%B %d, %Y")(d.WeekEnd))
       d3.select("#selectedMetric")
           .text(state.selectedMetric+" :")
       d3.select("#MetricValue")
           .text(formatNumber(d[state.selectedMetric]))
- /*      d3.select("#Rerun")
-          .text(d.Run==="Rerun"? "Rerun :"+d.RerunYear :"Original")
-       */
-          
+      d3.select("#Rerun")
+          .text(d.Run===null? "": "Rerun/Original: ")
+      d3.select("#RerunValue")
+          .text(d.Run)
+      d3.select("#RerunY")
+          .text(d.RerunYear===null? "": "Version: ")
+      d3.select("#RerunYear")
+          .text(d.RerunYear)
+      d3.select("#PlayedAt")
+          .text(d.Theater===null? "": "Theater: ")
+      d3.select("#TheaterName")
+          .text(d.Theater)
+
+      d3.select(this)
+            .transition()
+            .duration('50')
+            .attr('fill-opacity', '1')
+            .attr("fill","white")
+            .attr("stroke-width","1.5")
+            .attr ("r", 5)   
       d3.select("#tooltip3").classed("hidden", false);
       })  
     .on("mouseleave", function(d) {
+      d3.select(this).transition()
+            .attr("stroke", "grey")
+            .attr("fill","white")
+            .attr("opacity", 0)
+            .attr ("r", 3)
       d3.select("#tooltip3").classed("hidden", true);
-      d3.select("#tooltip3").remove()
+      
       })  
 
   }
