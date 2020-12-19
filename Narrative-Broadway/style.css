@@ -209,10 +209,10 @@ button {
     position:absolute;
     z-index:100;
     width:140px;
-    background-color: rgba(256,256,256,0.1);
+    background-color: rgb(32, 32, 32);
     padding: 5px;
     margin: 20px 40px;
-    color: "grey";
+    color: white;
     outline-color: white;
     }
 
@@ -421,7 +421,7 @@ tbody>tr>:nth-child(2) {
     color: white;
     padding: 5px;
     margin: 0px 10px 5px 10px;
-    width: 20%;
+    width: 30%;
     outline-color: white;
     vertical-align:middle;
   }
