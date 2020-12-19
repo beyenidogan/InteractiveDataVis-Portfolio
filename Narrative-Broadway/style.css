@@ -324,7 +324,7 @@ label {
       }
 
 #sort-dropdown {
-        background-color: rgba(256,256,256,0.1);
+        background-color: rgb(32, 32, 32);
         color: white;
         padding: 5px;
         margin: 5px 0px;
@@ -417,7 +417,7 @@ tbody>tr>:nth-child(2) {
 
   
 #showsdropdown,#showsdropdown2 {
-    background-color: rgba(256,256,256,0.1);
+    background-color: rgb(32, 32, 32);
     color: white;
     padding: 5px;
     margin: 0px 10px 5px 10px;
