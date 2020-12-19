@@ -2,9 +2,9 @@ export function Details() {
   /**
   * CONSTANTS AND GLOBALS
   * */
-  const margin = { top: 70, bottom: 50, left: 70, right: 40 };
+  const margin = { top: 20, bottom: 50, left: 70, right: 40 };
   let svg,nest,xScale2,yScale2,xAxis2,xAxis3,yAxis2,filteredData,formatNumber;
-  const width = window.innerWidth * 0.6,
+  const width = window.innerWidth * 0.68,
   height = window.innerHeight * 0.5,
   paddingInner = 0.1,duration = 1000
   /**
@@ -165,6 +165,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
         )
 
       line.transition() 
+      .duration(duration)
             .attr("opacity", 1)
             .attr("stroke", "grey")
             .attr("fill","none")
@@ -191,10 +192,10 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
             )
             .attr("stroke", "grey")
             .attr("fill","white")
-            .attr("opacity", 0.05)
+            .attr("opacity", 0)
             .attr("r",3)
       
-    d3.select("#tooltip3").classed("hidden", false);
+    d3.select("#tooltip3").remove()
           
 
     hiddendots
@@ -208,7 +209,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
       d3.select("#tooltipheader3")
           .text(d.Show)
       d3.select("#weekendattr")
-          .text("WeekEnding")
+          .text("WeekEnding: ")
       d3.select("#weekending")
           .text(d3.timeFormat("%B %d, %Y")(d.WeekEnd))
       d3.select("#selectedMetric")
@@ -223,6 +224,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
       })  
     .on("mouseleave", function(d) {
       d3.select("#tooltip3").classed("hidden", true);
+      d3.select("#tooltip3").remove()
       })  
 
   }

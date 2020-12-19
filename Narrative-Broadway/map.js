@@ -14,8 +14,7 @@ export function Map() {
     geojson: null,
     theaters: null,
     radiuschecker:true,
-    showtheaters:"All",
-    selectedtheater:"All"
+    showtheaters:"All"
   };
 
   /**
@@ -40,23 +39,23 @@ export function Map() {
     projection = d3.geoAlbersUsa().fitSize([width, height], state.geojson);
     path = d3.geoPath().projection(projection);
     
-/* 
+ 
  //Dropdown interaction defined
-  const selectSorter = d3.select("#theaterdropdown")
+  const selectFilter = d3.select("#theaterdropdown")
     .on("change", function() {
-      state.showtheaters=this.value
+      state.showtheaters=this.value;
       console.log("new selected entity is", state.showtheaters);
       draw(); 
     });
 
 
 //Populate dropdown options
-  selectSorter
+  selectFilter
       .selectAll("option")
       .data(["All","Broadway","Off-Broadway"])
       .join("option")
       .attr("value", d => d)
-      .text(d => d); */
+      .text(d => d); 
 
 
   //Create svg
@@ -64,8 +63,8 @@ export function Map() {
       .select("#part1-map")
       .append("svg")
       .attr("width", width)
-      .attr("height", height)
-/*        .call(d3.zoom()
+      .attr("height", height)  
+/*       .call(d3.zoom()
           .on("zoom",  
             function () {
             svg.attr("transform", d3.event.transform)
@@ -120,18 +119,18 @@ export function Map() {
    * */
   function draw() {
     
-/*     theatersdata=state.theaters
+    theatersdata=state.theaters
 
     console.log("state.selectedshow",state.showtheaters)
 
     if (state.showtheaters === "Broadway") {
-      filteredData = theatersdata.filter(d => d.Show === "Broadway")
+      filteredData = theatersdata.filter(d => d.Type === "Broadway")
     }
     else if (state.showtheaters === "Off-Broadway"){
-      filteredData = theatersdata.filter(d => d.Show === "Off-Broadway")
+      filteredData = theatersdata.filter(d => d.Type === "Off-Broadway")
     } else filteredData = theatersdata ;
 
-    console.log("filtereddata",filteredData) */
+    console.log("filtereddata",filteredData) 
 
     let rScale=d3.scaleSqrt()
       .domain(d3.extent(state.theaters, d => d.Capacity))
@@ -143,7 +142,7 @@ export function Map() {
     
     let dots=maparea
       .selectAll(".dot")
-      .data(state.theaters,d=>`${d.No}_${d.Name}`)
+      .data(filteredData,d=>`${d.No}_${d.Name}`)
       .join(
         enter =>
           enter
@@ -164,7 +163,7 @@ export function Map() {
         return `translate(${x}, ${y})`;
       })
       .transition()
-      .duration(duration)
+      .duration(duration/2)
       .attr ("r", d => state.radiuschecker==true? rScale(d.Capacity):5)
       
     
