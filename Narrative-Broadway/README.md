@@ -9,7 +9,7 @@ This project aims to explore Broadway Theater from the following aspects:
 
 * What are "Broadway", "Off-Broadway" and "Off-Off Broadway Theaters"?
 * What are some of the biggest productions in the history?
-* How big is Broadway theaters recently?
+* How big is Broadway theaters recently (Grosses, Attendances, Performance Numbers)?
 
 
 ## **SKETCHES, MOCKUPS & ARCHITECTURE**
