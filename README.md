@@ -24,11 +24,13 @@ This is my portfolio of projects for Interactive Data Visualization (DATA 73200)
 
 <br />
 
-![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image1.jpeg)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image1.png)
 
-![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image2.jpeg)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image2.png)
 
-![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image3.jpeg)
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image3.png)
+
+![](https://github.com/beyenidogan/Viz-Portfolio/blob/main/assets/Documents/Narrative_Image4.png)
 
 -----------
 <br />

@@ -9,7 +9,7 @@ This project aims to explore Broadway Theater from the following aspects:
 
 * What are "Broadway", "Off-Broadway" and "Off-Off Broadway Theaters"?
 * What are some of the biggest productions in the history?
-* How big is Broadway theaters recently?
+* How big is Broadway theaters recently (Grosses, Attendances, Performance Numbers)?
 
 
 ## **SKETCHES, MOCKUPS & ARCHITECTURE**
@@ -36,6 +36,8 @@ The sources to all the records are included as WebLinks in the dataset.
 
 **Part 3**
 [Broadway League - Weekly Grosses by Show](https://www.broadwayleague.com/research/grosses-broadway-nyc/#weekly_grosses)
+
+Also additional sources were used as reference for other facts and figures as cited as required.
 
 <br />
 
