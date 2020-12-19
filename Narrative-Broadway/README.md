@@ -37,6 +37,8 @@ The sources to all the records are included as WebLinks in the dataset.
 **Part 3**
 [Broadway League - Weekly Grosses by Show](https://www.broadwayleague.com/research/grosses-broadway-nyc/#weekly_grosses)
 
+Also additional sources were used as reference for other facts and figures as cited as required.
+
 <br />
 
 ### Data Processing
