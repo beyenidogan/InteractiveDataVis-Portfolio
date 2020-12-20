@@ -13,7 +13,7 @@ export function Details() {
   let state = {
     showstats: null,
     selectedshow: "All Shows",
-    selectedMetric: "Weekly Grosses"
+    selectedMetric: "Weekly Grosses",
   };
 
   /**
@@ -150,6 +150,8 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
       .x(d=> xScale2(d.WeekEnd))
       .y(d=> yScale2(+d[state.selectedMetric]))
 
+    let datapoints=filteredData.length
+    console.log("datapoints",datapoints)
 
     const line = svg
         .selectAll("path.trend")
@@ -166,7 +168,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
         )
 
       line.transition() 
-      .duration(duration)
+      .duration(duration/2)
             .attr("opacity", 1)
             .attr("stroke", "grey")
             .attr("fill","none")
@@ -180,6 +182,7 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
             enter          
             .append("g")
             .attr("class", "hiddendots")
+
             .call(enter => enter.append("circle")),
           update => update,
           exit => exit.remove()
@@ -187,14 +190,20 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
       
       hiddendots
             .selectAll("circle")
-            .attr(
+            .attr("opacity",0)
+            .attr("x",d=>xScale2(d.WeekEnd))
+            .attr("y",d=>yScale2(+d[state.selectedMetric]))
+            .transition() 
+            .duration(duration/10)
+             .attr(
               "transform",
               d => `translate(${xScale2(d.WeekEnd)}, ${yScale2(+d[state.selectedMetric])})`
-            )
+            ) 
             .attr("stroke", "grey")
             .attr("fill","white")
-            .attr("opacity", 0)
-            .attr("r",3)
+           // .attr("opacity", datapoints<2? 1 : 0)
+            .attr("opacity",0.4)
+            .attr("r",2)
       
 
     hiddendots
@@ -213,6 +222,10 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
           .text(state.selectedMetric+" :")
       d3.select("#MetricValue")
           .text(formatNumber(d[state.selectedMetric]))
+      d3.select("#Showtype2")
+          .text(d.Type===null? "": "Type : ")
+      d3.select("#Showtype2name")
+          .text(d.Type===null? "": d.Type)
       d3.select("#Rerun")
           .text(d.Run===null? "": "Rerun/Original: ")
       d3.select("#RerunValue")
@@ -236,11 +249,6 @@ d3.csv("./data/BroadwayWeeklyStats.csv", d3.autoType)
       d3.select("#tooltip3").classed("hidden", false);
       })  
     .on("mouseleave", function(d) {
-      d3.select(this).transition()
-            .attr("stroke", "grey")
-            .attr("fill","white")
-            .attr("opacity", 0)
-            .attr ("r", 3)
       d3.select("#tooltip3").classed("hidden", true);
       
       })  
