@@ -44,6 +44,8 @@ Also additional sources were used as reference for other facts and figures as ci
 ### Data Processing
 1. I used Excel to collect and clean data to make it code-readable.
 
+2. I also used [this site](https://geocode.localfocus.nl/) this site to convert street addresses to coordinates in batch. But I used GoogleMaps to double check if they are accurate.
+
 <br />
 
 ### Sketches
